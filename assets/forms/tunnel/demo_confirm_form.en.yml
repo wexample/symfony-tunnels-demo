@@ -1,4 +1,5 @@
-name:
-  label: Your name
+field:
+  name:
+    label: Your name
 action:
   submit: Confirm

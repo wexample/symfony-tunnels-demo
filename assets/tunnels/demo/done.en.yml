@@ -1,1 +1,6 @@
-body: "Done, %name%. The session is complete."
+page_title: Demo tunnel
+title: All set
+lead: The tunnel is walked to its end.
+message:
+  title: "Thank you, %name%."
+  body: The session is complete; nothing more is asked.

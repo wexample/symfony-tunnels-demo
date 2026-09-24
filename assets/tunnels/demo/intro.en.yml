@@ -1,1 +1,8 @@
-body: Welcome. This step opens two branches of the tunnel, take either one.
+page_title: Demo tunnel
+title: Welcome
+lead: "A short tunnel to show how one reads: pick a plan, give a name, and it is done. The plan you pick decides the step that follows."
+plan:
+  free:
+    description: Everything to get started, nothing to pay.
+  paid:
+    description: The whole of it, with room to grow.

@@ -1,13 +1,27 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
 
+{#- A step of the tunnel: where it stands in the sequence, then one card holding
+    what the step asks and the way on. The card is the step — everything the
+    visitor has to read or answer is in it, nothing is left on the page around. -#}
 {%- block page_body -%}
-    <article class="content">
-        {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-navigation.html.twig' -%}
+    {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-navigation.html.twig' -%}
 
-        <h1>{{ tunnelStep.buildLabel(tunnelCursor) }}</h1>
-
-        {%- block tunnel_step_body -%}{%- endblock -%}
-
+    {%- set tunnelButtons -%}
         {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-buttons.html.twig' -%}
-    </article>
+    {%- endset -%}
+
+    <section class="block block--card">
+        <div class="block--body stack--vertical">
+            <h1 class="page--title">{{ '@page::title'|trans }}</h1>
+            <p class="lead">{{ block('tunnel_step_lead') }}</p>
+
+            {%- block tunnel_step_body -%}{%- endblock -%}
+        </div>
+
+        {%- if tunnelButtons|trim is not empty -%}
+            <div class="block--footer">{{ tunnelButtons }}</div>
+        {%- endif -%}
+    </section>
 {%- endblock -%}
+
+{%- block tunnel_step_lead -%}{{ '@page::lead'|trans }}{%- endblock -%}

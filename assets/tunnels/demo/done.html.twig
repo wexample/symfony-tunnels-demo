@@ -1,5 +1,5 @@
 {%- extends '@WexampleSymfonyTunnelsDemoBundle/tunnels/demo/layout.html.twig' -%}
 
 {%- block tunnel_step_body -%}
-    <p>{{ '@page::body'|trans({'%name%': name}) }}</p>
+    {{ message_success('@page::message.title'|trans({ '%name%': name }), '@page::message.body'|trans) }}
 {%- endblock -%}

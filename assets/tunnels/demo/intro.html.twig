@@ -1,13 +1,19 @@
 {%- extends '@WexampleSymfonyTunnelsDemoBundle/tunnels/demo/layout.html.twig' -%}
 
+{#- The tree parts here, so the step is the choice itself: one card per branch,
+    and no next button — the layout shows none where the paths part. -#}
 {%- block tunnel_step_body -%}
-    <p>{{ '@page::body'|trans }}</p>
-
-    {#- The same step twice, one cursor per plan: picking a link picks a branch.
-        The layout shows no next button here, the tree parting is this page. -#}
-    <p>
+    {%- set planIcons = { free: 'ph:bold/feather', paid: 'ph:bold/crown-simple' } -%}
+    <div class="grid grid--2">
         {%- for next in tunnelCursor.next -%}
-            {{ button_link('ph:bold/path', next.step.buildLabel(next), tunnel_cursor_url(next)) }}
+            {%- set plan = next.options.plan -%}
+            <div class="block block--card">
+                <a class="block--action-link" href="{{ tunnel_cursor_url(next) }}">
+                    <span class="block--action-icon">{{ icon(planIcons[plan]) }}</span>
+                    <strong>{{ next.step.buildLabel(next) }}</strong>
+                    <span>{{ ('@page::plan.' ~ plan ~ '.description')|trans }}</span>
+                </a>
+            </div>
         {%- endfor -%}
-    </p>
+    </div>
 {%- endblock -%}

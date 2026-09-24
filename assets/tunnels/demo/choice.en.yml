@@ -1,1 +1,8 @@
-body: "You are on the branch the plan option carries. Previous goes back to the choice, next carries on: both branches meet again on the following step."
+page_title: Demo tunnel
+title: Your plan
+lead:
+  free: "The free plan: everything to get started, nothing to pay."
+  paid: "The paid plan: the whole of it, with room to grow."
+note:
+  title: Two branches, one way on
+  body: "This step exists once per plan. Previous takes you back to the choice; next carries on, and both branches meet again on the following step."
