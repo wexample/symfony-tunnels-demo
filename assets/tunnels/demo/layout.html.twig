@@ -1,0 +1,13 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- block page_body -%}
+    <article class="content">
+        {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-navigation.html.twig' -%}
+
+        <h1>{{ tunnelStep.buildLabel(tunnelCursor) }}</h1>
+
+        {%- block tunnel_step_body -%}{%- endblock -%}
+
+        {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-buttons.html.twig' -%}
+    </article>
+{%- endblock -%}
