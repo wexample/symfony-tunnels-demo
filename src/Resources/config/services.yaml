@@ -1,0 +1,14 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Wexample\SymfonyTunnelsDemo\Controller\:
+        resource: '../../Controller/'
+        exclude: '../../Controller/**/Abstract*.php'
+        tags: ['controller.service_arguments']
+
+    Wexample\SymfonyTunnelsDemo\:
+        resource: '../../{Service}'
+        exclude: '../../Service/**/Abstract*.php'

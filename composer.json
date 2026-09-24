@@ -1,11 +1,41 @@
 {
   "name": "wexample/symfony-tunnels-demo",
-  "version": "1.0.1",
+  "description": "Tunnel showcase pages for Symfony",
   "type": "library",
   "license": "MIT",
+  "version": "1.0.1",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyTunnelsDemo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "weeger",
+      "email": "romain.weeger@wexample.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.5",
+    "wexample/symfony-helpers": ">=9.0.0",
+    "wexample/symfony-loader": ">=11.0.0",
+    "wexample/symfony-design-system": ">=19.0.0",
+    "wexample/symfony-design-system-demo": ">=6.0.0",
+    "wexample/symfony-routing": ">=1.0.0",
+    "wexample/symfony-tunnels": ">=2.0.3"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "extra": {
+    "install": {
+      "bundle_env": "all"
     }
   }
 }

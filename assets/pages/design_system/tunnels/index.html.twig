@@ -1,0 +1,21 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- block page_body -%}
+    <article class="content">
+        <h1>Tunnels</h1>
+
+        <p>
+            Tunnel <code>{{ tunnelName }}</code>, built from its entrypoint down.
+            Each line is a cursor: the same step appears once per path leading to it.
+        </p>
+
+        <ul>
+            {%- for line in tunnelTree -%}
+                <li style="margin-left: {{ line.depth * 1.5 }}rem">
+                    <code>{{ line.name }}</code>
+                    {%- if line.options %} <small>{{ line.options }}</small>{% endif -%}
+                </li>
+            {%- endfor -%}
+        </ul>
+    </article>
+{%- endblock -%}
