@@ -1,5 +1,3 @@
 field:
   name:
     label: Your name
-action:
-  submit: Confirm
