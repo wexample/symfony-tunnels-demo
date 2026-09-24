@@ -19,6 +19,15 @@ class ChoiceStep extends AbstractDemoStep
     ) {
     }
 
+    /**
+     * Two cursors of the same step, so the plan has to come from the options to
+     * tell them apart, in the stepper as on the page.
+     */
+    public function buildLabel(TunnelCursor $cursor): string
+    {
+        return ucfirst($cursor->options[self::OPTION_NAME_PLAN]) . ' plan';
+    }
+
     public function getAllowedNextSteps(TunnelCursor $cursor): array
     {
         return [
