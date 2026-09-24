@@ -46,6 +46,13 @@ class ConfirmStep extends AbstractFormTunnelStep
         return parent::onFormValid($form, $cursor);
     }
 
+    public function buildSummary(TunnelCursor $cursor): ?string
+    {
+        $name = $cursor->getVariableValue(self::VARIABLE_NAME);
+
+        return $name ? 'Name: ' . $name : null;
+    }
+
     public function getAllowedNextSteps(TunnelCursor $cursor): array
     {
         return [

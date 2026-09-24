@@ -2,4 +2,7 @@
 
 {%- block tunnel_step_body -%}
     {{ message_success('@page::message.title'|trans({ '%name%': name }), '@page::message.body'|trans) }}
+
+    <h2>{{ '@page::path.title'|trans }}</h2>
+    {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-timeline.html.twig' -%}
 {%- endblock -%}
