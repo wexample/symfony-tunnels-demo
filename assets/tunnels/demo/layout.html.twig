@@ -4,6 +4,14 @@
     what the step asks and the way on. The card is the step — everything the
     visitor has to read or answer is in it, nothing is left on the page around. -#}
 {%- block page_body -%}
+    {#- A tunnel route has no page template to take its title from: the step
+        gives it to the breadcrumb itself. -#}
+    {%- do breadcrumb_append_route(
+        app.request.attributes.get('_route'),
+        app.request.attributes.get('_route_params'),
+        '@page::page_title'|trans
+    ) -%}
+
     {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-navigation.html.twig' -%}
 
     {%- set tunnelButtons -%}
@@ -22,6 +30,42 @@
             <div class="block--footer">{{ tunnelButtons }}</div>
         {%- endif -%}
     </section>
+
+    {#- Not part of the tunnel: what the engine did to show this step, for
+        whoever reads the demo to learn how tunnels work. -#}
+    {%- set common = 'WexampleSymfonyTunnelsDemoBundle.common.tunnel::behind.' -%}
+    {%- set session = tunnel.session -%}
+    <section class="block">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/gear-six') }}</span>
+            <span class="block--title-label">{{ (common ~ 'title')|trans }}</span>
+        </div>
+        <div class="block--body stack--vertical">
+            <p>{{ block('tunnel_step_behind') }}</p>
+
+            {{ properties(
+                [
+                    { key: (common ~ 'step')|trans, value: tunnelStep.getName() },
+                    {
+                        key: (common ~ 'cursor')|trans,
+                        value: tunnelCursor.hash|slice(0, 8) ~ (tunnelCursor.options ? ' ' ~ tunnelCursor.options|json_encode : ''),
+                    },
+                    {
+                        key: (common ~ 'completion')|trans,
+                        value: tunnelStep.completeStrategy().value ~ ' — ' ~ (common ~ (tunnelCursor.isComplete() ? 'complete' : 'incomplete'))|trans,
+                    },
+                    { key: (common ~ 'session')|trans, value: session.hash|slice(0, 8) ~ ' — ' ~ session.status.value },
+                    {
+                        key: (common ~ 'expires')|trans,
+                        value: session.status.value == 'opened' ? session.dateExpiration|date('Y-m-d H:i') : (common ~ 'never')|trans,
+                    },
+                ],
+                { bordered: true }
+            ) }}
+        </div>
+    </section>
 {%- endblock -%}
+
+{%- block tunnel_step_behind -%}{{ '@page::behind'|trans }}{%- endblock -%}
 
 {%- block tunnel_step_lead -%}{{ '@page::lead'|trans }}{%- endblock -%}

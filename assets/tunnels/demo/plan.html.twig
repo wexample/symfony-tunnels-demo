@@ -4,6 +4,10 @@
     {{ ('@page::lead.' ~ tunnelCursor.options.plan)|trans }}
 {%- endblock -%}
 
+{%- block tunnel_step_behind -%}
+    {{ '@page::behind'|trans({ '%plan%': tunnelCursor.options.plan }) }}
+{%- endblock -%}
+
 {%- block tunnel_step_body -%}
     {{ message_info('@page::note.title'|trans, '@page::note.body'|trans) }}
 {%- endblock -%}

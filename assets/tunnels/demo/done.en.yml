@@ -4,3 +4,4 @@ lead: The tunnel is walked to its end.
 message:
   title: "Thank you, %name%."
   body: The session is complete; nothing more is asked.
+behind: "The closing step reads the name from the cursor before it. Displaying it closes the session: its status turns to completed and it no longer expires. Nothing before it is linked any more, since reaching any step of a closed session starts a new one: that is what opening the tunnel again does."

@@ -1,0 +1,10 @@
+behind:
+  title: Behind this step
+  step: Step
+  cursor: Cursor
+  completion: Completion
+  complete: done
+  incomplete: not done yet
+  session: Session
+  expires: Expires
+  never: never, the session is no longer opened

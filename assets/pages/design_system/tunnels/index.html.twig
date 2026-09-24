@@ -1,16 +1,15 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
 
 {%- block page_body -%}
-    <article class="content">
-        <h1>Tunnels</h1>
+    <p class="lead">{{ '@page::intro'|trans }}</p>
 
-        <p>{{ button_link('ph:bold/play', 'Walk the demo tunnel', path('tunnel_demo_index')) }}</p>
+    <h2>{{ '@page::demo.title'|trans }}</h2>
+    <p>{{ '@page::demo.body'|trans }}</p>
+    <p>{{ button_link('ph:bold/play', '@page::demo.walk'|trans, path('tunnel_demo_index')) }}</p>
 
-        <p>
-            Tunnel <code>{{ tunnelName }}</code>, built from its entrypoint down.
-            Each line is a cursor: the same step appears once per path leading to it.
-        </p>
-
+    <h2>{{ '@page::tree.title'|trans }}</h2>
+    <p>{{ '@page::tree.body'|trans }}</p>
+    <div class="block block--padded">
         <ul>
             {%- for line in tunnelTree -%}
                 <li style="margin-left: {{ line.depth * 1.5 }}rem">
@@ -19,5 +18,8 @@
                 </li>
             {%- endfor -%}
         </ul>
-    </article>
+    </div>
+
+    <h2>{{ '@page::watch.title'|trans }}</h2>
+    <p>{{ '@page::watch.body'|trans({ '%tunnel%': tunnelName }) }}</p>
 {%- endblock -%}
