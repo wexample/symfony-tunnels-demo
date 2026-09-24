@@ -2,4 +2,6 @@
 
 {%- block tunnel_step_body -%}
     <p>{{ '@page::body'|trans }}</p>
+
+    {{ form_load(render_pass, form, '@WexampleSymfonyTunnelsDemoBundle/forms/tunnel/demo_confirm_form.html.twig') }}
 {%- endblock -%}
