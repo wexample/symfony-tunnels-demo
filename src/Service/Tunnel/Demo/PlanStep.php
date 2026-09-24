@@ -8,9 +8,9 @@ use Wexample\SymfonyTunnels\Class\TunnelCursor;
  * The same step twice, once per plan, which is what the visitor's answer on the
  * previous step decides between.
  */
-class ChoiceStep extends AbstractDemoStep
+class PlanStep extends AbstractDemoStep
 {
-    public const string STEP_NAME = 'choice';
+    public const string STEP_NAME = 'plan';
 
     public const string OPTION_NAME_PLAN = 'plan';
 

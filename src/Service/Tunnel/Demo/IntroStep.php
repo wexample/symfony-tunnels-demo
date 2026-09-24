@@ -9,7 +9,7 @@ class IntroStep extends AbstractDemoStep
     public const string STEP_NAME = 'intro';
 
     public function __construct(
-        private readonly ChoiceStep $choiceStep,
+        private readonly PlanStep $planStep,
     ) {
     }
 
@@ -17,14 +17,14 @@ class IntroStep extends AbstractDemoStep
     {
         return [
             [
-                'step' => $this->choiceStep,
+                'step' => $this->planStep,
                 'name' => 'plan-free',
-                'options' => [ChoiceStep::OPTION_NAME_PLAN => 'free'],
+                'options' => [PlanStep::OPTION_NAME_PLAN => 'free'],
             ],
             [
-                'step' => $this->choiceStep,
+                'step' => $this->planStep,
                 'name' => 'plan-paid',
-                'options' => [ChoiceStep::OPTION_NAME_PLAN => 'paid'],
+                'options' => [PlanStep::OPTION_NAME_PLAN => 'paid'],
             ],
         ];
     }
