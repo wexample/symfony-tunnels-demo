@@ -7,13 +7,11 @@
     <div class="grid grid--2">
         {%- for next in tunnelCursor.next -%}
             {%- set plan = next.options.plan -%}
-            <div class="block block--card">
-                <a class="block--action-link" href="{{ tunnel_cursor_url(next) }}">
-                    <span class="block--action-icon">{{ icon(planIcons[plan]) }}</span>
-                    <strong>{{ next.step.buildLabel(next) }}</strong>
-                    <span>{{ ('@page::plan.' ~ plan ~ '.description')|trans }}</span>
-                </a>
-            </div>
+            <a class="block block--padded block--link" href="{{ tunnel_cursor_url(next) }}">
+                <span class="block--link-icon">{{ icon(planIcons[plan]) }}</span>
+                <span class="block--link-title">{{ next.step.buildLabel(next) }}</span>
+                <span class="block--link-description">{{ ('@page::plan.' ~ plan ~ '.description')|trans }}</span>
+            </a>
         {%- endfor -%}
     </div>
 {%- endblock -%}
