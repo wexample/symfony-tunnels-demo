@@ -3,21 +3,42 @@
 {#- A step of the tunnel: where it stands in the sequence, then one card holding
     what the step asks and the way on. The card is the step — everything the
     visitor has to read or answer is in it, nothing is left on the page around. -#}
-{%- block page_body -%}
-    {#- A tunnel route has no page template to take its title from: the step
-        gives it to the breadcrumb itself. -#}
-    {%- do breadcrumb_append_route(
-        app.request.attributes.get('_route'),
-        app.request.attributes.get('_route_params'),
-        '@page::page_title'|trans
-    ) -%}
+{#- Opened in a modal or a panel, the steps follow each other inside it: the
+    stepper, reduced to dots, takes the place of the loading bar under the
+    header, previous and next stand at its foot, and the step changes with a
+    slight slide. In an embed the stepper is compact. On a page of its own,
+    nothing of that: the stepper above the card, the buttons in its footer. -#}
+{%- set tunnel_base = render_pass.layoutBase|default(null) -%}
+{%- set tunnel_overlay = tunnel_base in ['modal', 'panel'] -%}
+{%- set tunnel_held = page_is_held() -%}
+{%- set export_navigation = true -%}
 
-    {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-navigation.html.twig' -%}
+{%- block page_navigation -%}
+    {%- if tunnel_overlay -%}
+        {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-navigation.html.twig' -%}
+    {%- endif -%}
+{%- endblock -%}
+
+{%- block page_actions -%}
+    {%- if tunnel_held -%}
+        {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-buttons.html.twig' -%}
+    {%- endif -%}
+{%- endblock -%}
+
+{%- block page_body -%}
+    {%- if not tunnel_overlay -%}
+        {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-navigation.html.twig' -%}
+    {%- endif -%}
 
     {%- set tunnelButtons -%}
-        {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-buttons.html.twig' -%}
+        {%- if not tunnel_held -%}
+            {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-buttons.html.twig' -%}
+        {%- endif -%}
     {%- endset -%}
 
+    {#- The links and the redirects of a step stay in whatever holds it, and a
+        step changing slides a little. -#}
+    <div class="stack--vertical" data-page-navigation="contained" data-page-transition="slide">
     <section class="block block--card">
         <div class="block--body stack--vertical">
             <h1 class="page--title">{{ '@page::title'|trans }}</h1>
@@ -32,7 +53,9 @@
     </section>
 
     {#- Not part of the tunnel: what the engine did to show this step, for
-        whoever reads the demo to learn how tunnels work. -#}
+        whoever reads the demo to learn how tunnels work — on a page of its own
+        only, a modal or a panel holding the step and nothing else. -#}
+    {%- if not tunnel_held -%}
     {%- set common = 'WexampleSymfonyTunnelsDemoBundle.common.tunnel::behind.' -%}
     {%- set session = tunnel.session -%}
     <section class="block">
@@ -62,8 +85,12 @@
                 ],
                 { bordered: true }
             ) }}
+
+            {%- block tunnel_step_tools -%}{%- endblock -%}
         </div>
     </section>
+    {%- endif -%}
+    </div>
 {%- endblock -%}
 
 {%- block tunnel_step_behind -%}{{ '@page::behind'|trans }}{%- endblock -%}

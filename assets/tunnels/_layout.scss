@@ -1,0 +1,14 @@
+// What every step of the demo tunnels is laid with: the card, its title and lead,
+// the grid the branches stand in, and the row of buttons under it.
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/grid';
+@use '@wexample/symfony-design-system/css/shapes/lead';
+@use '@wexample/symfony-design-system/css/shapes/stack';
+// And what the steps and the tunnel partials draw with components: the stepper,
+// the previous and next buttons, the messages, the properties of the engine's
+// block, the timeline of the path walked.
+@use '@wexample/symfony-design-system/components/stepper/stepper';
+@use '@wexample/symfony-design-system/components/button/button';
+@use '@wexample/symfony-design-system/components/message/message';
+@use '@wexample/symfony-design-system/components/properties/properties';
+@use '@wexample/symfony-design-system/components/timeline/timeline';
