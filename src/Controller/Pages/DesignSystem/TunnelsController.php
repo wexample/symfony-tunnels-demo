@@ -6,12 +6,16 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyLoader\Controller\Pages\AbstractDesignSystemController;
-use Wexample\SymfonyLoader\Service\AdaptiveRendererService;
-use Wexample\SymfonyLoader\Service\PageService;
-use Wexample\SymfonyTunnels\Class\TunnelCursor;
+use Wexample\SymfonyTunnels\Helper\TunnelTreeHelper;
+use Wexample\SymfonyTunnels\Service\AbstractTunnelManagerService;
 use Wexample\SymfonyTunnelsDemo\Service\Tunnel\DemoTunnelManagerService;
+use Wexample\SymfonyTunnelsDemo\Service\Tunnel\SubscriptionTunnelManagerService;
 use Wexample\SymfonyTunnelsDemo\Traits\SymfonyTunnelsDemoBundleClassTrait;
 
+/**
+ * The pages the demo tunnels are started from, one per route: each becomes an
+ * entry of the Tunnels menu.
+ */
 #[Route(
     name: 'wexample_tunnels_demo_',
     path: AbstractDesignSystemController::CONTROLLER_BASE_ROUTE . '/tunnels/',
@@ -20,45 +24,60 @@ final class TunnelsController extends AbstractPagesController
 {
     use SymfonyTunnelsDemoBundleClassTrait;
 
-    public function __construct(
-        AdaptiveRendererService $adaptiveRendererService,
-        PageService $pageService,
-        private readonly DemoTunnelManagerService $demoTunnel,
-    ) {
-        parent::__construct($adaptiveRendererService, $pageService);
-    }
-
-    /**
-     * The tunnel is only built here, not walked: it shows the engine is wired
-     * and what shape a tunnel takes, before any of it is put behind a URL.
-     */
     #[Route(name: 'index', path: '')]
     public function index(): Response
     {
-        return $this->renderPage('index', [
-            'tunnelName' => $this->demoTunnel::getName(),
-            'tunnelTree' => $this->buildTreeLines($this->demoTunnel->createEntrypoint()),
+        return $this->renderPage('index');
+    }
+
+    #[Route(name: 'plan', path: 'plan')]
+    public function plan(DemoTunnelManagerService $tunnel): Response
+    {
+        return $this->renderPage('plan', [
+            'paths' => $this->buildPaths($tunnel),
         ]);
     }
 
-    /**
-     * @return array<array{depth: int, name: string, options: string, hash: string}>
-     */
-    private function buildTreeLines(TunnelCursor $entrypoint): array
+    #[Route(name: 'subscription', path: 'subscription')]
+    public function subscription(SubscriptionTunnelManagerService $tunnel): Response
     {
-        $lines = [];
+        return $this->renderPage('subscription', [
+            'paths' => $this->buildPaths($tunnel),
+        ]);
+    }
 
-        $entrypoint->forSelfAndNextRecursive(
-            static function (TunnelCursor $cursor) use (&$lines): void {
-                $lines[] = [
-                    'depth' => $cursor->distanceFromRoot(),
-                    'name' => $cursor->step::getName(),
-                    'options' => $cursor->options ? json_encode($cursor->options) : '',
-                    'hash' => $cursor->hash,
-                ];
+    #[Route(name: 'concepts', path: 'concepts')]
+    public function concepts(): Response
+    {
+        return $this->renderPage('concepts');
+    }
+
+    /**
+     * Every road through the tunnel, as the design system timeline draws it,
+     * with the options that set it apart from the others. Only built, never
+     * walked: no session is involved.
+     *
+     * @return array<array{options: array, timeline: array}>
+     */
+    private function buildPaths(AbstractTunnelManagerService $tunnel): array
+    {
+        $paths = [];
+
+        foreach (TunnelTreeHelper::buildPaths($tunnel->createEntrypoint()) as $path) {
+            $options = [];
+            $items = [];
+
+            foreach ($path as $cursor) {
+                $options += $cursor->options;
+                $items[] = ['title' => $cursor->step->buildLabel($cursor)];
             }
-        );
 
-        return $lines;
+            $paths[] = [
+                'options' => $options,
+                'timeline' => ['numbered' => true, 'items' => $items],
+            ];
+        }
+
+        return $paths;
     }
 }

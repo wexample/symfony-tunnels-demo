@@ -1,0 +1,26 @@
+{#- What the two tunnel pages share: the card starting the tunnel, its roads
+    drawn one timeline each, and what it shows. Expects `tunnelRoute`,
+    `tunnelIcon` and `paths`; texts come from the including page. -#}
+<a class="block block--padded block--link" href="{{ path(tunnelRoute) }}">
+    <span class="block--link-icon">{{ icon(tunnelIcon) }}</span>
+    <span class="block--link-title">{{ '@page::start.title'|trans }}</span>
+    <span class="block--link-description">{{ '@page::start.description'|trans }}</span>
+</a>
+
+<h2>{{ '@page::roads.title'|trans }}</h2>
+<p>{{ '@page::roads.description'|trans }}</p>
+<div class="grid grid--2">
+    {%- for road in paths -%}
+        <div class="block block--padded stack--vertical">
+            <strong>{{ ('@page::roads.' ~ road.options|first)|trans }}</strong>
+            {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/timeline', {}, road.timeline) }}
+        </div>
+    {%- endfor -%}
+</div>
+
+<h2>{{ '@page::shows.title'|trans }}</h2>
+<div class="stack--vertical">
+    {%- for item in shows -%}
+        {{ message_info(('@page::shows.' ~ item ~ '.title')|trans, ('@page::shows.' ~ item ~ '.body')|trans) }}
+    {%- endfor -%}
+</div>

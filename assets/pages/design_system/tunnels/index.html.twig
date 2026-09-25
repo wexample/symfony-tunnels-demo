@@ -1,25 +1,21 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
 
+{#- The entry of the Tunnels section: what a tunnel is, and one card per page
+    of the section. -#}
 {%- block page_body -%}
     <p class="lead">{{ '@page::intro'|trans }}</p>
 
-    <h2>{{ '@page::demo.title'|trans }}</h2>
-    <p>{{ '@page::demo.body'|trans }}</p>
-    <p>{{ button_link('ph:bold/play', '@page::demo.walk'|trans, path('tunnel_demo_index')) }}</p>
-
-    <h2>{{ '@page::tree.title'|trans }}</h2>
-    <p>{{ '@page::tree.body'|trans }}</p>
-    <div class="block block--padded">
-        <ul>
-            {%- for line in tunnelTree -%}
-                <li style="margin-left: {{ line.depth * 1.5 }}rem">
-                    <code>{{ line.name }}</code>
-                    {%- if line.options %} <small>{{ line.options }}</small>{% endif -%}
-                </li>
-            {%- endfor -%}
-        </ul>
+    <div class="grid grid--3">
+        {%- for page in [
+            { route: 'wexample_tunnels_demo_plan', key: 'plan', icon: 'ph:bold/signpost' },
+            { route: 'wexample_tunnels_demo_subscription', key: 'subscription', icon: 'ph:bold/credit-card' },
+            { route: 'wexample_tunnels_demo_concepts', key: 'concepts', icon: 'ph:bold/tree-structure' },
+        ] -%}
+            <a class="block block--padded block--link" href="{{ path(page.route) }}">
+                <span class="block--link-icon">{{ icon(page.icon) }}</span>
+                <span class="block--link-title">{{ ('@page::card.' ~ page.key ~ '.title')|trans }}</span>
+                <span class="block--link-description">{{ ('@page::card.' ~ page.key ~ '.description')|trans }}</span>
+            </a>
+        {%- endfor -%}
     </div>
-
-    <h2>{{ '@page::watch.title'|trans }}</h2>
-    <p>{{ '@page::watch.body'|trans({ '%tunnel%': tunnelName }) }}</p>
 {%- endblock -%}

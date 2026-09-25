@@ -1,0 +1,25 @@
+page_title: Pick a plan
+page_icon: ph:bold/signpost
+intro: "The first tunnel, small enough to read as a whole: a welcome, a plan to pick, a name to give, and it is done."
+start:
+  title: Walk the tunnel
+  description: Four steps. Under each one, a panel tells what the engine just did.
+roads:
+  title: Its two roads
+  description: "The plan step is reached twice, once per plan, and so is everything after it: two cursors of the same step, each keeping its own values."
+  free: Free plan
+  paid: Paid plan
+shows:
+  title: What it shows
+  branches:
+    title: Two branches of the same step
+    body: "The welcome page has no next button: the tree parts there, and the stepper names step 2 after the step until a plan is picked."
+  form:
+    title: A form step
+    body: "The name is asked in a form, done only once it is valid. The next button of the tunnel submits it."
+  back:
+    title: Going back
+    body: "Come back to the form and the name is still there; go back before it and it is erased, so a branch walked again starts clean."
+  closed:
+    title: A session closed at the end
+    body: "The last step closes the session: nothing before it is linked any more, and opening the tunnel again starts a new one."

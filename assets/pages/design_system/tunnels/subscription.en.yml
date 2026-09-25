@@ -1,0 +1,25 @@
+page_title: Subscribe
+page_icon: ph:bold/credit-card
+intro: "A subscription with two offers. The free one is an account and nothing more; the Pro one adds a payment, confirmed by a bank the demo plays."
+start:
+  title: Walk the tunnel
+  description: Three steps for Free, five for Pro. Under each one, a panel tells what the engine just did.
+roads:
+  title: Its two roads
+  description: "The account step reads the offer its cursor carries to decide what follows: a payment for Pro, nothing for Free. The two roads are not the same length."
+  free: Free
+  paid: Pro
+shows:
+  title: What it shows
+  grown:
+    title: A step on one branch only
+    body: "Until an offer is picked, the stepper cannot tell how many steps are left: it shows a gap where the roads differ."
+  held:
+    title: A session held for minutes
+    body: "While the payment step is shown, the session expires in 15 minutes instead of a day, the way a reserved seat would."
+  waiting:
+    title: A wait on an outside answer
+    body: "Once paid, the session waits on the bank. A button of the demo plays its webhook, which resumes the session through TunnelResumeService."
+  locked:
+    title: No way back once paid
+    body: "After the payment, nothing before it can be reached again, and the payment form is never offered twice."

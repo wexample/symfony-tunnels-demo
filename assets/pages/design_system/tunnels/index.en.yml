@@ -1,13 +1,13 @@
 page_title: Tunnels
 page_icon: ph:bold/path
-intro: "A tunnel is a journey cut into steps — a sign-up, a checkout, a membership renewal — whose shape can depend on what the visitor answers along the way. The package remembers where each visitor stands, decides which step they may see, and sends them back where they belong when they try to skip ahead."
-demo:
-  title: The demo tunnel
-  body: "Four steps: a welcome, a plan to pick, free or paid, a form asking for a name, and a closing page. Picking a plan opens a branch; both lead on to the same form. Under each step, a panel tells what the engine did to show it."
-  walk: Walk the demo tunnel
-tree:
-  title: A tree of cursors
-  body: "The engine builds the tunnel as a tree. Every place a step can be reached from is a cursor of its own, with its own hash and its own stored values. The plan step appears twice, once per option, and so does everything after it, since it is reached from two different places."
-watch:
-  title: Watching it work
-  body: "The Tunnels tab of the develop toolbar shows the session of this browser on the map of the tunnel. From the command line, bin/console tunnels:info %tunnel% prints the same map, and --session with the hash of a session shows where it stands and what it holds."
+intro: "A tunnel is a journey cut into steps — a sign-up, a checkout, a renewal — whose road can change with what the visitor answers. The package remembers where each visitor stands, lets them through the steps they may see, and sends them back where they belong when they try to skip ahead."
+card:
+  plan:
+    title: Pick a plan
+    description: "The first tunnel: two branches, a form, and a session closed at the end."
+  subscription:
+    title: Subscribe
+    description: "A payment on one branch only, a session held 15 minutes, a wait on the bank."
+  concepts:
+    title: How it works
+    description: "Cursors, sessions, what to look at while walking a tunnel."

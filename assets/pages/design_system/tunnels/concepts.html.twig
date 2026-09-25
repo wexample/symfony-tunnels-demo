@@ -1,0 +1,25 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro'|trans }}</p>
+
+    {%- for section in ['tree', 'session', 'access'] -%}
+        <h2>{{ ('@page::' ~ section ~ '.title')|trans }}</h2>
+        <p>{{ ('@page::' ~ section ~ '.body')|trans }}</p>
+    {%- endfor -%}
+
+    <h2>{{ '@page::look.title'|trans }}</h2>
+    <div class="grid grid--3">
+        {%- for look in [
+            { key: 'stepper', icon: 'ph:bold/dots-three-outline' },
+            { key: 'behind', icon: 'ph:bold/gear-six' },
+            { key: 'toolbar', icon: 'ph:bold/terminal-window' },
+        ] -%}
+            <div class="block block--padded stack--vertical">
+                <span class="block--link-icon">{{ icon(look.icon) }}</span>
+                <strong>{{ ('@page::look.' ~ look.key ~ '.title')|trans }}</strong>
+                <span>{{ ('@page::look.' ~ look.key ~ '.body')|trans }}</span>
+            </div>
+        {%- endfor -%}
+    </div>
+{%- endblock -%}
