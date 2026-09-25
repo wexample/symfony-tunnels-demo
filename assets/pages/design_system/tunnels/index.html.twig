@@ -1,10 +1,8 @@
-{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+{%- extends '@WexampleSymfonyTunnelsDemoBundle/pages/design_system/tunnels/layout/layout-tunnels.html.twig' -%}
 
 {#- The entry of the Tunnels section: what a tunnel is, and one card per page
     of the section. -#}
-{%- block page_body -%}
-    <p class="lead">{{ '@page::intro'|trans }}</p>
-
+{%- block tunnels_page_body -%}
     <div class="grid grid--3">
         {%- for page in [
             { route: 'wexample_tunnels_demo_plan', key: 'plan', icon: 'ph:bold/signpost' },

@@ -1,0 +1,48 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{#- Every page of the Tunnels section: its title in a toolbar, a lead, then the
+    page. A page setting `tunnel_route` is the page of a tunnel: the toolbar
+    opens that tunnel in a modal or a panel, and the page starts with the card
+    walking it and its roads, one timeline each, every step saying what it
+    shows — texts under `steps.<step name>` of the page, roads computed by the
+    controller as `paths`. -#}
+{%- set page_show_title = true -%}
+{%- set layout_domain = 'WexampleSymfonyTunnelsDemoBundle.pages.design_system.tunnels.layout.layout-tunnels::' -%}
+{%- set overlay_options = { closeOnEscape: true, closeOnOverlayClick: true } -%}
+
+{%- block page_title_actions -%}
+    {%- if tunnel_route is defined -%}
+        {{ button_target('ph:bold/app-window', layout_domain ~ 'open.modal', path(tunnel_route), 'modal', { class: 'button', target_options: overlay_options }) }}
+        {{ button_target('ph:bold/sidebar-simple-duotone', layout_domain ~ 'open.panel', path(tunnel_route), 'panel', { class: 'button', target_options: overlay_options }) }}
+    {%- endif -%}
+{%- endblock -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro'|trans }}</p>
+
+    {%- if tunnel_route is defined -%}
+        <a class="block block--padded block--link" href="{{ path(tunnel_route) }}">
+            <span class="block--link-icon">{{ icon(tunnel_icon) }}</span>
+            <span class="block--link-title">{{ (layout_domain ~ 'start.title')|trans }}</span>
+            <span class="block--link-description">{{ '@page::start'|trans }}</span>
+        </a>
+
+        <h2>{{ (layout_domain ~ 'roads.title')|trans }}</h2>
+        <p>{{ '@page::roads.description'|trans }}</p>
+        <div class="stack--vertical">
+            {%- for road in paths -%}
+                {%- set items = [] -%}
+                {%- for item in road.timeline.items -%}
+                    {%- set items = items|merge([item|merge({ text: ('@page::steps.' ~ item.step)|trans })]) -%}
+                {%- endfor -%}
+
+                <div class="block block--padded stack--vertical">
+                    <strong>{{ ('@page::roads.' ~ road.options|first)|trans }}</strong>
+                    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/timeline', {}, road.timeline|merge({ items: items })) }}
+                </div>
+            {%- endfor -%}
+        </div>
+    {%- endif -%}
+
+    {%- block tunnels_page_body -%}{%- endblock -%}
+{%- endblock -%}

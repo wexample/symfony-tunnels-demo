@@ -1,10 +1,4 @@
-{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+{%- extends '@WexampleSymfonyTunnelsDemoBundle/pages/design_system/tunnels/layout/layout-tunnels.html.twig' -%}
 
-{%- block page_body -%}
-    <p class="lead">{{ '@page::intro'|trans }}</p>
-
-    {%- include '@WexampleSymfonyTunnelsDemoBundle/pages/design_system/tunnels/_tunnel.html.twig' with {
-        tunnelRoute: 'tunnel_demo_index',
-        tunnelIcon: 'ph:bold/signpost',
-    } -%}
-{%- endblock -%}
+{%- set tunnel_route = 'tunnel_demo_index' -%}
+{%- set tunnel_icon = 'ph:bold/signpost' -%}

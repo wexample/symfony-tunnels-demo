@@ -1,11 +1,8 @@
 page_title: Subscribe
 page_icon: ph:bold/credit-card
 intro: "A subscription with two offers. The free one is an account and nothing more; the Pro one adds a payment, confirmed by a bank the demo plays."
-start:
-  title: Walk the tunnel
-  description: Three steps for Free, five for Pro. Under each one, a panel tells what the engine just did.
+start: "Three steps for Free, five for Pro. Walked on a page of its own, each one tells below what the engine just did."
 roads:
-  title: Its two roads
   description: "The account step reads the offer its cursor carries to decide what follows: a payment for Pro, nothing for Free. The two roads are not the same length."
   free: Free
   paid: Pro

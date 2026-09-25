@@ -1,8 +1,6 @@
-{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+{%- extends '@WexampleSymfonyTunnelsDemoBundle/pages/design_system/tunnels/layout/layout-tunnels.html.twig' -%}
 
-{%- block page_body -%}
-    <p class="lead">{{ '@page::intro'|trans }}</p>
-
+{%- block tunnels_page_body -%}
     {%- for section in ['tree', 'session', 'access'] -%}
         <h2>{{ ('@page::' ~ section ~ '.title')|trans }}</h2>
         <p>{{ ('@page::' ~ section ~ '.body')|trans }}</p>

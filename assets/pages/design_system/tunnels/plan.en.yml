@@ -1,11 +1,8 @@
 page_title: Pick a plan
 page_icon: ph:bold/signpost
 intro: "The first tunnel, small enough to read as a whole: a welcome, a plan to pick, a name to give, and it is done."
-start:
-  title: Walk the tunnel
-  description: Four steps. Under each one, a panel tells what the engine just did.
+start: "Four steps. Walked on a page of its own, each one tells below what the engine just did."
 roads:
-  title: Its two roads
   description: "The plan step is reached twice, once per plan, and so is everything after it: two cursors of the same step, each keeping its own values."
   free: Free plan
   paid: Paid plan
