@@ -2,8 +2,8 @@
 
 namespace Wexample\SymfonyTunnelsDemo\Service\Tunnel\Demo;
 
-use Wexample\SymfonyTunnelsDemo\Service\Tunnel\AbstractDemoStep;
 use Wexample\SymfonyTunnels\Class\TunnelCursor;
+use Wexample\SymfonyTunnelsDemo\Service\Tunnel\AbstractDemoStep;
 
 /**
  * Closes the session once displayed: opening the tunnel again starts over.

@@ -2,8 +2,8 @@
 
 namespace Wexample\SymfonyTunnelsDemo\Service\Tunnel\Demo;
 
-use Wexample\SymfonyTunnelsDemo\Service\Tunnel\AbstractDemoStep;
 use Wexample\SymfonyTunnels\Class\TunnelCursor;
+use Wexample\SymfonyTunnelsDemo\Service\Tunnel\AbstractDemoStep;
 
 /**
  * The same step twice, once per plan, which is what the visitor's answer on the
