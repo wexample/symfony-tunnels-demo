@@ -1,19 +1,38 @@
 {%- extends '@WexampleSymfonyTunnelsDemoBundle/pages/design_system/tunnels/layout/layout-tunnels.html.twig' -%}
 
-{#- The entry of the Tunnels section: what a tunnel is, and one card per page
-    of the section. -#}
+{#- The entry of the Tunnels section and its one page of explanations: the two
+    tunnels to walk, then what the engine is made of and where to see it. -#}
 {%- block tunnels_page_body -%}
-    <div class="grid grid--3">
+    <div class="grid grid--2">
         {%- for page in [
             { route: 'wexample_tunnels_demo_plan', key: 'plan', icon: 'ph:bold/signpost' },
             { route: 'wexample_tunnels_demo_subscription', key: 'subscription', icon: 'ph:bold/credit-card' },
-            { route: 'wexample_tunnels_demo_concepts', key: 'concepts', icon: 'ph:bold/tree-structure' },
         ] -%}
             <a class="block block--padded block--link" href="{{ path(page.route) }}">
                 <span class="block--link-icon">{{ icon(page.icon) }}</span>
                 <span class="block--link-title">{{ ('@page::card.' ~ page.key ~ '.title')|trans }}</span>
                 <span class="block--link-description">{{ ('@page::card.' ~ page.key ~ '.description')|trans }}</span>
             </a>
+        {%- endfor -%}
+    </div>
+
+    {%- for section in ['tree', 'session', 'access'] -%}
+        <h2>{{ ('@page::' ~ section ~ '.title')|trans }}</h2>
+        <p>{{ ('@page::' ~ section ~ '.body')|trans }}</p>
+    {%- endfor -%}
+
+    <h2>{{ '@page::look.title'|trans }}</h2>
+    <div class="grid grid--3">
+        {%- for look in [
+            { key: 'stepper', icon: 'ph:bold/dots-three-outline' },
+            { key: 'behind', icon: 'ph:bold/gear-six' },
+            { key: 'toolbar', icon: 'ph:bold/terminal-window' },
+        ] -%}
+            <div class="block block--padded stack--vertical">
+                <span class="block--link-icon">{{ icon(look.icon) }}</span>
+                <strong>{{ ('@page::look.' ~ look.key ~ '.title')|trans }}</strong>
+                <span>{{ ('@page::look.' ~ look.key ~ '.body')|trans }}</span>
+            </div>
         {%- endfor -%}
     </div>
 {%- endblock -%}

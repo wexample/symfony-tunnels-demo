@@ -46,12 +46,6 @@ final class TunnelsController extends AbstractPagesController
         ]);
     }
 
-    #[Route(name: 'concepts', path: 'concepts')]
-    public function concepts(): Response
-    {
-        return $this->renderPage('concepts');
-    }
-
     /**
      * Every road through the tunnel, as the design system timeline draws it,
      * with the options that set it apart from the others and the name of each
