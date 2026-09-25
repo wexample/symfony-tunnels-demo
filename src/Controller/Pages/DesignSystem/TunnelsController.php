@@ -54,7 +54,8 @@ final class TunnelsController extends AbstractPagesController
 
     /**
      * Every road through the tunnel, as the design system timeline draws it,
-     * with the options that set it apart from the others. Only built, never
+     * with the options that set it apart from the others and the name of each
+     * step. Only built, never
      * walked: no session is involved.
      *
      * @return array<array{options: array, timeline: array}>
@@ -69,7 +70,11 @@ final class TunnelsController extends AbstractPagesController
 
             foreach ($path as $cursor) {
                 $options += $cursor->options;
-                $items[] = ['title' => $cursor->step->buildLabel($cursor)];
+                $items[] = [
+                    'title' => $cursor->step->buildLabel($cursor),
+                    // For the page to say, under each step, what it shows.
+                    'step' => $cursor->step::getName(),
+                ];
             }
 
             $paths[] = [
