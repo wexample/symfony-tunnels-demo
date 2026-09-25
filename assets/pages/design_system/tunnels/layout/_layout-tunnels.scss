@@ -1,10 +1,11 @@
-// What every page of the Tunnels section is laid with: the cards, the grids and
-// stacks they stand in, the lead, the buttons opening a tunnel in a modal or a
-// panel, and the timelines of its roads.
+// What every page of the Tunnels section is laid with: the toolbar its title
+// stands in, the cards, the grids and stacks they stand in, the lead, the
+// buttons opening a tunnel in a modal or a panel, and the timelines of its roads.
 @use '@wexample/symfony-design-system/css/shapes/block';
 @use '@wexample/symfony-design-system/css/shapes/grid';
 @use '@wexample/symfony-design-system/css/shapes/lead';
 @use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
 @use '@wexample/symfony-design-system/components/button/button';
 @use '@wexample/symfony-design-system/components/button-target/button-target';
 @use '@wexample/symfony-design-system/components/timeline/timeline';
