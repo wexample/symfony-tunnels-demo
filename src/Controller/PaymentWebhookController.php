@@ -1,6 +1,6 @@
 <?php
 
-namespace Wexample\SymfonyTunnelsDemo\Controller\Tunnels;
+namespace Wexample\SymfonyTunnelsDemo\Controller;
 
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;

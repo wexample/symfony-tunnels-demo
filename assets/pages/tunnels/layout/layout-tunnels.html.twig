@@ -1,27 +1,28 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
 
 {#- Every page of the Tunnels section: its title in a toolbar, a lead, then the
-    page. A page setting `tunnel_route` is the page of a tunnel: the toolbar
+    page. A page setting `tunnel_name` is the page of a tunnel: the toolbar
     opens that tunnel in a modal or a panel, and the page starts with the card
     walking it and its roads, one timeline each, every step saying what it
     shows — texts under `steps.<step name>` of the page, roads computed by the
     controller as `paths`. -#}
 {%- set page_show_title = true -%}
-{%- set layout_domain = 'WexampleSymfonyTunnelsDemoBundle.pages.design_system.tunnels.layout.layout-tunnels::' -%}
+{%- set layout_domain = 'WexampleSymfonyTunnelsDemoBundle.pages.tunnels.layout.layout-tunnels::' -%}
 {%- set overlay_options = { closeOnEscape: true, closeOnOverlayClick: true } -%}
+{%- set tunnel_url = tunnel_name is defined ? tunnel_entrypoint_url(tunnel_name) : null -%}
 
 {%- block page_title_actions -%}
-    {%- if tunnel_route is defined -%}
-        {{ button_target('ph:bold/app-window', layout_domain ~ 'open.modal', path(tunnel_route), 'modal', { class: 'button', target_options: overlay_options }) }}
-        {{ button_target('ph:bold/sidebar-simple-duotone', layout_domain ~ 'open.panel', path(tunnel_route), 'panel', { class: 'button', target_options: overlay_options }) }}
+    {%- if tunnel_url -%}
+        {{ button_target('ph:bold/app-window', layout_domain ~ 'open.modal', tunnel_url, 'modal', { class: 'button', target_options: overlay_options }) }}
+        {{ button_target('ph:bold/sidebar-simple-duotone', layout_domain ~ 'open.panel', tunnel_url, 'panel', { class: 'button', target_options: overlay_options }) }}
     {%- endif -%}
 {%- endblock -%}
 
 {%- block page_body -%}
     <p class="lead">{{ '@page::intro'|trans }}</p>
 
-    {%- if tunnel_route is defined -%}
-        <a class="block block--padded block--link" href="{{ path(tunnel_route) }}">
+    {%- if tunnel_url -%}
+        <a class="block block--padded block--link" href="{{ tunnel_url }}">
             <span class="block--link-icon">{{ icon(tunnel_icon) }}</span>
             <span class="block--link-title">{{ (layout_domain ~ 'start.title')|trans }}</span>
             <span class="block--link-description">{{ '@page::start'|trans }}</span>

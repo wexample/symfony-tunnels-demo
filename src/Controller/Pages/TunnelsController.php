@@ -1,11 +1,10 @@
 <?php
 
-namespace Wexample\SymfonyTunnelsDemo\Controller\Pages\DesignSystem;
+namespace Wexample\SymfonyTunnelsDemo\Controller\Pages;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
-use Wexample\SymfonyLoader\Controller\Pages\AbstractDesignSystemController;
 use Wexample\SymfonyTunnels\Helper\TunnelTreeHelper;
 use Wexample\SymfonyTunnels\Service\AbstractTunnelManagerService;
 use Wexample\SymfonyTunnelsDemo\Service\Tunnel\DemoTunnelManagerService;
@@ -14,12 +13,10 @@ use Wexample\SymfonyTunnelsDemo\Traits\SymfonyTunnelsDemoBundleClassTrait;
 
 /**
  * The pages the demo tunnels are started from, one per route: each becomes an
- * entry of the Tunnels menu.
+ * entry of the Tunnels menu. The tunnels themselves are mounted below them,
+ * by the controllers of Pages\Tunnels.
  */
-#[Route(
-    name: 'wexample_tunnels_demo_',
-    path: AbstractDesignSystemController::CONTROLLER_BASE_ROUTE . '/tunnels/',
-)]
+#[Route(path: 'tunnels/', name: 'tunnels_')]
 final class TunnelsController extends AbstractPagesController
 {
     use SymfonyTunnelsDemoBundleClassTrait;

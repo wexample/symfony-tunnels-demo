@@ -1,12 +1,12 @@
-{%- extends '@WexampleSymfonyTunnelsDemoBundle/pages/design_system/tunnels/layout/layout-tunnels.html.twig' -%}
+{%- extends '@WexampleSymfonyTunnelsDemoBundle/pages/tunnels/layout/layout-tunnels.html.twig' -%}
 
 {#- The entry of the Tunnels section and its one page of explanations: the two
     tunnels to walk, then what the engine is made of and where to see it. -#}
 {%- block tunnels_page_body -%}
     <div class="grid grid--2">
         {%- for page in [
-            { route: 'wexample_tunnels_demo_plan', key: 'plan', icon: 'ph:bold/signpost' },
-            { route: 'wexample_tunnels_demo_subscription', key: 'subscription', icon: 'ph:bold/credit-card' },
+            { route: 'tunnels_plan', key: 'plan', icon: 'ph:bold/signpost' },
+            { route: 'tunnels_subscription', key: 'subscription', icon: 'ph:bold/credit-card' },
         ] -%}
             <a class="block block--padded block--link" href="{{ path(page.route) }}">
                 <span class="block--link-icon">{{ icon(page.icon) }}</span>
