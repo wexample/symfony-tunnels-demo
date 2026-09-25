@@ -1,0 +1,9 @@
+{%- extends '@WexampleSymfonyTunnelsDemoBundle/tunnels/layout.html.twig' -%}
+
+{%- block tunnel_step_behind -%}
+    {{ '@page::behind'|trans({ '%offer%': tunnelCursor.options.offer }) }}
+{%- endblock -%}
+
+{%- block tunnel_step_body -%}
+    {{ form_load(render_pass, form, '@WexampleSymfonyTunnelsDemoBundle/forms/tunnel/subscription_account_form.html.twig') }}
+{%- endblock -%}

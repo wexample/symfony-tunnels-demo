@@ -1,0 +1,16 @@
+{%- extends '@WexampleSymfonyTunnelsDemoBundle/tunnels/layout.html.twig' -%}
+
+{#- The tree parts here: one card per offer, and no next button. -#}
+{%- block tunnel_step_body -%}
+    {%- set offerIcons = { free: 'ph:bold/feather', paid: 'ph:bold/crown-simple' } -%}
+    <div class="grid grid--2">
+        {%- for next in tunnelCursor.next -%}
+            {%- set offer = next.options.offer -%}
+            <a class="block block--padded block--link" href="{{ tunnel_cursor_url(next) }}">
+                <span class="block--link-icon">{{ icon(offerIcons[offer]) }}</span>
+                <span class="block--link-title">{{ ('@page::offer.' ~ offer ~ '.title')|trans }}</span>
+                <span class="block--link-description">{{ ('@page::offer.' ~ offer ~ '.description')|trans }}</span>
+            </a>
+        {%- endfor -%}
+    </div>
+{%- endblock -%}

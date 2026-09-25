@@ -2,6 +2,7 @@
 
 namespace Wexample\SymfonyTunnelsDemo\Service\Tunnel\Demo;
 
+use Wexample\SymfonyTunnelsDemo\Service\Tunnel\AbstractDemoStep;
 use Wexample\SymfonyTunnels\Class\TunnelCursor;
 
 /**

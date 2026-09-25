@@ -1,6 +1,6 @@
 <?php
 
-namespace Wexample\SymfonyTunnelsDemo\Service\Tunnel\Demo;
+namespace Wexample\SymfonyTunnelsDemo\Service\Tunnel;
 
 use Wexample\SymfonyTunnels\Service\Step\AbstractTunnelStep;
 

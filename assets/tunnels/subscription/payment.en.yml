@@ -1,0 +1,4 @@
+page_title: Subscription
+title: Payment
+lead: "Pro, €9 a month. Nothing to fill in: pressing pay stands for entering a card."
+behind: "A step of the Pro branch only. While it is shown, the session expires in 15 minutes instead of a day, the way a held seat would: look at the expiry below. Paying stores a reference the bank will send back, sets the session to pending_async_action and moves on. From then on, this step forbids reaching anything before it, and is never offered again."

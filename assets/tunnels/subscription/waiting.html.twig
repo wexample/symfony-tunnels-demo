@@ -1,0 +1,17 @@
+{%- extends '@WexampleSymfonyTunnelsDemoBundle/tunnels/layout.html.twig' -%}
+
+{%- block tunnel_step_lead -%}
+    {{ '@page::lead'|trans({ '%reference%': paymentReference }) }}
+{%- endblock -%}
+
+{%- block tunnel_step_body -%}
+    {{ message_info('@page::note.title'|trans, '@page::note.body'|trans) }}
+{%- endblock -%}
+
+{#- Not the visitor's: the demo plays the bank from here. -#}
+{%- block tunnel_step_tools -%}
+    <form method="post" action="{{ path('tunnels_demo_payment_webhook') }}">
+        <input type="hidden" name="reference" value="{{ paymentReference }}">
+        {{ button('ph:bold/bank', '@page::simulate'|trans, { type: 'submit' }) }}
+    </form>
+{%- endblock -%}

@@ -1,0 +1,8 @@
+page_title: Subscription
+title: Waiting for the bank
+lead: "Payment %reference% is sent. The bank confirms it in its own time."
+note:
+  title: You can leave this page
+  body: "Your payment is kept whatever you do: come back later, and you will be let in once the bank has answered."
+behind: "The session is pending_async_action: nobody walking the tunnel can complete this step, only the bank can. A real application receives its answer on a webhook and hands the reference to TunnelResumeService, which rebuilds the tunnel of the waiting session and completes this step; shown again, the step moves the visitor on by itself. The button below plays the bank. Pending sessions never expire, and nothing before the payment is linked any more."
+simulate: "Play the bank: confirm the payment"

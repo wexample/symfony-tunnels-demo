@@ -1,0 +1,10 @@
+{%- extends '@WexampleSymfonyTunnelsDemoBundle/tunnels/layout.html.twig' -%}
+
+{%- block tunnel_step_lead -%}
+    {{ ('@page::lead.' ~ offer)|trans }}
+{%- endblock -%}
+
+{%- block tunnel_step_body -%}
+    <h2>{{ '@page::path.title'|trans }}</h2>
+    {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-timeline.html.twig' -%}
+{%- endblock -%}

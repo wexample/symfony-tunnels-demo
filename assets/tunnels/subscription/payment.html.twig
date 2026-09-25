@@ -1,0 +1,5 @@
+{%- extends '@WexampleSymfonyTunnelsDemoBundle/tunnels/layout.html.twig' -%}
+
+{%- block tunnel_step_body -%}
+    {{ form_load(render_pass, form, '@WexampleSymfonyTunnelsDemoBundle/forms/tunnel/subscription_payment_form.html.twig') }}
+{%- endblock -%}
