@@ -1,0 +1,9 @@
+page_title: 'Tunel demonstracyjny'
+title: 'Wszystko gotowe'
+lead: 'Tunel jest przejrzany aż do końca.'
+message:
+  title: 'Dziękujemy, %name%.'
+  body: 'Sesja została zakończona; nic więcej nie jest wymagane.'
+path:
+  title: 'Droga, którą przyszedłeś'
+behind: 'Ostatni krok odczytuje nazwę z kursora przed nim i przedstawia drogę tutaj: w drzewie, droga do kursora jest unikalna, to linia jego przodków, każdy krok informuje, co na nim zrobiono przez buildSummary(). Wyświetlenie tego kończy sesję: jej status zmienia się na zakończony i nie wygasa już. Nic przed nim nie jest już powiązane, ponieważ osiągnięcie dowolnego kroku zamkniętej sesji rozpoczyna nową: to właśnie robi ponowne otwarcie tunelu.'

@@ -1,0 +1,12 @@
+button:
+  pay: 'ชำระเงิน €9'
+behind:
+  title: ขั้นตอนถัดไป
+  step: ขั้นตอน
+  cursor: ตัวชี้ตำแหน่ง
+  completion: การทำงานเสร็จสิ้น
+  complete: เสร็จสิ้น
+  incomplete: ยังไม่เสร็จ
+  session: เซสชัน
+  expires: หมดอายุ
+  never: 'ไม่มีวันหมดอายุ เซสชันนี้จะไม่เปิดอีกต่อไป'

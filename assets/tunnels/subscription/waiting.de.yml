@@ -1,0 +1,8 @@
+page_title: Abonnement
+title: 'Warten auf die Bank'
+lead: 'Zahlung %reference% wurde gesendet. Die Bank bestätigt dies in ihrem eigenen Tempo.'
+note:
+  title: 'Sie können diese Seite verlassen'
+  body: 'Ihre Zahlung bleibt erhalten, egal was Sie tun: Kommen Sie später zurück, und Sie werden eingelassen, sobald die Bank geantwortet hat.'
+behind: 'Die Sitzung wartet auf eine asynchrone Aktion: Niemand, der den Tunnel durchläuft, kann diesen Schritt abschließen, nur die Bank kann das. Eine echte Anwendung erhält ihre Antwort über einen Webhook und übergibt die Referenz an den TunnelResumeService, der den Tunnel der wartenden Sitzung wiederherstellt und diesen Schritt abschließt; erneut angezeigt, bewegt der Schritt den Besucher von selbst weiter. Der Button unten spielt die Bank. Wartende Sitzungen laufen niemals ab und nichts vor der Zahlung ist mehr verknüpft.'
+simulate: 'Die Bank spielen: Zahlung bestätigen'

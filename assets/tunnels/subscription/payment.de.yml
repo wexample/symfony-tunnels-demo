@@ -1,0 +1,4 @@
+page_title: Abonnement
+title: Zahlung
+lead: 'Pro, 9 € pro Monat. Nichts ausfüllen: Drücken Sie auf Bezahlen, um eine Karte einzugeben.'
+behind: 'Ein Schritt des Pro-Zweigs. Während er angezeigt wird, läuft die Sitzung in 15 Minuten ab anstatt in einem Tag, wie bei einem reservierten Platz: siehe das Ablaufdatum unten. Die Zahlung speichert eine Referenz, die die Bank zurückschickt, setzt die Sitzung auf pending_async_action und geht weiter. Von da an verbietet dieser Schritt den Zugriff auf alles, was davor ist, und wird nie wieder angeboten.'

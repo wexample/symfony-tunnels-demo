@@ -1,0 +1,12 @@
+button:
+  pay: '€9 ادا کریں'
+behind:
+  title: 'اس مرحلے کے پیچھے'
+  step: مرحلہ
+  cursor: کرسر
+  completion: 'مکمل کرنا'
+  complete: 'ہو گیا'
+  incomplete: 'ابھی نہیں ہوا'
+  session: سیشن
+  expires: 'ختم ہوتا ہے'
+  never: 'کبھی نہیں، سیشن اب مزید کھولا نہیں گیا'

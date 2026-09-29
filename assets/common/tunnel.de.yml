@@ -1,0 +1,12 @@
+button:
+  pay: 'Zahlung von 9 €'
+behind:
+  title: 'Hinter diesem Schritt'
+  step: Schritt
+  cursor: Cursor
+  completion: Abschluss
+  complete: erledigt
+  incomplete: 'noch nicht erledigt'
+  session: Sitzung
+  expires: 'Läuft ab'
+  never: 'nie, die Sitzung ist nicht mehr geöffnet'

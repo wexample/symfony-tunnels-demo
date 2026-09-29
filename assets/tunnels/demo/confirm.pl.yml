@@ -1,0 +1,4 @@
+page_title: 'Demonstruj tunel'
+title: 'Twoje imię'
+lead: 'Ostatnia rzecz, której potrzebujemy.'
+behind: 'Krok formularza. Wyświetlenie go to za mało: jest to możliwe tylko wtedy, gdy formularz jest ważny, a kolejne kroki są niedostępne do tego momentu. Imię jest przechowywane w tym wskaźniku. Wróć do tego kroku i nadal tam będzie; wracając do kroku przed nim, zostanie usunięte, ponieważ powrót zdejmuje to, co kroki przed nim przechowały, więc ponownie przechodząc przez gałąź, zaczynasz od nowa.'

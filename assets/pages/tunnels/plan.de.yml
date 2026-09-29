@@ -1,0 +1,13 @@
+page_title: 'Wähle einen Plan'
+page_icon: 'ph:bold/signpost'
+intro: 'Der erste Tunnel, klein genug, um ihn als Ganzes zu lesen: ein Willkommen, ein Plan zum Auswählen, ein Name zu vergeben, und schon ist es erledigt.'
+start: 'Vier Schritte. Jeder für sich auf einer eigenen Seite, jeder erklärt unten, was der Motor gerade gemacht hat.'
+roads:
+  description: 'Der Plan Schritt wird zweimal erreicht, einmal pro Plan, und alles danach ebenso: zwei Cursors desselben Schrittes, jeder mit eigenen Werten.'
+  free: 'Kostenloser Plan'
+  paid: 'Bezahlter Plan'
+steps:
+  intro: 'Die Baumteile hier: zwei Karten, eine pro Plan, und kein Weiter-Button. Bis ein Plan gewählt ist, nennt der Stepper Schritt 2 nach dem Schritt, nicht nach einem Plan.'
+  plan: 'Zwei Cursors desselben Schrittes, die durch den Plan, den sie tragen, unterschieden werden, jeder mit seinen eigenen gespeicherten Werten.'
+  confirm: 'Ein Formularschritt, der nur abgeschlossen wird, wenn das Formular gültig ist; der Weiter-Button des Tunnels reicht ihn ein. Komm zurück und der Name ist noch da; gehe vorher zurück und er wird gelöscht, sodass ein erneut begangener Ast sauber beginnt.'
+  done: 'Schließt die Sitzung: Nichts davor ist mehr verbunden, und das erneute Öffnen des Tunnels beginnt einen neuen.'

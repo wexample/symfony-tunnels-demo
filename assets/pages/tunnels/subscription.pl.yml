@@ -1,0 +1,14 @@
+page_title: Subskrybuj
+page_icon: 'ph:bold/credit-card'
+intro: 'Subskrypcja z dwiema ofertami. Darmowa to konto i nic więcej; Pro dodaje płatność, potwierdzoną przez bank, podczas gdy demo to odtwarza.'
+start: 'Trzy kroki dla wersji darmowej, pięć dla wersji Pro. Każdy krok prowadzi do osobnej strony, na której opisano, co silnik właśnie zrobił.'
+roads:
+  description: 'Krok konta odczytuje ofertę, którą nosi wskaźnik, aby zdecydować, co dalej: płatność za Pro, nic za darmo. Dwie drogi nie mają tej samej długości.'
+  free: Darmowe
+  paid: Pro
+steps:
+  offer: 'Drogi rozdzielają się tutaj, i nie prowadzą w tę samą stronę: aż do momentu wyboru oferty, wskaźnik pokazuje lukę, w której się różnią.'
+  account: 'Ten sam formularz na obu drogach. Wskaźnik nosi ofertę, a krok odczytuje ją, aby zdecydować, co dalej.'
+  payment: 'Tylko na drodze Pro. Gdy jest wyświetlany, sesja kończy się po 15 minutach, jakby to był zarezerwowany stolik; po dokonaniu płatności, nic przed tym nie może być ponownie osiągnięte, i nigdy nie jest oferowane dwa razy.'
+  waiting: 'Sesja czeka na bank. Przycisk w demo odtwarza swój webhook, który wznawia sesję przez TunnelResumeService.'
+  welcome: 'Obie drogi kończą się tutaj, każda przez własny wskaźnik, a sesja zostaje zamknięta.'

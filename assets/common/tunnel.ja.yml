@@ -1,0 +1,12 @@
+button:
+  pay: €9を支払う
+behind:
+  title: このステップの背後
+  step: ステップ
+  cursor: カーソル
+  completion: 完了
+  complete: 完了
+  incomplete: まだ未完了
+  session: セッション
+  expires: 期限切れ
+  never: 開かれていないため、セッションはもはや存在しません

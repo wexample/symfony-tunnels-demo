@@ -1,0 +1,12 @@
+button:
+  pay: 'שלם 9€'
+behind:
+  title: 'מאחורי שלב זה'
+  step: שלב
+  cursor: סמן
+  completion: השלמה
+  complete: הושלם
+  incomplete: 'עדיין לא הושלם'
+  session: מושב
+  expires: מסתיים
+  never: 'לעולם לא, המושב כבר לא פתוח'

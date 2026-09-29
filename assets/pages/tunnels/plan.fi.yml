@@ -1,0 +1,13 @@
+page_title: 'Valitse suunnitelma'
+page_icon: 'ph:bold/signpost'
+intro: 'Ensimmäinen tunneli, tarpeeksi pieni luettavaksi kokonaisuudessaan: tervetuloa, suunnitelma valittavaksi, nimi annettavaksi, ja se on tehty.'
+start: 'Neljä vaihetta. Jokainen omalla sivullaan, jokainen kertoo alla, mitä moottori juuri teki.'
+roads:
+  description: 'Suunnitelman vaiheeseen päästään kahdesti, kerran per suunnitelma, ja kaikki sen jälkeen: kaksi kohdistinta samasta vaiheesta, jokaisella omat arvonsa.'
+  free: 'Ilmainen suunnitelma'
+  paid: 'Maksullinen suunnitelma'
+steps:
+  intro: 'Puun osat täällä: kaksi korttia, yksi per suunnitelma, eikä seuraavaa painiketta. Kunnes suunnitelma on valittu, vaiheittaja nimeää vaiheen 2 vaiheen mukaan, ei suunnitelman mukaan.'
+  plan: 'Kaksi kohdistinta samasta vaiheesta, erottuvat toisistaan kantamansa suunnitelman mukaan, jokaisella omat tallennetut arvonsa.'
+  confirm: 'Lomakevaihe, joka tehdään vain, kun lomake on voimassa; tunnelin seuraava painike lähettää sen. Palaa takaisin ja nimi on edelleen siellä; mene taaksepäin ennen sitä ja se poistuu, joten uudelleen kävelty haara alkaa puhtaana.'
+  done: 'Sulkee istunnon: mikään ennen sitä ei ole enää linkitetty, ja tunnelin uudelleen avaaminen aloittaa uuden.'

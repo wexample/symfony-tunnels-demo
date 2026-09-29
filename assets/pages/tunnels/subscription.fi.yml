@@ -1,0 +1,14 @@
+page_title: Tilaa
+page_icon: 'ph:bold/credit-card'
+intro: 'Tilauksessa on kaksi tarjousta. Ilmainen on tili eikä muuta; Pro lisää maksun, joka on vahvistettu pankin toimesta, jota demo esittää.'
+start: 'Kolme vaihetta Ilmaiselle, viisi Pro:lle. Jokainen on omalla sivullaan, ja jokainen kertoo alla mitä moottori juuri teki.'
+roads:
+  description: 'Tilivaihe lukee tarjouksen, jonka kohdistin kantaa, päättääkseen mitä seuraavaksi tapahtuu: maksu Pro:lle, ei mitään Ilmaiselle. Kaksi tietä eivät ole samaa pituutta.'
+  free: Ilmainen
+  paid: Pro
+steps:
+  offer: 'Tiedot erkanevat tässä, eikä samaan muotoon: kunnes tarjous on valittu, vaihe näyttää aukon, jossa ne eroavat.'
+  account: 'Sama lomake molemmilla teillä. Sen kohdistin kantaa tarjouksen, ja vaihe lukee sen päättääkseen mitä seuraavaksi tapahtuu.'
+  payment: 'Vain Pro-tiellä. Kun se on näkyvissä, istunto vanhenee 15 minuutissa, kuin varattu paikka; kun se on maksettu, mitään ennen sitä ei voida enää saavuttaa, eikä sitä koskaan tarjota kahdesti.'
+  waiting: 'Istunto odottaa pankissa. Demossa oleva nappi soittaa sen webhookia, joka jatkaa istuntoa TunnelResumeService:n kautta.'
+  welcome: 'Molemmat tiet päättyvät täällä, jokainen omalla kohdistimellaan, ja istunto suljetaan.'

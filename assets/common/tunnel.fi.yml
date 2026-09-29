@@ -1,0 +1,12 @@
+button:
+  pay: 'Maksa 9 €'
+behind:
+  title: 'Tämän vaiheen takana'
+  step: Vaihe
+  cursor: Kohdistin
+  completion: Valmistuminen
+  complete: valmis
+  incomplete: 'ei vielä valmis'
+  session: Istunto
+  expires: Vanhenee
+  never: 'ei koskaan, istunto on suljettu'

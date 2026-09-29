@@ -1,0 +1,7 @@
+open:
+  modal: 'In einem Modal öffnen'
+  panel: 'In einem Panel öffnen'
+start:
+  title: 'Durch den Tunnel gehen'
+roads:
+  title: 'Die Straßen'

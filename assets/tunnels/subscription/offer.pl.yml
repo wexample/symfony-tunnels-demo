@@ -1,0 +1,11 @@
+page_title: Subskrypcja
+title: 'Wybierz swoją ofertę'
+lead: 'Dwie oferty i różna droga dla każdej: Pro przechodzi przez płatność, a darmowa nigdy jej nie widzi.'
+offer:
+  free:
+    title: Darmowa
+    description: 'Konto, nic do zapłacenia. Dwa kroki i jesteś w środku.'
+  paid:
+    title: Pro
+    description: 'Konto i płatność, potwierdzona przez bank zanim wejdziesz.'
+behind: 'Punkt wejścia. Każda karta prowadzi do kursora kroku konta, który niesie ofertę jako opcję, a krok konta odczytuje tę opcję, aby wybrać, co dalej: płatność za Pro, nic za Darmową. Dwie gałęzie nie mają tej samej formy, dlatego wskaźnik pokazuje lukę po kroku konta: dopóki nie wybierzesz, nikt nie może powiedzieć, ile kroków pozostało.'

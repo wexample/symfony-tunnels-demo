@@ -1,0 +1,4 @@
+page_title: Subskrypcja
+title: Płatność
+lead: 'Pro, 9 € miesięcznie. Nic do wypełnienia: naciśnięcie płatności oznacza wprowadzenie karty.'
+behind: 'Krok tylko dla subskrypcji Pro. Gdy jest wyświetlany, sesja wygasa po 15 minutach zamiast po dniu, tak jak zarezerwowane miejsce: patrz na datę wygaśnięcia poniżej. Płatność zapisuje odniesienie, które bank odeśle, ustawia sesję na pending_async_action i przechodzi dalej. Od tego momentu ten krok zabrania dostępu do czegokolwiek wcześniej i nie jest już oferowany.'

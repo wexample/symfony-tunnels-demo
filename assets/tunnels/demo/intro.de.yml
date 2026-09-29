@@ -1,0 +1,9 @@
+page_title: Demo-Tunnel
+title: Willkommen
+lead: "Ein kurzer Tunnel, um zu zeigen, wie man liest: Wählen Sie einen Plan, geben Sie einen Namen ein, und das war's. Der gewählte Plan entscheidet über den nächsten Schritt."
+plan:
+  free:
+    description: 'Alles, um zu starten, nichts zu bezahlen.'
+  paid:
+    description: 'Das Ganze, mit Platz zum Wachsen.'
+behind: 'Der Einstiegspunkt des Tunnels. Das Öffnen hat eine Sitzung in der Datenbank erstellt, die die Browsersitzung nur durch ihre ID kennt. Dieser Schritt ist abgeschlossen, sobald er angezeigt wird, standardmäßig. Die beiden Karten führen zu zwei Cursorn des gleichen nächsten Schrittes, die sich durch die Planoption unterscheiden: Der Baum teilt sich hier, daher gibt es keinen nächsten Button, und der Stepper bezeichnet Schritt 2 nach dem Schritt und nicht nach einem Plan.'

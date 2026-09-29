@@ -1,0 +1,9 @@
+page_title: 'Demo tunnel'
+title: Suunnitelmasi
+lead:
+  free: 'Ilmainen suunnitelma: kaikki, mitä tarvitset aloittaaksesi, ei maksuja.'
+  paid: 'Maksettu suunnitelma: kaikki mukana, tilaa kasvaa.'
+note:
+  title: 'Kaksi haaraa, yksi suunta'
+  body: 'Tämä vaihe esiintyy kerran per suunnitelma. Edellinen vie sinut takaisin valintaan; seuraava jatkaa samaan lomakkeeseen riippumatta siitä, minkä suunnitelman valitsit.'
+behind: 'Yksi kahdesta osoittimesta suunnitelman vaiheessa, se, joka sisältää suunnitelman %plan%. Jokaisella osoittimella on oma hash, joten mitä yksi tallentaa, ei koskaan näy toiselta. Jokainen tämän jälkeen oleva vaihe esiintyy myös kahdesti, yksi kopio kunkin osoittimen alla: haarat näyttävät kohtaavan uudelleen, mutta lomake ja sulkemissivu, johon pääset, ovat sinun suunnitelmasi.'

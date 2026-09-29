@@ -1,0 +1,30 @@
+page_title: Tunel
+page_icon: 'ph:bold/path'
+intro: 'Tunel to podróż podzielona na etapy — rejestracja, zakupy, odnowienie — której droga może się zmieniać w zależności od odpowiedzi odwiedzającego. Pakiet pamięta, na którym etapie znajduje się każdy odwiedzający, pozwala im przechodzić przez widoczne etapy i odsyła ich tam, gdzie powinni być, gdy próbują przejść do przodu.'
+card:
+  plan:
+    title: 'Wybierz plan'
+    description: 'Pierwszy tunel: dwa rozgałęzienia, formularz i sesja zakończona na końcu.'
+  subscription:
+    title: Subskrybuj
+    description: 'Płatność tylko na jednej gałęzi, sesja trwa 15 minut, czekanie na bank.'
+tree:
+  title: 'Drzewo kursorów'
+  body: 'Tunel jest zbudowany jak drzewo, a nie lista. Krok osiągnięty z dwóch miejsc to dwa kursory, każdy z własnym hashem i przechowywanymi wartościami: to pozwala gałęzi rozwijać kroki, których inna nie ma, a droga, którą przyszedłeś, pokazana na końcu każdego tunelu, jest odczytywana z tego.'
+session:
+  title: 'Sesja w bazie danych'
+  body: 'Otwarcie tunelu tworzy sesję, którą sesja przeglądarki zna tylko po jej identyfikatorze. Przechowuje wartości, które zapisują kroki, i wygasa dzień po ostatnim pokazanym kroku — lub wcześniej, gdy ten krok o to prosi. Wygasłe sesje są usuwane przez harmonogram, co 15 minut; ukończone i oczekujące są zachowywane.'
+access:
+  title: 'Gdzie może pójść odwiedzający'
+  body: 'Każdy krok decyduje, czy może być pokazany i dokąd inaczej wysłać odwiedzającego. Linki i przyciski są rysowane według tych samych zasad, więc link nigdy nie prowadzi do przekierowania z powrotem: brak przycisku „następny”, gdzie droga się rozdziela, brak powrotu po płatności, nic do czego można wrócić w zamkniętej sesji.'
+look:
+  title: 'Na co patrzeć podczas spaceru'
+  stepper:
+    title: Krokomierz
+    body: 'Gdzie stoisz, co jest za tobą, co jest przed tobą. Luka oznacza miejsce, w którym droga zależy od wyboru, który jeszcze nie został dokonany.'
+  behind:
+    title: 'Za tym krokiem'
+    body: 'Pod każdym krokiem, co silnik właśnie zrobił i jego stan: kursor, jak krok się kończy, sesja i kiedy wygasa.'
+  toolbar:
+    title: 'Pasek narzędzi dewelopera i powłoka'
+    body: 'Zakładka Tunnels w pasku narzędzi dewelopera rysuje sesję tej przeglądarki na mapie jej tunelu; bin/console tunnels:info robi to samo z poziomu powłoki.'

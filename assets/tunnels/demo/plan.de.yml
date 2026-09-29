@@ -1,0 +1,9 @@
+page_title: Demo-Tunnel
+title: 'Ihr Plan'
+lead:
+  free: 'Der kostenlose Plan: alles, um zu starten, nichts zu zahlen.'
+  paid: 'Der kostenpflichtige Plan: alles, mit Spielraum zum Wachsen.'
+note:
+  title: 'Zwei Äste, ein Weg'
+  body: 'Dieser Schritt existiert einmal pro Plan. Vorher bringt Sie zurück zur Wahl; weiter geht es mit demselben Formular, egal welchen Plan Sie gewählt haben.'
+behind: 'Einer der beiden Zeiger des Plan-Schrittes, der den Plan %plan% trägt. Jeder Zeiger hat seinen eigenen Hash, sodass das, was einer speichert, vom anderen nie gesehen wird. Jeder Schritt nach diesem existiert ebenfalls zweimal, eine Kopie unter jedem Zeiger: die Äste sehen aus, als würden sie sich wieder treffen, aber das Formular und die Abschlussseite, die Sie erreichen, sind die Ihres Plans.'

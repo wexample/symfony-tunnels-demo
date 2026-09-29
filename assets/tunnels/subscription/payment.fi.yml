@@ -1,0 +1,4 @@
+page_title: 'Tilauksen hallinta'
+title: Maksu
+lead: 'Pro, 9 € kuukaudessa. Ei täytettävää: maksamista painamalla syötät kortin tiedot.'
+behind: 'Vain Pro-tasolla. Kun tämä vaihe on näkyvissä, istunto vanhenee 15 minuutissa sen sijaan, että se vanhenisi päivässä, kuten varattu paikka: katso vanhenemisaika alla. Maksaminen tallentaa viitteen, jonka pankki palauttaa, asettaa istunnon tilaan pending_async_action ja siirtyy eteenpäin. Tämän jälkeen tämä vaihe estää pääsyn mihin tahansa aikaisempaan, eikä sitä tarjota enää uudelleen.'

@@ -1,0 +1,30 @@
+page_title: Tunnelit
+page_icon: 'ph:bold/path'
+intro: 'Tunnelit ovat matka, joka on jaettu vaiheisiin — rekisteröityminen, maksaminen, uusiminen — jonka reitti voi muuttua sen mukaan, mitä kävijä vastaa. Paketti muistaa, missä jokainen kävijä on, päästää heidät niihin vaiheisiin, joita he voivat nähdä, ja palauttaa heidät takaisin oikeaan paikkaansa, kun he yrittävät hypätä eteenpäin.'
+card:
+  plan:
+    title: 'Valitse suunnitelma'
+    description: 'Ensimmäinen tunneli: kaksi haaraa, lomake ja istunto sulkeutuu lopussa.'
+  subscription:
+    title: Tilaa
+    description: 'Maksu vain yhdestä haarasta, istunto kestää 15 minuuttia, odotus pankissa.'
+tree:
+  title: 'Kursoreiden puu'
+  body: 'Tunneli rakennetaan puuna, ei luettelona. Vaihe, johon pääsee kahdesta paikasta, on kaksi kursoria, jokaisella omat hashit ja tallennetut arvot: tämä mahdollistaa haaran kasvavan vaiheita, joita toisella ei ole, ja se, miten tulit, näkyy jokaisen tunnelin lopussa.'
+session:
+  title: 'Istunto tietokannassa'
+  body: 'Tunnelin avaaminen luo istunnon, jonka selainistunto tuntee vain sen id:n kautta. Se pitää sisällään vaihteiden tallentamat arvot ja vanhenee päivän kuluttua viimeisestä näytetystä vaiheesta — tai aikaisemmin, kun kyseinen vaihe sitä pyytää. Vanhentuneet istunnot poistetaan aikatauluttajalta 15 minuutin välein; suoritettuja ja odottavia säilytetään.'
+access:
+  title: 'Missä kävijä voi mennä'
+  body: 'Jokainen vaihe päättää, voidaanko se näyttää ja minne kävijä lähetetään, jos ei voida. Linkit ja painikkeet piirtävät samoilla säännöillä, joten linkki ei koskaan johda uudelleenohjaukseen: ei seuraavaa painiketta, kun tie jakautuu, ei paluuta maksun ohi, ei mitään palattavaa suljetussa istunnossa.'
+look:
+  title: 'Mitä katsoa kävellessä'
+  stepper:
+    title: Vaiheittaja
+    body: 'Missä seisot, mitä on takana, mitä on edessä. Aukko merkitsee kohtaa, jossa tie riippuu vielä tekemättömästä valinnasta.'
+  behind:
+    title: 'Tämän vaiheen takana'
+    body: 'Jokaisen vaiheen alla, mitä moottori juuri teki, ja sen tila: kursori, miten vaihe täydentyy, istunto ja milloin se vanhenee.'
+  toolbar:
+    title: 'Kehitystyökalupalkki ja shell'
+    body: 'Kehitystyökalupalkin Tunnelit-välilehti piirtää tämän selaimen istunnon tunnelikartalle; bin/console tunnels:info tekee saman shellistä.'

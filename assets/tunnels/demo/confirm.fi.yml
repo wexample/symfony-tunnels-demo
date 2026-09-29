@@ -1,0 +1,4 @@
+page_title: 'Demo tunneli'
+title: Nimesi
+lead: 'Viimeinen asia, jota tarvitsemme.'
+behind: 'Lomakevaihe. Sen näyttäminen ei riitä: se tapahtuu vain, kun lomake on voimassa, ja sen jälkeiset vaiheet pysyvät saavuttamattomina siihen asti. Nimi tallennetaan tälle kursorille. Palaa tähän vaiheeseen ja se on edelleen siellä; palaa vaiheeseen ennen tätä ja se on poistettu, koska paluu poistaa sen, mitä edelliset vaiheet olivat tallentaneet, joten uudelleen kuljettu haara alkaa puhtaalta pöydältä.'

@@ -1,0 +1,7 @@
+open:
+  modal: '모달에서 열기'
+  panel: '패널에서 열기'
+start:
+  title: '터널을 걷다'
+roads:
+  title: '그의 도로들'

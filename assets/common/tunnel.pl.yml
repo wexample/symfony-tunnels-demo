@@ -1,0 +1,12 @@
+button:
+  pay: 'Zapłać 9 €'
+behind:
+  title: 'Za tym krokiem'
+  step: Krok
+  cursor: Kursor
+  completion: Zakończenie
+  complete: zrobione
+  incomplete: 'jeszcze nie zrobione'
+  session: Sesja
+  expires: Wygasa
+  never: 'nigdy, sesja jest już zamknięta'

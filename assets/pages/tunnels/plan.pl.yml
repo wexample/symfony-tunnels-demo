@@ -1,0 +1,13 @@
+page_title: 'Wybierz plan'
+page_icon: 'ph:bold/signpost'
+intro: 'Pierwszy tunel, na tyle mały, żeby można go było przeczytać w całości: powitanie, plan do wyboru, nazwa do nadania, i to wszystko.'
+start: 'Cztery kroki. Każdy z nich przechodzi na swoją własną stronę, a każdy mówi poniżej, co silnik właśnie wykonał.'
+roads:
+  description: 'Krok planu osiągany jest dwukrotnie, raz na plan, i tak samo wszystko po nim: dwa wskaźniki tego samego kroku, każdy zachowuje swoje własne wartości.'
+  free: 'Darmowy plan'
+  paid: 'Płatny plan'
+steps:
+  intro: 'Drzewo dzieli się tutaj: dwie karty, jedna na plan, i brak przycisku następnego. Dopóki plan nie zostanie wybrany, krokowy nazywa krok 2 po kroku, a nie po planie.'
+  plan: 'Dwa wskaźniki tego samego kroku, odróżniane przez plan, który noszą, każdy zachowuje swoje własne zapisane wartości.'
+  confirm: 'Krok formularza, wykonywany tylko wtedy, gdy formularz jest ważny; przycisk następny w tunelu go przesyła. Wróć, a nazwa nadal tam jest; wróć przed nim, a zostanie skasowana, więc odnawiane przejście zaczyna się czysto.'
+  done: 'Zamyka sesję: nic przed nim nie jest już powiązane, a ponowne otwarcie tunelu zaczyna nową.'

@@ -1,0 +1,9 @@
+page_title: 'Tunel demonstracyjny'
+title: 'Twój plan'
+lead:
+  free: 'Plan darmowy: wszystko, co potrzebne do rozpoczęcia, nic do zapłacenia.'
+  paid: 'Plan płatny: wszystko, z możliwością rozwoju.'
+note:
+  title: 'Dwie gałęzie, jedna droga'
+  body: 'Ten krok występuje raz na plan. Poprzedni przenosi cię z powrotem do wyboru; następny prowadzi do tego samego formularza, niezależnie od wybranego planu.'
+behind: 'Jeden z dwóch kursorów kroku planu, ten przenoszący plan %plan%. Każdy kursor ma swój własny hash, więc to, co jeden przechowuje, nie jest widoczne dla drugiego. Każdy krok po tym również istnieje w dwóch wersjach, jedna kopia poniżej każdego kursora: gałęzie wyglądają, jakby się znowu spotykały, ale formularz i strona końcowa, do której trafisz, są zgodne z twoim planem.'

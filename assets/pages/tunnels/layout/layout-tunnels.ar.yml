@@ -1,0 +1,7 @@
+open:
+  modal: 'افتح في نافذة منبثقة'
+  panel: 'افتح في لوحة'
+start:
+  title: 'سير في النفق'
+roads:
+  title: طرقها

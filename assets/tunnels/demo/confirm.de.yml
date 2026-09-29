@@ -1,0 +1,4 @@
+page_title: Demonstrationstunnel
+title: 'Ihr Name'
+lead: 'Das Letzte, was wir brauchen.'
+behind: 'Ein Formularschritt. Es reicht nicht aus, ihn anzuzeigen: Er wird nur angezeigt, wenn das Formular gültig ist, und die Schritte danach bleiben bis dahin unerreichbar. Der Name wird an diesem Cursor gespeichert. Kehren Sie zu diesem Schritt zurück, und er ist noch da; gehen Sie zu einem Schritt davor zurück, und er wird gelöscht, da das Zurückgehen das, was die nachfolgenden Schritte gespeichert hatten, verwirft, sodass ein erneut beschrittener Zweig sauber beginnt.'

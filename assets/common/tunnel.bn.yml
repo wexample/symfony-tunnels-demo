@@ -1,0 +1,12 @@
+button:
+  pay: '€9 প্রদান করুন'
+behind:
+  title: 'এই পদক্ষেপের পিছনে'
+  step: পদক্ষেপ
+  cursor: কাসর
+  completion: সম্পূর্ণতা
+  complete: সম্পন্ন
+  incomplete: 'এখনো সম্পন্ন হয়নি'
+  session: সেশন
+  expires: 'মেয়াদ শেষ হচ্ছে'
+  never: 'কখনোই নয়, সেশনটি আর খোলা নেই'
