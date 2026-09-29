@@ -1,0 +1,9 @@
+page_title: 'Tunnel de démonstration'
+title: Bienvenue
+lead: "Un court tunnel pour montrer comment on lit : choisissez un plan, donnez un nom, et c'est fait. Le plan que vous choisissez détermine l'étape qui suit."
+plan:
+  free:
+    description: 'Tout pour commencer, rien à payer.'
+  paid:
+    description: 'Tout le nécessaire, avec de la place pour grandir.'
+behind: "Le point d'entrée du tunnel. L'ouvrir a créé une session dans la base de données, que la session du navigateur ne connaît que par son identifiant. Cette étape est faite dès qu'elle est affichée, par défaut. Les deux cartes mènent à deux curseurs de la même étape suivante, distingués par leur option de plan : l'arbre se divise ici, donc il n'y a pas de bouton suivant, et le sélecteur nomme l'étape 2 après l'étape plutôt qu'après un plan."

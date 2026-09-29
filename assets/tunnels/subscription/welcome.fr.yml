@@ -1,0 +1,8 @@
+page_title: Abonnement
+title: Bienvenue
+lead:
+  free: 'Votre compte gratuit est prêt.'
+  paid: 'Paiement confirmé, votre compte Pro est prêt.'
+path:
+  title: 'Le chemin que vous avez pris'
+behind: "Les deux branches se terminent ici, chacune par un curseur qui lui est propre, et l'affichage de celui-ci met fin à la session. Le chemin en dessous est deux étapes plus long sur la branche Pro : l'arbre a poussé une branche là où l'offre le demandait."

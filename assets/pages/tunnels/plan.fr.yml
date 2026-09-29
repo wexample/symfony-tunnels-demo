@@ -1,0 +1,13 @@
+page_title: 'Choisissez un plan'
+page_icon: 'ph:bold/signpost'
+intro: "Le premier tunnel, assez petit pour être lu dans son ensemble : un accueil, un plan à choisir, un nom à donner, et c'est fait."
+start: 'Quatre étapes. Parcourues sur une page à part, chacune dit ci-dessous ce que le moteur vient de faire.'
+roads:
+  description: "L'étape du plan est atteinte deux fois, une par plan, et tout ce qui suit : deux curseurs de la même étape, chacun gardant ses propres valeurs."
+  free: 'Plan gratuit'
+  paid: 'Plan payant'
+steps:
+  intro: "Les parties de l'arbre ici : deux cartes, une par plan, et pas de bouton suivant. Jusqu'à ce qu'un plan soit choisi, le sélecteur nomme l'étape 2 après l'étape, pas après un plan."
+  plan: "Deux curseurs de la même étape, différenciés par le plan qu'ils portent, chacun gardant ses propres valeurs stockées."
+  confirm: 'Une étape de formulaire, faite seulement une fois que le formulaire est valide ; le bouton suivant du tunnel le soumet. Revenez et le nom est toujours là ; revenez avant et il est effacé, donc une branche parcourue à nouveau commence propre.'
+  done: "Clôture la session : rien avant n'est plus lié, et ouvrir à nouveau le tunnel commence une nouvelle."

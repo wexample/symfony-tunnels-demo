@@ -1,0 +1,30 @@
+page_title: Tunnels
+page_icon: 'ph:bold/path'
+intro: "Un tunnel est un parcours découpé en étapes — une inscription, un paiement, un renouvellement — dont le chemin peut changer en fonction des réponses du visiteur. Le package se souvient de l'état de chaque visiteur, les guide à travers les étapes qu'ils peuvent voir, et les renvoie là où ils appartiennent lorsqu'ils essaient de passer outre."
+card:
+  plan:
+    title: 'Choisissez un plan'
+    description: 'Le premier tunnel : deux branches, un formulaire, et une session fermée à la fin.'
+  subscription:
+    title: "S'abonner"
+    description: 'Un paiement sur une seule branche, une session tenue pendant 15 minutes, une attente à la banque.'
+tree:
+  title: 'Un arbre de curseurs'
+  body: "Un tunnel est construit comme un arbre, pas une liste. Une étape atteinte depuis deux endroits est deux curseurs, chacun avec son propre hash et ses propres valeurs stockées : c'est ce qui permet à une branche de développer des étapes que l'autre n'a pas, et ce par quoi le chemin que vous avez pris, montré à la fin de chaque tunnel, est lu."
+session:
+  title: 'Une session dans la base de données'
+  body: 'Ouvrir un tunnel crée une session, que la session du navigateur ne connaît que par son id. Elle contient les valeurs que les étapes stockent, et expire un jour après la dernière étape affichée — ou plus tôt, lorsque cette étape le demande. Les sessions expirées sont supprimées par le planificateur, toutes les 15 minutes ; celles terminées et en attente sont conservées.'
+access:
+  title: 'Où le visiteur peut aller'
+  body: 'Chaque étape décide si elle peut être affichée et où envoyer le visiteur autrement. Les liens et les boutons sont dessinés selon les mêmes règles, donc un lien ne mène jamais à un retour : pas de bouton suivant là où le chemin se divise, pas de retour passé un paiement, rien à quoi revenir dans une session fermée.'
+look:
+  title: 'Que regarder en marchant'
+  stepper:
+    title: "Le sélecteur d'étapes"
+    body: "Où vous vous trouvez, ce qu'il y a derrière, ce qu'il y a devant. Un écart marque où le chemin dépend d'un choix encore non fait."
+  behind:
+    title: 'Derrière cette étape'
+    body: "Sous chaque étape, ce que le moteur vient de faire, et son état : le curseur, comment l'étape se complète, la session et quand elle expire."
+  toolbar:
+    title: "La barre d'outils de développement et le shell"
+    body: "L'onglet Tunnels de la barre d'outils de développement dessine la session de ce navigateur sur la carte de son tunnel ; bin/console tunnels:info fait la même chose depuis un shell."

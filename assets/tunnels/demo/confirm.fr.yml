@@ -1,0 +1,4 @@
+page_title: 'Démo tunnel'
+title: 'Votre nom'
+lead: 'La dernière chose dont nous avons besoin.'
+behind: "Une étape du formulaire. L'afficher ne suffit pas : il n'est effectué que lorsque le formulaire est valide, et les étapes suivantes restent hors de portée jusqu'à ce moment. Le nom est stocké sur ce curseur. Revenez à cette étape et il est toujours là ; revenez à une étape précédente et il est effacé, car revenir en arrière supprime ce que les étapes suivantes avaient stocké, donc un chemin parcouru à nouveau commence propre."

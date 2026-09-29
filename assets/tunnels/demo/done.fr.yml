@@ -1,0 +1,9 @@
+page_title: 'Tunnel de démonstration'
+title: 'Tout est prêt'
+lead: "Le tunnel est parcouru jusqu'à son extrémité."
+message:
+  title: 'Merci, %name%.'
+  body: "La session est terminée ; rien de plus n'est demandé."
+path:
+  title: 'Le chemin que vous avez emprunté'
+behind: "L'étape de clôture lit le nom du curseur précédent et liste le chemin ici : dans un arbre, le chemin vers un curseur est unique, c'est la ligne de ses ancêtres, chaque étape indiquant ce qui a été fait grâce à buildSummary(). L'affichage de cela clôt la session : son statut passe à terminé et elle n'expire plus. Rien avant n'est plus lié, car atteindre une étape d'une session fermée en commence une nouvelle : c'est ce que fait l'ouverture à nouveau du tunnel."

@@ -1,0 +1,8 @@
+page_title: Abonnement
+title: 'En attente de la banque'
+lead: 'Le paiement %reference% est envoyé. La banque le confirme en temps voulu.'
+note:
+  title: 'Vous pouvez quitter cette page'
+  body: 'Votre paiement est conservé quoi que vous fassiez : revenez plus tard, et vous serez autorisé à entrer une fois que la banque aura répondu.'
+behind: "La session est pending_async_action : personne dans le tunnel ne peut compléter cette étape, seule la banque le peut. Une véritable application reçoit sa réponse sur un webhook et transmet la référence à TunnelResumeService, qui reconstruit le tunnel de la session en attente et complète cette étape ; montré à nouveau, l'étape fait avancer le visiteur d'elle-même. Le bouton ci-dessous joue le rôle de la banque. Les sessions en attente n'expirent jamais, et rien avant le paiement n'est plus lié."
+simulate: 'Jouer le rôle de la banque : confirmer le paiement'
