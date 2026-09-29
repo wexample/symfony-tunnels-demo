@@ -1,0 +1,9 @@
+page_title: 'Demo túnel'
+title: 'Tu plan'
+lead:
+  free: 'El plan gratuito: todo para empezar, nada que pagar.'
+  paid: 'El plan de pago: todo, con espacio para crecer.'
+note:
+  title: 'Dos ramas, un camino'
+  body: 'Este paso existe una vez por plan. Anterior te lleva de vuelta a la elección; siguiente continúa hacia el mismo formulario, elijas el plan que elijas.'
+behind: 'Uno de los dos cursores del paso del plan, el que lleva el plan %plan%. Cada cursor tiene su propio hash, por lo que lo que uno almacena nunca es visto por el otro. Cada paso después de este también existe en dos copias, una debajo de cada cursor: las ramas parecen encontrarse de nuevo, pero el formulario y la página de cierre que alcanzas son los de tu plan.'

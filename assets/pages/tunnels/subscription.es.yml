@@ -1,0 +1,14 @@
+page_title: Suscribirse
+page_icon: 'ph:bold/tarjeta-de-crédito'
+intro: 'Una suscripción con dos ofertas. La gratuita es una cuenta y nada más; la Pro añade un pago, confirmado por un banco que reproduce la demostración.'
+start: 'Tres pasos para la gratuita, cinco para la Pro. Cada uno en su propia página, cada uno dice a continuación lo que el motor acaba de hacer.'
+roads:
+  description: 'El paso de la cuenta lee la oferta que su cursor lleva para decidir lo que sigue: un pago para la Pro, nada para la gratuita. Las dos rutas no tienen la misma longitud.'
+  free: Gratuita
+  paid: Pro
+steps:
+  offer: 'Las rutas se separan aquí, y no en la misma forma: hasta que se elija una oferta, el paso muestra un vacío donde difieren.'
+  account: 'El mismo formulario en ambas rutas. Su cursor lleva la oferta, y el paso la lee para decidir lo que sigue.'
+  payment: 'Solo en la ruta Pro. Mientras se muestra, la sesión expira en 15 minutos, como un asiento reservado; una vez pagado, nada antes de eso puede ser alcanzado de nuevo, y nunca se ofrece dos veces.'
+  waiting: 'La sesión espera en el banco. Un botón de la demostración reproduce su webhook, que reanuda la sesión a través de TunnelResumeService.'
+  welcome: 'Ambas rutas terminan aquí, cada una a través de un cursor propio, y la sesión se cierra.'

@@ -1,0 +1,4 @@
+page_title: Suscripción
+title: Pago
+lead: 'Pro, 9 € al mes. Nada que completar: pulsar pagar equivale a introducir una tarjeta.'
+behind: 'Un paso solo de la rama Pro. Mientras se muestra, la sesión expira en 15 minutos en lugar de un día, como lo haría un asiento reservado: mira la expiración abajo. Pagar almacena una referencia que el banco enviará de vuelta, establece la sesión en pending_async_action y continúa. A partir de entonces, este paso prohíbe acceder a cualquier cosa antes y nunca se ofrece de nuevo.'

@@ -1,0 +1,30 @@
+page_title: Túneles
+page_icon: 'ph:bold/path'
+intro: 'Un túnel es un viaje dividido en pasos — un registro, un pago, una renovación — cuyo camino puede cambiar según lo que responda el visitante. El paquete recuerda en qué punto se encuentra cada visitante, les permite avanzar por los pasos que pueden ver y les envía de vuelta a donde pertenecen cuando intentan adelantar.'
+card:
+  plan:
+    title: 'Elige un plan'
+    description: 'El primer túnel: dos ramas, un formulario y una sesión cerrada al final.'
+  subscription:
+    title: Suscribirse
+    description: 'Un pago en una sola rama, una sesión mantenida 15 minutos, una espera en el banco.'
+tree:
+  title: 'Un árbol de cursores'
+  body: 'Un túnel se construye como un árbol, no como una lista. Un paso alcanzado desde dos lugares es dos cursores, cada uno con su propio hash y sus propios valores almacenados: eso es lo que permite que una rama crezca pasos que otra no tiene, y de lo que se lee el camino que tomaste, mostrado al final de cada túnel.'
+session:
+  title: 'Una sesión en la base de datos'
+  body: 'Abrir un túnel crea una sesión, que la sesión del navegador solo conoce por su id. Mantiene los valores que almacenan los pasos y expira un día después del último paso mostrado — o antes, cuando ese paso lo solicita. Las sesiones expiradas son eliminadas por el programador, cada 15 minutos; se mantienen las completadas y pendientes.'
+access:
+  title: 'A dónde puede ir el visitante'
+  body: 'Cada paso decide si puede mostrarse y a dónde enviar al visitante en caso contrario. Los enlaces y botones se dibujan con las mismas reglas, por lo que un enlace nunca lleva a una redirección de vuelta: no hay botón de siguiente donde el camino se divide, no hay forma de volver después de un pago, nada a lo que regresar en una sesión cerrada.'
+look:
+  title: 'Qué mirar mientras caminas'
+  stepper:
+    title: 'El selector de pasos'
+    body: 'Dónde te encuentras, qué hay detrás, qué hay adelante. Un hueco marca dónde el camino depende de una elección que aún no se ha tomado.'
+  behind:
+    title: 'Detrás de este paso'
+    body: 'Bajo cada paso, lo que el motor acaba de hacer y su estado: el cursor, cómo se completa el paso, la sesión y cuándo expira.'
+  toolbar:
+    title: 'La barra de herramientas de desarrollo y el shell'
+    body: 'La pestaña Túneles de la barra de herramientas de desarrollo dibuja la sesión de este navegador en el mapa de su túnel; bin/console tunnels:info hace lo mismo desde un shell.'

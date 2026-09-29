@@ -1,0 +1,9 @@
+page_title: 'Demo túnel'
+title: 'Todo listo'
+lead: 'El túnel se ha recorrido hasta su final.'
+message:
+  title: 'Gracias, %name%.'
+  body: 'La sesión está completa; no se pide nada más.'
+path:
+  title: 'El camino que tomaste'
+behind: 'El paso de cierre lee el nombre del cursor anterior y lista el camino aquí: en un árbol, el camino hacia un cursor es único, es la línea de sus ancestros, cada paso contando lo que se hizo en él a través de buildSummary(). Mostrarlo cierra la sesión: su estado se convierte en completado y ya no expira. Nada antes de él está vinculado más, ya que alcanzar cualquier paso de una sesión cerrada inicia una nueva: eso es lo que hace abrir el túnel nuevamente.'

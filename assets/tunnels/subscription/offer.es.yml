@@ -1,0 +1,11 @@
+page_title: Suscripción
+title: 'Elige tu oferta'
+lead: 'Dos ofertas, y un camino diferente para cada una: la Pro pasa por un pago que la gratuita nunca ve.'
+offer:
+  free:
+    title: Gratis
+    description: 'Una cuenta, nada que pagar. Dos pasos y estás dentro.'
+  paid:
+    title: Pro
+    description: 'Una cuenta y un pago, confirmado por el banco antes de que entres.'
+behind: 'El punto de entrada. Cada tarjeta lleva a un cursor del paso de la cuenta que lleva la oferta como opción, y el paso de la cuenta lee esa opción para elegir lo que sigue: un pago para Pro, nada para Gratis. Las dos ramas no tienen la misma forma, por eso el paso muestra un hueco después de la cuenta: hasta que elijas, nadie puede decir cuántos pasos quedan.'
