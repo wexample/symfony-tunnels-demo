@@ -1,0 +1,9 @@
+page_title: 'Túnel de demonstração'
+title: Bem-vindo
+lead: 'Um túnel curto para mostrar como funciona: escolha um plano, dê um nome e está feito. O plano que você escolher define o próximo passo.'
+plan:
+  free:
+    description: 'Tudo para começar, nada para pagar.'
+  paid:
+    description: 'Tudo isso, com espaço para crescer.'
+behind: 'O ponto de entrada do túnel. Abrir isso criou uma sessão no banco de dados, que a sessão do navegador conhece apenas pelo seu id. Este passo é concluído assim que é exibido, por padrão. Os dois cartões levam a dois cursores do mesmo próximo passo, diferenciados pela opção de plano: as partes da árvore aqui, então não há botão de próximo, e o stepper nomeia o passo 2 após o passo em vez de após um plano.'

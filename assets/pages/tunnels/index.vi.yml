@@ -1,0 +1,30 @@
+page_title: 'Đường hầm'
+page_icon: 'ph:bold/path'
+intro: 'Một đường hầm là một hành trình được cắt thành các bước — một quá trình đăng ký, thanh toán, gia hạn — con đường có thể thay đổi tùy theo câu trả lời của người dùng. Gói nhớ vị trí của từng người dùng, cho phép họ đi qua các bước mà họ có thể thấy, và gửi họ trở lại nơi họ thuộc về khi họ cố gắng bỏ qua.'
+card:
+  plan:
+    title: 'Chọn kế hoạch'
+    description: 'Đường hầm đầu tiên: hai nhánh, một biểu mẫu, và một phiên kết thúc ở cuối.'
+  subscription:
+    title: 'Đăng ký'
+    description: 'Một khoản thanh toán chỉ trên một nhánh, một phiên kéo dài 15 phút, một thời gian chờ từ ngân hàng.'
+tree:
+  title: 'Một cây con trỏ'
+  body: 'Một đường hầm được xây dựng như một cây, không phải một danh sách. Một bước được tiếp cận từ hai vị trí là hai con trỏ, mỗi cái có hash riêng và các giá trị lưu trữ riêng: đó là điều cho phép một nhánh phát triển các bước mà nhánh khác không có, và con đường bạn đã đi, được hiển thị ở cuối mỗi đường hầm, được đọc từ đó.'
+session:
+  title: 'Một phiên trong cơ sở dữ liệu'
+  body: 'Mở một đường hầm tạo ra một phiên, mà phiên trình duyệt chỉ biết đến bằng id của nó. Nó giữ các giá trị mà các bước lưu trữ, và hết hạn một ngày sau bước cuối cùng được hiển thị — hoặc sớm hơn, khi bước đó yêu cầu. Các phiên hết hạn sẽ bị xóa bởi bộ lập lịch, mỗi 15 phút; những phiên hoàn thành và đang chờ được giữ lại.'
+access:
+  title: 'Nơi mà người dùng có thể đi'
+  body: 'Mỗi bước quyết định xem nó có thể được hiển thị hay không và nơi gửi người dùng đi nếu không. Các liên kết và nút được vẽ theo cùng một quy tắc, vì vậy một liên kết không bao giờ dẫn đến việc chuyển hướng lại: không có nút tiếp theo nơi con đường chia tách, không có cách nào quay lại sau một khoản thanh toán, không có gì để quay lại trong một phiên đã đóng.'
+look:
+  title: 'Những gì cần xem khi đi bộ'
+  stepper:
+    title: 'Bảng điều khiển'
+    body: 'Nơi bạn đứng, những gì ở phía sau, những gì ở phía trước. Một khoảng trống đánh dấu nơi con đường phụ thuộc vào một sự lựa chọn chưa được thực hiện.'
+  behind:
+    title: 'Phía sau bước này'
+    body: 'Dưới mỗi bước, những gì động cơ vừa làm, và trạng thái của nó: con trỏ, cách bước hoàn thành, phiên và khi nào nó hết hạn.'
+  toolbar:
+    title: 'Bảng công cụ phát triển và shell'
+    body: 'Tab Đường hầm của bảng công cụ phát triển vẽ phiên của trình duyệt này trên bản đồ của đường hầm của nó; bin/console tunnels:info làm điều tương tự từ một shell.'

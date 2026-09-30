@@ -1,0 +1,9 @@
+page_title: 'Terowongan Demo'
+title: 'Selamat Datang'
+lead: 'Sebuah terowongan singkat untuk menunjukkan bagaimana cara membacanya: pilih rencana, beri nama, dan selesai. Rencana yang Anda pilih menentukan langkah yang berikutnya.'
+plan:
+  free:
+    description: 'Segalanya untuk memulai, tanpa biaya.'
+  paid:
+    description: 'Semua fitur, dengan ruang untuk berkembang.'
+behind: 'Titik masuk terowongan. Membukanya menciptakan sesi di database, yang hanya diketahui sesi browser dengan id-nya. Langkah ini selesai segera setelah ditampilkan, secara default. Dua kartu mengarah ke dua kursor dari langkah berikutnya yang sama, dibedakan oleh opsi rencananya: bagian pohon di sini, jadi tidak ada tombol berikutnya, dan nama stepper adalah langkah 2 setelah langkah tersebut, bukan setelah rencana.'

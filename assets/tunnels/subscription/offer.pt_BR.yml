@@ -1,0 +1,11 @@
+page_title: Assinatura
+title: 'Escolha sua oferta'
+lead: 'Duas ofertas, e um caminho diferente para cada uma: a Pro passa por um pagamento que a gratuita nunca vê.'
+offer:
+  free:
+    title: Gratuita
+    description: 'Uma conta, nada a pagar. Dois passos e você está dentro.'
+  paid:
+    title: Pro
+    description: 'Uma conta e um pagamento, confirmado pelo banco antes de você entrar.'
+behind: 'O ponto de entrada. Cada cartão leva a um cursor da etapa da conta que carrega a oferta como uma opção, e a etapa da conta lê essa opção para escolher o que vem a seguir: um pagamento para Pro, nada para Gratuita. Os dois caminhos não têm o mesmo formato, por isso o passo a passo mostra uma lacuna após a conta: até você escolher, ninguém pode dizer quantos passos faltam.'

@@ -1,0 +1,4 @@
+page_title: Langganan
+title: Pembayaran
+lead: 'Pro, €9 per bulan. Tidak perlu diisi: menekan bayar berarti memasukkan kartu.'
+behind: 'Langkah dari cabang Pro saja. Saat ini ditampilkan, sesi akan kedaluwarsa dalam 15 menit alih-alih sehari, seperti kursi yang dipegang: lihat kedaluwarsa di bawah. Pembayaran menyimpan referensi yang akan dikirim kembali oleh bank, mengatur sesi ke pending_async_action dan melanjutkan. Sejak saat itu, langkah ini melarang mengakses apa pun sebelum itu, dan tidak akan ditawarkan lagi.'

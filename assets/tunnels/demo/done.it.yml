@@ -1,0 +1,9 @@
+page_title: 'Tunnel di demo'
+title: 'Tutto pronto'
+lead: 'Il tunnel è percorso fino alla fine.'
+message:
+  title: 'Grazie, %name%.'
+  body: 'La sessione è completata; non è richiesto altro.'
+path:
+  title: 'Il percorso che hai seguito'
+behind: 'Il passo di chiusura legge il nome dal cursore precedente e elenca il percorso qui: in un albero, il percorso verso un cursore è unico, è la linea dei suoi antenati, ogni passo racconta cosa è stato fatto su di esso attraverso buildSummary(). Visualizzarlo chiude la sessione: il suo stato passa a completato e non scade più. Niente prima di esso è più collegato, poiché raggiungere qualsiasi passo di una sessione chiusa avvia una nuova sessione: questo è ciò che fa riaprire il tunnel.'

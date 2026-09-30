@@ -1,0 +1,4 @@
+page_title: Abonnement
+title: Betaling
+lead: 'Pro, €9 per maand. Niets in te vullen: betalen betekent een kaart invoeren.'
+behind: 'Een stap van de Pro-tak alleen. Terwijl dit wordt weergegeven, verloopt de sessie in 15 minuten in plaats van een dag, zoals een gereserveerde plaats: kijk naar de vervaldatum hieronder. Betalen slaat een referentie op die de bank zal terugsturen, stelt de sessie in op pending_async_action en gaat verder. Voortaan verbiedt deze stap toegang tot alles wat ervoor was, en wordt nooit meer aangeboden.'

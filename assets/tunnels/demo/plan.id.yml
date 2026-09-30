@@ -1,0 +1,9 @@
+page_title: 'Demo terowongan'
+title: 'Rencana Anda'
+lead:
+  free: 'Rencana gratis: semua yang Anda butuhkan untuk memulai, tidak ada yang perlu dibayar.'
+  paid: 'Rencana berbayar: semuanya, dengan ruang untuk berkembang.'
+note:
+  title: 'Dua cabang, satu jalan'
+  body: 'Langkah ini ada sekali per rencana. Sebelumnya membawa Anda kembali ke pilihan; selanjutnya melanjutkan ke formulir yang sama terlepas dari rencana yang Anda pilih.'
+behind: 'Salah satu dari dua kursor pada langkah rencana, yang membawa rencana %plan%. Setiap kursor memiliki hash-nya sendiri, jadi apa yang disimpan oleh satu tidak pernah terlihat oleh yang lain. Setiap langkah setelah ini juga ada dua kali, satu salinan di bawah setiap kursor: cabang-cabang terlihat seolah bertemu lagi, tetapi formulir dan halaman penutup yang Anda capai adalah milik rencana Anda.'

@@ -1,0 +1,12 @@
+button:
+  pay: 'Thanh toán €9'
+behind:
+  title: 'Bước tiếp theo'
+  step: Bước
+  cursor: 'Con trỏ'
+  completion: 'Hoàn thành'
+  complete: 'đã hoàn thành'
+  incomplete: 'chưa hoàn thành'
+  session: 'Phiên làm việc'
+  expires: 'Hết hạn'
+  never: 'không bao giờ, phiên làm việc đã không còn mở'

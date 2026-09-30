@@ -1,0 +1,9 @@
+page_title: 'Hầm demo'
+title: 'Kế hoạch của bạn'
+lead:
+  free: 'Kế hoạch miễn phí: mọi thứ để bắt đầu, không phải trả tiền.'
+  paid: 'Kế hoạch trả phí: toàn bộ, với không gian để phát triển.'
+note:
+  title: 'Hai nhánh, một con đường'
+  body: 'Bước này chỉ xuất hiện một lần cho mỗi kế hoạch. Bước trước đưa bạn trở lại lựa chọn; bước tiếp theo dẫn bạn đến cùng một biểu mẫu bất kể kế hoạch nào bạn đã chọn.'
+behind: 'Một trong hai con trỏ của bước kế hoạch, con trỏ mang kế hoạch %plan%. Mỗi con trỏ có mã băm riêng, vì vậy những gì một con trỏ lưu trữ sẽ không bao giờ được nhìn thấy từ con trỏ khác. Mỗi bước sau bước này cũng tồn tại hai lần, một bản sao bên dưới mỗi con trỏ: các nhánh trông như thể chúng gặp lại nhau, nhưng biểu mẫu và trang kết thúc mà bạn đến là của kế hoạch của bạn.'

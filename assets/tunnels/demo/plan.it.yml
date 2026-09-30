@@ -1,0 +1,9 @@
+page_title: 'Tunnel demo'
+title: 'Il tuo piano'
+lead:
+  free: 'Il piano gratuito: tutto per iniziare, niente da pagare.'
+  paid: 'Il piano a pagamento: tutto incluso, con spazio per crescere.'
+note:
+  title: 'Due rami, una sola direzione'
+  body: 'Questo passaggio esiste una sola volta per piano. Il precedente ti riporta alla scelta; il successivo prosegue verso lo stesso modulo qualunque piano tu abbia scelto.'
+behind: "Uno dei due cursori del passaggio piano, quello che porta al piano %plan%. Ogni cursore ha il proprio hash, quindi ciò che uno memorizza non è mai visibile dall'altro. Ogni passaggio dopo questo esiste due volte, una copia sotto ogni cursore: i rami sembrano incontrarsi di nuovo, ma il modulo e la pagina di chiusura che raggiungi sono quelli del tuo piano."

@@ -1,0 +1,14 @@
+page_title: Abonneren
+page_icon: 'ph:bold/credit-card'
+intro: 'Een abonnement met twee aanbiedingen. De gratis versie is een account en verder niets; de Pro versie voegt een betaling toe, bevestigd door een bank die de demo speelt.'
+start: 'Drie stappen voor Gratis, vijf voor Pro. Elk op een eigen pagina, waarbij elke stap hieronder vertelt wat de engine net heeft gedaan.'
+roads:
+  description: 'De accountstap leest de aanbieding die de cursor meedraagt om te beslissen wat volgt: een betaling voor Pro, niets voor Gratis. De twee wegen zijn niet even lang.'
+  free: Gratis
+  paid: Pro
+steps:
+  offer: 'De wegen splitsen hier, en niet in dezelfde vorm: totdat een aanbieding is gekozen, toont de stapper een gat waar ze verschillen.'
+  account: 'Dezelfde vorm op beide wegen. De cursor draagt de aanbieding, en de stap leest deze om te beslissen wat volgt.'
+  payment: 'Alleen op de Pro weg. Terwijl deze wordt getoond, verloopt de sessie in 15 minuten, zoals een gereserveerde plek; eenmaal betaald, kan niets ervoor opnieuw worden bereikt, en het wordt nooit twee keer aangeboden.'
+  waiting: 'De sessie wacht op de bank. Een knop van de demo speelt zijn webhook, die de sessie herstelt via TunnelResumeService.'
+  welcome: 'Beide wegen eindigen hier, elk via een eigen cursor, en de sessie is gesloten.'

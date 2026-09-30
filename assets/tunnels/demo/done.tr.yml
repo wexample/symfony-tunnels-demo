@@ -1,0 +1,9 @@
+page_title: 'Demo tüneli'
+title: 'Her şey hazır'
+lead: 'Tünel sonuna kadar yüründü.'
+message:
+  title: 'Teşekkürler, %name%.'
+  body: 'Oturum tamamlandı; daha fazla bir şey istenmiyor.'
+path:
+  title: 'Geldiğin yol'
+behind: 'Kapatma adımı, önündeki imlecin adını okur ve yolu burada listeler: bir ağaçta, bir imleç için yol benzersizdir, atalarının çizgisidir, her adım, buildSummary() aracılığıyla onun üzerinde ne yapıldığını anlatır. Gösterilmesi oturumu kapatır: durumu tamamlandı olarak değişir ve artık süresi dolmaz. Öncesi ile artık bir bağlantısı yoktur, çünkü kapalı bir oturumun herhangi bir adımına ulaşmak yeni bir oturum başlatır: tüneli tekrar açmanın anlamı budur.'

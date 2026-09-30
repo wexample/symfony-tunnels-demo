@@ -1,0 +1,9 @@
+page_title: 'Hầm thử nghiệm'
+title: 'Chào mừng'
+lead: 'Một hầm ngắn để cho thấy cách một người đọc: chọn một kế hoạch, đặt tên, và xong. Kế hoạch bạn chọn quyết định bước tiếp theo.'
+plan:
+  free:
+    description: 'Mọi thứ để bắt đầu, không mất phí.'
+  paid:
+    description: 'Tất cả mọi thứ, với không gian để phát triển.'
+behind: 'Điểm vào của hầm. Việc mở nó đã tạo ra một phiên trong cơ sở dữ liệu, mà phiên trình duyệt chỉ biết bằng id của nó. Bước này hoàn thành ngay khi nó được hiển thị, mặc định. Hai thẻ dẫn đến hai con trỏ của bước tiếp theo giống nhau, được phân biệt bởi tùy chọn kế hoạch của chúng: cây phân nhánh ở đây, vì vậy không có nút tiếp theo, và bộ điều chỉnh đặt tên bước 2 sau bước thay vì theo một kế hoạch.'

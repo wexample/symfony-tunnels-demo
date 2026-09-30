@@ -1,0 +1,4 @@
+page_title: 'Demo terowongan'
+title: 'Nama Anda'
+lead: 'Hal terakhir yang kami butuhkan.'
+behind: 'Langkah formulir. Menampilkannya tidak cukup: itu hanya dilakukan ketika formulir valid, dan langkah-langkah setelahnya tetap tidak dapat dijangkau sampai saat itu. Nama disimpan di kursor ini. Kembali ke langkah ini dan itu masih ada; kembali ke langkah sebelum itu dan itu akan dihapus, karena kembali akan menghapus apa yang telah disimpan oleh langkah-langkah di depan, sehingga cabang yang dilalui lagi mulai bersih.'

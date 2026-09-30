@@ -1,0 +1,4 @@
+page_title: 'Demo tunnel'
+title: 'Uw naam'
+lead: 'Het laatste wat we nodig hebben.'
+behind: 'Een formulier stap. Het weergeven ervan is niet genoeg: het gebeurt alleen als het formulier geldig is, en de stappen daarna blijven buiten bereik totdat dat het geval is. De naam wordt opgeslagen op deze cursor. Kom terug naar deze stap en hij is er nog; ga terug naar een stap ervoor en hij is gewist, aangezien teruggaan wat de stappen ervoor hadden opgeslagen, verwijdert, zodat een opnieuw bewandelde tak schoon begint.'

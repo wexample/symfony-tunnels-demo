@@ -1,0 +1,30 @@
+page_title: Tunnel
+page_icon: 'ph:bold/path'
+intro: 'Un tunnel è un percorso suddiviso in fasi — una registrazione, un pagamento, un rinnovo — il cui cammino può cambiare a seconda delle risposte del visitatore. Il pacchetto ricorda a che punto si trova ogni visitatore, li guida attraverso le fasi che possono vedere e li riporta indietro dove appartengono quando tentano di saltare in avanti.'
+card:
+  plan:
+    title: 'Scegli un piano'
+    description: 'Il primo tunnel: due rami, un modulo e una sessione chiusa alla fine.'
+  subscription:
+    title: Iscriviti
+    description: "Un pagamento su un solo ramo, una sessione durata 15 minuti, un'attesa in banca."
+tree:
+  title: 'Un albero di cursori'
+  body: 'Un tunnel è costruito come un albero, non come un elenco. Un passo raggiunto da due luoghi è due cursori, ognuno con il proprio hash e i propri valori memorizzati: è ciò che consente a un ramo di crescere con passi che un altro non ha, e ciò che il percorso che hai fatto, mostrato alla fine di ogni tunnel, viene letto da.'
+session:
+  title: 'Una sessione nel database'
+  body: "Aprire un tunnel crea una sessione, che il browser conosce solo tramite il suo id. Essa tiene i valori memorizzati dai passi, e scade un giorno dopo l'ultimo passo mostrato — o prima, quando quel passo lo richiede. Le sessioni scadute vengono eliminate dal pianificatore, ogni 15 minuti; quelle completate e in attesa vengono mantenute."
+access:
+  title: 'Dove può andare il visitatore'
+  body: 'Ogni passo decide se può essere mostrato e dove inviare il visitatore altrimenti. I link e i pulsanti sono tracciati con le stesse regole, quindi un link non porta mai a un reindirizzamento: nessun pulsante successivo dove la strada si divide, nessun modo per tornare oltre un pagamento, nulla a cui tornare in una sessione chiusa.'
+look:
+  title: 'Cosa osservare mentre si cammina'
+  stepper:
+    title: 'Il passo'
+    body: "Dove ti trovi, cosa c'è dietro, cosa c'è davanti. Un vuoto segna dove il percorso dipende da una scelta non ancora fatta."
+  behind:
+    title: 'Dietro questo passo'
+    body: 'Sotto ogni passo, ciò che il motore ha appena fatto e il suo stato: il cursore, come si completa il passo, la sessione e quando scade.'
+  toolbar:
+    title: 'La barra degli strumenti per lo sviluppo e la shell'
+    body: 'La scheda Tunnel della barra degli strumenti per lo sviluppo mostra la sessione di questo browser sulla mappa del suo tunnel; bin/console tunnels:info fa lo stesso da una shell.'

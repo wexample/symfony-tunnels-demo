@@ -1,0 +1,7 @@
+open:
+  modal: 'Mở trong cửa sổ bật lên'
+  panel: 'Mở trong bảng điều khiển'
+start:
+  title: 'Đi qua đường hầm'
+roads:
+  title: 'Các con đường của nó'

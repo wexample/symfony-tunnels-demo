@@ -1,0 +1,14 @@
+page_title: 'Abone Ol'
+page_icon: 'ph:bold/credit-card'
+intro: 'İki teklifle bir abonelik. Ücretsiz olan bir hesap ve daha fazlası değil; Pro olan ise bir ödeme ekler, bu da banka tarafından onaylanır ve demo bunu oynar.'
+start: 'Ücretsiz için üç adım, Pro için beş adım. Her biri kendi sayfasında yer alır, her biri aşağıda motorun ne yaptığını anlatır.'
+roads:
+  description: 'Hesap adımı, hangi teklifi taşıdığına bağlı olarak ne olacağını belirlemek için imleci okur: Pro için bir ödeme, Ücretsiz için hiçbir şey. İki yolun uzunlukları aynı değil.'
+  free: Ücretsiz
+  paid: Pro
+steps:
+  offer: 'Yollar burada ayrılır ve aynı şekle girmez: bir teklif seçilene kadar, adımcı farklılıkları gösteren bir boşluk gösterir.'
+  account: 'Her iki yolda da aynı form. İmleci teklifi taşır ve adım bunu okuyarak ne olacağını belirler.'
+  payment: 'Sadece Pro yolunda. Gösterildiği sürede, oturum 15 dakikada sona erer, rezerve edilmiş bir koltuk gibi; ödendikten sonra, öncesindeki hiçbir şeye tekrar erişilemez ve asla iki kez sunulmaz.'
+  waiting: "Oturum bankada bekliyor. Demo, oturumu TunnelResumeService aracılığıyla yeniden başlatan bir webhook'u tetikler."
+  welcome: 'Her iki yol burada sona erer, her biri kendi imleciyle ve oturum kapatılır.'

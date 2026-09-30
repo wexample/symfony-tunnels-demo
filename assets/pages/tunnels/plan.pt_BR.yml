@@ -1,0 +1,13 @@
+page_title: 'Escolha um plano'
+page_icon: 'ph:bold/signpost'
+intro: 'O primeiro túnel, pequeno o suficiente para ser lido como um todo: uma recepção, um plano a escolher, um nome a dar, e está feito.'
+start: 'Quatro etapas. Caminhadas em uma página própria, cada uma conta abaixo o que o mecanismo acabou de fazer.'
+roads:
+  description: 'A etapa do plano é alcançada duas vezes, uma por plano, e assim é tudo que vem depois: dois indicadores da mesma etapa, cada um mantendo seus próprios valores.'
+  free: 'Plano gratuito'
+  paid: 'Plano pago'
+steps:
+  intro: 'As partes da árvore aqui: dois cartões, um por plano, e sem botão de próximo. Até que um plano seja escolhido, o passo do steeper é nomeado como passo 2 após a etapa, não após um plano.'
+  plan: 'Dois indicadores da mesma etapa, diferenciados pelo plano que carregam, cada um mantendo seus próprios valores armazenados.'
+  confirm: 'Uma etapa de formulário, concluída apenas quando o formulário é válido; o botão de próximo do túnel o envia. Volte e o nome ainda estará lá; volte antes disso e ele é apagado, então um ramo percorrido novamente começa limpo.'
+  done: 'Encerra a sessão: nada antes dela está mais vinculado, e abrir o túnel novamente inicia um novo.'

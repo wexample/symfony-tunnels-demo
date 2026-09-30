@@ -1,0 +1,8 @@
+page_title: Langganan
+title: 'Menunggu bank'
+lead: 'Pembayaran %reference% telah dikirim. Bank akan mengonfirmasinya pada waktunya sendiri.'
+note:
+  title: 'Anda bisa meninggalkan halaman ini'
+  body: 'Pembayaran Anda akan tetap aman apa pun yang Anda lakukan: kembali lagi nanti, dan Anda akan diizinkan masuk setelah bank memberikan jawaban.'
+behind: 'Sesi ini sedang menunggu_async_action: tidak ada yang melalui terowongan yang bisa menyelesaikan langkah ini, hanya bank yang bisa. Aplikasi yang sebenarnya menerima jawabannya melalui webhook dan menyerahkan referensinya ke TunnelResumeService, yang membangun kembali terowongan sesi yang menunggu dan menyelesaikan langkah ini; jika ditampilkan kembali, langkah ini akan membuat pengunjung melanjutkan sendiri. Tombol di bawah ini berfungsi sebagai bank. Sesi yang tertunda tidak pernah kadaluarsa, dan tidak ada yang dapat dilakukan sebelum pembayaran yang terhubung lagi.'
+simulate: 'Mainkan bank: konfirmasi pembayaran'

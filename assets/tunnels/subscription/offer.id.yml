@@ -1,0 +1,11 @@
+page_title: Langganan
+title: 'Pilih penawaran Anda'
+lead: 'Dua penawaran, dan jalan yang berbeda untuk masing-masing: yang Pro melalui pembayaran yang tidak pernah dilihat oleh yang gratis.'
+offer:
+  free:
+    title: Gratis
+    description: 'Sebuah akun, tidak ada biaya. Dua langkah dan Anda sudah bisa masuk.'
+  paid:
+    title: Pro
+    description: 'Sebuah akun dan pembayaran, dikonfirmasi oleh bank sebelum Anda bisa masuk.'
+behind: 'Titik masuk. Setiap kartu mengarah ke kursor langkah akun yang membawa penawaran sebagai pilihan, dan langkah akun membaca pilihan itu untuk menentukan apa yang terjadi selanjutnya: pembayaran untuk Pro, tidak ada biaya untuk Gratis. Kedua cabang tidak memiliki bentuk yang sama, itulah sebabnya stepper menunjukkan celah setelah akun: sampai Anda memilih, tidak ada yang bisa tahu berapa banyak langkah yang tersisa.'

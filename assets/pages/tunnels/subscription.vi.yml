@@ -1,0 +1,14 @@
+page_title: 'Đăng ký'
+page_icon: 'ph:bold/credit-card'
+intro: 'Một gói đăng ký với hai lựa chọn. Lựa chọn miễn phí chỉ là một tài khoản và không hơn gì; lựa chọn Pro thêm một khoản thanh toán, được xác nhận bởi ngân hàng mà bản demo sử dụng.'
+start: 'Ba bước cho miễn phí, năm bước cho Pro. Mỗi bước được đi trên một trang riêng, mỗi bước cho biết bên dưới những gì mà động cơ vừa thực hiện.'
+roads:
+  description: 'Bước tài khoản đọc lựa chọn mà con trỏ của nó đang mang theo để quyết định điều gì sẽ xảy ra tiếp theo: một khoản thanh toán cho Pro, không có gì cho Miễn phí. Hai con đường không có chiều dài giống nhau.'
+  free: 'Miễn phí'
+  paid: Pro
+steps:
+  offer: 'Hai con đường phân tách tại đây, và không có hình dạng giống nhau: cho đến khi một lựa chọn được chọn, bộ điều khiển hiển thị một khoảng trống nơi chúng khác nhau.'
+  account: 'Cùng một hình thức trên cả hai con đường. Con trỏ của nó mang theo lựa chọn, và bước đọc nó để quyết định điều gì sẽ xảy ra tiếp theo.'
+  payment: 'Chỉ trên con đường Pro. Trong khi nó được hiển thị, phiên sẽ hết hạn trong 15 phút, giống như một chỗ ngồi đã được đặt; một khi đã thanh toán, không gì trước đó có thể được truy cập lại, và nó không bao giờ được cung cấp hai lần.'
+  waiting: 'Phiên đang chờ ngân hàng. Một nút của bản demo phát webhook của nó, điều này tiếp tục phiên thông qua TunnelResumeService.'
+  welcome: 'Cả hai con đường kết thúc tại đây, mỗi con đường thông qua một con trỏ riêng, và phiên được đóng lại.'

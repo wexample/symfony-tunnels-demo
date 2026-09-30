@@ -1,0 +1,8 @@
+page_title: Abbonamento
+title: 'In attesa della banca'
+lead: 'Il pagamento %reference% è stato inviato. La banca lo confermerà a suo tempo.'
+note:
+  title: 'Puoi lasciare questa pagina'
+  body: 'Il tuo pagamento è al sicuro qualunque cosa tu faccia: torna più tardi e ti sarà consentito di proseguire una volta che la banca avrà risposto.'
+behind: "La sessione è in attesa_async_action: nessuno che attraversa il tunnel può completare questo passaggio, solo la banca può farlo. Un'applicazione reale riceve la sua risposta su un webhook e passa il riferimento a TunnelResumeService, che ricostruisce il tunnel della sessione in attesa e completa questo passaggio; mostrato di nuovo, il passaggio sposta il visitatore automaticamente. Il pulsante qui sotto simula la banca. Le sessioni in attesa non scadono mai e nulla prima del pagamento è più collegato."
+simulate: 'Simula la banca: conferma il pagamento'

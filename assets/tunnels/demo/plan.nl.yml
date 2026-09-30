@@ -1,0 +1,9 @@
+page_title: 'Demo tunnel'
+title: 'Jouw plan'
+lead:
+  free: 'Het gratis plan: alles om te beginnen, niets te betalen.'
+  paid: 'Het betaalde plan: het hele pakket, met ruimte om te groeien.'
+note:
+  title: 'Twee takken, één weg verder'
+  body: 'Deze stap komt één keer per plan voor. Vorige brengt je terug naar de keuze; volgende gaat verder naar hetzelfde formulier, ongeacht welk plan je hebt gekozen.'
+behind: 'Een van de twee cursors van de plan stap, de ene die plan %plan% draagt. Elke cursor heeft zijn eigen hash, dus wat de ene opslaat, is nooit zichtbaar voor de andere. Elke stap na deze bestaat ook twee keer, één kopie onder elke cursor: de takken lijken weer te ontmoeten, maar het formulier en de afsluitpagina die je bereikt, zijn die van jouw plan.'

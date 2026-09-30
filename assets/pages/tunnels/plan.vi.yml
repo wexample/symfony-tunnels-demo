@@ -1,0 +1,13 @@
+page_title: 'Chọn một kế hoạch'
+page_icon: 'ph:bold/signpost'
+intro: 'Đường hầm đầu tiên, đủ nhỏ để đọc toàn bộ: một lời chào, một kế hoạch để chọn, một tên để đặt, và xong.'
+start: 'Bốn bước. Được thực hiện trên một trang riêng, mỗi bước cho biết dưới đây động cơ vừa làm gì.'
+roads:
+  description: 'Bước kế hoạch được đạt tới hai lần, một lần cho mỗi kế hoạch, và mọi thứ sau đó cũng vậy: hai con trỏ của cùng một bước, mỗi con giữ những giá trị riêng của nó.'
+  free: 'Kế hoạch miễn phí'
+  paid: 'Kế hoạch trả phí'
+steps:
+  intro: 'Các phần của cây ở đây: hai thẻ, mỗi thẻ cho một kế hoạch, và không có nút tiếp theo. Cho đến khi một kế hoạch được chọn, bước điều hướng sẽ gọi tên bước 2 theo bước đó, không phải theo một kế hoạch.'
+  plan: 'Hai con trỏ của cùng một bước, được phân biệt bởi kế hoạch mà chúng mang theo, mỗi con giữ những giá trị đã lưu riêng của nó.'
+  confirm: 'Một bước biểu mẫu, chỉ hoàn thành khi biểu mẫu hợp lệ; nút tiếp theo của đường hầm gửi nó. Quay lại và tên vẫn còn đó; quay lại trước đó và nó sẽ bị xóa, vì vậy một nhánh đi lại bắt đầu sạch sẽ.'
+  done: 'Đóng phiên: không có gì trước đó còn liên kết nữa, và mở lại đường hầm sẽ bắt đầu một phiên mới.'

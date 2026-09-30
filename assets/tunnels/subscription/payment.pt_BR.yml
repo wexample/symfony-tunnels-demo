@@ -1,0 +1,4 @@
+page_title: Assinatura
+title: Pagamento
+lead: 'Pro, R$9 por mês. Nada para preencher: pressionar pagar significa inserir um cartão.'
+behind: 'Uma etapa apenas do plano Pro. Enquanto estiver visível, a sessão expira em 15 minutos em vez de um dia, como um assento reservado: veja a expiração abaixo. O pagamento armazena uma referência que o banco enviará de volta, define a sessão como pending_async_action e avança. A partir daí, esta etapa proíbe acessar qualquer coisa antes dela e nunca é oferecida novamente.'

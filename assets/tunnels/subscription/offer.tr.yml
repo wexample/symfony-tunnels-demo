@@ -1,0 +1,11 @@
+page_title: Abonelik
+title: 'Teklifinizi seçin'
+lead: 'İki teklif, her biri için farklı bir yol: Pro olanı bir ödeme ile geçiliyor, ücretsiz olanı hiçbir zaman görmüyor.'
+offer:
+  free:
+    title: Ücretsiz
+    description: 'Bir hesap, ödeme yok. İki adımda içeri girebilirsiniz.'
+  paid:
+    title: Pro
+    description: 'Bir hesap ve bir ödeme, içeri girmeden önce banka tarafından onaylanır.'
+behind: 'Giriş noktası. Her kart, teklifi bir seçenek olarak taşıyan hesap adımının bir göstericisine yönlendirir ve hesap adımı, neyin geleceğini seçmek için o seçeneği okur: Pro için bir ödeme, Ücretsiz için hiçbir şey. İki dalın şekli aynı değil, bu yüzden adımcı, hesap sonrasında bir boşluk gösterir: Seçim yapana kadar, kaç adım kaldığı bilinemez.'

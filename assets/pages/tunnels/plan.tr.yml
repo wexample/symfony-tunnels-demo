@@ -1,0 +1,13 @@
+page_title: 'Bir plan seçin'
+page_icon: 'ph:bold/signpost'
+intro: 'İlk tünel, tamamını okuyabilecek kadar küçük: bir karşılama, seçilecek bir plan, verilecek bir isim ve işte bu kadar.'
+start: 'Dört adım. Her biri kendi sayfasında, her biri aşağıda motorun ne yaptığını anlatıyor.'
+roads:
+  description: 'Plan adımına iki kez ulaşılır, her plan için bir kez ve sonrasındaki her şey de öyle: aynı adımın iki imleci, her biri kendi değerlerini saklıyor.'
+  free: 'Ücretsiz plan'
+  paid: 'Ücretli plan'
+steps:
+  intro: "Ağaç burada parçalanır: her plan için bir kart, ve sonraki buton yok. Bir plan seçilene kadar, adımcı adım 2'yi adımın ardından değil, bir planın ardından adlandırır."
+  plan: 'Aynı adımın iki imleci, taşıdıkları planla ayrılır, her biri kendi saklanan değerlerini tutar.'
+  confirm: 'Bir form adımı, form geçerli olduğunda yalnızca bir kez yapılır; tünelin sonraki butonu onu gönderir. Geri dönün ve isim hala orada; ondan önce geri dönerseniz silinir, bu yüzden yeniden yürütülen bir dal temiz başlar.'
+  done: 'Oturumu kapatır: öncesindeki hiçbir şey artık bağlı değildir ve tüneli tekrar açmak yeni bir başlangıç yapar.'

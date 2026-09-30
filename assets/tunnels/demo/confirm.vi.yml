@@ -1,0 +1,4 @@
+page_title: 'Bảng trình diễn hầm'
+title: 'Tên của bạn'
+lead: 'Điều cuối cùng chúng ta cần.'
+behind: 'Một bước trong biểu mẫu. Chỉ hiển thị nó là không đủ: nó chỉ được thực hiện khi biểu mẫu hợp lệ, và các bước sau đó vẫn không thể truy cập cho đến lúc đó. Tên được lưu trên con trỏ này. Quay lại bước này và nó vẫn ở đó; quay lại một bước trước đó và nó sẽ bị xóa, vì việc quay lại sẽ xóa những gì mà các bước tiếp theo đã lưu, vì vậy một nhánh được đi lại sẽ bắt đầu từ đầu.'
