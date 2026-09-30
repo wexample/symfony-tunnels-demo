@@ -1,9 +1,0 @@
-page_title: 'Demo tunnel'
-title: Welkom
-lead: 'Een korte tunnel om te laten zien hoe je leest: kies een plan, geef een naam op, en het is geregeld. Het plan dat je kiest bepaalt de volgende stap.'
-plan:
-  free:
-    description: 'Alles om te beginnen, niets te betalen.'
-  paid:
-    description: 'Alles, met ruimte om te groeien.'
-behind: 'Het toegangspunt van de tunnel. Het openen ervan heeft een sessie in de database gecreëerd, die de browsersessie alleen kent aan zijn id. Deze stap is voltooid zodra deze wordt weergegeven, als standaard. De twee kaarten leiden naar twee cursors van dezelfde volgende stap, die worden onderscheiden door hun planoptie: de boom verdeelt hier, dus er is geen volgende knop, en de stapper noemt stap 2 naar de stap in plaats van naar een plan.'

@@ -1,0 +1,252 @@
+en:
+  page_title: Demo tunnel
+  title: Your plan
+  lead:
+    free: "The free plan: everything to get started, nothing to pay."
+    paid: "The paid plan: the whole of it, with room to grow."
+  note:
+    title: Two branches, one way on
+    body: "This step exists once per plan. Previous takes you back to the choice; next carries on to the same form whichever plan you picked."
+  behind: "One of the two cursors of the plan step, the one carrying plan %plan%. Each cursor has its own hash, so what one stores is never seen from the other. Every step after this one exists twice too, one copy below each cursor: the branches look like they meet again, but the form and the closing page you reach are those of your plan."
+
+ar:
+  page_title: 'نفق تجريبي'
+  title: خطةك
+  lead:
+    free: 'الخطة المجانية: كل ما تحتاجه للبدء، بدون أي تكلفة.'
+    paid: 'الخطة المدفوعة: كل شيء، مع مساحة للنمو.'
+  note:
+    title: 'فرعين، طريق واحد'
+    body: 'هذه الخطوة موجودة مرة واحدة لكل خطة. السابقة تأخذك للعودة إلى الاختيار؛ التالية تستمر إلى نفس النموذج بغض النظر عن الخطة التي اخترتها.'
+  behind: 'واحدة من المؤشرين في خطوة الخطة، التي تحمل الخطة %plan%. كل مؤشر له تجزئة خاصة به، لذا ما يخزنه واحد لا يُرى من الآخر. كل خطوة بعد هذه موجودة مرتين أيضًا، نسخة واحدة تحت كل مؤشر: الفروع تبدو وكأنها تلتقي مرة أخرى، لكن النموذج وصفحة الإغلاق التي تصل إليها هي تلك الخاصة بخطتك.'
+
+bn:
+  page_title: 'ডেমো টানেল'
+  title: 'আপনার পরিকল্পনা'
+  lead:
+    free: 'ফ্রি প্ল্যান: শুরু করার জন্য সবকিছু, কোনো টাকা দিতে হবে না।'
+    paid: 'পেইড প্ল্যান: এর পুরো অংশ, বাড়ানোর জন্য স্থান সহ।'
+  note:
+    title: 'দুই শাখা, এক পথ'
+    body: 'এই পদক্ষেপটি প্রতি পরিকল্পনার জন্য একবারই থাকে। পূর্ববর্তী আপনাকে নির্বাচনে ফিরিয়ে নিয়ে যায়; পরবর্তী আপনাকে সেই একই ফর্মে নিয়ে যায়, আপনি কোন পরিকল্পনা বেছে নিয়েছেন।'
+  behind: 'পরিকল্পনা পদক্ষেপের দুটি কার্সারের মধ্যে একটি, যেটি পরিকল্পনা %plan% বহন করে। প্রতিটি কার্সারের নিজস্ব হ্যাশ রয়েছে, তাই একটি যা সঞ্চয় করে তা অন্যটির থেকে কখনো দেখা যায় না। এই পদক্ষেপের পরবর্তী প্রতিটি পদক্ষেপও দুটি করে থাকে, প্রতিটি কার্সারের নিচে একটি কপি: শাখাগুলি আবার মিলিত হতে মনে হয়, তবে আপনি যে ফর্ম এবং ক্লোজিং পৃষ্ঠায় পৌঁছান তা আপনার পরিকল্পনার।'
+
+de:
+  page_title: Demo-Tunnel
+  title: 'Ihr Plan'
+  lead:
+    free: 'Der kostenlose Plan: alles, um zu starten, nichts zu zahlen.'
+    paid: 'Der kostenpflichtige Plan: alles, mit Spielraum zum Wachsen.'
+  note:
+    title: 'Zwei Äste, ein Weg'
+    body: 'Dieser Schritt existiert einmal pro Plan. Vorher bringt Sie zurück zur Wahl; weiter geht es mit demselben Formular, egal welchen Plan Sie gewählt haben.'
+  behind: 'Einer der beiden Zeiger des Plan-Schrittes, der den Plan %plan% trägt. Jeder Zeiger hat seinen eigenen Hash, sodass das, was einer speichert, vom anderen nie gesehen wird. Jeder Schritt nach diesem existiert ebenfalls zweimal, eine Kopie unter jedem Zeiger: die Äste sehen aus, als würden sie sich wieder treffen, aber das Formular und die Abschlussseite, die Sie erreichen, sind die Ihres Plans.'
+
+es:
+  page_title: 'Demo túnel'
+  title: 'Tu plan'
+  lead:
+    free: 'El plan gratuito: todo para empezar, nada que pagar.'
+    paid: 'El plan de pago: todo, con espacio para crecer.'
+  note:
+    title: 'Dos ramas, un camino'
+    body: 'Este paso existe una vez por plan. Anterior te lleva de vuelta a la elección; siguiente continúa hacia el mismo formulario, elijas el plan que elijas.'
+  behind: 'Uno de los dos cursores del paso del plan, el que lleva el plan %plan%. Cada cursor tiene su propio hash, por lo que lo que uno almacena nunca es visto por el otro. Cada paso después de este también existe en dos copias, una debajo de cada cursor: las ramas parecen encontrarse de nuevo, pero el formulario y la página de cierre que alcanzas son los de tu plan.'
+
+fa:
+  page_title: 'تونل دمو'
+  title: 'برنامه شما'
+  lead:
+    free: 'برنامه رایگان: همه چیز برای شروع، بدون پرداخت.'
+    paid: 'برنامه پرداختی: همه چیز، با فضایی برای رشد.'
+  note:
+    title: 'دو شاخه، یک راه'
+    body: 'این مرحله به ازای هر برنامه یکبار وجود دارد. گزینه قبلی شما را به انتخاب برمی‌گرداند؛ گزینه بعدی به همان فرم ادامه می‌دهد، هر برنامه‌ای که انتخاب کرده باشید.'
+  behind: 'یکی از دو نشانگر مرحله برنامه، آن که برنامه %plan% را حمل می‌کند. هر نشانگر هش مخصوص به خود را دارد، بنابراین آنچه یکی ذخیره می‌کند هرگز از دیگری دیده نمی‌شود. هر مرحله بعد از این نیز دو بار وجود دارد، یک نسخه زیر هر نشانگر: شاخه‌ها به نظر می‌رسد دوباره ملاقات می‌کنند، اما فرم و صفحه پایانی که به آن می‌رسید متعلق به برنامه شماست.'
+
+fi:
+  page_title: 'Demo tunnel'
+  title: Suunnitelmasi
+  lead:
+    free: 'Ilmainen suunnitelma: kaikki, mitä tarvitset aloittaaksesi, ei maksuja.'
+    paid: 'Maksettu suunnitelma: kaikki mukana, tilaa kasvaa.'
+  note:
+    title: 'Kaksi haaraa, yksi suunta'
+    body: 'Tämä vaihe esiintyy kerran per suunnitelma. Edellinen vie sinut takaisin valintaan; seuraava jatkaa samaan lomakkeeseen riippumatta siitä, minkä suunnitelman valitsit.'
+  behind: 'Yksi kahdesta osoittimesta suunnitelman vaiheessa, se, joka sisältää suunnitelman %plan%. Jokaisella osoittimella on oma hash, joten mitä yksi tallentaa, ei koskaan näy toiselta. Jokainen tämän jälkeen oleva vaihe esiintyy myös kahdesti, yksi kopio kunkin osoittimen alla: haarat näyttävät kohtaavan uudelleen, mutta lomake ja sulkemissivu, johon pääset, ovat sinun suunnitelmasi.'
+
+fr:
+  page_title: 'Tunnel de démonstration'
+  title: 'Votre plan'
+  lead:
+    free: 'Le plan gratuit : tout pour commencer, rien à payer.'
+    paid: 'Le plan payant : tout compris, avec de la place pour grandir.'
+  note:
+    title: 'Deux branches, un seul chemin'
+    body: 'Cette étape existe une fois par plan. Précédent vous ramène au choix ; suivant continue vers le même formulaire quel que soit le plan que vous avez choisi.'
+  behind: "Un des deux curseurs de l'étape du plan, celui portant le plan %plan%. Chaque curseur a son propre hachage, donc ce que l'un stocke n'est jamais vu de l'autre. Chaque étape après celle-ci existe aussi en double, une copie sous chaque curseur : les branches semblent se rejoindre à nouveau, mais le formulaire et la page de clôture que vous atteignez sont ceux de votre plan."
+
+he:
+  page_title: 'מנהרת דמו'
+  title: 'התוכנית שלך'
+  lead:
+    free: 'המסלול החינמי: הכל כדי להתחיל, בלי תשלום.'
+    paid: 'המסלול בתשלום: הכל כולל הכל, עם מקום לצמוח.'
+  note:
+    title: 'שני סניפים, דרך אחת'
+    body: 'שלב זה קיים פעם אחת לכל תוכנית. הקודם מחזיר אותך לבחירה; הבא ממשיך לאותו טופס לא משנה איזו תוכנית בחרת.'
+  behind: 'אחד משני הסמנים של שלב התוכנית, זה הנושא את התוכנית %plan%. לכל סממן יש את ההאשט שלו, כך שמה שאחד מאחסן לא נראה מהשני. כל שלב אחרי זה קיים גם פעמיים, עותק אחד מתחת לכל סממן: הסניפים נראים כאילו הם נפגשים שוב, אך הטופס ודף הסיום שאליהם אתה מגיע הם של התוכנית שלך.'
+
+hi:
+  page_title: 'डेमो टनल'
+  title: 'आपकी योजना'
+  lead:
+    free: 'मुफ्त योजना: शुरू करने के लिए सब कुछ, कोई भुगतान नहीं।'
+    paid: 'भुगतान योजना: इसका पूरा हिस्सा, बढ़ने की जगह के साथ।'
+  note:
+    title: 'दो शाखाएँ, एक ही रास्ता'
+    body: 'यह कदम प्रत्येक योजना के लिए एक बार होता है। पिछला आपको विकल्प पर वापस ले जाता है; अगला आपको उसी फॉर्म पर ले जाता है जो भी योजना आपने चुनी।'
+  behind: 'योजना चरण के दो कर्सरों में से एक, वह जो योजना %plan% को ले जाता है। प्रत्येक कर्सर का अपना हैश होता है, इसलिए जो एक स्टोर करता है वह दूसरे से कभी नहीं देखा जाता। इस कदम के बाद हर कदम भी दो बार होता है, प्रत्येक कर्सर के नीचे एक प्रति: शाखाएँ फिर से मिलती हुई लगती हैं, लेकिन आप जिस फॉर्म और समापन पृष्ठ तक पहुँचते हैं वे आपकी योजना के होते हैं।'
+
+id:
+  page_title: 'Demo terowongan'
+  title: 'Rencana Anda'
+  lead:
+    free: 'Rencana gratis: semua yang Anda butuhkan untuk memulai, tidak ada yang perlu dibayar.'
+    paid: 'Rencana berbayar: semuanya, dengan ruang untuk berkembang.'
+  note:
+    title: 'Dua cabang, satu jalan'
+    body: 'Langkah ini ada sekali per rencana. Sebelumnya membawa Anda kembali ke pilihan; selanjutnya melanjutkan ke formulir yang sama terlepas dari rencana yang Anda pilih.'
+  behind: 'Salah satu dari dua kursor pada langkah rencana, yang membawa rencana %plan%. Setiap kursor memiliki hash-nya sendiri, jadi apa yang disimpan oleh satu tidak pernah terlihat oleh yang lain. Setiap langkah setelah ini juga ada dua kali, satu salinan di bawah setiap kursor: cabang-cabang terlihat seolah bertemu lagi, tetapi formulir dan halaman penutup yang Anda capai adalah milik rencana Anda.'
+
+it:
+  page_title: 'Tunnel demo'
+  title: 'Il tuo piano'
+  lead:
+    free: 'Il piano gratuito: tutto per iniziare, niente da pagare.'
+    paid: 'Il piano a pagamento: tutto incluso, con spazio per crescere.'
+  note:
+    title: 'Due rami, una sola direzione'
+    body: 'Questo passaggio esiste una sola volta per piano. Il precedente ti riporta alla scelta; il successivo prosegue verso lo stesso modulo qualunque piano tu abbia scelto.'
+  behind: "Uno dei due cursori del passaggio piano, quello che porta al piano %plan%. Ogni cursore ha il proprio hash, quindi ciò che uno memorizza non è mai visibile dall'altro. Ogni passaggio dopo questo esiste due volte, una copia sotto ogni cursore: i rami sembrano incontrarsi di nuovo, ma il modulo e la pagina di chiusura che raggiungi sono quelli del tuo piano."
+
+ja:
+  page_title: デモトンネル
+  title: あなたのプラン
+  lead:
+    free: 無料プラン：始めるためのすべて、支払いは不要。
+    paid: 有料プラン：すべてが含まれ、成長の余地があります。
+  note:
+    title: 2つの枝、1つの道
+    body: このステップはプランごとに1回だけ存在します。前のステップは選択に戻り、次のステップは選択したプランに関係なく同じフォームに進みます。
+  behind: プランステップの2つのカーソルのうちの1つで、プラン%plan%を持つカーソルです。各カーソルには独自のハッシュがあるため、1つが保存するものは他からは見えません。この後のすべてのステップも2回存在し、それぞれのカーソルの下にコピーがあります：枝は再び出会うように見えますが、到達するフォームと終了ページはあなたのプランのものです。
+
+ko:
+  page_title: '데모 터널'
+  title: '내 요금제'
+  lead:
+    free: '무료 요금제: 시작하기 위한 모든 것, 지불할 필요 없음.'
+    paid: '유료 요금제: 모든 기능을 포함하며 성장할 여지가 있습니다.'
+  note:
+    title: '두 가지 경로, 한 가지 방법'
+    body: '이 단계는 각 요금제마다 한 번만 존재합니다. 이전 단계는 선택으로 돌아가고, 다음 단계는 선택한 요금제와 관계없이 같은 양식으로 진행됩니다.'
+  behind: '요금제 단계의 두 개 커서 중 하나로, 요금제 %plan%를 담고 있는 커서입니다. 각 커서는 고유한 해시를 가지고 있어 하나가 저장한 내용은 다른 커서에서 볼 수 없습니다. 이 단계 이후의 모든 단계도 두 번 존재하며, 각 커서 아래에 복사본이 있습니다: 가지는 다시 만나듯 보이지만, 도달하는 양식과 종료 페이지는 귀하의 요금제에 해당합니다.'
+
+nl:
+  page_title: 'Demo tunnel'
+  title: 'Jouw plan'
+  lead:
+    free: 'Het gratis plan: alles om te beginnen, niets te betalen.'
+    paid: 'Het betaalde plan: het hele pakket, met ruimte om te groeien.'
+  note:
+    title: 'Twee takken, één weg verder'
+    body: 'Deze stap komt één keer per plan voor. Vorige brengt je terug naar de keuze; volgende gaat verder naar hetzelfde formulier, ongeacht welk plan je hebt gekozen.'
+  behind: 'Een van de twee cursors van de plan stap, de ene die plan %plan% draagt. Elke cursor heeft zijn eigen hash, dus wat de ene opslaat, is nooit zichtbaar voor de andere. Elke stap na deze bestaat ook twee keer, één kopie onder elke cursor: de takken lijken weer te ontmoeten, maar het formulier en de afsluitpagina die je bereikt, zijn die van jouw plan.'
+
+pl:
+  page_title: 'Tunel demonstracyjny'
+  title: 'Twój plan'
+  lead:
+    free: 'Plan darmowy: wszystko, co potrzebne do rozpoczęcia, nic do zapłacenia.'
+    paid: 'Plan płatny: wszystko, z możliwością rozwoju.'
+  note:
+    title: 'Dwie gałęzie, jedna droga'
+    body: 'Ten krok występuje raz na plan. Poprzedni przenosi cię z powrotem do wyboru; następny prowadzi do tego samego formularza, niezależnie od wybranego planu.'
+  behind: 'Jeden z dwóch kursorów kroku planu, ten przenoszący plan %plan%. Każdy kursor ma swój własny hash, więc to, co jeden przechowuje, nie jest widoczne dla drugiego. Każdy krok po tym również istnieje w dwóch wersjach, jedna kopia poniżej każdego kursora: gałęzie wyglądają, jakby się znowu spotykały, ale formularz i strona końcowa, do której trafisz, są zgodne z twoim planem.'
+
+pt_BR:
+  page_title: 'Túnel de demonstração'
+  title: 'Seu plano'
+  lead:
+    free: 'O plano gratuito: tudo para você começar, nada para pagar.'
+    paid: 'O plano pago: tudo isso, com espaço para crescer.'
+  note:
+    title: 'Dois ramos, um caminho'
+    body: 'Esta etapa existe uma vez por plano. Anterior leva você de volta à escolha; seguinte avança para o mesmo formulário, independentemente do plano que você escolheu.'
+  behind: 'Um dos dois cursores da etapa do plano, aquele que carrega o plano %plan%. Cada cursor tem seu próprio hash, então o que um armazena nunca é visto pelo outro. Cada etapa após esta também existe em duplicidade, uma cópia abaixo de cada cursor: os ramos parecem se encontrar novamente, mas o formulário e a página de fechamento que você alcança são aqueles do seu plano.'
+
+ru:
+  page_title: 'Демо туннель'
+  title: 'Ваш план'
+  lead:
+    free: 'Бесплатный план: все необходимое для начала, ничего не нужно платить.'
+    paid: 'Платный план: все включено, с возможностью роста.'
+  note:
+    title: 'Два ветвления, один путь'
+    body: 'Этот шаг существует один раз для каждого плана. Предыдущий шаг возвращает к выбору; следующий продолжается к той же форме, независимо от выбранного плана.'
+  behind: 'Один из двух курсоров шага плана, тот, который соответствует плану %plan%. У каждого курсора есть свой хэш, поэтому то, что хранится в одном, никогда не видно из другого. Каждый шаг после этого тоже существует дважды, одна копия под каждым курсором: ветви выглядят так, как будто снова встречаются, но форма и завершающая страница, к которой вы приходите, соответствуют вашему плану.'
+
+th:
+  page_title: เดโมอุโมงค์
+  title: แผนของคุณ
+  lead:
+    free: 'แผนฟรี: ทุกอย่างที่ต้องการเริ่มต้น ไม่มีค่าใช้จ่าย.'
+    paid: 'แผนแบบชำระเงิน: ทุกอย่างที่คุณต้องการ พร้อมพื้นที่ในการเติบโต.'
+  note:
+    title: 'สองสาขา หนทางเดียวกัน'
+    body: 'ขั้นตอนนี้มีอยู่เพียงครั้งเดียวต่อแผน การเลือกก่อนหน้านี้จะพาคุณกลับไปยังตัวเลือก; การเลือกถัดไปจะพาคุณไปยังแบบฟอร์มเดียวกันไม่ว่าคุณจะเลือกแผนไหน.'
+  behind: 'หนึ่งในสองตัวชี้ตำแหน่งของขั้นตอนแผน ตัวที่ถือแผน %plan%. ตัวชี้ตำแหน่งแต่ละตัวมีแฮชของตัวเอง ดังนั้นสิ่งที่แต่ละตัวเก็บไว้จะไม่ถูกมองเห็นจากอีกตัว ทุกขั้นตอนหลังจากนี้ก็มีอยู่สองครั้งเช่นกัน สำเนาหนึ่งอยู่ด้านล่างของแต่ละตัวชี้ตำแหน่ง: สาขาต่างๆ ดูเหมือนจะมาบรรจบกันอีกครั้ง แต่แบบฟอร์มและหน้าปิดที่คุณไปถึงคือของแผนของคุณ.'
+
+tr:
+  page_title: 'Demo tüneli'
+  title: Planınız
+  lead:
+    free: 'Ücretsiz plan: başlamak için her şey, ödeme yok.'
+    paid: 'Ücretli plan: tamamı, büyüme için alan ile.'
+  note:
+    title: 'İki dal, tek yol'
+    body: 'Bu adım her plan için bir kez mevcut. Önceki sizi seçime geri götürür; sonraki, hangi planı seçerseniz seçin aynı formda devam eder.'
+  behind: "Plan adımının iki imlecinden biri, plan %plan%'ı taşıyan. Her imlecin kendi hash'i vardır, bu nedenle biri ne saklarsa diğeri tarafından görülmez. Bu adımdan sonraki her adım da iki kez vardır, her imlecinin altında bir kopyası: dallar tekrar birleşiyormuş gibi görünse de, ulaştığınız form ve kapanış sayfası planınıza ait olanlardır."
+
+ur:
+  page_title: 'ڈیمو سرنگ'
+  title: 'آپ کا منصوبہ'
+  lead:
+    free: 'مفت منصوبہ: شروع کرنے کے لیے سب کچھ، کچھ نہیں دینا۔'
+    paid: 'ادائیگی والا منصوبہ: مکمل طور پر، ترقی کے لیے جگہ کے ساتھ۔'
+  note:
+    title: 'دو شاخیں، ایک راستہ'
+    body: 'یہ قدم ہر منصوبے میں ایک بار موجود ہوتا ہے۔ پچھلا آپ کو انتخاب کی طرف واپس لے جاتا ہے؛ اگلا آپ کو اسی فارم کی طرف لے جاتا ہے چاہے آپ نے کون سا منصوبہ منتخب کیا ہو۔'
+  behind: 'منصوبے کے قدم کے دو کرسرز میں سے ایک، وہ جو منصوبہ %plan% لے کر جا رہا ہے۔ ہر کرسر کا اپنا ہیش ہوتا ہے، لہذا جو ایک محفوظ کرتا ہے وہ دوسرے سے کبھی نہیں دیکھا جاتا۔ اس قدم کے بعد ہر قدم بھی دو بار موجود ہوتا ہے، ہر کرسر کے نیچے ایک کاپی: شاخیں دوبارہ ملتی ہوئی نظر آتی ہیں، لیکن آپ جس فارم اور بند کرنے والے صفحے تک پہنچتے ہیں وہ آپ کے منصوبے کے ہوتے ہیں۔'
+
+vi:
+  page_title: 'Hầm demo'
+  title: 'Kế hoạch của bạn'
+  lead:
+    free: 'Kế hoạch miễn phí: mọi thứ để bắt đầu, không phải trả tiền.'
+    paid: 'Kế hoạch trả phí: toàn bộ, với không gian để phát triển.'
+  note:
+    title: 'Hai nhánh, một con đường'
+    body: 'Bước này chỉ xuất hiện một lần cho mỗi kế hoạch. Bước trước đưa bạn trở lại lựa chọn; bước tiếp theo dẫn bạn đến cùng một biểu mẫu bất kể kế hoạch nào bạn đã chọn.'
+  behind: 'Một trong hai con trỏ của bước kế hoạch, con trỏ mang kế hoạch %plan%. Mỗi con trỏ có mã băm riêng, vì vậy những gì một con trỏ lưu trữ sẽ không bao giờ được nhìn thấy từ con trỏ khác. Mỗi bước sau bước này cũng tồn tại hai lần, một bản sao bên dưới mỗi con trỏ: các nhánh trông như thể chúng gặp lại nhau, nhưng biểu mẫu và trang kết thúc mà bạn đến là của kế hoạch của bạn.'
+
+zh:
+  page_title: 演示隧道
+  title: 您的计划
+  lead:
+    free: 免费计划：一切都可以开始，无需支付。
+    paid: 付费计划：全面的内容，有成长空间。
+  note:
+    title: 两个分支，一条道路
+    body: 此步骤在每个计划中只存在一次。上一步带您返回选择；下一步则继续到您选择的计划的相同表单。
+  behind: '计划步骤的两个指针之一，携带计划 %plan%。每个指针都有自己的哈希，因此一个指针存储的内容在另一个指针中是不可见的。此步骤之后的每个步骤也存在两次，每个指针下方有一个副本：分支看似再次相遇，但您到达的表单和结束页面是您计划的内容。'

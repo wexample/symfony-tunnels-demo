@@ -1,9 +1,0 @@
-page_title: 'Demo terowongan'
-title: 'Semua siap'
-lead: 'Terowongan ini dilalui hingga ujungnya.'
-message:
-  title: 'Terima kasih, %name%.'
-  body: 'Sesi telah selesai; tidak ada lagi yang diminta.'
-path:
-  title: 'Jalur yang Anda lalui'
-behind: 'Langkah penutupan membaca nama dari kursor sebelumnya, dan mencantumkan jalur di sini: dalam sebuah pohon, jalur menuju kursor adalah unik, yaitu garis dari nenek moyangnya, setiap langkah memberitahu apa yang telah dilakukan padanya melalui buildSummary(). Menampilkan ini menutup sesi: statusnya berubah menjadi selesai dan tidak akan kedaluwarsa lagi. Tidak ada yang terhubung sebelumnya, karena mencapai langkah mana pun dari sesi yang tertutup memulai sesi baru: itulah yang dilakukan saat membuka terowongan lagi.'

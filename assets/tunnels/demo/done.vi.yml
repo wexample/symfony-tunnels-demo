@@ -1,9 +1,0 @@
-page_title: 'Đường hầm demo'
-title: 'Tất cả đã sẵn sàng'
-lead: 'Đường hầm đã đi đến cuối.'
-message:
-  title: 'Cảm ơn bạn, %name%.'
-  body: 'Phiên làm việc đã hoàn tất; không còn yêu cầu gì thêm.'
-path:
-  title: 'Con đường bạn đã đi'
-behind: 'Bước đóng ghi lại tên từ con trỏ trước đó, và liệt kê con đường ở đây: trong một cây, con đường đến một con trỏ là duy nhất, đó là dòng của tổ tiên nó, mỗi bước cho biết điều gì đã được thực hiện trên đó thông qua buildSummary(). Hiển thị nó sẽ kết thúc phiên làm việc: trạng thái của nó chuyển sang hoàn thành và nó không còn hết hạn nữa. Không có gì trước nó được liên kết nữa, vì việc đến bất kỳ bước nào của một phiên đã đóng sẽ bắt đầu một phiên mới: đó là những gì việc mở lại đường hầm thực hiện.'

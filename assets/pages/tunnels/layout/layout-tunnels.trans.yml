@@ -1,0 +1,206 @@
+en:
+  open:
+    modal: Open in a modal
+    panel: Open in a panel
+  start:
+    title: Walk the tunnel
+  roads:
+    title: Its roads
+
+ar:
+  open:
+    modal: 'افتح في نافذة منبثقة'
+    panel: 'افتح في لوحة'
+  start:
+    title: 'سير في النفق'
+  roads:
+    title: طرقها
+
+bn:
+  open:
+    modal: 'মোডালে খুলুন'
+    panel: 'প্যানেলে খুলুন'
+  start:
+    title: 'সুরঙ্গের মধ্যে হাঁটুন'
+  roads:
+    title: 'এর রাস্তা'
+
+de:
+  open:
+    modal: 'In einem Modal öffnen'
+    panel: 'In einem Panel öffnen'
+  start:
+    title: 'Durch den Tunnel gehen'
+  roads:
+    title: 'Die Straßen'
+
+es:
+  open:
+    modal: 'Abrir en un modal'
+    panel: 'Abrir en un panel'
+  start:
+    title: 'Recorrer el túnel'
+  roads:
+    title: 'Sus caminos'
+
+fa:
+  open:
+    modal: 'باز کردن در یک پنجره مودال'
+    panel: 'باز کردن در یک پنل'
+  start:
+    title: 'پیاده‌روی در تونل'
+  roads:
+    title: 'جاده‌های آن'
+
+fi:
+  open:
+    modal: 'Avaa moduulissa'
+    panel: 'Avaa paneelissa'
+  start:
+    title: 'Kävele tunnelissa'
+  roads:
+    title: 'Sen tiet'
+
+fr:
+  open:
+    modal: 'Ouvrir dans une modale'
+    panel: 'Ouvrir dans un panneau'
+  start:
+    title: 'Parcourir le tunnel'
+  roads:
+    title: 'Ses routes'
+
+he:
+  open:
+    modal: 'פתח במודאל'
+    panel: 'פתח בלוח'
+  start:
+    title: 'לצעוד במנהרה'
+  roads:
+    title: 'הדרכים שלה'
+
+hi:
+  open:
+    modal: 'एक मोडल में खोलें'
+    panel: 'एक पैनल में खोलें'
+  start:
+    title: 'टनल में चलें'
+  roads:
+    title: 'इसके रास्ते'
+
+id:
+  open:
+    modal: 'Buka dalam modal'
+    panel: 'Buka dalam panel'
+  start:
+    title: 'Jelajahi terowongan'
+  roads:
+    title: Jalan-jalannya
+
+it:
+  open:
+    modal: 'Apri in un modulo'
+    panel: 'Apri in un pannello'
+  start:
+    title: 'Percorri il tunnel'
+  roads:
+    title: 'Le sue strade'
+
+ja:
+  open:
+    modal: モーダルで開く
+    panel: パネルで開く
+  start:
+    title: トンネルを進む
+  roads:
+    title: その道たち
+
+ko:
+  open:
+    modal: '모달에서 열기'
+    panel: '패널에서 열기'
+  start:
+    title: '터널을 걷다'
+  roads:
+    title: '그의 도로들'
+
+nl:
+  open:
+    modal: 'Openen in een venster'
+    panel: 'Openen in een paneel'
+  start:
+    title: 'Loop door de tunnel'
+  roads:
+    title: 'De wegen'
+
+pl:
+  open:
+    modal: 'Otwórz w oknie modalnym'
+    panel: 'Otwórz w panelu'
+  start:
+    title: 'Przejdź przez tunel'
+  roads:
+    title: 'Jego drogi'
+
+pt_BR:
+  open:
+    modal: 'Abrir em um modal'
+    panel: 'Abrir em um painel'
+  start:
+    title: 'Caminhar pelo túnel'
+  roads:
+    title: 'Suas estradas'
+
+ru:
+  open:
+    modal: 'Открыть в модальном окне'
+    panel: 'Открыть в панели'
+  start:
+    title: 'Пройти по туннелю'
+  roads:
+    title: 'Его дороги'
+
+th:
+  open:
+    modal: เปิดในโมดอล
+    panel: เปิดในแผง
+  start:
+    title: เดินในอุโมงค์
+  roads:
+    title: ถนนของมัน
+
+tr:
+  open:
+    modal: 'Modalde aç'
+    panel: 'Panelde aç'
+  start:
+    title: 'Tüneli geç'
+  roads:
+    title: Yolları
+
+ur:
+  open:
+    modal: 'ماڈل میں کھولیں'
+    panel: 'پینل میں کھولیں'
+  start:
+    title: 'سرنگ میں چلیں'
+  roads:
+    title: 'اس کے راستے'
+
+vi:
+  open:
+    modal: 'Mở trong cửa sổ bật lên'
+    panel: 'Mở trong bảng điều khiển'
+  start:
+    title: 'Đi qua đường hầm'
+  roads:
+    title: 'Các con đường của nó'
+
+zh:
+  open:
+    modal: 在模态框中打开
+    panel: 在面板中打开
+  start:
+    title: 走过隧道
+  roads:
+    title: 它的道路

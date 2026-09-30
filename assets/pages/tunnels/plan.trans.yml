@@ -1,0 +1,344 @@
+en:
+  page_title: Pick a plan
+  page_icon: ph:bold/signpost
+  intro: "The first tunnel, small enough to read as a whole: a welcome, a plan to pick, a name to give, and it is done."
+  start: "Four steps. Walked on a page of its own, each one tells below what the engine just did."
+  roads:
+    description: "The plan step is reached twice, once per plan, and so is everything after it: two cursors of the same step, each keeping its own values."
+    free: Free plan
+    paid: Paid plan
+  steps:
+    intro: "The tree parts here: two cards, one per plan, and no next button. Until a plan is picked, the stepper names step 2 after the step, not after a plan."
+    plan: "Two cursors of the same step, told apart by the plan they carry, each keeping its own stored values."
+    confirm: "A form step, done only once the form is valid; the next button of the tunnel submits it. Come back and the name is still there; go back before it and it is erased, so a branch walked again starts clean."
+    done: "Closes the session: nothing before it is linked any more, and opening the tunnel again starts a new one."
+
+ar:
+  page_title: 'اختر خطة'
+  page_icon: 'ph:bold/signpost'
+  intro: 'النفق الأول، صغير بما يكفي ليقرأ ككل: ترحيب، خطة لاختيار، اسم لإعطائه، وهكذا يتم الأمر.'
+  start: 'أربع خطوات. تظهر في صفحة خاصة بها، كل واحدة تخبر أدناه بما فعله المحرك للتو.'
+  roads:
+    description: 'تم الوصول إلى خطوة الخطة مرتين، مرة لكل خطة، وكذلك كل شيء بعدها: مؤشرين من نفس الخطوة، كل منهما يحتفظ بقيمه الخاصة.'
+    free: 'خطة مجانية'
+    paid: 'خطة مدفوعة'
+  steps:
+    intro: 'الأجزاء هنا: بطاقتان، واحدة لكل خطة، ولا يوجد زر التالي. حتى يتم اختيار خطة، تسمي الخطوة 2 بعد الخطوة، وليس بعد خطة.'
+    plan: 'مؤشرين من نفس الخطوة، يتم تمييزهما بالخطة التي يحملانها، كل منهما يحتفظ بقيمه المخزنة الخاصة به.'
+    confirm: 'خطوة نموذج، تتم فقط عندما يكون النموذج صالحًا؛ زر التالي في النفق يقدمه. عد واسمها لا يزال هناك؛ ارجع قبلها وستُحذف، لذا فإن الفرع الذي تم السير فيه مرة أخرى يبدأ نظيفًا.'
+    done: 'يغلق الجلسة: لا شيء قبله مرتبط بعد الآن، وفتح النفق مرة أخرى يبدأ واحدة جديدة.'
+
+bn:
+  page_title: 'একটি পরিকল্পনা বেছে নিন'
+  page_icon: 'ph:bold/signpost'
+  intro: 'প্রথম টানেলটি, যা সম্পূর্ণরূপে পড়ার জন্য যথেষ্ট ছোট: একটি স্বাগতম, একটি পরিকল্পনা বেছে নেওয়া, একটি নাম দেওয়া, এবং এটি সম্পন্ন।'
+  start: 'চারটি ধাপ। প্রতিটি তার নিজস্ব পৃষ্ঠায় চলে, প্রতিটি নিচে বলে দেয় ইঞ্জিনটি কী করেছে।'
+  roads:
+    description: 'পরিকল্পনার ধাপে দুটিবার পৌঁছানো হয়, প্রতি পরিকল্পনার জন্য একবার, এবং এর পরবর্তী সবকিছুও: একই ধাপের দুটি কার্সর, প্রতিটি তার নিজস্ব মান বজায় রাখে।'
+    free: 'ফ্রি পরিকল্পনা'
+    paid: 'পেইড পরিকল্পনা'
+  steps:
+    intro: 'গাছের অংশগুলি এখানে: দুটি কার্ড, প্রতি পরিকল্পনার জন্য একটি, এবং পরবর্তী বোতাম নেই। একটি পরিকল্পনা বাছাই না করা পর্যন্ত, স্টেপারটি ধাপ ২ নামকরণ করে ধাপের পর, পরিকল্পনার পরে নয়।'
+    plan: 'একই ধাপের দুটি কার্সর, যা তারা বহন করে এমন পরিকল্পনা দ্বারা আলাদা হয়, প্রতিটি তার নিজস্ব সংরক্ষিত মান বজায় রাখে।'
+    confirm: 'একটি ফর্ম ধাপ, শুধুমাত্র তখনই সম্পন্ন হয় যখন ফর্মটি বৈধ; টানেলের পরবর্তী বোতাম এটি জমা দেয়। ফিরে আসুন এবং নামটি এখনও সেখানে; এর আগে ফিরে গেলে এটি মুছে ফেলা হয়, তাই পুনরায় হাঁটা শুরু করলে একটি পরিষ্কার শাখা শুরু হয়।'
+    done: 'সেশনটি বন্ধ করে: এর আগে কিছুই আর সংযুক্ত নয়, এবং টানেলটি আবার খুললে একটি নতুন শুরু হয়।'
+
+de:
+  page_title: 'Wähle einen Plan'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Der erste Tunnel, klein genug, um ihn als Ganzes zu lesen: ein Willkommen, ein Plan zum Auswählen, ein Name zu vergeben, und schon ist es erledigt.'
+  start: 'Vier Schritte. Jeder für sich auf einer eigenen Seite, jeder erklärt unten, was der Motor gerade gemacht hat.'
+  roads:
+    description: 'Der Plan Schritt wird zweimal erreicht, einmal pro Plan, und alles danach ebenso: zwei Cursors desselben Schrittes, jeder mit eigenen Werten.'
+    free: 'Kostenloser Plan'
+    paid: 'Bezahlter Plan'
+  steps:
+    intro: 'Die Baumteile hier: zwei Karten, eine pro Plan, und kein Weiter-Button. Bis ein Plan gewählt ist, nennt der Stepper Schritt 2 nach dem Schritt, nicht nach einem Plan.'
+    plan: 'Zwei Cursors desselben Schrittes, die durch den Plan, den sie tragen, unterschieden werden, jeder mit seinen eigenen gespeicherten Werten.'
+    confirm: 'Ein Formularschritt, der nur abgeschlossen wird, wenn das Formular gültig ist; der Weiter-Button des Tunnels reicht ihn ein. Komm zurück und der Name ist noch da; gehe vorher zurück und er wird gelöscht, sodass ein erneut begangener Ast sauber beginnt.'
+    done: 'Schließt die Sitzung: Nichts davor ist mehr verbunden, und das erneute Öffnen des Tunnels beginnt einen neuen.'
+
+es:
+  page_title: 'Elige un plan'
+  page_icon: 'ph:bold/signpost'
+  intro: 'El primer túnel, lo suficientemente pequeño como para leerlo en su totalidad: una bienvenida, un plan para elegir, un nombre para dar, y está hecho.'
+  start: 'Cuatro pasos. Caminado en una página propia, cada uno cuenta abajo lo que el motor acaba de hacer.'
+  roads:
+    description: 'El paso del plan se alcanza dos veces, una por plan, y así es todo lo que sigue: dos cursores del mismo paso, cada uno manteniendo sus propios valores.'
+    free: 'Plan gratuito'
+    paid: 'Plan de pago'
+  steps:
+    intro: 'Las partes del árbol aquí: dos tarjetas, una por plan, y sin botón siguiente. Hasta que se elija un plan, el selector nombra el paso 2 después del paso, no después de un plan.'
+    plan: 'Dos cursores del mismo paso, diferenciados por el plan que llevan, cada uno manteniendo sus propios valores almacenados.'
+    confirm: 'Un paso de formulario, hecho solo una vez que el formulario es válido; el botón siguiente del túnel lo envía. Vuelve y el nombre sigue ahí; retrocede antes de eso y se borra, por lo que una rama recorrida nuevamente comienza limpia.'
+    done: 'Cierra la sesión: nada antes de esto está vinculado ya, y abrir el túnel nuevamente comienza uno nuevo.'
+
+fa:
+  page_title: 'یک طرح انتخاب کنید'
+  page_icon: 'ph:bold/signpost'
+  intro: 'تونل اول، کوچک enough برای اینکه به طور کامل خوانده شود: یک خوش آمدگویی، طرحی برای انتخاب، نامی برای دادن و تمام شد.'
+  start: 'چهار مرحله. روی صفحه‌ای جداگانه قدم گذاشته شده است، هر یک در زیر می‌گوید که موتور چه کاری انجام داده است.'
+  roads:
+    description: 'مرحله طرح دو بار می‌رسد، یک بار برای هر طرح، و همچنین هر چیزی که بعد از آن است: دو نشانگر از یک مرحله، هر کدام مقادیر خود را نگه می‌دارد.'
+    free: 'طرح رایگان'
+    paid: 'طرح پرداختی'
+  steps:
+    intro: 'اجزای درخت اینجا: دو کارت، یکی برای هر طرح، و هیچ دکمه بعدی. تا زمانی که یک طرح انتخاب نشود، مرحله‌سنج نام مرحله ۲ را بعد از مرحله می‌گذارد، نه بعد از یک طرح.'
+    plan: 'دو نشانگر از یک مرحله، که با طرحی که حمل می‌کنند متمایز شده‌اند، هر کدام مقادیر ذخیره شده خود را نگه می‌دارد.'
+    confirm: 'یک مرحله فرم، فقط زمانی انجام می‌شود که فرم معتبر باشد؛ دکمه بعدی تونل آن را ارسال می‌کند. برگردید و نام هنوز آنجا است؛ قبل از آن برگردید و حذف می‌شود، بنابراین یک شاخه دوباره طی شده تمیز شروع می‌شود.'
+    done: 'جلسه را می‌بندد: هیچ چیزی قبل از آن دیگر مرتبط نیست، و باز کردن دوباره تونل یک جدید آغاز می‌شود.'
+
+fi:
+  page_title: 'Valitse suunnitelma'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Ensimmäinen tunneli, tarpeeksi pieni luettavaksi kokonaisuudessaan: tervetuloa, suunnitelma valittavaksi, nimi annettavaksi, ja se on tehty.'
+  start: 'Neljä vaihetta. Jokainen omalla sivullaan, jokainen kertoo alla, mitä moottori juuri teki.'
+  roads:
+    description: 'Suunnitelman vaiheeseen päästään kahdesti, kerran per suunnitelma, ja kaikki sen jälkeen: kaksi kohdistinta samasta vaiheesta, jokaisella omat arvonsa.'
+    free: 'Ilmainen suunnitelma'
+    paid: 'Maksullinen suunnitelma'
+  steps:
+    intro: 'Puun osat täällä: kaksi korttia, yksi per suunnitelma, eikä seuraavaa painiketta. Kunnes suunnitelma on valittu, vaiheittaja nimeää vaiheen 2 vaiheen mukaan, ei suunnitelman mukaan.'
+    plan: 'Kaksi kohdistinta samasta vaiheesta, erottuvat toisistaan kantamansa suunnitelman mukaan, jokaisella omat tallennetut arvonsa.'
+    confirm: 'Lomakevaihe, joka tehdään vain, kun lomake on voimassa; tunnelin seuraava painike lähettää sen. Palaa takaisin ja nimi on edelleen siellä; mene taaksepäin ennen sitä ja se poistuu, joten uudelleen kävelty haara alkaa puhtaana.'
+    done: 'Sulkee istunnon: mikään ennen sitä ei ole enää linkitetty, ja tunnelin uudelleen avaaminen aloittaa uuden.'
+
+fr:
+  page_title: 'Choisissez un plan'
+  page_icon: 'ph:bold/signpost'
+  intro: "Le premier tunnel, assez petit pour être lu dans son ensemble : un accueil, un plan à choisir, un nom à donner, et c'est fait."
+  start: 'Quatre étapes. Parcourues sur une page à part, chacune dit ci-dessous ce que le moteur vient de faire.'
+  roads:
+    description: "L'étape du plan est atteinte deux fois, une par plan, et tout ce qui suit : deux curseurs de la même étape, chacun gardant ses propres valeurs."
+    free: 'Plan gratuit'
+    paid: 'Plan payant'
+  steps:
+    intro: "Les parties de l'arbre ici : deux cartes, une par plan, et pas de bouton suivant. Jusqu'à ce qu'un plan soit choisi, le sélecteur nomme l'étape 2 après l'étape, pas après un plan."
+    plan: "Deux curseurs de la même étape, différenciés par le plan qu'ils portent, chacun gardant ses propres valeurs stockées."
+    confirm: 'Une étape de formulaire, faite seulement une fois que le formulaire est valide ; le bouton suivant du tunnel le soumet. Revenez et le nom est toujours là ; revenez avant et il est effacé, donc une branche parcourue à nouveau commence propre.'
+    done: "Clôture la session : rien avant n'est plus lié, et ouvrir à nouveau le tunnel commence une nouvelle."
+
+he:
+  page_title: 'בחר תוכנית'
+  page_icon: 'ph:bold/signpost'
+  intro: 'המנהרה הראשונה, קטנה מספיק לקרוא אותה כולה: ברכה, תוכנית לבחירה, שם לתת, וזה נגמר.'
+  start: 'ארבעה שלבים. כל אחד מהם נמצא בעמוד משלו, כל אחד מהם מספר למטה מה המנוע עשה זה עתה.'
+  roads:
+    description: 'שלב התוכנית מושג פעמיים, פעם לכל תוכנית, וכך גם כל מה שאחריו: שני קורסורים של אותו שלב, כל אחד שומר את הערכים שלו.'
+    free: 'תוכנית חינמית'
+    paid: 'תוכנית בתשלום'
+  steps:
+    intro: 'החלקים כאן: שתי כרטיסים, אחד לכל תוכנית, ואין כפתור הבא. עד שתוכנית תיבחר, הסופר יקרא לשלב 2 על שם השלב, לא על שם תוכנית.'
+    plan: 'שני קורסורים של אותו שלב, המופרדים על פי התוכנית שהם נושאים, כל אחד שומר את הערכים שלו.'
+    confirm: 'שלב טופס, נעשה רק כאשר הטופס תקף; כפתור הבא של המנהרה מגיש אותו. חזור והשם עדיין שם; חזור לפני זה והוא נמחק, כך שסניף שעבר שוב מתחיל נקי.'
+    done: 'סוגר את המושב: שום דבר לפניו לא קשור עוד, ופתיחת המנהרה שוב מתחילה חדשה.'
+
+hi:
+  page_title: 'योजना चुनें'
+  page_icon: 'ph:bold/signpost'
+  intro: 'पहली सुरंग, इसे एक साथ पढ़ने के लिए काफी छोटी: एक स्वागत, एक योजना चुनने के लिए, एक नाम देने के लिए, और यह हो गया।'
+  start: 'चार चरण। अपनी एक पृष्ठ पर चलें, प्रत्येक एक बताता है कि इंजन ने अभी क्या किया।'
+  roads:
+    description: 'योजना चरण दो बार पहुंचा जाता है, प्रति योजना एक बार, और इसके बाद हर चीज भी: उसी चरण के दो कर्सर, प्रत्येक अपने स्वयं के मान रखते हुए।'
+    free: 'मुक्त योजना'
+    paid: 'भुगतान योजना'
+  steps:
+    intro: 'यहां पेड़ के भाग: दो कार्ड, प्रति योजना एक, और कोई अगला बटन नहीं। जब तक एक योजना नहीं चुनी जाती, स्टेपर चरण 2 का नाम उस चरण के बाद रखता है, योजना के बाद नहीं।'
+    plan: 'उसी चरण के दो कर्सर, जिन्हें वे जिस योजना को लेकर चलते हैं, के द्वारा अलग किया जाता है, प्रत्येक अपने स्वयं के संग्रहीत मान रखते हुए।'
+    confirm: 'एक फॉर्म चरण, केवल तभी किया जाता है जब फॉर्म मान्य होता है; सुरंग का अगला बटन इसे सबमिट करता है। वापस आएं और नाम अभी भी वहां है; इससे पहले वापस जाएं और यह मिटा दिया जाता है, इसलिए एक बार फिर से चलने वाली शाखा स्वच्छ शुरू होती है।'
+    done: 'सत्र को बंद करता है: इससे पहले कुछ भी अब जुड़े नहीं हैं, और फिर से सुरंग खोलने पर एक नया शुरू होता है।'
+
+id:
+  page_title: 'Pilih rencana'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Terowongan pertama, cukup kecil untuk dibaca secara keseluruhan: sebuah sambutan, rencana untuk dipilih, nama untuk diberikan, dan itu selesai.'
+  start: 'Empat langkah. Dijalani di halaman tersendiri, masing-masing memberi tahu di bawah apa yang baru saja dilakukan oleh mesin.'
+  roads:
+    description: 'Langkah rencana dicapai dua kali, sekali per rencana, dan begitu juga semua yang setelahnya: dua kursor dari langkah yang sama, masing-masing menyimpan nilainya sendiri.'
+    free: 'Rencana gratis'
+    paid: 'Rencana berbayar'
+  steps:
+    intro: 'Bagian pohon di sini: dua kartu, satu per rencana, dan tidak ada tombol berikutnya. Sampai rencana dipilih, stepper menamai langkah 2 setelah langkah itu, bukan setelah rencana.'
+    plan: 'Dua kursor dari langkah yang sama, dibedakan oleh rencana yang mereka bawa, masing-masing menyimpan nilai yang tersimpan sendiri.'
+    confirm: 'Langkah formulir, dilakukan hanya setelah formulir valid; tombol berikutnya dari terowongan mengirimkannya. Kembali dan nama masih ada; kembali sebelum itu dan akan dihapus, jadi cabang yang dijalani lagi dimulai dari awal.'
+    done: 'Menutup sesi: tidak ada yang sebelum ini terhubung lagi, dan membuka terowongan lagi memulai yang baru.'
+
+it:
+  page_title: 'Scegli un piano'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Il primo tunnel, abbastanza piccolo da essere letto tutto in una volta: un benvenuto, un piano da scegliere, un nome da dare, e il gioco è fatto.'
+  start: 'Quattro passaggi. Camminato su una pagina a sé stante, ognuno racconta qui sotto cosa ha appena fatto il motore.'
+  roads:
+    description: 'Il passo del piano è raggiunto due volte, una per piano, e così è tutto il resto: due cursori dello stesso passo, ognuno mantiene i propri valori.'
+    free: 'Piano gratuito'
+    paid: 'Piano a pagamento'
+  steps:
+    intro: "Le parti dell'albero qui: due schede, una per piano, e nessun pulsante successivo. Fino a quando non viene scelto un piano, il passo del passaggio 2 viene chiamato dopo il passo, non dopo un piano."
+    plan: 'Due cursori dello stesso passo, distinti dal piano che portano, ognuno mantiene i propri valori memorizzati.'
+    confirm: 'Un passo del modulo, completato solo quando il modulo è valido; il pulsante successivo del tunnel lo invia. Torna indietro e il nome è ancora lì; torna indietro prima e viene cancellato, così un ramo percorso di nuovo inizia pulito.'
+    done: 'Chiude la sessione: nulla prima di esso è più collegato, e riaprire il tunnel inizia una nuova.'
+
+ja:
+  page_title: プランを選択
+  page_icon: 'ph:bold/signpost'
+  intro: '最初のトンネルは、全体を読み取るのに十分小さく: ウェルカム、選ぶプラン、名前を付ける、それで完了です。'
+  start: 4つのステップ。各ステップは独自のページにあり、エンジンが何をしたかを下に示します。
+  roads:
+    description: 'プランステップには2回到達します。各プランごとに1回ずつです。そしてその後のすべても同様です: 同じステップの2つのカーソルがあり、それぞれ独自の値を保持します。'
+    free: 無料プラン
+    paid: 有料プラン
+  steps:
+    intro: 'ここにはツリーの部分があります: プランごとに1枚のカードが2枚あり、次へ進むボタンはありません。プランが選ばれるまで、ステッパーはステップ2をステップの後に名付けますが、プランの後ではありません。'
+    plan: 同じステップの2つのカーソルがあり、それぞれが持つプランによって区別され、各々独自の保存された値を保持します。
+    confirm: 'フォームステップで、フォームが有効な場合にのみ1回実行されます。トンネルの次へ進むボタンがそれを送信します。戻ってきたとき、名前はまだそこにあります; それの前に戻ると消去されるので、再度歩いた枝はクリーンに始まります。'
+    done: 'セッションを終了します: それ以前のものはもうリンクされず、再度トンネルを開くと新しいセッションが始まります。'
+
+ko:
+  page_title: '플랜 선택'
+  page_icon: 'ph:bold/signpost'
+  intro: '첫 번째 터널, 전체를 읽기에 충분히 작은: 환영, 선택할 플랜, 부여할 이름, 그리고 완료됩니다.'
+  start: '네 단계. 각 단계는 자신의 페이지에서 진행되며, 아래에는 엔진이 방금 수행한 작업이 설명되어 있습니다.'
+  roads:
+    description: '플랜 단계는 두 번 도달하며, 각 플랜마다 한 번씩 이루어집니다. 그 이후의 모든 것도 마찬가지입니다: 같은 단계의 두 개 커서가 각자의 값을 유지합니다.'
+    free: '무료 플랜'
+    paid: '유료 플랜'
+  steps:
+    intro: '여기 나무의 부분: 플랜마다 하나씩 두 개의 카드가 있으며, 다음 버튼이 없습니다. 플랜이 선택될 때까지 스테퍼는 단계를 플랜이 아닌 단계 2로 이름 붙입니다.'
+    plan: '같은 단계의 두 개 커서, 각각 자신이 지닌 플랜에 따라 구별되며, 각자의 저장된 값을 유지합니다.'
+    confirm: '폼 단계, 폼이 유효할 때만 수행됩니다; 터널의 다음 버튼이 이를 제출합니다. 다시 오면 이름이 여전히 남아 있고, 그 이전으로 돌아가면 지워지므로 다시 걸어온 분기는 깨끗하게 시작됩니다.'
+    done: '세션을 종료합니다: 이전의 어떤 것도 더 이상 연결되지 않으며, 터널을 다시 열면 새로운 세션이 시작됩니다.'
+
+nl:
+  page_title: 'Kies een plan'
+  page_icon: 'ph:bold/signpost'
+  intro: 'De eerste tunnel, klein genoeg om in zijn geheel te lezen: een welkomstboodschap, een plan om te kiezen, een naam om te geven, en het is klaar.'
+  start: 'Vier stappen. Elke stap heeft zijn eigen pagina, elke stap vertelt hieronder wat de motor net deed.'
+  roads:
+    description: 'De planstap wordt twee keer bereikt, eenmaal per plan, en dat geldt ook voor alles daarna: twee cursors van dezelfde stap, elk met zijn eigen waarden.'
+    free: 'Gratis plan'
+    paid: 'Betaald plan'
+  steps:
+    intro: 'De boom verdeelt hier: twee kaarten, één per plan, en geen volgende knop. Totdat een plan is gekozen, noemt de stapper stap 2 naar de stap, niet naar een plan.'
+    plan: 'Twee cursors van dezelfde stap, onderscheiden door het plan dat ze dragen, elk met hun eigen opgeslagen waarden.'
+    confirm: 'Een formulierstap, alleen uitgevoerd als het formulier geldig is; de volgende knop van de tunnel dient het in. Kom terug en de naam is nog steeds daar; ga terug voordat het gebeurt en het is gewist, zodat een opnieuw gelopen tak weer schoon begint.'
+    done: 'Sluit de sessie af: niets ervoor is meer gekoppeld, en het opnieuw openen van de tunnel start een nieuwe.'
+
+pl:
+  page_title: 'Wybierz plan'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Pierwszy tunel, na tyle mały, żeby można go było przeczytać w całości: powitanie, plan do wyboru, nazwa do nadania, i to wszystko.'
+  start: 'Cztery kroki. Każdy z nich przechodzi na swoją własną stronę, a każdy mówi poniżej, co silnik właśnie wykonał.'
+  roads:
+    description: 'Krok planu osiągany jest dwukrotnie, raz na plan, i tak samo wszystko po nim: dwa wskaźniki tego samego kroku, każdy zachowuje swoje własne wartości.'
+    free: 'Darmowy plan'
+    paid: 'Płatny plan'
+  steps:
+    intro: 'Drzewo dzieli się tutaj: dwie karty, jedna na plan, i brak przycisku następnego. Dopóki plan nie zostanie wybrany, krokowy nazywa krok 2 po kroku, a nie po planie.'
+    plan: 'Dwa wskaźniki tego samego kroku, odróżniane przez plan, który noszą, każdy zachowuje swoje własne zapisane wartości.'
+    confirm: 'Krok formularza, wykonywany tylko wtedy, gdy formularz jest ważny; przycisk następny w tunelu go przesyła. Wróć, a nazwa nadal tam jest; wróć przed nim, a zostanie skasowana, więc odnawiane przejście zaczyna się czysto.'
+    done: 'Zamyka sesję: nic przed nim nie jest już powiązane, a ponowne otwarcie tunelu zaczyna nową.'
+
+pt_BR:
+  page_title: 'Escolha um plano'
+  page_icon: 'ph:bold/signpost'
+  intro: 'O primeiro túnel, pequeno o suficiente para ser lido como um todo: uma recepção, um plano a escolher, um nome a dar, e está feito.'
+  start: 'Quatro etapas. Caminhadas em uma página própria, cada uma conta abaixo o que o mecanismo acabou de fazer.'
+  roads:
+    description: 'A etapa do plano é alcançada duas vezes, uma por plano, e assim é tudo que vem depois: dois indicadores da mesma etapa, cada um mantendo seus próprios valores.'
+    free: 'Plano gratuito'
+    paid: 'Plano pago'
+  steps:
+    intro: 'As partes da árvore aqui: dois cartões, um por plano, e sem botão de próximo. Até que um plano seja escolhido, o passo do steeper é nomeado como passo 2 após a etapa, não após um plano.'
+    plan: 'Dois indicadores da mesma etapa, diferenciados pelo plano que carregam, cada um mantendo seus próprios valores armazenados.'
+    confirm: 'Uma etapa de formulário, concluída apenas quando o formulário é válido; o botão de próximo do túnel o envia. Volte e o nome ainda estará lá; volte antes disso e ele é apagado, então um ramo percorrido novamente começa limpo.'
+    done: 'Encerra a sessão: nada antes dela está mais vinculado, e abrir o túnel novamente inicia um novo.'
+
+ru:
+  page_title: 'Выберите план'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Первый туннель, достаточно маленький, чтобы его можно было прочитать целиком: приветствие, план для выбора, имя для присвоения, и всё готово.'
+  start: 'Четыре шага. Каждый из них описывает, что только что сделала система.'
+  roads:
+    description: 'Шаг плана достигается дважды, один раз для каждого плана, и всё, что следует за ним: два курсора одного и того же шага, каждый сохраняет свои собственные значения.'
+    free: 'Бесплатный план'
+    paid: 'Платный план'
+  steps:
+    intro: 'Здесь дерево делится на части: две карточки, по одной на план, и нет кнопки «Далее». Пока план не выбран, шагомер называет шаг 2 в соответствии со шагом, а не с планом.'
+    plan: 'Два курсора одного и того же шага, различающиеся по плану, который они несут, каждый сохраняет свои собственные значения.'
+    confirm: 'Шаг формы, выполняется только после того, как форма становится действительной; кнопка «Далее» туннеля отправляет её. Вернитесь, и имя всё ещё там; вернитесь до этого момента, и оно будет стерто, так что ветка, пройденная снова, начинается с чистого листа.'
+    done: 'Закрывает сессию: ничего до этого больше не связано, и повторное открытие туннеля начинает новую.'
+
+th:
+  page_title: เลือกแผน
+  page_icon: 'ph:bold/signpost'
+  intro: 'อุโมงค์แรก ขนาดเล็กพอที่จะอ่านได้โดยรวม: การต้อนรับ แผนที่เลือก ชื่อที่ตั้ง และมันเสร็จสิ้นแล้ว.'
+  start: 'สี่ขั้นตอน เดินบนหน้าของมันเอง แต่ละขั้นตอนบอกด้านล่างว่ามอเตอร์เพิ่งทำอะไรไป.'
+  roads:
+    description: 'ขั้นตอนแผนถูกเข้าถึงสองครั้ง ครั้งหนึ่งต่อแผน และทุกอย่างหลังจากนั้น: ตัวชี้สองตัวของขั้นตอนเดียวกัน แต่ละตัวเก็บค่าของตัวเองไว้.'
+    free: แผนฟรี
+    paid: แผนที่ต้องชำระเงิน
+  steps:
+    intro: 'ส่วนต้นไม้ที่นี่: การ์ดสองใบ หนึ่งใบต่อแผน และไม่มีปุ่มถัดไป จนกว่าแผนจะถูกเลือก ตัวเลื่อนจะตั้งชื่อขั้นตอนที่ 2 หลังจากขั้นตอน ไม่ใช่หลังจากแผน.'
+    plan: 'ตัวชี้สองตัวของขั้นตอนเดียวกัน ที่บอกความแตกต่างออกจากแผนที่พวกเขาถืออยู่ แต่ละตัวเก็บค่าที่ถูกเก็บไว้ของตัวเอง.'
+    confirm: 'ขั้นตอนแบบฟอร์ม ทำเพียงครั้งเดียวเมื่อแบบฟอร์มถูกต้อง; ปุ่มถัดไปของอุโมงค์จะส่งแบบฟอร์มนี้ กลับมาแล้วชื่อยังอยู่ที่นั่น; กลับไปก่อนหน้านั้นและมันจะถูกลบ ดังนั้นการเดินต่อไปในสาขาที่เดินอีกครั้งจะเริ่มต้นใหม่.'
+    done: 'ปิดเซสชัน: ไม่มีอะไรที่อยู่ก่อนหน้านี้เชื่อมโยงอีกต่อไป และการเปิดอุโมงค์อีกครั้งจะเริ่มใหม่.'
+
+tr:
+  page_title: 'Bir plan seçin'
+  page_icon: 'ph:bold/signpost'
+  intro: 'İlk tünel, tamamını okuyabilecek kadar küçük: bir karşılama, seçilecek bir plan, verilecek bir isim ve işte bu kadar.'
+  start: 'Dört adım. Her biri kendi sayfasında, her biri aşağıda motorun ne yaptığını anlatıyor.'
+  roads:
+    description: 'Plan adımına iki kez ulaşılır, her plan için bir kez ve sonrasındaki her şey de öyle: aynı adımın iki imleci, her biri kendi değerlerini saklıyor.'
+    free: 'Ücretsiz plan'
+    paid: 'Ücretli plan'
+  steps:
+    intro: "Ağaç burada parçalanır: her plan için bir kart, ve sonraki buton yok. Bir plan seçilene kadar, adımcı adım 2'yi adımın ardından değil, bir planın ardından adlandırır."
+    plan: 'Aynı adımın iki imleci, taşıdıkları planla ayrılır, her biri kendi saklanan değerlerini tutar.'
+    confirm: 'Bir form adımı, form geçerli olduğunda yalnızca bir kez yapılır; tünelin sonraki butonu onu gönderir. Geri dönün ve isim hala orada; ondan önce geri dönerseniz silinir, bu yüzden yeniden yürütülen bir dal temiz başlar.'
+    done: 'Oturumu kapatır: öncesindeki hiçbir şey artık bağlı değildir ve tüneli tekrar açmak yeni bir başlangıç yapar.'
+
+ur:
+  page_title: 'پلان منتخب کریں'
+  page_icon: 'ph:bold/signpost'
+  intro: 'پہلا سرنگ، اتنا چھوٹا کہ پورے میں پڑھا جا سکے: ایک خوش آمدید، ایک پلان منتخب کرنے کے لئے، ایک نام دینے کے لئے، اور یہ مکمل ہے۔'
+  start: 'چار مراحل۔ اپنی ایک صفحے پر چلتے ہوئے، ہر ایک نیچے بتاتا ہے کہ انجن نے ابھی کیا کیا۔'
+  roads:
+    description: 'پلان کا مرحلہ دو بار پہنچتا ہے، ہر پلان کے لیے ایک بار، اور اس کے بعد سب کچھ بھی: اسی مرحلے کے دو کرسر، ہر ایک اپنے اپنے اقدار کو رکھتا ہے۔'
+    free: 'مفت پلان'
+    paid: 'ادا شدہ پلان'
+  steps:
+    intro: 'درخت کے حصے یہاں: دو کارڈ، ہر پلان کے لیے ایک، اور کوئی اگلا بٹن نہیں۔ جب تک ایک پلان منتخب نہیں کیا جاتا، اسٹیپر مرحلہ 2 کا نام مرحلے کے بعد رکھتا ہے، پلان کے بعد نہیں۔'
+    plan: 'اسی مرحلے کے دو کرسر، جو وہ پلان رکھتے ہیں ان سے الگ بتائے گئے، ہر ایک اپنے اپنے ذخیرہ شدہ اقدار کو رکھتا ہے۔'
+    confirm: 'ایک فارم کا مرحلہ، صرف اسی وقت مکمل ہوتا ہے جب فارم درست ہو؛ سرنگ کا اگلا بٹن اسے جمع کرتا ہے۔ واپس آؤ تو نام ابھی بھی وہاں ہے؛ اس سے پہلے واپس جاؤ تو یہ مٹا دیا جاتا ہے، تو دوبارہ چلنے والی شاخ صاف شروع ہوتی ہے۔'
+    done: 'سیشن بند کرتا ہے: اس سے پہلے کچھ بھی اب آپس میں منسلک نہیں ہے، اور سرنگ کو دوبارہ کھولنے سے ایک نئی شروع ہوتی ہے۔'
+
+vi:
+  page_title: 'Chọn một kế hoạch'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Đường hầm đầu tiên, đủ nhỏ để đọc toàn bộ: một lời chào, một kế hoạch để chọn, một tên để đặt, và xong.'
+  start: 'Bốn bước. Được thực hiện trên một trang riêng, mỗi bước cho biết dưới đây động cơ vừa làm gì.'
+  roads:
+    description: 'Bước kế hoạch được đạt tới hai lần, một lần cho mỗi kế hoạch, và mọi thứ sau đó cũng vậy: hai con trỏ của cùng một bước, mỗi con giữ những giá trị riêng của nó.'
+    free: 'Kế hoạch miễn phí'
+    paid: 'Kế hoạch trả phí'
+  steps:
+    intro: 'Các phần của cây ở đây: hai thẻ, mỗi thẻ cho một kế hoạch, và không có nút tiếp theo. Cho đến khi một kế hoạch được chọn, bước điều hướng sẽ gọi tên bước 2 theo bước đó, không phải theo một kế hoạch.'
+    plan: 'Hai con trỏ của cùng một bước, được phân biệt bởi kế hoạch mà chúng mang theo, mỗi con giữ những giá trị đã lưu riêng của nó.'
+    confirm: 'Một bước biểu mẫu, chỉ hoàn thành khi biểu mẫu hợp lệ; nút tiếp theo của đường hầm gửi nó. Quay lại và tên vẫn còn đó; quay lại trước đó và nó sẽ bị xóa, vì vậy một nhánh đi lại bắt đầu sạch sẽ.'
+    done: 'Đóng phiên: không có gì trước đó còn liên kết nữa, và mở lại đường hầm sẽ bắt đầu một phiên mới.'
+
+zh:
+  page_title: 选择一个计划
+  page_icon: 'ph:bold/signpost'
+  intro: 第一个隧道，足够小以便整体阅读：一个欢迎，一个选择计划，一个命名，完成了。
+  start: 四个步骤。每一步都在自己的页面上行走，每一步都讲述引擎刚刚做了什么。
+  roads:
+    description: 计划步骤被到达两次，每个计划一次，之后的所有内容也是如此：两个相同步骤的光标，各自保持自己的值。
+    free: 免费计划
+    paid: 付费计划
+  steps:
+    intro: 树的部分在这里：两个卡片，每个计划一个，没有下一步按钮。在选择计划之前，步进器将步骤2命名为步骤，而不是计划。
+    plan: 两个相同步骤的光标，根据它们所携带的计划区分，每个光标保持其各自存储的值。
+    confirm: 一个表单步骤，仅在表单有效时完成；隧道的下一步按钮提交它。回来时，名称仍然在那里；在之前返回时将其删除，因此再次行走的分支是干净的。
+    done: 关闭会话：之前的内容不再相连，再次打开隧道将开始一个新的会话。

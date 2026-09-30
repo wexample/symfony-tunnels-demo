@@ -1,9 +1,0 @@
-page_title: 'Tunnel di demo'
-title: Benvenuto
-lead: 'Un breve tunnel per mostrare come si legge: scegli un piano, dai un nome e il gioco è fatto. Il piano che scegli determina il passo successivo.'
-plan:
-  free:
-    description: 'Tutto il necessario per iniziare, nulla da pagare.'
-  paid:
-    description: 'Il tutto, con spazio per crescere.'
-behind: "Il punto d'ingresso del tunnel. Aprirlo ha creato una sessione nel database, che la sessione del browser conosce solo per il suo id. Questo passaggio è completato non appena viene visualizzato, il predefinito. Le due schede portano a due cursori dello stesso passo successivo, distinti dalla loro opzione di piano: gli alberi si dividono qui, quindi non c'è un pulsante successivo, e il passo viene chiamato passo 2 dopo il passaggio piuttosto che dopo un piano."

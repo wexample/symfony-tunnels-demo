@@ -1,0 +1,735 @@
+en:
+  page_title: Tunnels
+  page_icon: ph:bold/path
+  intro: "A tunnel is a journey cut into steps — a sign-up, a checkout, a renewal — whose road can change with what the visitor answers. The package remembers where each visitor stands, lets them through the steps they may see, and sends them back where they belong when they try to skip ahead."
+  card:
+    plan:
+      title: Pick a plan
+      description: "The first tunnel: two branches, a form, and a session closed at the end."
+    subscription:
+      title: Subscribe
+      description: "A payment on one branch only, a session held 15 minutes, a wait on the bank."
+  tree:
+    title: A tree of cursors
+    body: "A tunnel is built as a tree, not a list. A step reached from two places is two cursors, each with its own hash and its own stored values: that is what lets a branch grow steps another one does not have, and what the way you came, shown at the end of each tunnel, is read from."
+  session:
+    title: A session in the database
+    body: "Opening a tunnel creates a session, which the browser session only knows by its id. It holds the values the steps store, and expires a day after the last step shown — or sooner, when that step asks for it. Expired sessions are dropped by the scheduler, every 15 minutes; completed and pending ones are kept."
+  access:
+    title: Where the visitor may go
+    body: "Every step decides whether it can be shown and where to send the visitor otherwise. Links and buttons are drawn with the same rules, so a link never leads to a redirect back: no next button where the road parts, no way back past a payment, nothing to go back to in a closed session."
+  look:
+    title: What to look at while walking
+    stepper:
+      title: The stepper
+      body: "Where you stand, what is behind, what is ahead. A gap marks where the road depends on a choice not made yet."
+    behind:
+      title: Behind this step
+      body: "Under every step, what the engine just did, and its state: the cursor, how the step completes, the session and when it expires."
+    toolbar:
+      title: The develop toolbar and the shell
+      body: "The Tunnels tab of the develop toolbar draws the session of this browser on the map of its tunnel; bin/console tunnels:info does the same from a shell."
+
+ar:
+  page_title: الأنفاق
+  page_icon: 'ph:bold/path'
+  intro: 'النفق هو رحلة مقسمة إلى خطوات — تسجيل، دفع، تجديد — يمكن أن يتغير مسارها بناءً على إجابات الزائر. يحتفظ النظام بمكان كل زائر، ويسمح لهم بالمرور عبر الخطوات التي قد يرونها، ويرسلهم إلى حيث ينتمون عندما يحاولون التقدم.'
+  card:
+    plan:
+      title: 'اختر خطة'
+      description: 'النفق الأول: فرعين، نموذج، وجلسة مغلقة في النهاية.'
+    subscription:
+      title: اشترك
+      description: 'دفعة على فرع واحد فقط، جلسة مدتها 15 دقيقة، انتظار على البنك.'
+  tree:
+    title: 'شجرة المؤشرات'
+    body: 'يتم بناء النفق كشجرة، وليس كقائمة. الخطوة التي تصل من مكانين هي مؤشرين، كل منهما له هاش خاص به والقيم المخزنة الخاصة به: هذا هو ما يسمح لفرع بتطوير خطوات لا يمتلكها فرع آخر، وما يقرأ من الطريق الذي جئت منه، والذي يظهر في نهاية كل نفق.'
+  session:
+    title: 'جلسة في قاعدة البيانات'
+    body: 'فتح نفق ينشئ جلسة، يعرفها جلسة المتصفح فقط من خلال معرفها. يحتفظ بالقيم التي تخزنها الخطوات، وتنتهي بعد يوم من آخر خطوة تم عرضها — أو في وقت أقرب، عندما تطلب تلك الخطوة ذلك. يتم حذف الجلسات المنتهية من قبل المجدول، كل 15 دقيقة؛ وتُحتفظ بالجلسات المكتملة والمعلقة.'
+  access:
+    title: 'أين يمكن للزائر الذهاب'
+    body: 'كل خطوة تقرر ما إذا كان يمكن عرضها وأين يتم إرسال الزائر في حالة أخرى. يتم رسم الروابط والأزرار بنفس القواعد، لذا فإن الرابط لا يؤدي أبداً إلى إعادة توجيه إلى الوراء: لا يوجد زر التالي حيث يتفرع الطريق، لا عودة بعد الدفع، لا شيء للعودة إليه في جلسة مغلقة.'
+  look:
+    title: 'ماذا تنظر أثناء السير'
+    stepper:
+      title: المؤشر
+      body: 'أين تقف، ما هو خلفك، ما هو أمامك. فجوة تحدد أين يعتمد الطريق على خيار لم يتم اتخاذه بعد.'
+    behind:
+      title: 'خلف هذه الخطوة'
+      body: 'تحت كل خطوة، ما فعله المحرك للتو، وحالته: المؤشر، كيف تكتمل الخطوة، الجلسة ومتى تنتهي.'
+    toolbar:
+      title: 'شريط أدوات التطوير والصدفة'
+      body: 'علامة التبويب الأنفاق في شريط أدوات التطوير ترسم جلسة هذا المتصفح على خريطة نفقه؛ bin/console tunnels:info يفعل نفس الشيء من الصدفة.'
+
+bn:
+  page_title: টানেল
+  page_icon: 'ph:bold/path'
+  intro: 'একটি টানেল হচ্ছে ধাপে ধাপে ভ্রমণ — একটি সাইন-আপ, একটি চেকআউট, একটি নবায়ন — যার পথ ভিজিটরের উত্তর দেওয়ার সাথে সাথে পরিবর্তিত হতে পারে। প্যাকেজটি মনে রাখে প্রতিটি ভিজিটর কোথায় অবস্থান করছে, তাদের জন্য যে ধাপগুলি দেখা যায় সেগুলোর মাধ্যমে যেতে দেয়, এবং তারা যখন অগ্রসর হওয়ার চেষ্টা করে তখন তাদের প্রাপ্য স্থানে ফিরিয়ে দেয়।'
+  card:
+    plan:
+      title: 'একটি পরিকল্পনা নির্বাচন করুন'
+      description: 'প্রথম টানেল: দুটি শাখা, একটি ফর্ম, এবং শেষে একটি সেশন বন্ধ।'
+    subscription:
+      title: 'সাবস্ক্রাইব করুন'
+      description: 'একটি শাখায় শুধুমাত্র একটি পেমেন্ট, 15 মিনিট ধরে একটি সেশন, ব্যাংকে অপেক্ষা।'
+  tree:
+    title: 'কার্সরের একটি গাছ'
+    body: 'একটি টানেল একটি তালিকা নয়, গাছ হিসেবে তৈরি হয়। দুটি স্থানে পৌঁছানো একটি ধাপ দুটি কার্সর, প্রতিটির নিজস্ব হ্যাশ এবং সংরক্ষিত মান রয়েছে: এটি একটি শাখাকে এমন ধাপ বাড়াতে দেয় যা অন্যটির নেই, এবং যে পথ দিয়ে আপনি এসেছেন, সেটি প্রত্যেক টানেলের শেষে পড়া হয়।'
+  session:
+    title: 'ডেটাবেসে একটি সেশন'
+    body: 'একটি টানেল খোলার মাধ্যমে একটি সেশন তৈরি হয়, যা ব্রাউজার সেশন কেবল তার আইডি দ্বারা জানে। এটি সেই মানগুলি ধারণ করে যা ধাপগুলি সংরক্ষণ করে, এবং শেষ প্রদর্শিত ধাপের এক দিন পরে মেয়াদ শেষ হয় — অথবা তাড়াতাড়ি, যখন সেই ধাপটি তার জন্য অনুরোধ করে। মেয়াদ শেষ হওয়া সেশনগুলি শিডিউলার দ্বারা 15 মিনিটে বাদ দেওয়া হয়; সম্পন্ন এবং মুলতুবি সেশনগুলি রাখা হয়।'
+  access:
+    title: 'ভিজিটর কোথায় যেতে পারে'
+    body: 'প্রতিটি ধাপ নির্ধারণ করে যে এটি প্রদর্শিত হতে পারে কি না এবং অন্যথায় ভিজিটরকে কোথায় পাঠাতে হবে। লিঙ্ক এবং বোতাম একই নিয়মে অঙ্কিত হয়, তাই একটি লিঙ্ক কখনও রিডাইরেক্টের দিকে নিয়ে যায় না: যেখানে পথ বিভক্ত হয় সেখানে পরবর্তী বোতাম নেই, একটি পেমেন্টের পর ফিরে যাওয়ার উপায় নেই, বন্ধ সেশনে ফিরে যাওয়ার কিছু নেই।'
+  look:
+    title: 'হাঁটার সময় কী দেখতে হবে'
+    stepper:
+      title: স্টেপার
+      body: 'আপনি কোথায় আছেন, পেছনে কী আছে, সামনে কী আছে। একটি ফাঁকা চিহ্নিত করে যেখানে পথ একটি নির্বাচন না করা অনুযায়ী নির্ভর করে।'
+    behind:
+      title: 'এই ধাপের পেছনে'
+      body: 'প্রতিটি ধাপের নিচে, ইঞ্জিনটি ঠিক কী করেছে, এবং এর অবস্থা: কার্সর, ধাপটি কীভাবে সম্পন্ন হয়, সেশন এবং এটি কখন মেয়াদ শেষ হয়।'
+    toolbar:
+      title: 'ডেভেলপ টুলবার এবং শেল'
+      body: 'ডেভেলপ টুলবারের টানেল ট্যাব এই ব্রাউজারের সেশনকে তার টানেলের মানচিত্রে অঙ্কিত করে; bin/console tunnels:info শেলের মাধ্যমে একই কাজ করে।'
+
+de:
+  page_title: Tunnel
+  page_icon: 'ph:bold/path'
+  intro: 'Ein Tunnel ist eine Reise, die in Schritte unterteilt ist – eine Anmeldung, ein Checkout, eine Verlängerung – deren Weg sich je nach den Antworten des Besuchers ändern kann. Das Paket merkt sich, wo jeder Besucher steht, lässt sie durch die Schritte gehen, die sie sehen können, und schickt sie dorthin zurück, wo sie hingehören, wenn sie versuchen, voranzuspringen.'
+  card:
+    plan:
+      title: 'Wähle einen Plan'
+      description: 'Der erste Tunnel: zwei Äste, ein Formular und eine Sitzung, die am Ende geschlossen wird.'
+    subscription:
+      title: Abonnieren
+      description: 'Eine Zahlung nur auf einem Ast, eine Sitzung, die 15 Minuten dauert, ein Warten auf die Bank.'
+  tree:
+    title: 'Ein Baum von Cursorn'
+    body: 'Ein Tunnel wird als Baum aufgebaut, nicht als Liste. Ein Schritt, der von zwei Stellen erreicht wird, ist zwei Cursors, jeder mit seinem eigenen Hash und seinen eigenen gespeicherten Werten: das ermöglicht es einem Ast, Schritte zu wachsen, die ein anderer nicht hat, und der Weg, den du gekommen bist, wird am Ende jedes Tunnels abgelesen.'
+  session:
+    title: 'Eine Sitzung in der Datenbank'
+    body: 'Das Öffnen eines Tunnels erstellt eine Sitzung, die die Browsersitzung nur durch ihre ID kennt. Sie enthält die Werte, die die Schritte speichern, und läuft einen Tag nach dem letzten angezeigten Schritt ab – oder früher, wenn dieser Schritt danach fragt. Abgelaufene Sitzungen werden vom Scheduler alle 15 Minuten gelöscht; abgeschlossene und ausstehende werden behalten.'
+  access:
+    title: 'Wohin der Besucher gehen kann'
+    body: 'Jeder Schritt entscheidet, ob er angezeigt werden kann und wohin der Besucher andernfalls geschickt wird. Links und Schaltflächen werden nach den gleichen Regeln gezeichnet, sodass ein Link niemals zu einer Umleitung zurückführt: kein nächster Button, wo der Weg sich teilt, kein Weg zurück über eine Zahlung, nichts, zu dem man in einer geschlossenen Sitzung zurückkehren könnte.'
+  look:
+    title: 'Was man beim Gehen betrachten sollte'
+    stepper:
+      title: 'Der Stepper'
+      body: 'Wo du stehst, was dahinter liegt, was voraus ist. Eine Lücke markiert, wo der Weg von einer noch nicht getroffenen Wahl abhängt.'
+    behind:
+      title: 'Hinter diesem Schritt'
+      body: 'Unter jedem Schritt, was die Engine gerade getan hat, und ihr Zustand: der Cursor, wie der Schritt abgeschlossen wird, die Sitzung und wann sie abläuft.'
+    toolbar:
+      title: 'Das Entwicklertool und die Shell'
+      body: 'Der Tunnels-Reiter des Entwicklertools zeichnet die Sitzung dieses Browsers auf der Karte seines Tunnels; bin/console tunnels:info tut dasselbe von einer Shell.'
+
+es:
+  page_title: Túneles
+  page_icon: 'ph:bold/path'
+  intro: 'Un túnel es un viaje dividido en pasos — un registro, un pago, una renovación — cuyo camino puede cambiar según lo que responda el visitante. El paquete recuerda en qué punto se encuentra cada visitante, les permite avanzar por los pasos que pueden ver y les envía de vuelta a donde pertenecen cuando intentan adelantar.'
+  card:
+    plan:
+      title: 'Elige un plan'
+      description: 'El primer túnel: dos ramas, un formulario y una sesión cerrada al final.'
+    subscription:
+      title: Suscribirse
+      description: 'Un pago en una sola rama, una sesión mantenida 15 minutos, una espera en el banco.'
+  tree:
+    title: 'Un árbol de cursores'
+    body: 'Un túnel se construye como un árbol, no como una lista. Un paso alcanzado desde dos lugares es dos cursores, cada uno con su propio hash y sus propios valores almacenados: eso es lo que permite que una rama crezca pasos que otra no tiene, y de lo que se lee el camino que tomaste, mostrado al final de cada túnel.'
+  session:
+    title: 'Una sesión en la base de datos'
+    body: 'Abrir un túnel crea una sesión, que la sesión del navegador solo conoce por su id. Mantiene los valores que almacenan los pasos y expira un día después del último paso mostrado — o antes, cuando ese paso lo solicita. Las sesiones expiradas son eliminadas por el programador, cada 15 minutos; se mantienen las completadas y pendientes.'
+  access:
+    title: 'A dónde puede ir el visitante'
+    body: 'Cada paso decide si puede mostrarse y a dónde enviar al visitante en caso contrario. Los enlaces y botones se dibujan con las mismas reglas, por lo que un enlace nunca lleva a una redirección de vuelta: no hay botón de siguiente donde el camino se divide, no hay forma de volver después de un pago, nada a lo que regresar en una sesión cerrada.'
+  look:
+    title: 'Qué mirar mientras caminas'
+    stepper:
+      title: 'El selector de pasos'
+      body: 'Dónde te encuentras, qué hay detrás, qué hay adelante. Un hueco marca dónde el camino depende de una elección que aún no se ha tomado.'
+    behind:
+      title: 'Detrás de este paso'
+      body: 'Bajo cada paso, lo que el motor acaba de hacer y su estado: el cursor, cómo se completa el paso, la sesión y cuándo expira.'
+    toolbar:
+      title: 'La barra de herramientas de desarrollo y el shell'
+      body: 'La pestaña Túneles de la barra de herramientas de desarrollo dibuja la sesión de este navegador en el mapa de su túnel; bin/console tunnels:info hace lo mismo desde un shell.'
+
+fa:
+  page_title: تونل‌ها
+  page_icon: 'ph:bold/path'
+  intro: 'تونل یک سفر است که به مراحل تقسیم شده است — ثبت‌نام، تسویه‌حساب، تمدید — که مسیر آن می‌تواند با پاسخ‌های بازدیدکننده تغییر کند. بسته به یاد می‌سپارد که هر بازدیدکننده در کجا قرار دارد، اجازه می‌دهد از مراحلی که ممکن است ببینند عبور کنند و زمانی که سعی می‌کنند جلوتر بروند، آنها را به جایی که متعلق به آنجا هستند برمی‌گرداند.'
+  card:
+    plan:
+      title: 'یک طرح را انتخاب کنید'
+      description: 'اولین تونل: دو شاخه، یک فرم و یک جلسه که در انتها بسته می‌شود.'
+    subscription:
+      title: اشتراک‌گذاری
+      description: 'پرداخت تنها در یک شاخه، یک جلسه به مدت ۱۵ دقیقه، یک انتظار در بانک.'
+  tree:
+    title: 'یک درخت اشاره‌گرها'
+    body: 'تونل به صورت یک درخت ساخته می‌شود، نه یک لیست. یک مرحله که از دو مکان قابل دسترسی است، دو اشاره‌گر است، هر کدام با هش و مقادیر ذخیره‌شده خود: این است که اجازه می‌دهد یک شاخه مراحل بیشتری را رشد دهد که دیگری ندارد، و راهی که آمده‌اید، که در انتهای هر تونل نشان داده می‌شود، از آن خوانده می‌شود.'
+  session:
+    title: 'یک جلسه در پایگاه داده'
+    body: 'باز کردن یک تونل یک جلسه ایجاد می‌کند، که تنها به وسیله شناسه‌اش برای جلسه مرورگر شناخته می‌شود. این مقادیر را که مراحل ذخیره می‌کنند نگه می‌دارد و یک روز بعد از آخرین مرحله نشان داده شده منقضی می‌شود — یا زودتر، زمانی که آن مرحله درخواست کند. جلسات منقضی شده هر ۱۵ دقیقه توسط زمان‌بند حذف می‌شوند؛ جلسات کامل و در حال انتظار حفظ می‌شوند.'
+  access:
+    title: 'کجا بازدیدکننده می‌تواند برود'
+    body: 'هر مرحله تصمیم می‌گیرد که آیا می‌تواند نشان داده شود و در غیر این صورت به کجا بازدیدکننده را ارسال کند. لینک‌ها و دکمه‌ها با همان قوانین ترسیم می‌شوند، بنابراین یک لینک هرگز به یک تغییر مسیر باز نمی‌رسد: هیچ دکمه بعدی جایی که راه تقسیم می‌شود وجود ندارد، هیچ راهی به عقب پس از یک پرداخت، هیچ چیزی برای بازگشت در یک جلسه بسته وجود ندارد.'
+  look:
+    title: 'چه چیزی را در حین راه رفتن ببینید'
+    stepper:
+      title: گام‌زن
+      body: 'کجا ایستاده‌اید، چه چیزی پشت سر است، چه چیزی در جلو است. یک فاصله نشان می‌دهد که کجا راه به انتخابی که هنوز انجام نشده وابسته است.'
+    behind:
+      title: 'پشت این مرحله'
+      body: 'زیر هر مرحله، آنچه که موتور به تازگی انجام داده و وضعیت آن: اشاره‌گر، چگونگی کامل شدن مرحله، جلسه و زمان انقضای آن.'
+    toolbar:
+      title: 'نوار ابزار توسعه و شل'
+      body: 'زبان تونل‌ها در نوار ابزار توسعه جلسه این مرورگر را روی نقشه تونل آن ترسیم می‌کند؛ bin/console tunnels:info همین کار را از شل انجام می‌دهد.'
+
+fi:
+  page_title: Tunnelit
+  page_icon: 'ph:bold/path'
+  intro: 'Tunnelit ovat matka, joka on jaettu vaiheisiin — rekisteröityminen, maksaminen, uusiminen — jonka reitti voi muuttua sen mukaan, mitä kävijä vastaa. Paketti muistaa, missä jokainen kävijä on, päästää heidät niihin vaiheisiin, joita he voivat nähdä, ja palauttaa heidät takaisin oikeaan paikkaansa, kun he yrittävät hypätä eteenpäin.'
+  card:
+    plan:
+      title: 'Valitse suunnitelma'
+      description: 'Ensimmäinen tunneli: kaksi haaraa, lomake ja istunto sulkeutuu lopussa.'
+    subscription:
+      title: Tilaa
+      description: 'Maksu vain yhdestä haarasta, istunto kestää 15 minuuttia, odotus pankissa.'
+  tree:
+    title: 'Kursoreiden puu'
+    body: 'Tunneli rakennetaan puuna, ei luettelona. Vaihe, johon pääsee kahdesta paikasta, on kaksi kursoria, jokaisella omat hashit ja tallennetut arvot: tämä mahdollistaa haaran kasvavan vaiheita, joita toisella ei ole, ja se, miten tulit, näkyy jokaisen tunnelin lopussa.'
+  session:
+    title: 'Istunto tietokannassa'
+    body: 'Tunnelin avaaminen luo istunnon, jonka selainistunto tuntee vain sen id:n kautta. Se pitää sisällään vaihteiden tallentamat arvot ja vanhenee päivän kuluttua viimeisestä näytetystä vaiheesta — tai aikaisemmin, kun kyseinen vaihe sitä pyytää. Vanhentuneet istunnot poistetaan aikatauluttajalta 15 minuutin välein; suoritettuja ja odottavia säilytetään.'
+  access:
+    title: 'Missä kävijä voi mennä'
+    body: 'Jokainen vaihe päättää, voidaanko se näyttää ja minne kävijä lähetetään, jos ei voida. Linkit ja painikkeet piirtävät samoilla säännöillä, joten linkki ei koskaan johda uudelleenohjaukseen: ei seuraavaa painiketta, kun tie jakautuu, ei paluuta maksun ohi, ei mitään palattavaa suljetussa istunnossa.'
+  look:
+    title: 'Mitä katsoa kävellessä'
+    stepper:
+      title: Vaiheittaja
+      body: 'Missä seisot, mitä on takana, mitä on edessä. Aukko merkitsee kohtaa, jossa tie riippuu vielä tekemättömästä valinnasta.'
+    behind:
+      title: 'Tämän vaiheen takana'
+      body: 'Jokaisen vaiheen alla, mitä moottori juuri teki, ja sen tila: kursori, miten vaihe täydentyy, istunto ja milloin se vanhenee.'
+    toolbar:
+      title: 'Kehitystyökalupalkki ja shell'
+      body: 'Kehitystyökalupalkin Tunnelit-välilehti piirtää tämän selaimen istunnon tunnelikartalle; bin/console tunnels:info tekee saman shellistä.'
+
+fr:
+  page_title: Tunnels
+  page_icon: 'ph:bold/path'
+  intro: "Un tunnel est un parcours découpé en étapes — une inscription, un paiement, un renouvellement — dont le chemin peut changer en fonction des réponses du visiteur. Le package se souvient de l'état de chaque visiteur, les guide à travers les étapes qu'ils peuvent voir, et les renvoie là où ils appartiennent lorsqu'ils essaient de passer outre."
+  card:
+    plan:
+      title: 'Choisissez un plan'
+      description: 'Le premier tunnel : deux branches, un formulaire, et une session fermée à la fin.'
+    subscription:
+      title: "S'abonner"
+      description: 'Un paiement sur une seule branche, une session tenue pendant 15 minutes, une attente à la banque.'
+  tree:
+    title: 'Un arbre de curseurs'
+    body: "Un tunnel est construit comme un arbre, pas une liste. Une étape atteinte depuis deux endroits est deux curseurs, chacun avec son propre hash et ses propres valeurs stockées : c'est ce qui permet à une branche de développer des étapes que l'autre n'a pas, et ce par quoi le chemin que vous avez pris, montré à la fin de chaque tunnel, est lu."
+  session:
+    title: 'Une session dans la base de données'
+    body: 'Ouvrir un tunnel crée une session, que la session du navigateur ne connaît que par son id. Elle contient les valeurs que les étapes stockent, et expire un jour après la dernière étape affichée — ou plus tôt, lorsque cette étape le demande. Les sessions expirées sont supprimées par le planificateur, toutes les 15 minutes ; celles terminées et en attente sont conservées.'
+  access:
+    title: 'Où le visiteur peut aller'
+    body: 'Chaque étape décide si elle peut être affichée et où envoyer le visiteur autrement. Les liens et les boutons sont dessinés selon les mêmes règles, donc un lien ne mène jamais à un retour : pas de bouton suivant là où le chemin se divise, pas de retour passé un paiement, rien à quoi revenir dans une session fermée.'
+  look:
+    title: 'Que regarder en marchant'
+    stepper:
+      title: "Le sélecteur d'étapes"
+      body: "Où vous vous trouvez, ce qu'il y a derrière, ce qu'il y a devant. Un écart marque où le chemin dépend d'un choix encore non fait."
+    behind:
+      title: 'Derrière cette étape'
+      body: "Sous chaque étape, ce que le moteur vient de faire, et son état : le curseur, comment l'étape se complète, la session et quand elle expire."
+    toolbar:
+      title: "La barre d'outils de développement et le shell"
+      body: "L'onglet Tunnels de la barre d'outils de développement dessine la session de ce navigateur sur la carte de son tunnel ; bin/console tunnels:info fait la même chose depuis un shell."
+
+he:
+  page_title: מנהרות
+  page_icon: 'ph:bold/path'
+  intro: 'מנהרה היא מסע המנוקד בשלבים — הרשמה, תשלום, חידוש — כאשר הדרך יכולה להשתנות לפי מה שהמבקר עונה. החבילה זוכרת היכן עומד כל מבקר, מאפשרת להם לעבור את השלבים שהם עשויים לראות, ושולחת אותם חזרה למקום שאליו הם שייכים כאשר הם מנסים לדלג קדימה.'
+  card:
+    plan:
+      title: 'בחר תוכנית'
+      description: 'המנהרה הראשונה: שני סניפים, טופס, ומפגש נסגר בסוף.'
+    subscription:
+      title: הירשם
+      description: 'תשלום בסניף אחד בלבד, מפגש שנמשך 15 דקות, המתנה בבנק.'
+  tree:
+    title: 'עץ של סמנים'
+    body: 'מנהרה נבנית כמו עץ, לא כמו רשימה. שלב המגיע משני מקומות הוא שני סמנים, כל אחד עם ההאש שלו ועם הערכים השמורים שלו: זה מה שמאפשר לסניף לגדול בשלבים שאין לאחרים, ומהדרך שבה הגעת, המוצגת בסוף כל מנהרה, נקראת.'
+  session:
+    title: 'מפגש במסד הנתונים'
+    body: 'פתיחת מנהרה יוצרת מפגש, שדפדפן המפגש מכיר רק לפי ה-id שלו. הוא מחזיק את הערכים שהשלבים שומרים, ומסתיים יום לאחר השלב האחרון שהוצג — או קודם לכן, כאשר השלב הזה מבקש זאת. מפגשים שפג תוקפם נמחקים על ידי המתז, כל 15 דקות; מפגשים שהושלמו וממתינים נשמרים.'
+  access:
+    title: 'לאן המבקר יכול ללכת'
+    body: 'כל שלב קובע אם ניתן להציג אותו ואיפה לשלוח את המבקר אחרת. קישורים וכפתורים מצויירים באותם כללים, כך שקישור לעולם לא מוביל להפניה חזרה: אין כפתור הבא כאשר הדרך מתפצלת, אין דרך חזרה לאחר תשלום, אין מה לחזור אליו במפגש סגור.'
+  look:
+    title: 'מה להסתכל עליו בזמן ההליכה'
+    stepper:
+      title: המדריך
+      body: 'איפה אתה עומד, מה יש מאחור, מה יש קדימה. פער מסמן היכן הדרך תלויה בבחירה שעדיין לא נעשתה.'
+    behind:
+      title: 'מאחורי שלב זה'
+      body: 'מתחת כל שלב, מה שהמנוע עשה זה עתה, ומצבו: הסמן, איך השלב מתממש, המפגש ומתי הוא פג תוקף.'
+    toolbar:
+      title: 'סרגל הכלים של המפתחים והמעטפת'
+      body: 'לשונית המנהרות בסרגל הכלים של המפתחים מציגה את המפגש של דפדפן זה על המפה של המנהרה שלו; bin/console tunnels:info עושה את אותו הדבר מהמעטפת.'
+
+hi:
+  page_title: नदियाँ
+  page_icon: 'ph:bold/path'
+  intro: 'एक नदी एक यात्रा है जो चरणों में काटी गई है - एक साइन-अप, एक चेकआउट, एक नवीनीकरण - जिसका मार्ग उस उत्तर के आधार पर बदल सकता है जो आगंतुक देता है। पैकेज याद रखता है कि प्रत्येक आगंतुक कहाँ खड़ा है, उन्हें उन चरणों के माध्यम से ले जाता है जो वे देख सकते हैं, और उन्हें वापस भेजता है जहाँ वे संबंधित हैं जब वे आगे बढ़ने की कोशिश करते हैं।'
+  card:
+    plan:
+      title: 'एक योजना चुनें'
+      description: 'पहली नदी: दो शाखाएँ, एक फॉर्म, और अंत में एक सत्र समाप्त।'
+    subscription:
+      title: 'सदस्यता लें'
+      description: 'एक शाखा पर केवल एक भुगतान, 15 मिनट के लिए आयोजित एक सत्र, बैंक पर एक इंतजार।'
+  tree:
+    title: 'कर्सर का एक पेड़'
+    body: 'एक नदी एक पेड़ के रूप में बनाई जाती है, सूची के रूप में नहीं। एक चरण जो दो स्थानों से पहुँचा जाता है, वह दो कर्सर है, प्रत्येक के पास अपना हैश और अपने संग्रहित मान हैं: यही वह होता है जो एक शाखा को ऐसे चरण देने की अनुमति देता है जो दूसरी के पास नहीं है, और जिस रास्ते से आप आए हैं, वह प्रत्येक नदी के अंत में पढ़ा जाता है।'
+  session:
+    title: 'डेटाबेस में एक सत्र'
+    body: 'एक नदी खोलने से एक सत्र बनता है, जिसे ब्राउज़र सत्र केवल इसके आईडी द्वारा जानता है। यह उन मानों को धारण करता है जो चरण संग्रहित करते हैं, और अंतिम चरण दिखाए जाने के एक दिन बाद समाप्त हो जाता है - या इससे पहले, जब वह चरण इसके लिए कहता है। समाप्त सत्र को शेड्यूलर द्वारा हर 15 मिनट में हटा दिया जाता है; पूर्ण और लंबित सत्रों को रखा जाता है।'
+  access:
+    title: 'जहाँ आगंतुक जा सकता है'
+    body: 'प्रत्येक चरण यह तय करता है कि इसे दिखाया जा सकता है या नहीं और अन्यथा आगंतुक को कहाँ भेजा जाए। लिंक और बटन समान नियमों से बनाए जाते हैं, इसलिए एक लिंक कभी भी वापस पुनर्निर्देशित नहीं करता: जहाँ सड़क विभाजित होती है वहाँ कोई अगला बटन नहीं, भुगतान के बाद पीछे जाने का कोई तरीका नहीं, बंद सत्र में लौटने के लिए कुछ भी नहीं।'
+  look:
+    title: 'चलते समय क्या देखना है'
+    stepper:
+      title: चरण
+      body: 'आप कहाँ खड़े हैं, क्या पीछे है, क्या आगे है। एक गैप उस स्थान को चिह्नित करता है जहाँ सड़क अभी तक किए गए चुनाव पर निर्भर करती है।'
+    behind:
+      title: 'इस चरण के पीछे'
+      body: 'प्रत्येक चरण के नीचे, जो इंजन ने अभी किया है, और इसकी स्थिति: कर्सर, चरण कैसे पूरा होता है, सत्र और यह कब समाप्त होता है।'
+    toolbar:
+      title: 'विकास टूलबार और शेल'
+      body: 'विकास टूलबार का नदियाँ टैब इस ब्राउज़र के सत्र को इसकी नदी के मानचित्र पर दर्शाता है; बिन/कंसोल नदियाँ: जानकारी शेल से ऐसा ही करता है।'
+
+id:
+  page_title: Terowongan
+  page_icon: 'ph:bold/path'
+  intro: 'Sebuah terowongan adalah perjalanan yang dipotong menjadi langkah-langkah — pendaftaran, pembayaran, perpanjangan — yang jalannya bisa berubah sesuai dengan jawaban pengunjung. Paket ini mengingat posisi setiap pengunjung, membiarkan mereka melalui langkah-langkah yang mungkin mereka lihat, dan mengembalikan mereka ke tempat yang seharusnya ketika mereka mencoba untuk melangkah lebih cepat.'
+  card:
+    plan:
+      title: 'Pilih rencana'
+      description: 'Terowongan pertama: dua cabang, sebuah formulir, dan sesi ditutup di akhir.'
+    subscription:
+      title: Berlangganan
+      description: 'Sebuah pembayaran hanya pada satu cabang, sesi berlangsung 15 menit, menunggu di bank.'
+  tree:
+    title: 'Pohon kursor'
+    body: 'Sebuah terowongan dibangun sebagai pohon, bukan daftar. Sebuah langkah yang dicapai dari dua tempat adalah dua kursor, masing-masing dengan hash dan nilai tersimpan sendiri: itulah yang memungkinkan sebuah cabang tumbuh langkah-langkah yang tidak dimiliki cabang lain, dan cara yang kamu lalui, yang ditunjukkan di akhir setiap terowongan, dibaca dari sana.'
+  session:
+    title: 'Sebuah sesi di database'
+    body: 'Membuka sebuah terowongan menciptakan sebuah sesi, yang hanya diketahui oleh sesi browser melalui id-nya. Ini menyimpan nilai-nilai yang disimpan oleh langkah-langkah, dan kedaluwarsa sehari setelah langkah terakhir yang ditampilkan — atau lebih cepat, ketika langkah itu memintanya. Sesi yang kedaluwarsa dibuang oleh penjadwal, setiap 15 menit; sesi yang selesai dan tertunda disimpan.'
+  access:
+    title: 'Ke mana pengunjung dapat pergi'
+    body: 'Setiap langkah memutuskan apakah itu dapat ditampilkan dan kemana harus mengirim pengunjung jika tidak. Tautan dan tombol digambar dengan aturan yang sama, sehingga tautan tidak pernah mengarah ke pengalihan kembali: tidak ada tombol berikutnya di mana jalan bercabang, tidak ada jalan kembali melewati pembayaran, tidak ada yang bisa kembali di sesi yang ditutup.'
+  look:
+    title: 'Apa yang harus dilihat saat berjalan'
+    stepper:
+      title: 'Pengukur langkah'
+      body: 'Di mana kamu berdiri, apa yang ada di belakang, apa yang ada di depan. Sebuah celah menandai di mana jalan tergantung pada pilihan yang belum dibuat.'
+    behind:
+      title: 'Di belakang langkah ini'
+      body: 'Di bawah setiap langkah, apa yang baru saja dilakukan mesin, dan keadaannya: kursor, bagaimana langkah itu diselesaikan, sesi dan kapan ia kedaluwarsa.'
+    toolbar:
+      title: 'Toolbar pengembang dan shell'
+      body: 'Tab Terowongan dari toolbar pengembang menggambar sesi browser ini di peta terowongannya; bin/console tunnels:info melakukan hal yang sama dari shell.'
+
+it:
+  page_title: Tunnel
+  page_icon: 'ph:bold/path'
+  intro: 'Un tunnel è un percorso suddiviso in fasi — una registrazione, un pagamento, un rinnovo — il cui cammino può cambiare a seconda delle risposte del visitatore. Il pacchetto ricorda a che punto si trova ogni visitatore, li guida attraverso le fasi che possono vedere e li riporta indietro dove appartengono quando tentano di saltare in avanti.'
+  card:
+    plan:
+      title: 'Scegli un piano'
+      description: 'Il primo tunnel: due rami, un modulo e una sessione chiusa alla fine.'
+    subscription:
+      title: Iscriviti
+      description: "Un pagamento su un solo ramo, una sessione durata 15 minuti, un'attesa in banca."
+  tree:
+    title: 'Un albero di cursori'
+    body: 'Un tunnel è costruito come un albero, non come un elenco. Un passo raggiunto da due luoghi è due cursori, ognuno con il proprio hash e i propri valori memorizzati: è ciò che consente a un ramo di crescere con passi che un altro non ha, e ciò che il percorso che hai fatto, mostrato alla fine di ogni tunnel, viene letto da.'
+  session:
+    title: 'Una sessione nel database'
+    body: "Aprire un tunnel crea una sessione, che il browser conosce solo tramite il suo id. Essa tiene i valori memorizzati dai passi, e scade un giorno dopo l'ultimo passo mostrato — o prima, quando quel passo lo richiede. Le sessioni scadute vengono eliminate dal pianificatore, ogni 15 minuti; quelle completate e in attesa vengono mantenute."
+  access:
+    title: 'Dove può andare il visitatore'
+    body: 'Ogni passo decide se può essere mostrato e dove inviare il visitatore altrimenti. I link e i pulsanti sono tracciati con le stesse regole, quindi un link non porta mai a un reindirizzamento: nessun pulsante successivo dove la strada si divide, nessun modo per tornare oltre un pagamento, nulla a cui tornare in una sessione chiusa.'
+  look:
+    title: 'Cosa osservare mentre si cammina'
+    stepper:
+      title: 'Il passo'
+      body: "Dove ti trovi, cosa c'è dietro, cosa c'è davanti. Un vuoto segna dove il percorso dipende da una scelta non ancora fatta."
+    behind:
+      title: 'Dietro questo passo'
+      body: 'Sotto ogni passo, ciò che il motore ha appena fatto e il suo stato: il cursore, come si completa il passo, la sessione e quando scade.'
+    toolbar:
+      title: 'La barra degli strumenti per lo sviluppo e la shell'
+      body: 'La scheda Tunnel della barra degli strumenti per lo sviluppo mostra la sessione di questo browser sulla mappa del suo tunnel; bin/console tunnels:info fa lo stesso da una shell.'
+
+ja:
+  page_title: トンネル
+  page_icon: 'ph:bold/path'
+  intro: 'トンネルは、ステップに分けられた旅です — サインアップ、チェックアウト、更新 — 訪問者の回答によって道が変わります。パッケージは各訪問者の現在地を記憶し、彼らが見るべきステップを通過させ、先に進もうとする際には適切な場所に戻します。'
+  card:
+    plan:
+      title: プランを選択
+      description: 最初のトンネル：2つの枝、1つのフォーム、そして最後に閉じられるセッション。
+    subscription:
+      title: 購読する
+      description: 1つの枝での支払い、15分間保持されるセッション、銀行での待機。
+  tree:
+    title: カーソルのツリー
+    body: トンネルはリストではなくツリーとして構築されます。2つの場所から到達できるステップは2つのカーソルを持ち、それぞれ独自のハッシュと保存された値を持っています。これにより、一方の枝がもう一方にはないステップを成長させ、各トンネルの最後に示される道が読み取られます。
+  session:
+    title: データベース内のセッション
+    body: 'トンネルを開くと、ブラウザセッションがそのIDでのみ認識するセッションが作成されます。これは、ステップが保存する値を保持し、最後に表示されたステップの1日後に期限切れになります — あるいは、そのステップが要求する場合はそれより早く。期限切れのセッションはスケジューラーによって15分ごとに削除され、完了したものと保留中のものは保持されます。'
+  access:
+    title: 訪問者が行ける場所
+    body: すべてのステップは、それを表示できるかどうか、または他にどこに訪問者を送るかを決定します。リンクとボタンは同じルールで描かれるため、リンクは決して戻るリダイレクトには導きません：道が分かれるところで次へ進むボタンはなく、支払いを越えて戻ることはできず、閉じられたセッションでは何も戻ることはできません。
+  look:
+    title: 歩きながら見るべきもの
+    stepper:
+      title: ステッパー
+      body: あなたの立ち位置、背後にあるもの、前にあるもの。ギャップは、道がまだ選択されていない選択に依存している場所を示します。
+    behind:
+      title: このステップの背後
+      body: 各ステップの下には、エンジンがちょうど行ったこととその状態があります：カーソル、ステップの完了方法、セッション、そしてそれが期限切れになる時刻。
+    toolbar:
+      title: 開発ツールバーとシェル
+      body: '開発ツールバーのトンネルタブは、このブラウザのセッションをそのトンネルのマップ上に描きます；bin/console tunnels:infoはシェルから同じことを行います。'
+
+ko:
+  page_title: 터널
+  page_icon: 'ph:bold/path'
+  intro: '터널은 단계로 나뉜 여정입니다 — 가입, 결제, 갱신 — 방문자가 응답하는 내용에 따라 그 길이 바뀔 수 있습니다. 패키지는 각 방문자가 어디에 있는지를 기억하고, 그들이 볼 수 있는 단계로 안내하며, 앞서가려 할 때 그들이 있어야 할 곳으로 되돌려 보냅니다.'
+  card:
+    plan:
+      title: '계획 선택'
+      description: '첫 번째 터널: 두 갈래, 하나의 양식, 그리고 마지막에 종료된 세션.'
+    subscription:
+      title: 구독하기
+      description: '하나의 갈래에서만 이루어지는 결제, 15분 동안 유지되는 세션, 은행에 대한 대기.'
+  tree:
+    title: '커서의 나무'
+    body: '터널은 목록이 아닌 나무 형태로 구성됩니다. 두 곳에서 도달할 수 있는 단계는 두 개의 커서로, 각각 고유한 해시와 저장된 값을 가지고 있습니다: 이것이 한 갈래가 다른 갈래에는 없는 단계를 성장하게 해주며, 각 터널의 끝에서 표시되는 당신이 온 길을 읽는 것입니다.'
+  session:
+    title: '데이터베이스의 세션'
+    body: '터널을 열면 세션이 생성되며, 브라우저 세션은 오직 그 ID로만 이를 인식합니다. 이 세션은 단계가 저장하는 값을 보유하며, 마지막 단계가 표시된 후 하루가 지나면 만료됩니다 — 혹은 그 단계가 요구할 경우 더 빨리 만료됩니다. 만료된 세션은 스케줄러에 의해 15분마다 삭제되며, 완료된 세션과 대기 중인 세션은 유지됩니다.'
+  access:
+    title: '방문자가 갈 수 있는 곳'
+    body: '모든 단계는 자신이 표시될 수 있는지와 그렇지 않을 경우 방문자를 어디로 보낼지를 결정합니다. 링크와 버튼은 동일한 규칙으로 그려지므로, 링크는 결제로 되돌아가는 리디렉션을 유도하지 않습니다: 도로가 갈라질 때 다음 버튼이 없고, 결제를 지나서 돌아갈 방법이 없으며, 종료된 세션에서는 돌아갈 것이 없습니다.'
+  look:
+    title: '걷는 동안 볼 것'
+    stepper:
+      title: 스테퍼
+      body: '당신이 서 있는 곳, 뒤에 있는 것, 앞에 있는 것. 선택되지 않은 선택에 따라 도로가 달라지는 지점을 나타내는 간격이 있습니다.'
+    behind:
+      title: '이 단계 뒤'
+      body: '각 단계 아래에서 엔진이 방금 수행한 작업과 그 상태: 커서, 단계가 완료되는 방법, 세션, 그리고 만료 시점입니다.'
+    toolbar:
+      title: '개발 도구 모음과 셸'
+      body: '개발 도구 모음의 터널 탭은 이 브라우저의 세션을 터널의 지도에 그립니다; bin/console tunnels:info는 셸에서 동일한 작업을 수행합니다.'
+
+nl:
+  page_title: Tunnels
+  page_icon: 'ph:bold/path'
+  intro: 'Een tunnel is een reis die in stappen is verdeeld — een aanmelding, een checkout, een verlenging — waarvan de route kan veranderen afhankelijk van de antwoorden van de bezoeker. Het pakket onthoudt waar elke bezoeker staat, laat ze de stappen zien die ze kunnen zien, en stuurt ze terug naar waar ze thuishoren wanneer ze proberen vooruit te springen.'
+  card:
+    plan:
+      title: 'Kies een plan'
+      description: 'De eerste tunnel: twee takken, een formulier en een sessie die aan het einde is afgesloten.'
+    subscription:
+      title: Abonneren
+      description: 'Een betaling op slechts één tak, een sessie van 15 minuten, een wachttijd bij de bank.'
+  tree:
+    title: 'Een boom van cursors'
+    body: 'Een tunnel is opgebouwd als een boom, niet als een lijst. Een stap die vanaf twee plaatsen wordt bereikt, is twee cursors, elk met zijn eigen hash en zijn eigen opgeslagen waarden: dat is wat een tak laat groeien stappen die een andere niet heeft, en wat de route die je hebt genomen, aan het einde van elke tunnel wordt weergegeven.'
+  session:
+    title: 'Een sessie in de database'
+    body: 'Het openen van een tunnel creëert een sessie, die de browsersessie alleen kent aan de hand van zijn id. Het bevat de waarden die de stappen opslaan en verloopt een dag na de laatste getoonde stap — of eerder, wanneer die stap daarom vraagt. Verlopen sessies worden door de planner verwijderd, elke 15 minuten; voltooide en wachtende sessies worden bewaard.'
+  access:
+    title: 'Waar de bezoeker naartoe kan gaan'
+    body: 'Elke stap beslist of deze kan worden getoond en waar de bezoeker anders naartoe moet worden gestuurd. Links en knoppen worden getekend met dezelfde regels, zodat een link nooit leidt tot een omleiding terug: geen volgende knop waar de weg splitst, geen weg terug langs een betaling, niets om naar terug te keren in een afgesloten sessie.'
+  look:
+    title: 'Waar je naar moet kijken terwijl je loopt'
+    stepper:
+      title: 'De stepper'
+      body: 'Waar je staat, wat er achter je is, wat er voor je ligt. Een gat markeert waar de weg afhangt van een keuze die nog niet is gemaakt.'
+    behind:
+      title: 'Achter deze stap'
+      body: 'Onder elke stap, wat de motor net heeft gedaan, en zijn status: de cursor, hoe de stap wordt voltooid, de sessie en wanneer deze verloopt.'
+    toolbar:
+      title: 'De ontwikkelwerkbalk en de shell'
+      body: 'Het Tunnels-tabblad van de ontwikkelwerkbalk tekent de sessie van deze browser op de kaart van zijn tunnel; bin/console tunnels:info doet hetzelfde vanuit een shell.'
+
+pl:
+  page_title: Tunel
+  page_icon: 'ph:bold/path'
+  intro: 'Tunel to podróż podzielona na etapy — rejestracja, zakupy, odnowienie — której droga może się zmieniać w zależności od odpowiedzi odwiedzającego. Pakiet pamięta, na którym etapie znajduje się każdy odwiedzający, pozwala im przechodzić przez widoczne etapy i odsyła ich tam, gdzie powinni być, gdy próbują przejść do przodu.'
+  card:
+    plan:
+      title: 'Wybierz plan'
+      description: 'Pierwszy tunel: dwa rozgałęzienia, formularz i sesja zakończona na końcu.'
+    subscription:
+      title: Subskrybuj
+      description: 'Płatność tylko na jednej gałęzi, sesja trwa 15 minut, czekanie na bank.'
+  tree:
+    title: 'Drzewo kursorów'
+    body: 'Tunel jest zbudowany jak drzewo, a nie lista. Krok osiągnięty z dwóch miejsc to dwa kursory, każdy z własnym hashem i przechowywanymi wartościami: to pozwala gałęzi rozwijać kroki, których inna nie ma, a droga, którą przyszedłeś, pokazana na końcu każdego tunelu, jest odczytywana z tego.'
+  session:
+    title: 'Sesja w bazie danych'
+    body: 'Otwarcie tunelu tworzy sesję, którą sesja przeglądarki zna tylko po jej identyfikatorze. Przechowuje wartości, które zapisują kroki, i wygasa dzień po ostatnim pokazanym kroku — lub wcześniej, gdy ten krok o to prosi. Wygasłe sesje są usuwane przez harmonogram, co 15 minut; ukończone i oczekujące są zachowywane.'
+  access:
+    title: 'Gdzie może pójść odwiedzający'
+    body: 'Każdy krok decyduje, czy może być pokazany i dokąd inaczej wysłać odwiedzającego. Linki i przyciski są rysowane według tych samych zasad, więc link nigdy nie prowadzi do przekierowania z powrotem: brak przycisku „następny”, gdzie droga się rozdziela, brak powrotu po płatności, nic do czego można wrócić w zamkniętej sesji.'
+  look:
+    title: 'Na co patrzeć podczas spaceru'
+    stepper:
+      title: Krokomierz
+      body: 'Gdzie stoisz, co jest za tobą, co jest przed tobą. Luka oznacza miejsce, w którym droga zależy od wyboru, który jeszcze nie został dokonany.'
+    behind:
+      title: 'Za tym krokiem'
+      body: 'Pod każdym krokiem, co silnik właśnie zrobił i jego stan: kursor, jak krok się kończy, sesja i kiedy wygasa.'
+    toolbar:
+      title: 'Pasek narzędzi dewelopera i powłoka'
+      body: 'Zakładka Tunnels w pasku narzędzi dewelopera rysuje sesję tej przeglądarki na mapie jej tunelu; bin/console tunnels:info robi to samo z poziomu powłoki.'
+
+pt_BR:
+  page_title: Túneis
+  page_icon: 'ph:bold/path'
+  intro: 'Um túnel é uma jornada dividida em etapas — um cadastro, uma finalização de compra, uma renovação — cujo caminho pode mudar com as respostas do visitante. O pacote lembra onde cada visitante está, permite que eles avancem pelas etapas que podem ver e os envia de volta para onde pertencem quando tentam pular à frente.'
+  card:
+    plan:
+      title: 'Escolha um plano'
+      description: 'O primeiro túnel: dois ramos, um formulário e uma sessão encerrada no final.'
+    subscription:
+      title: Assinar
+      description: 'Um pagamento em apenas um ramo, uma sessão mantida por 15 minutos, uma espera no banco.'
+  tree:
+    title: 'Uma árvore de cursores'
+    body: 'Um túnel é construído como uma árvore, não uma lista. Uma etapa alcançada de dois lugares é dois cursores, cada um com seu próprio hash e seus próprios valores armazenados: isso é o que permite que um ramo cresça etapas que o outro não tem, e o caminho que você tomou, mostrado ao final de cada túnel, é lido a partir disso.'
+  session:
+    title: 'Uma sessão no banco de dados'
+    body: 'Abrir um túnel cria uma sessão, que a sessão do navegador conhece apenas pelo seu id. Ela armazena os valores que as etapas guardam e expira um dia após a última etapa exibida — ou antes, quando essa etapa pede isso. Sessões expiradas são descartadas pelo agendador, a cada 15 minutos; as completas e pendentes são mantidas.'
+  access:
+    title: 'Para onde o visitante pode ir'
+    body: 'Cada etapa decide se pode ser exibida e para onde enviar o visitante caso contrário. Links e botões são desenhados com as mesmas regras, então um link nunca leva a um redirecionamento de volta: sem botão de próximo onde o caminho se divide, sem retorno após um pagamento, nada para voltar em uma sessão encerrada.'
+  look:
+    title: 'O que observar enquanto caminha'
+    stepper:
+      title: 'O seletor'
+      body: 'Onde você está, o que está atrás, o que está à frente. Uma lacuna marca onde o caminho depende de uma escolha ainda não feita.'
+    behind:
+      title: 'Atrás desta etapa'
+      body: 'Sob cada etapa, o que o motor acabou de fazer e seu estado: o cursor, como a etapa é completada, a sessão e quando expira.'
+    toolbar:
+      title: 'A barra de ferramentas de desenvolvimento e o shell'
+      body: 'A aba Tunnels da barra de ferramentas de desenvolvimento desenha a sessão deste navegador no mapa de seu túnel; bin/console tunnels:info faz o mesmo a partir de um shell.'
+
+ru:
+  page_title: Туннели
+  page_icon: 'ph:bold/path'
+  intro: 'Туннель — это путь, разбитый на шаги — регистрация, оформление заказа, продление — который может меняться в зависимости от ответов посетителя. Пакет запоминает, на каком этапе находится каждый посетитель, пропускает их через доступные шаги и возвращает назад, когда они пытаются перескочить вперёд.'
+  card:
+    plan:
+      title: 'Выберите план'
+      description: 'Первый туннель: две ветки, форма и сессия, закрытая в конце.'
+    subscription:
+      title: Подписаться
+      description: 'Платеж только по одной ветке, сессия длится 15 минут, ожидание от банка.'
+  tree:
+    title: 'Дерево курсоров'
+    body: 'Туннель строится как дерево, а не как список. Шаг, доступный из двух мест, — это два курсора, каждый со своим хешем и своими сохранёнными значениями: это позволяет одной ветке расти шагами, которых нет у другой, и то, как вы пришли, отображается в конце каждого туннеля.'
+  session:
+    title: 'Сессия в базе данных'
+    body: 'Открытие туннеля создаёт сессию, которую браузер знает только по её id. Она хранит значения, которые сохраняются на шагах, и истекает через день после последнего показанного шага — или раньше, если этот шаг требует этого. Истекшие сессии удаляются планировщиком каждые 15 минут; завершённые и ожидающие сессии сохраняются.'
+  access:
+    title: 'Куда может пойти посетитель'
+    body: 'Каждый шаг решает, можно ли его показать и куда отправить посетителя в противном случае. Ссылки и кнопки создаются по одним и тем же правилам, так что ссылка никогда не ведёт на перенаправление назад: нет кнопки «Далее», где дорога разветвляется, нет пути обратно после оплаты, нечего возвращать в закрытой сессии.'
+  look:
+    title: 'На что смотреть во время движения'
+    stepper:
+      title: Постепенщик
+      body: 'Где вы находитесь, что позади, что впереди. Пробел обозначает, где дорога зависит от ещё не принятого решения.'
+    behind:
+      title: 'За этим шагом'
+      body: 'Под каждым шагом отображается то, что только что сделала система, и её состояние: курсор, как завершается шаг, сессия и когда она истекает.'
+    toolbar:
+      title: 'Панель разработчика и оболочка'
+      body: 'Вкладка Туннели в панели разработчика отображает сессию этого браузера на карте его туннеля; bin/console tunnels:info делает то же самое из оболочки.'
+
+th:
+  page_title: อุโมงค์
+  page_icon: 'ph:bold/path'
+  intro: 'อุโมงค์คือการเดินทางที่ตัดเป็นขั้นตอน — การลงทะเบียน, การชำระเงิน, การต่ออายุ — ซึ่งเส้นทางสามารถเปลี่ยนได้ตามคำตอบของผู้เข้าชม แพ็คเกจจะจดจำว่าผู้เข้าชมแต่ละคนอยู่ที่ไหน ช่วยให้พวกเขาผ่านขั้นตอนที่พวกเขาอาจเห็น และส่งพวกเขากลับไปยังที่ที่พวกเขาควรอยู่เมื่อพวกเขาพยายามข้ามไปข้างหน้า.'
+  card:
+    plan:
+      title: เลือกแผน
+      description: 'อุโมงค์แรก: สองสาขา, แบบฟอร์ม, และเซสชันที่ปิดเมื่อสิ้นสุด.'
+    subscription:
+      title: สมัครสมาชิก
+      description: 'การชำระเงินในสาขาเดียว, เซสชันที่ใช้เวลา 15 นาที, รอธนาคาร.'
+  tree:
+    title: ต้นไม้ของเคอร์เซอร์
+    body: 'อุโมงค์ถูกสร้างขึ้นเป็นต้นไม้ ไม่ใช่รายการ ขั้นตอนที่เข้าถึงจากสองที่คือเคอร์เซอร์สองตัว แต่ละตัวมีแฮชและค่าที่จัดเก็บของตัวเอง: นั่นคือสิ่งที่ทำให้สาขาเติบโตขั้นตอนที่อีกสาขาไม่มี และสิ่งที่คุณมาถึง แสดงที่ปลายอุโมงค์แต่ละแห่ง ถูกอ่านจากที่นั่น.'
+  session:
+    title: เซสชันในฐานข้อมูล
+    body: 'การเปิดอุโมงค์จะสร้างเซสชัน ซึ่งเซสชันของเบราว์เซอร์จะรู้จักเพียงด้วย id ของมัน มันเก็บค่าที่ขั้นตอนจัดเก็บ และหมดอายุหนึ่งวันหลังจากขั้นตอนสุดท้ายที่แสดง — หรือเร็วกว่านั้นเมื่อขั้นตอนนั้นขอให้หมดอายุ เซสชันที่หมดอายุจะถูกลบโดยผู้จัดกำหนดการ ทุก 15 นาที; เซสชันที่เสร็จสมบูรณ์และรออยู่จะถูกเก็บไว้.'
+  access:
+    title: ที่ที่ผู้เข้าชมอาจไป
+    body: 'ทุกขั้นตอนตัดสินใจว่าจะแสดงได้หรือไม่และจะส่งผู้เข้าชมไปที่ใดอีก ลิงก์และปุ่มถูกวาดด้วยกฎเดียวกัน ดังนั้นลิงก์จึงไม่เคยนำไปสู่การเปลี่ยนเส้นทางกลับ: ไม่มีปุ่มถัดไปเมื่อเส้นทางแยกออก ไม่มีทางกลับหลังการชำระเงิน ไม่มีอะไรที่จะกลับไปในเซสชันที่ปิด.'
+  look:
+    title: สิ่งที่จะดูขณะเดิน
+    stepper:
+      title: ตัวเดินขั้นตอน
+      body: 'ที่ที่คุณยืน, สิ่งที่อยู่ข้างหลัง, สิ่งที่อยู่ข้างหน้า ช่องว่างบ่งบอกว่าเส้นทางขึ้นอยู่กับการเลือกที่ยังไม่ได้ทำ.'
+    behind:
+      title: เบื้องหลังขั้นตอนนี้
+      body: 'ใต้ทุกขั้นตอนคือสิ่งที่เครื่องยนต์เพิ่งทำ และสถานะของมัน: เคอร์เซอร์, วิธีที่ขั้นตอนเสร็จสิ้น, เซสชันและเมื่อมันหมดอายุ.'
+    toolbar:
+      title: แถบเครื่องมือพัฒนาและเชลล์
+      body: 'แท็บอุโมงค์ในแถบเครื่องมือพัฒนาจะแสดงเซสชันของเบราว์เซอร์นี้บนแผนที่ของอุโมงค์ของมัน; bin/console tunnels:info ทำเช่นเดียวกันจากเชลล์.'
+
+tr:
+  page_title: Tüneller
+  page_icon: 'ph:bold/path'
+  intro: 'Bir tünel, adımlar halinde kesilmiş bir yolculuktur — bir kayıt, bir ödeme, bir yenileme — ziyaretçinin verdiği yanıtlara göre değişen bir yol. Paket, her ziyaretçinin nerede durduğunu hatırlar, görebilecekleri adımlardan geçirir ve öne atlamaya çalıştıklarında onları ait oldukları yere geri gönderir.'
+  card:
+    plan:
+      title: 'Bir plan seçin'
+      description: 'İlk tünel: iki dal, bir form ve sonunda kapatılan bir oturum.'
+    subscription:
+      title: 'Abone ol'
+      description: 'Sadece bir dalda bir ödeme, 15 dakika süren bir oturum, bankada bekleme.'
+  tree:
+    title: 'Kursörler ağacı'
+    body: "Bir tünel, bir liste olarak değil, bir ağaç olarak inşa edilir. İki yerden ulaşılan bir adım, kendi hash'ine ve kendi saklanan değerlerine sahip iki kursördür: bu, bir dalın başka birinde olmayan adımları büyütmesini sağlar ve geldiğiniz yol, her tünelin sonunda okunan yerdir."
+  session:
+    title: 'Veritabanında bir oturum'
+    body: 'Bir tünel açmak, tarayıcı oturumu tarafından yalnızca kimliğiyle bilinen bir oturum yaratır. Adımların depoladığı değerleri tutar ve gösterilen son adımın üzerinden bir gün sonra sona erer — veya o adım bunu isterse daha önce. Süresi dolmuş oturumlar, her 15 dakikada bir zamanlayıcı tarafından silinir; tamamlanmış ve beklemede olanlar saklanır.'
+  access:
+    title: 'Ziyaretçinin gidebileceği yerler'
+    body: 'Her adım, gösterilip gösterilemeyeceğine ve aksi takdirde ziyaretçiyi nereye göndereceğine karar verir. Bağlantılar ve butonlar aynı kurallarla çizilir, bu yüzden bir bağlantı asla geri yönlendirme yapmaz: yolun ayrıldığı yerde bir sonraki buton yok, bir ödemenin ötesine geri dönme yok, kapalı bir oturumda geri dönülecek hiçbir şey yok.'
+  look:
+    title: 'Yürürken neye bakmalı'
+    stepper:
+      title: 'Adım göstergesi'
+      body: 'Nerede durduğunuz, arkanızda ne var, önünüzde ne var. Bir boşluk, yolun henüz yapılmamış bir seçime bağlı olduğunu belirtir.'
+    behind:
+      title: 'Bu adımın arkasında'
+      body: 'Her adımın altında, motorun az önce yaptığı şey ve durumu: kursör, adımın nasıl tamamlandığı, oturum ve ne zaman sona ereceği.'
+    toolbar:
+      title: 'Geliştirme araç çubuğu ve kabuk'
+      body: 'Geliştirme araç çubuğunun Tüneller sekmesi, bu tarayıcının oturumunu tünel haritasında çizer; bin/console tunnels:info, kabuktan aynı şeyi yapar.'
+
+ur:
+  page_title: سرنگیں
+  page_icon: 'ph:bold/path'
+  intro: 'ایک سرنگ ایک سفر ہے جو مراحل میں تقسیم کیا گیا ہے — ایک سائن اپ، ایک چیک آؤٹ، ایک تجدید — جس کی راہ اس بات پر منحصر ہے کہ وزیٹر کیا جواب دیتا ہے۔ پیکج یاد رکھتا ہے کہ ہر وزیٹر کہاں ہے، انہیں ان مراحل سے گزارا جاتا ہے جو وہ دیکھ سکتے ہیں، اور جب وہ آگے بڑھنے کی کوشش کرتے ہیں تو انہیں ان کی جگہ واپس بھیج دیتا ہے۔'
+  card:
+    plan:
+      title: 'ایک منصوبہ منتخب کریں'
+      description: 'پہلی سرنگ: دو شاخیں، ایک فارم، اور آخر میں بند سیشن۔'
+    subscription:
+      title: 'سبسکرائب کریں'
+      description: 'صرف ایک شاخ پر ایک ادائیگی، 15 منٹ تک جاری رہنے والا سیشن، بینک پر انتظار۔'
+  tree:
+    title: 'کرسرز کا درخت'
+    body: 'ایک سرنگ درخت کی طرح بنائی جاتی ہے، فہرست کی طرح نہیں۔ ایک جگہ سے دو مقامات تک پہنچنے والا ایک قدم دو کرسرز ہے، ہر ایک کے اپنے ہیش اور اپنے محفوظ شدہ اقدار ہیں: یہی چیز ایک شاخ کو وہ مراحل بڑھانے کی اجازت دیتی ہے جو دوسری شاخ کے پاس نہیں ہیں، اور وہ راستہ جس سے آپ آئے، ہر سرنگ کے آخر میں دکھایا جاتا ہے، اسی سے پڑھا جاتا ہے۔'
+  session:
+    title: 'ڈیٹا بیس میں ایک سیشن'
+    body: 'ایک سرنگ کھولنے سے ایک سیشن بنتا ہے، جسے براؤزر سیشن صرف اس کے id سے جانتا ہے۔ یہ ان اقدار کو رکھتا ہے جو مراحل محفوظ کرتے ہیں، اور آخری دکھائے گئے مرحلے کے ایک دن بعد ختم ہو جاتا ہے — یا جلدی، جب وہ مرحلہ اس کی درخواست کرتا ہے۔ ختم شدہ سیشن کو شیڈولر ہر 15 منٹ میں ہٹا دیتا ہے؛ مکمل اور زیر التواء کو رکھا جاتا ہے۔'
+  access:
+    title: 'جہاں وزیٹر جا سکتا ہے'
+    body: 'ہر قدم یہ طے کرتا ہے کہ آیا اسے دکھایا جا سکتا ہے اور بصورت دیگر وزیٹر کو کہاں بھیجنا ہے۔ روابط اور بٹن ایک ہی اصولوں کے ساتھ بنائے جاتے ہیں، لہذا ایک لنک کبھی بھی واپس جانے والے ری ڈائرکشن کی طرف نہیں لے جاتا: جہاں راستہ تقسیم ہوتا ہے وہاں کوئی اگلا بٹن نہیں، ادائیگی کے بعد پیچھے جانے کا کوئی راستہ نہیں، بند سیشن میں واپس جانے کے لیے کچھ نہیں۔'
+  look:
+    title: 'چلتے وقت کس چیز پر نظر رکھنی ہے'
+    stepper:
+      title: اسٹیپر
+      body: 'آپ کہاں ہیں، کیا پیچھے ہے، کیا آگے ہے۔ ایک خلا اس جگہ کو نشان زد کرتا ہے جہاں راستہ ابھی تک نہ بنے ہوئے انتخاب پر منحصر ہے۔'
+    behind:
+      title: 'اس مرحلے کے پیچھے'
+      body: 'ہر قدم کے نیچے، جو کچھ انجن نے ابھی کیا، اور اس کی حالت: کرسر، قدم کی تکمیل، سیشن اور یہ کب ختم ہوتا ہے۔'
+    toolbar:
+      title: 'ترقی کے ٹول بار اور شیل'
+      body: 'ترقی کے ٹول بار کا سرنگیں ٹیب اس براؤزر کے سیشن کو اس کی سرنگ کے نقشے پر دکھاتا ہے؛ bin/console tunnels:info شیل سے یہی کرتا ہے.'
+
+vi:
+  page_title: 'Đường hầm'
+  page_icon: 'ph:bold/path'
+  intro: 'Một đường hầm là một hành trình được cắt thành các bước — một quá trình đăng ký, thanh toán, gia hạn — con đường có thể thay đổi tùy theo câu trả lời của người dùng. Gói nhớ vị trí của từng người dùng, cho phép họ đi qua các bước mà họ có thể thấy, và gửi họ trở lại nơi họ thuộc về khi họ cố gắng bỏ qua.'
+  card:
+    plan:
+      title: 'Chọn kế hoạch'
+      description: 'Đường hầm đầu tiên: hai nhánh, một biểu mẫu, và một phiên kết thúc ở cuối.'
+    subscription:
+      title: 'Đăng ký'
+      description: 'Một khoản thanh toán chỉ trên một nhánh, một phiên kéo dài 15 phút, một thời gian chờ từ ngân hàng.'
+  tree:
+    title: 'Một cây con trỏ'
+    body: 'Một đường hầm được xây dựng như một cây, không phải một danh sách. Một bước được tiếp cận từ hai vị trí là hai con trỏ, mỗi cái có hash riêng và các giá trị lưu trữ riêng: đó là điều cho phép một nhánh phát triển các bước mà nhánh khác không có, và con đường bạn đã đi, được hiển thị ở cuối mỗi đường hầm, được đọc từ đó.'
+  session:
+    title: 'Một phiên trong cơ sở dữ liệu'
+    body: 'Mở một đường hầm tạo ra một phiên, mà phiên trình duyệt chỉ biết đến bằng id của nó. Nó giữ các giá trị mà các bước lưu trữ, và hết hạn một ngày sau bước cuối cùng được hiển thị — hoặc sớm hơn, khi bước đó yêu cầu. Các phiên hết hạn sẽ bị xóa bởi bộ lập lịch, mỗi 15 phút; những phiên hoàn thành và đang chờ được giữ lại.'
+  access:
+    title: 'Nơi mà người dùng có thể đi'
+    body: 'Mỗi bước quyết định xem nó có thể được hiển thị hay không và nơi gửi người dùng đi nếu không. Các liên kết và nút được vẽ theo cùng một quy tắc, vì vậy một liên kết không bao giờ dẫn đến việc chuyển hướng lại: không có nút tiếp theo nơi con đường chia tách, không có cách nào quay lại sau một khoản thanh toán, không có gì để quay lại trong một phiên đã đóng.'
+  look:
+    title: 'Những gì cần xem khi đi bộ'
+    stepper:
+      title: 'Bảng điều khiển'
+      body: 'Nơi bạn đứng, những gì ở phía sau, những gì ở phía trước. Một khoảng trống đánh dấu nơi con đường phụ thuộc vào một sự lựa chọn chưa được thực hiện.'
+    behind:
+      title: 'Phía sau bước này'
+      body: 'Dưới mỗi bước, những gì động cơ vừa làm, và trạng thái của nó: con trỏ, cách bước hoàn thành, phiên và khi nào nó hết hạn.'
+    toolbar:
+      title: 'Bảng công cụ phát triển và shell'
+      body: 'Tab Đường hầm của bảng công cụ phát triển vẽ phiên của trình duyệt này trên bản đồ của đường hầm của nó; bin/console tunnels:info làm điều tương tự từ một shell.'
+
+zh:
+  page_title: 隧道
+  page_icon: 'ph:bold/path'
+  intro: 隧道是一段分成步骤的旅程——注册、结账、续订——其路径会随着访客的回答而变化。该包记住每个访客的位置，让他们通过可能看到的步骤，并在他们试图跳过时将他们送回应有的位置。
+  card:
+    plan:
+      title: 选择一个计划
+      description: 第一个隧道：两个分支，一个表单，最后关闭的会话。
+    subscription:
+      title: 订阅
+      description: 仅在一个分支上的付款，保持15分钟的会话，等待银行的处理。
+  tree:
+    title: 光标树
+    body: 隧道是作为树构建的，而不是列表。从两个地方到达的步骤是两个光标，每个都有自己的哈希和存储值：这使得一个分支可以增长另一个没有的步骤，而你来时的路径，在每个隧道的末尾被读取。
+  session:
+    title: 数据库中的会话
+    body: '打开一个隧道会创建一个会话，浏览器会话仅通过其 ID 识别。它保存步骤存储的值，并在最后一个显示的步骤后一天过期——或者在该步骤要求时更早。过期的会话每15分钟被调度程序丢弃；已完成和待处理的会话会被保留。'
+  access:
+    title: 访客可以去的地方
+    body: 每个步骤决定它是否可以被显示以及否则将访客发送到哪里。链接和按钮遵循相同的规则，因此链接永远不会导致重定向回去：在道路分开时没有下一步按钮，无法回到付款之前，在关闭的会话中没有可以返回的内容。
+  look:
+    title: 走路时要关注什么
+    stepper:
+      title: 步进器
+      body: 你所站的位置，后面有什么，前面有什么。一个空隙标记了道路依赖于尚未做出的选择的地方。
+    behind:
+      title: 在这一步之后
+      body: 在每一步下面，发动机刚刚做了什么，以及其状态：光标、步骤如何完成、会话及其过期时间。
+    toolbar:
+      title: 开发工具栏和命令行
+      body: '开发工具栏的隧道标签在其隧道的地图上绘制了该浏览器的会话；bin/console tunnels:info 从命令行执行相同操作。'

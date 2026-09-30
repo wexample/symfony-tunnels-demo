@@ -1,4 +1,0 @@
-page_title: Abonnement
-title: Paiement
-lead: 'Pro, 9 € par mois. Rien à remplir : appuyer sur payer signifie entrer une carte.'
-behind: "Une étape de la branche Pro uniquement. Pendant qu'elle est affichée, la session expire dans 15 minutes au lieu d'un jour, comme un siège réservé : regardez l'expiration ci-dessous. Le paiement stocke une référence que la banque renverra, définit la session sur pending_async_action et passe à l'étape suivante. À partir de ce moment, cette étape interdit d'atteindre quoi que ce soit avant elle et n'est plus jamais proposée."

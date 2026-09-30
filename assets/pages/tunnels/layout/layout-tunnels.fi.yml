@@ -1,7 +1,0 @@
-open:
-  modal: 'Avaa moduulissa'
-  panel: 'Avaa paneelissa'
-start:
-  title: 'Kävele tunnelissa'
-roads:
-  title: 'Sen tiet'

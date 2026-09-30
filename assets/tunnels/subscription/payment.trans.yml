@@ -1,0 +1,137 @@
+en:
+  page_title: Subscription
+  title: Payment
+  lead: "Pro, €9 a month. Nothing to fill in: pressing pay stands for entering a card."
+  behind: "A step of the Pro branch only. While it is shown, the session expires in 15 minutes instead of a day, the way a held seat would: look at the expiry below. Paying stores a reference the bank will send back, sets the session to pending_async_action and moves on. From then on, this step forbids reaching anything before it, and is never offered again."
+
+ar:
+  page_title: الاشتراك
+  title: الدفع
+  lead: 'برو، 9 يورو شهريًا. لا حاجة لملء أي شيء: الضغط على الدفع يعني إدخال بطاقة.'
+  behind: 'خطوة من فرع برو فقط. أثناء عرضها، تنتهي الجلسة في 15 دقيقة بدلاً من يوم، مثلما يحدث مع المقعد المحجوز: انظر إلى انتهاء الصلاحية أدناه. الدفع يخزن مرجعًا سترسله البنك مرة أخرى، ويضع الجلسة في حالة pending_async_action ويتقدم. من تلك اللحظة فصاعدًا، تمنع هذه الخطوة الوصول إلى أي شيء قبلها، ولا يتم عرضها مرة أخرى.'
+
+bn:
+  page_title: সাবস্ক্রিপশন
+  title: পেমেন্ট
+  lead: 'প্রো, €9 প্রতি মাসে। পূরণের কিছু নেই: পরিশোধ করতে চাপ দিলে এটি একটি কার্ড প্রবেশ করার প্রতিনিধিত্ব করে।'
+  behind: 'প্রো শাখার একটি ধাপ মাত্র। যখন এটি প্রদর্শিত হয়, সেশন ১৫ মিনিটে মেয়াদ শেষ হয়, এক দিনের পরিবর্তে, যেমন একটি সংরক্ষিত আসন: মেয়াদ শেষ হওয়ার নিচে দেখুন। পরিশোধ করা ব্যাংক দ্বারা ফেরত পাঠানোর জন্য একটি রেফারেন্স সংরক্ষণ করে, সেশনটিকে pending_async_action এ সেট করে এবং এগিয়ে চলে। তারপর থেকে, এই ধাপটি আগে কিছুতে পৌঁছানো নিষিদ্ধ করে, এবং এটি কখনও আবার অফার করা হয় না।'
+
+de:
+  page_title: Abonnement
+  title: Zahlung
+  lead: 'Pro, 9 € pro Monat. Nichts ausfüllen: Drücken Sie auf Bezahlen, um eine Karte einzugeben.'
+  behind: 'Ein Schritt des Pro-Zweigs. Während er angezeigt wird, läuft die Sitzung in 15 Minuten ab anstatt in einem Tag, wie bei einem reservierten Platz: siehe das Ablaufdatum unten. Die Zahlung speichert eine Referenz, die die Bank zurückschickt, setzt die Sitzung auf pending_async_action und geht weiter. Von da an verbietet dieser Schritt den Zugriff auf alles, was davor ist, und wird nie wieder angeboten.'
+
+es:
+  page_title: Suscripción
+  title: Pago
+  lead: 'Pro, 9 € al mes. Nada que completar: pulsar pagar equivale a introducir una tarjeta.'
+  behind: 'Un paso solo de la rama Pro. Mientras se muestra, la sesión expira en 15 minutos en lugar de un día, como lo haría un asiento reservado: mira la expiración abajo. Pagar almacena una referencia que el banco enviará de vuelta, establece la sesión en pending_async_action y continúa. A partir de entonces, este paso prohíbe acceder a cualquier cosa antes y nunca se ofrece de nuevo.'
+
+fa:
+  page_title: اشتراک
+  title: پرداخت
+  lead: 'پرو، ۹ یورو در ماه. نیازی به پر کردن اطلاعات نیست: فشار دادن پرداخت به معنای وارد کردن کارت است.'
+  behind: 'یک مرحله از شاخه پرو فقط. در حالی که این مرحله نمایش داده می‌شود، مدت زمان جلسه به جای یک روز، ۱۵ دقیقه منقضی می‌شود، همانطور که یک صندلی نگه‌داری شده: به تاریخ انقضا زیر نگاه کنید. پرداخت یک مرجع را ذخیره می‌کند که بانک برمی‌گرداند، جلسه را به حالت pending_async_action تنظیم می‌کند و ادامه می‌دهد. از آن به بعد، این مرحله اجازه دسترسی به هیچ چیز قبل از آن را نمی‌دهد و هرگز دوباره ارائه نمی‌شود.'
+
+fi:
+  page_title: 'Tilauksen hallinta'
+  title: Maksu
+  lead: 'Pro, 9 € kuukaudessa. Ei täytettävää: maksamista painamalla syötät kortin tiedot.'
+  behind: 'Vain Pro-tasolla. Kun tämä vaihe on näkyvissä, istunto vanhenee 15 minuutissa sen sijaan, että se vanhenisi päivässä, kuten varattu paikka: katso vanhenemisaika alla. Maksaminen tallentaa viitteen, jonka pankki palauttaa, asettaa istunnon tilaan pending_async_action ja siirtyy eteenpäin. Tämän jälkeen tämä vaihe estää pääsyn mihin tahansa aikaisempaan, eikä sitä tarjota enää uudelleen.'
+
+fr:
+  page_title: Abonnement
+  title: Paiement
+  lead: 'Pro, 9 € par mois. Rien à remplir : appuyer sur payer signifie entrer une carte.'
+  behind: "Une étape de la branche Pro uniquement. Pendant qu'elle est affichée, la session expire dans 15 minutes au lieu d'un jour, comme un siège réservé : regardez l'expiration ci-dessous. Le paiement stocke une référence que la banque renverra, définit la session sur pending_async_action et passe à l'étape suivante. À partir de ce moment, cette étape interdit d'atteindre quoi que ce soit avant elle et n'est plus jamais proposée."
+
+he:
+  page_title: מנוי
+  title: תשלום
+  lead: 'פרו, 9€ בחודש. אין צורך למלא פרטים: לחיצה על תשלום משמעה הכנסת כרטיס.'
+  behind: 'שלב של ענף הפרו בלבד. בזמן שהוא מוצג, המושב פג תוקף תוך 15 דקות במקום יום, כמו מושב שמוחזק: ראה את תאריך הפקיעה למטה. תשלום שומר הפניה שהבנק יחזיר, מגדיר את המושב לpending_async_action ומתקדם. מכאן ואילך, שלב זה אוסר על גישה לכל דבר לפניו, ואינו מוצע שוב.'
+
+hi:
+  page_title: सदस्यता
+  title: भुगतान
+  lead: 'प्रो, प्रति माह €9। भरने के लिए कुछ नहीं: भुगतान करने का मतलब कार्ड दर्ज करना है।'
+  behind: 'प्रो शाखा का केवल एक चरण। जबकि यह दिखाया गया है, सत्र 15 मिनट में समाप्त हो जाता है, एक दिन के बजाय, जिस तरह से एक सुरक्षित सीट होगी: नीचे समाप्ति देखें। भुगतान एक संदर्भ को संग्रहीत करता है जो बैंक वापस भेजेगा, सत्र को pending_async_action पर सेट करता है और आगे बढ़ता है। तब से, यह चरण पहले किसी भी चीज़ तक पहुँचने की अनुमति नहीं देता है, और इसे फिर से कभी पेश नहीं किया जाता है।'
+
+id:
+  page_title: Langganan
+  title: Pembayaran
+  lead: 'Pro, €9 per bulan. Tidak perlu diisi: menekan bayar berarti memasukkan kartu.'
+  behind: 'Langkah dari cabang Pro saja. Saat ini ditampilkan, sesi akan kedaluwarsa dalam 15 menit alih-alih sehari, seperti kursi yang dipegang: lihat kedaluwarsa di bawah. Pembayaran menyimpan referensi yang akan dikirim kembali oleh bank, mengatur sesi ke pending_async_action dan melanjutkan. Sejak saat itu, langkah ini melarang mengakses apa pun sebelum itu, dan tidak akan ditawarkan lagi.'
+
+it:
+  page_title: Abbonamento
+  title: Pagamento
+  lead: 'Pro, €9 al mese. Niente da compilare: premere paga equivale a inserire una carta.'
+  behind: 'Un passaggio della modalità Pro solo. Durante la visualizzazione, la sessione scade in 15 minuti invece di un giorno, come un posto riservato: guarda la scadenza qui sotto. Pagare memorizza un riferimento che la banca restituirà, imposta la sessione su pending_async_action e prosegue. Da quel momento in poi, questo passaggio vieta di accedere a qualsiasi cosa precedente e non viene mai più offerto.'
+
+ja:
+  page_title: サブスクリプション
+  title: 支払い
+  lead: Proプラン、月額€9。入力は不要：支払うボタンを押すことでカード情報の入力を意味します。
+  behind: Proプランのみのステップです。この画面が表示されている間、セッションは1日ではなく15分で期限切れになります。保持された席のように、下の期限を確認してください。支払いは銀行から返送されるリファレンスを保存し、セッションをpending_async_actionに設定して進みます。それ以降、このステップはそれ以前のものにアクセスすることを禁じ、再度提供されることはありません。
+
+ko:
+  page_title: 구독
+  title: 결제
+  lead: 'Pro, 월 €9. 입력할 필요 없음: 결제를 누르면 카드 입력을 의미함.'
+  behind: 'Pro 브랜치의 단계만 해당. 표시되는 동안 세션은 하루가 아닌 15분 후에 만료되며, 이는 예약된 좌석처럼 작동함: 아래 만료 시간을 확인하세요. 결제를 통해 은행이 다시 보낼 참조가 저장되고, 세션이 pending_async_action으로 설정되며 진행됨. 그 이후로 이 단계는 이전 단계에 접근하는 것을 금지하며, 다시는 제공되지 않음.'
+
+nl:
+  page_title: Abonnement
+  title: Betaling
+  lead: 'Pro, €9 per maand. Niets in te vullen: betalen betekent een kaart invoeren.'
+  behind: 'Een stap van de Pro-tak alleen. Terwijl dit wordt weergegeven, verloopt de sessie in 15 minuten in plaats van een dag, zoals een gereserveerde plaats: kijk naar de vervaldatum hieronder. Betalen slaat een referentie op die de bank zal terugsturen, stelt de sessie in op pending_async_action en gaat verder. Voortaan verbiedt deze stap toegang tot alles wat ervoor was, en wordt nooit meer aangeboden.'
+
+pl:
+  page_title: Subskrypcja
+  title: Płatność
+  lead: 'Pro, 9 € miesięcznie. Nic do wypełnienia: naciśnięcie płatności oznacza wprowadzenie karty.'
+  behind: 'Krok tylko dla subskrypcji Pro. Gdy jest wyświetlany, sesja wygasa po 15 minutach zamiast po dniu, tak jak zarezerwowane miejsce: patrz na datę wygaśnięcia poniżej. Płatność zapisuje odniesienie, które bank odeśle, ustawia sesję na pending_async_action i przechodzi dalej. Od tego momentu ten krok zabrania dostępu do czegokolwiek wcześniej i nie jest już oferowany.'
+
+pt_BR:
+  page_title: Assinatura
+  title: Pagamento
+  lead: 'Pro, R$9 por mês. Nada para preencher: pressionar pagar significa inserir um cartão.'
+  behind: 'Uma etapa apenas do plano Pro. Enquanto estiver visível, a sessão expira em 15 minutos em vez de um dia, como um assento reservado: veja a expiração abaixo. O pagamento armazena uma referência que o banco enviará de volta, define a sessão como pending_async_action e avança. A partir daí, esta etapa proíbe acessar qualquer coisa antes dela e nunca é oferecida novamente.'
+
+ru:
+  page_title: Подписка
+  title: Оплата
+  lead: 'Pro, 9 € в месяц. Ничего заполнять не нужно: нажатие на оплату означает ввод карты.'
+  behind: 'Шаг только для Pro. Пока он отображается, сессия истекает через 15 минут вместо одного дня, как удерживаемое место: смотрите срок действия ниже. Оплата сохраняет ссылку, которую банк вернет, устанавливает сессию в состояние pending_async_action и продолжается. С этого момента этот шаг запрещает доступ ко всему, что было ранее, и больше не предлагается.'
+
+th:
+  page_title: การสมัครสมาชิก
+  title: การชำระเงิน
+  lead: 'Pro, €9 ต่อเดือน ไม่มีอะไรให้กรอก: การกดจ่ายหมายถึงการกรอกบัตร.'
+  behind: 'เป็นขั้นตอนของสาขา Pro เท่านั้น ขณะที่มันถูกแสดงอยู่ เซสชันจะหมดอายุใน 15 นาทีแทนที่จะเป็น 1 วัน เหมือนกับที่นั่งที่ถูกจอง: ดูที่วันหมดอายุด้านล่าง การชำระเงินจะเก็บอ้างอิงที่ธนาคารจะส่งกลับ ตั้งค่าเซสชันเป็น pending_async_action และดำเนินการต่อ จากนั้นเป็นต้นไป ขั้นตอนนี้จะห้ามไม่ให้เข้าถึงอะไรที่อยู่ก่อนหน้านี้ และจะไม่ถูกเสนออีกต่อไป.'
+
+tr:
+  page_title: Abonelik
+  title: Ödeme
+  lead: 'Pro, ayda 9 €. Doldurulacak bir şey yok: ödemeye basmak, bir kart girişi anlamına gelir.'
+  behind: 'Pro dalının sadece bir adımı. Gösterildiği süre boyunca, oturum 15 dakikada sona erer, bir gün yerine, ayrılmış bir koltuk gibi: aşağıdaki sona erme süresine bakın. Ödeme, bankanın geri göndereceği bir referans saklar, oturumu pending_async_action durumuna getirir ve devam eder. O andan itibaren, bu adım, önceki adımlara erişimi yasaklar ve bir daha asla sunulmaz.'
+
+ur:
+  page_title: سبسکرپشن
+  title: ادائیگی
+  lead: 'پرو، €9 فی مہینہ۔ کچھ بھرنے کی ضرورت نہیں: ادائیگی پر دبانے کا مطلب ہے کہ آپ کارڈ داخل کر رہے ہیں۔'
+  behind: 'یہ صرف پرو شاخ کا ایک مرحلہ ہے۔ جب یہ دکھایا جائے تو، سیشن 15 منٹ میں ختم ہو جاتا ہے بجائے ایک دن کے، جیسے کہ محفوظ نشست: نیچے کی میعاد دیکھیں۔ ادائیگی ایک حوالہ محفوظ کرتی ہے جو بینک واپس بھیجے گا، سیشن کو pending_async_action پر سیٹ کرتی ہے اور آگے بڑھتی ہے۔ اس کے بعد، یہ مرحلہ اس سے پہلے کسی چیز تک رسائی کی اجازت نہیں دیتا، اور دوبارہ کبھی پیش نہیں کیا جاتا۔'
+
+vi:
+  page_title: 'Đăng ký'
+  title: 'Thanh toán'
+  lead: 'Pro, 9€ mỗi tháng. Không cần điền gì: nhấn thanh toán có nghĩa là nhập thẻ.'
+  behind: 'Một bước chỉ dành cho nhánh Pro. Khi nó được hiển thị, phiên sẽ hết hạn trong 15 phút thay vì một ngày, giống như một chỗ ngồi đang giữ: xem thời gian hết hạn bên dưới. Thanh toán lưu lại một tham chiếu mà ngân hàng sẽ gửi lại, đặt phiên ở trạng thái pending_async_action và tiếp tục. Từ lúc đó, bước này cấm truy cập vào bất cứ điều gì trước đó, và sẽ không bao giờ được đề nghị lại.'
+
+zh:
+  page_title: 订阅
+  title: 支付
+  lead: 专业版，每月9欧元。无需填写任何信息：点击支付即表示输入了卡号。
+  behind: 仅为专业版的一个步骤。虽然显示此步骤，但会话在15分钟后过期，而不是一天，就像保留的座位一样：请查看下面的过期时间。支付后会存储一个银行会返回的参考，设置会话为待处理异步操作并继续。从那时起，此步骤禁止访问之前的任何内容，并且不会再次提供。

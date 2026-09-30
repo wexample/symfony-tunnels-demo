@@ -1,9 +1,0 @@
-page_title: 'Demo tüneli'
-title: Planınız
-lead:
-  free: 'Ücretsiz plan: başlamak için her şey, ödeme yok.'
-  paid: 'Ücretli plan: tamamı, büyüme için alan ile.'
-note:
-  title: 'İki dal, tek yol'
-  body: 'Bu adım her plan için bir kez mevcut. Önceki sizi seçime geri götürür; sonraki, hangi planı seçerseniz seçin aynı formda devam eder.'
-behind: "Plan adımının iki imlecinden biri, plan %plan%'ı taşıyan. Her imlecin kendi hash'i vardır, bu nedenle biri ne saklarsa diğeri tarafından görülmez. Bu adımdan sonraki her adım da iki kez vardır, her imlecinin altında bir kopyası: dallar tekrar birleşiyormuş gibi görünse de, ulaştığınız form ve kapanış sayfası planınıza ait olanlardır."

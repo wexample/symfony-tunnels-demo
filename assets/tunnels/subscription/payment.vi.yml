@@ -1,4 +1,0 @@
-page_title: 'Đăng ký'
-title: 'Thanh toán'
-lead: 'Pro, 9€ mỗi tháng. Không cần điền gì: nhấn thanh toán có nghĩa là nhập thẻ.'
-behind: 'Một bước chỉ dành cho nhánh Pro. Khi nó được hiển thị, phiên sẽ hết hạn trong 15 phút thay vì một ngày, giống như một chỗ ngồi đang giữ: xem thời gian hết hạn bên dưới. Thanh toán lưu lại một tham chiếu mà ngân hàng sẽ gửi lại, đặt phiên ở trạng thái pending_async_action và tiếp tục. Từ lúc đó, bước này cấm truy cập vào bất cứ điều gì trước đó, và sẽ không bao giờ được đề nghị lại.'

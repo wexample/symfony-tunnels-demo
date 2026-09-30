@@ -1,0 +1,321 @@
+en:
+  button:
+    pay: Pay €9
+  behind:
+    title: Behind this step
+    step: Step
+    cursor: Cursor
+    completion: Completion
+    complete: done
+    incomplete: not done yet
+    session: Session
+    expires: Expires
+    never: never, the session is no longer opened
+
+ar:
+  button:
+    pay: 'ادفع ٩€'
+  behind:
+    title: 'خلف هذه الخطوة'
+    step: خطوة
+    cursor: مؤشر
+    completion: إكمال
+    complete: تم
+    incomplete: 'لم يتم بعد'
+    session: جلسة
+    expires: تنتهي
+    never: 'أبداً، الجلسة لم تعد مفتوحة'
+
+bn:
+  button:
+    pay: '€9 প্রদান করুন'
+  behind:
+    title: 'এই পদক্ষেপের পিছনে'
+    step: পদক্ষেপ
+    cursor: কাসর
+    completion: সম্পূর্ণতা
+    complete: সম্পন্ন
+    incomplete: 'এখনো সম্পন্ন হয়নি'
+    session: সেশন
+    expires: 'মেয়াদ শেষ হচ্ছে'
+    never: 'কখনোই নয়, সেশনটি আর খোলা নেই'
+
+de:
+  button:
+    pay: 'Zahlung von 9 €'
+  behind:
+    title: 'Hinter diesem Schritt'
+    step: Schritt
+    cursor: Cursor
+    completion: Abschluss
+    complete: erledigt
+    incomplete: 'noch nicht erledigt'
+    session: Sitzung
+    expires: 'Läuft ab'
+    never: 'nie, die Sitzung ist nicht mehr geöffnet'
+
+es:
+  button:
+    pay: 'Pagar 9 €'
+  behind:
+    title: 'Detrás de este paso'
+    step: Paso
+    cursor: Cursor
+    completion: Finalización
+    complete: hecho
+    incomplete: 'no hecho aún'
+    session: Sesión
+    expires: Caduca
+    never: 'nunca, la sesión ya no está abierta'
+
+fa:
+  button:
+    pay: 'پرداخت €9'
+  behind:
+    title: 'در مرحله‌ی بعدی'
+    step: مرحله
+    cursor: نشانگر
+    completion: تکمیل
+    complete: 'انجام شده'
+    incomplete: 'هنوز انجام نشده'
+    session: جلسه
+    expires: 'منقضی می‌شود'
+    never: 'هرگز، جلسه دیگر باز نیست'
+
+fi:
+  button:
+    pay: 'Maksa 9 €'
+  behind:
+    title: 'Tämän vaiheen takana'
+    step: Vaihe
+    cursor: Kohdistin
+    completion: Valmistuminen
+    complete: valmis
+    incomplete: 'ei vielä valmis'
+    session: Istunto
+    expires: Vanhenee
+    never: 'ei koskaan, istunto on suljettu'
+
+fr:
+  button:
+    pay: 'Payer 9 €'
+  behind:
+    title: 'Derrière cette étape'
+    step: Étape
+    cursor: Curseur
+    completion: Achèvement
+    complete: terminé
+    incomplete: 'pas encore fait'
+    session: Session
+    expires: Expire
+    never: "jamais, la session n'est plus ouverte"
+
+he:
+  button:
+    pay: 'שלם 9€'
+  behind:
+    title: 'מאחורי שלב זה'
+    step: שלב
+    cursor: סמן
+    completion: השלמה
+    complete: הושלם
+    incomplete: 'עדיין לא הושלם'
+    session: מושב
+    expires: מסתיים
+    never: 'לעולם לא, המושב כבר לא פתוח'
+
+hi:
+  button:
+    pay: '₹9 का भुगतान करें'
+  behind:
+    title: 'इस चरण के पीछे'
+    step: चरण
+    cursor: कर्सर
+    completion: पूर्णता
+    complete: पूर्ण
+    incomplete: 'अभी पूरा नहीं हुआ'
+    session: सत्र
+    expires: समाप्त
+    never: 'कभी नहीं, सत्र अब खुला नहीं है'
+
+id:
+  button:
+    pay: 'Bayar €9'
+  behind:
+    title: 'Di balik langkah ini'
+    step: Langkah
+    cursor: Kursor
+    completion: Penyelesaian
+    complete: selesai
+    incomplete: 'belum selesai'
+    session: Sesi
+    expires: Kedaluwarsa
+    never: 'tidak pernah, sesi ini sudah tidak dibuka lagi'
+
+it:
+  button:
+    pay: 'Paga €9'
+  behind:
+    title: 'Dietro questo passaggio'
+    step: Passaggio
+    cursor: Cursore
+    completion: Completamento
+    complete: fatto
+    incomplete: 'non ancora fatto'
+    session: Sessione
+    expires: Scade
+    never: 'mai, la sessione non è più aperta'
+
+ja:
+  button:
+    pay: €9を支払う
+  behind:
+    title: このステップの背後
+    step: ステップ
+    cursor: カーソル
+    completion: 完了
+    complete: 完了
+    incomplete: まだ未完了
+    session: セッション
+    expires: 期限切れ
+    never: 開かれていないため、セッションはもはや存在しません
+
+ko:
+  button:
+    pay: '€9 지불'
+  behind:
+    title: '이 단계의 뒤'
+    step: 단계
+    cursor: 커서
+    completion: 완료
+    complete: 완료
+    incomplete: '아직 완료되지 않음'
+    session: 세션
+    expires: 만료됨
+    never: '열리지 않은 세션입니다'
+
+nl:
+  button:
+    pay: 'Betaal €9'
+  behind:
+    title: 'Achter deze stap'
+    step: Stap
+    cursor: Cursor
+    completion: Voltooiing
+    complete: klaar
+    incomplete: 'nog niet klaar'
+    session: Sessie
+    expires: Verloopt
+    never: 'nooit, de sessie is niet meer geopend'
+
+pl:
+  button:
+    pay: 'Zapłać 9 €'
+  behind:
+    title: 'Za tym krokiem'
+    step: Krok
+    cursor: Kursor
+    completion: Zakończenie
+    complete: zrobione
+    incomplete: 'jeszcze nie zrobione'
+    session: Sesja
+    expires: Wygasa
+    never: 'nigdy, sesja jest już zamknięta'
+
+pt_BR:
+  button:
+    pay: 'Pagar €9'
+  behind:
+    title: 'Por trás deste passo'
+    step: Passo
+    cursor: Cursor
+    completion: Conclusão
+    complete: concluído
+    incomplete: 'ainda não concluído'
+    session: Sessão
+    expires: Expira
+    never: 'nunca, a sessão não está mais aberta'
+
+ru:
+  button:
+    pay: 'Оплатить €9'
+  behind:
+    title: 'За этим шагом'
+    step: Шаг
+    cursor: Курсор
+    completion: Завершение
+    complete: готово
+    incomplete: 'еще не готово'
+    session: Сессия
+    expires: Истекает
+    never: 'никогда, сессия больше не открыта'
+
+th:
+  button:
+    pay: 'ชำระเงิน €9'
+  behind:
+    title: ขั้นตอนถัดไป
+    step: ขั้นตอน
+    cursor: ตัวชี้ตำแหน่ง
+    completion: การทำงานเสร็จสิ้น
+    complete: เสร็จสิ้น
+    incomplete: ยังไม่เสร็จ
+    session: เซสชัน
+    expires: หมดอายุ
+    never: 'ไม่มีวันหมดอายุ เซสชันนี้จะไม่เปิดอีกต่อไป'
+
+tr:
+  button:
+    pay: '€9 öde'
+  behind:
+    title: 'Bu adımın arkasında'
+    step: Adım
+    cursor: İmleç
+    completion: Tamamlanma
+    complete: tamamlandı
+    incomplete: 'henüz tamamlanmadı'
+    session: Oturum
+    expires: 'Süresi doluyor'
+    never: 'asla, oturum artık açık değil'
+
+ur:
+  button:
+    pay: '€9 ادا کریں'
+  behind:
+    title: 'اس مرحلے کے پیچھے'
+    step: مرحلہ
+    cursor: کرسر
+    completion: 'مکمل کرنا'
+    complete: 'ہو گیا'
+    incomplete: 'ابھی نہیں ہوا'
+    session: سیشن
+    expires: 'ختم ہوتا ہے'
+    never: 'کبھی نہیں، سیشن اب مزید کھولا نہیں گیا'
+
+vi:
+  button:
+    pay: 'Thanh toán €9'
+  behind:
+    title: 'Bước tiếp theo'
+    step: Bước
+    cursor: 'Con trỏ'
+    completion: 'Hoàn thành'
+    complete: 'đã hoàn thành'
+    incomplete: 'chưa hoàn thành'
+    session: 'Phiên làm việc'
+    expires: 'Hết hạn'
+    never: 'không bao giờ, phiên làm việc đã không còn mở'
+
+zh:
+  button:
+    pay: 支付€9
+  behind:
+    title: 此步骤的背后
+    step: 步骤
+    cursor: 光标
+    completion: 完成
+    complete: 已完成
+    incomplete: 尚未完成
+    session: 会话
+    expires: 过期
+    never: 永不，此会话不再开放

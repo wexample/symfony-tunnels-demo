@@ -1,4 +1,0 @@
-page_title: 'Túnel de demonstração'
-title: 'Seu nome'
-lead: 'A última coisa que precisamos.'
-behind: 'Uma etapa do formulário. Exibi-la não é suficiente: ela é realizada apenas quando o formulário é válido, e as etapas seguintes ficam fora de alcance até lá. O nome é armazenado neste cursor. Volte para esta etapa e ele ainda estará lá; volte para uma etapa anterior e ele será apagado, pois voltar descarta o que as etapas à frente armazenaram, então um caminho percorrido novamente começa limpo.'

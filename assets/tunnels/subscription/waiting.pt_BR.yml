@@ -1,8 +1,0 @@
-page_title: Assinatura
-title: 'Aguardando o banco'
-lead: 'Pagamento %reference% foi enviado. O banco confirma no seu próprio tempo.'
-note:
-  title: 'Você pode deixar esta página'
-  body: 'Seu pagamento é mantido independentemente do que você fizer: volte mais tarde e você será admitido assim que o banco responder.'
-behind: 'A sessão está pendente_async_action: ninguém que esteja no túnel pode concluir esta etapa, apenas o banco pode. Um aplicativo real recebe sua resposta em um webhook e entrega a referência ao TunnelResumeService, que reconstrói o túnel da sessão de espera e conclui esta etapa; mostrado novamente, a etapa avança o visitante por conta própria. O botão abaixo simula o banco. Sessões pendentes nunca expiram, e nada antes do pagamento está mais vinculado.'
-simulate: 'Simular o banco: confirmar o pagamento'

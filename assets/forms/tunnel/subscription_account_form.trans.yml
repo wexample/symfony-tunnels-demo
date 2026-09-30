@@ -1,0 +1,114 @@
+en:
+  field:
+    email:
+      label: Email
+
+ar:
+  field:
+    email:
+      label: 'البريد الإلكتروني'
+
+bn:
+  field:
+    email:
+      label: ইমেইল
+
+de:
+  field:
+    email:
+      label: E-Mail
+
+es:
+  field:
+    email:
+      label: 'Correo electrónico'
+
+fa:
+  field:
+    email:
+      label: ایمیل
+
+fi:
+  field:
+    email:
+      label: Sähköposti
+
+fr:
+  field:
+    email:
+      label: E-mail
+
+he:
+  field:
+    email:
+      label: אימייל
+
+hi:
+  field:
+    email:
+      label: ईमेल
+
+id:
+  field:
+    email:
+      label: Email
+
+it:
+  field:
+    email:
+      label: Email
+
+ja:
+  field:
+    email:
+      label: メール
+
+ko:
+  field:
+    email:
+      label: 이메일
+
+nl:
+  field:
+    email:
+      label: E-mail
+
+pl:
+  field:
+    email:
+      label: Email
+
+pt_BR:
+  field:
+    email:
+      label: Email
+
+ru:
+  field:
+    email:
+      label: 'Электронная почта'
+
+th:
+  field:
+    email:
+      label: อีเมล
+
+tr:
+  field:
+    email:
+      label: E-posta
+
+ur:
+  field:
+    email:
+      label: ایمیل
+
+vi:
+  field:
+    email:
+      label: Email
+
+zh:
+  field:
+    email:
+      label: 电子邮件

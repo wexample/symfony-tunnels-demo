@@ -1,9 +1,0 @@
-page_title: 'Tunel demonstracyjny'
-title: Witaj
-lead: 'Krótki tunel, aby pokazać, jak to działa: wybierz plan, podaj nazwę, a to wszystko. Wybór planu decyduje o następnym kroku.'
-plan:
-  free:
-    description: 'Wszystko, co potrzebne, aby zacząć, bez opłat.'
-  paid:
-    description: 'Całość, z możliwością rozwoju.'
-behind: 'Punkt wejścia do tunelu. Otwarcie go utworzyło sesję w bazie danych, którą sesja przeglądarki zna tylko po jej identyfikatorze. Ten krok jest zakończony, gdy tylko się wyświetli, domyślnie. Dwie karty prowadzą do dwóch kursorów tego samego następnego kroku, rozróżnionych według opcji planu: drzewo dzieli się tutaj, więc nie ma przycisku następnego, a krokownik nazywa krok 2 po etapie, a nie po planie.'

@@ -1,9 +1,0 @@
-page_title: 'Demo tunnel'
-title: 'Alles gereed'
-lead: 'De tunnel is tot het einde doorgelopen.'
-message:
-  title: 'Dank je, %name%.'
-  body: 'De sessie is voltooid; er wordt verder niets gevraagd.'
-path:
-  title: 'De weg die je gekomen bent'
-behind: 'De sluitstap leest de naam van de cursor ervoor en vermeldt de weg hier: in een boom is de weg naar een cursor uniek, het is de lijn van zijn voorouders, elke stap vertelt wat erop is gedaan via buildSummary(). Het weergeven ervan sluit de sessie: de status verandert in voltooid en het verloopt niet meer. Niets ervoor is nog gekoppeld, omdat het bereiken van een stap van een gesloten sessie een nieuwe start: dat is wat het opnieuw openen van de tunnel doet.'

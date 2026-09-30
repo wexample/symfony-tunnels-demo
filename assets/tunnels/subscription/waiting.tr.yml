@@ -1,8 +1,0 @@
-page_title: Abonelik
-title: 'Bankayı bekliyorum'
-lead: 'Ödeme %reference% gönderildi. Banka kendi zamanında onaylayacaktır.'
-note:
-  title: 'Bu sayfayı terk edebilirsiniz'
-  body: 'Ödemeniz ne yaparsanız yapın korunur: daha sonra geri dönün, banka yanıtladığında içeri alınacaksınız.'
-behind: "Oturum bekleyen_asenkron_eylemde: tünelde yürüyen kimse bu adımı tamamlayamaz, sadece banka tamamlayabilir. Gerçek bir uygulama, yanıtını bir webhook üzerinden alır ve referansı TunnelResumeService'e aktarır, bu da bekleyen oturumun tünelini yeniden inşa eder ve bu adımı tamamlar; tekrar gösterildiğinde, adım ziyaretçiyi kendiliğinden ilerletir. Aşağıdaki buton bankayı devreye alır. Bekleyen oturumlar asla sona ermez ve ödemeden önce hiçbir şey artık ilişkilendirilmez."
-simulate: 'Bankayı oyna: ödemeyi onayla'

@@ -1,0 +1,298 @@
+en:
+  page_title: Subscription
+  title: Choose your offer
+  lead: "Two offers, and a different road for each: the Pro one goes through a payment the free one never sees."
+  offer:
+    free:
+      title: Free
+      description: An account, nothing to pay. Two steps and you are in.
+    paid:
+      title: Pro
+      description: An account and a payment, confirmed by the bank before you get in.
+  behind: "The entrypoint. Each card leads to a cursor of the account step carrying the offer as an option, and the account step reads that option to pick what follows: a payment for Pro, nothing for Free. The two branches are not the same shape, which is why the stepper shows a gap after the account: until you choose, nobody can tell how many steps are left."
+
+ar:
+  page_title: الاشتراك
+  title: 'اختر عرضك'
+  lead: 'عرضان، وطريق مختلف لكل منهما: العرض الاحترافي يتطلب الدفع بينما العرض المجاني لا يتطلب شيئاً.'
+  offer:
+    free:
+      title: مجاني
+      description: 'حساب، لا يوجد ما يدفع. خطوتان وستكون داخل.'
+    paid:
+      title: احترافي
+      description: 'حساب ودفع، يتم تأكيده من قبل البنك قبل الدخول.'
+  behind: 'نقطة الدخول. كل بطاقة تقود إلى مؤشر خطوة الحساب الذي يحمل العرض كخيار، وخطوة الحساب تقرأ ذلك الخيار لتحديد ما يلي: دفع للاحترافي، لا شيء للمجاني. الفرعان ليسا بنفس الشكل، ولهذا السبب يظهر الفاصل بعد الحساب: حتى تختار، لا يمكن لأحد أن يخبرك بعدد الخطوات المتبقية.'
+
+bn:
+  page_title: সাবস্ক্রিপশন
+  title: 'আপনার অফারটি নির্বাচন করুন'
+  lead: 'দুটি অফার, এবং প্রতিটির জন্য একটি ভিন্ন পথ: প্রো অফারটি একটি পেমেন্টের মাধ্যমে যায় যা ফ্রি অফারটি কখনও দেখে না।'
+  offer:
+    free:
+      title: ফ্রি
+      description: 'একটি অ্যাকাউন্ট, কোন পেমেন্ট নেই। দুটি ধাপে আপনি প্রবেশ করবেন।'
+    paid:
+      title: প্রো
+      description: 'একটি অ্যাকাউন্ট এবং একটি পেমেন্ট, যা প্রবেশের আগে ব্যাংক দ্বারা নিশ্চিত করা হয়।'
+  behind: 'প্রবেশের পয়েন্ট। প্রতিটি কার্ড একটি অ্যাকাউন্ট ধাপের কার্সরের দিকে নিয়ে যায় যা অফারটিকে একটি অপশন হিসেবে বহন করে, এবং অ্যাকাউন্ট ধাপ সেই অপশনটি পড়ে পরবর্তীটি বেছে নিতে: প্রোর জন্য একটি পেমেন্ট, ফ্রির জন্য কিছুই নেই। দুটি শাখার আকার এক নয়, এ কারণেই স্টেপারটি অ্যাকাউন্টের পরে একটি ফাঁকা স্থান দেখায়: যতক্ষণ না আপনি নির্বাচন করেন, কেউ বলতে পারে না কতগুলো ধাপ বাকি আছে।'
+
+de:
+  page_title: Abonnement
+  title: 'Wählen Sie Ihr Angebot'
+  lead: 'Zwei Angebote, und ein unterschiedlicher Weg für jedes: das Pro-Angebot erfordert eine Zahlung, die das kostenlose niemals sieht.'
+  offer:
+    free:
+      title: Kostenlos
+      description: 'Ein Konto, nichts zu zahlen. Zwei Schritte und Sie sind drin.'
+    paid:
+      title: Pro
+      description: 'Ein Konto und eine Zahlung, die von der Bank bestätigt wird, bevor Sie eintreten.'
+  behind: 'Der Einstiegspunkt. Jede Karte führt zu einem Cursor des Kontoschritts, der das Angebot als Option trägt, und der Kontoschritt liest diese Option, um zu bestimmen, was folgt: eine Zahlung für Pro, nichts für Kostenlos. Die beiden Zweige haben nicht die gleiche Form, weshalb der Stepper eine Lücke nach dem Konto zeigt: bis Sie wählen, kann niemand sagen, wie viele Schritte noch übrig sind.'
+
+es:
+  page_title: Suscripción
+  title: 'Elige tu oferta'
+  lead: 'Dos ofertas, y un camino diferente para cada una: la Pro pasa por un pago que la gratuita nunca ve.'
+  offer:
+    free:
+      title: Gratis
+      description: 'Una cuenta, nada que pagar. Dos pasos y estás dentro.'
+    paid:
+      title: Pro
+      description: 'Una cuenta y un pago, confirmado por el banco antes de que entres.'
+  behind: 'El punto de entrada. Cada tarjeta lleva a un cursor del paso de la cuenta que lleva la oferta como opción, y el paso de la cuenta lee esa opción para elegir lo que sigue: un pago para Pro, nada para Gratis. Las dos ramas no tienen la misma forma, por eso el paso muestra un hueco después de la cuenta: hasta que elijas, nadie puede decir cuántos pasos quedan.'
+
+fa:
+  page_title: اشتراک
+  title: 'پیشنهاد خود را انتخاب کنید'
+  lead: 'دو پیشنهاد و یک مسیر متفاوت برای هر کدام: پیشنهاد پرو از طریق پرداختی می‌گذرد که پیشنهاد رایگان هرگز آن را نمی‌بیند.'
+  offer:
+    free:
+      title: رایگان
+      description: 'یک حساب، بدون هزینه. دو مرحله و شما وارد می‌شوید.'
+    paid:
+      title: پرو
+      description: 'یک حساب و یک پرداخت، که قبل از ورود شما توسط بانک تأیید می‌شود.'
+  behind: 'نقطه ورود. هر کارت به یک نشانگر از مرحله حساب که پیشنهاد را به عنوان گزینه حمل می‌کند، منتهی می‌شود و مرحله حساب آن گزینه را می‌خواند تا آنچه را که بعد از آن می‌آید انتخاب کند: پرداخت برای پرو، هیچ چیزی برای رایگان. دو شاخه شکل یکسانی ندارند، به همین دلیل است که نشانگر فاصله‌ای پس از مرحله حساب نشان می‌دهد: تا زمانی که انتخاب نکنید، هیچ‌کس نمی‌تواند بگوید چند مرحله باقی مانده است.'
+
+fi:
+  page_title: 'Tilauksen tekeminen'
+  title: 'Valitse tarjouksesi'
+  lead: 'Kaksi tarjousta, ja eri polku jokaiselle: Pro-malli vaatii maksun, ilmainen ei näe maksua koskaan.'
+  offer:
+    free:
+      title: Ilmainen
+      description: 'Tili, ei maksuja. Kaksi vaihetta ja olet mukana.'
+    paid:
+      title: Pro
+      description: 'Tili ja maksu, pankin vahvistama ennen kuin pääset sisään.'
+  behind: 'Sisäänkäynti. Jokainen kortti johtaa tilivaiheen osoittimeen, joka sisältää tarjouksen vaihtoehtona, ja tilivaihe lukee tämän vaihtoehdon valitakseen mitä seuraavaksi tapahtuu: maksu Pro:lle, ei mitään Ilmaiselle. Kaksi haaraketta eivät ole saman muotoisia, minkä vuoksi askelmittari näyttää aukon tilin jälkeen: kunnes valitset, kukaan ei voi sanoa, kuinka monta vaihetta on jäljellä.'
+
+fr:
+  page_title: Abonnement
+  title: 'Choisissez votre offre'
+  lead: 'Deux offres, et une route différente pour chacune : la Pro passe par un paiement que la gratuite ne voit jamais.'
+  offer:
+    free:
+      title: Gratuit
+      description: 'Un compte, rien à payer. Deux étapes et vous êtes dedans.'
+    paid:
+      title: Pro
+      description: "Un compte et un paiement, confirmé par la banque avant d'entrer."
+  behind: "Le point d'entrée. Chaque carte mène à un curseur de l'étape de compte portant l'offre comme option, et l'étape de compte lit cette option pour choisir ce qui suit : un paiement pour Pro, rien pour Gratuit. Les deux branches n'ont pas la même forme, c'est pourquoi le sélecteur montre un vide après le compte : jusqu'à ce que vous choisissiez, personne ne peut dire combien d'étapes il reste."
+
+he:
+  page_title: מנוי
+  title: 'בחר את ההצעה שלך'
+  lead: 'שתי הצעות, וכל אחת בדרך שונה: ההצעה המקצועית עוברת דרך תשלום שהחינמית לא רואה לעולם.'
+  offer:
+    free:
+      title: חינם
+      description: 'חשבון, אין תשלום. שני צעדים ואתה בפנים.'
+    paid:
+      title: פרו
+      description: 'חשבון ותשלום, מאושר על ידי הבנק לפני שתיכנס.'
+  behind: 'נקודת הכניסה. כל כרטיס מוביל לסמן של שלב החשבון נושא את ההצעה כאפשרות, ושלב החשבון קורא לאפשרות הזו כדי לבחור מה יקרה בהמשך: תשלום עבור פרו, כלום עבור חינם. שני הענפים אינם באותו צורה, ולכן המדריך מראה פער אחרי החשבון: עד שתבחר, אף אחד לא יכול לדעת כמה צעדים נותרו.'
+
+hi:
+  page_title: सदस्यता
+  title: 'अपनी पेशकश चुनें'
+  lead: 'दो प्रस्ताव, और हर एक के लिए एक अलग रास्ता: प्रो वाला एक भुगतान के माध्यम से जाता है जिसे मुफ्त वाला कभी नहीं देखता।'
+  offer:
+    free:
+      title: मुफ्त
+      description: 'एक खाता, कुछ भी भुगतान नहीं करना। दो चरण और आप अंदर हैं।'
+    paid:
+      title: प्रो
+      description: 'एक खाता और एक भुगतान, बैंक द्वारा पुष्टि की गई जब आप अंदर आते हैं।'
+  behind: 'प्रवेश बिंदु। प्रत्येक कार्ड एक खाता चरण के कर्सर की ओर ले जाता है जो पेशकश को एक विकल्प के रूप में ले जाता है, और खाता चरण उस विकल्प को पढ़ता है ताकि यह तय कर सके कि क्या आगे बढ़ना है: प्रो के लिए एक भुगतान, मुफ्त के लिए कुछ नहीं। दोनों शाखाएँ एक ही आकार की नहीं हैं, यही कारण है कि स्टेपर खाता के बाद एक अंतर दिखाता है: जब तक आप चयन नहीं करते, कोई नहीं बता सकता कि कितने चरण बाकी हैं।'
+
+id:
+  page_title: Langganan
+  title: 'Pilih penawaran Anda'
+  lead: 'Dua penawaran, dan jalan yang berbeda untuk masing-masing: yang Pro melalui pembayaran yang tidak pernah dilihat oleh yang gratis.'
+  offer:
+    free:
+      title: Gratis
+      description: 'Sebuah akun, tidak ada biaya. Dua langkah dan Anda sudah bisa masuk.'
+    paid:
+      title: Pro
+      description: 'Sebuah akun dan pembayaran, dikonfirmasi oleh bank sebelum Anda bisa masuk.'
+  behind: 'Titik masuk. Setiap kartu mengarah ke kursor langkah akun yang membawa penawaran sebagai pilihan, dan langkah akun membaca pilihan itu untuk menentukan apa yang terjadi selanjutnya: pembayaran untuk Pro, tidak ada biaya untuk Gratis. Kedua cabang tidak memiliki bentuk yang sama, itulah sebabnya stepper menunjukkan celah setelah akun: sampai Anda memilih, tidak ada yang bisa tahu berapa banyak langkah yang tersisa.'
+
+it:
+  page_title: Abbonamento
+  title: 'Scegli la tua offerta'
+  lead: 'Due offerte, e un percorso diverso per ciascuna: quella Pro passa attraverso un pagamento che la gratuita non conosce mai.'
+  offer:
+    free:
+      title: Gratuita
+      description: 'Un account, nulla da pagare. Due passaggi e sei dentro.'
+    paid:
+      title: Pro
+      description: 'Un account e un pagamento, confermato dalla banca prima di entrare.'
+  behind: "Il punto d'ingresso. Ogni scheda porta a un cursore del passo dell'account che porta l'offerta come opzione, e il passo dell'account legge quell'opzione per scegliere cosa viene dopo: un pagamento per Pro, nulla per Gratuita. I due rami non hanno la stessa forma, motivo per cui il selettore mostra un divario dopo l'account: fino a quando non scegli, nessuno può dire quanti passaggi mancano."
+
+ja:
+  page_title: サブスクリプション
+  title: オファーを選択
+  lead: 2つのオファー、それぞれ異なる道があります：プロは支払いを伴い、無料はそれを必要としません。
+  offer:
+    free:
+      title: 無料
+      description: アカウント、支払いは不要。2ステップで開始できます。
+    paid:
+      title: プロ
+      description: アカウントと支払い、入会前に銀行によって確認されます。
+  behind: エントリーポイント。各カードは、オファーを選択肢として持つアカウントステップのカーソルに繋がっています。アカウントステップはその選択肢を読み取り、次に何を選ぶかを決定します：プロの場合は支払い、無料の場合は何もありません。2つの枝は同じ形ではありません。そのため、ステッパーはアカウントの後に隙間を表示します：選択するまで、残りのステップ数は誰にもわかりません。
+
+ko:
+  page_title: 구독
+  title: '제안을 선택하세요'
+  lead: '두 가지 제안이 있으며, 각각 다른 경로가 있습니다: 유료는 결제를 거치고 무료는 결제를 보지 않습니다.'
+  offer:
+    free:
+      title: 무료
+      description: '계정, 지불할 필요 없음. 두 단계로 시작할 수 있습니다.'
+    paid:
+      title: 프로
+      description: '계정과 결제, 입장하기 전에 은행에서 확인됩니다.'
+  behind: '진입점. 각 카드는 제안으로서의 옵션을 가진 계정 단계의 커서로 이어지며, 계정 단계는 다음을 선택하기 위해 그 옵션을 읽습니다: 프로는 결제, 무료는 아무것도 없습니다. 두 가지 가지는 모양이 다르기 때문에 스텝퍼에서 계정 후에 간격이 표시됩니다: 선택하기 전까지는 남은 단계가 몇 개인지 아무도 알 수 없습니다.'
+
+nl:
+  page_title: Abonnement
+  title: 'Kies je aanbod'
+  lead: 'Twee aanbiedingen, en een andere weg voor elk: de Pro gaat via een betaling die de gratis nooit ziet.'
+  offer:
+    free:
+      title: Gratis
+      description: 'Een account, niets te betalen. Twee stappen en je bent binnen.'
+    paid:
+      title: Pro
+      description: 'Een account en een betaling, bevestigd door de bank voordat je binnenkomt.'
+  behind: 'De toegangspunt. Elke kaart leidt naar een cursor van de accountstap die het aanbod als optie meedraagt, en de accountstap leest die optie om te kiezen wat volgt: een betaling voor Pro, niets voor Gratis. De twee takken zijn niet dezelfde vorm, daarom toont de stappenindicator een gat na de account: totdat je kiest, kan niemand zeggen hoeveel stappen er nog zijn.'
+
+pl:
+  page_title: Subskrypcja
+  title: 'Wybierz swoją ofertę'
+  lead: 'Dwie oferty i różna droga dla każdej: Pro przechodzi przez płatność, a darmowa nigdy jej nie widzi.'
+  offer:
+    free:
+      title: Darmowa
+      description: 'Konto, nic do zapłacenia. Dwa kroki i jesteś w środku.'
+    paid:
+      title: Pro
+      description: 'Konto i płatność, potwierdzona przez bank zanim wejdziesz.'
+  behind: 'Punkt wejścia. Każda karta prowadzi do kursora kroku konta, który niesie ofertę jako opcję, a krok konta odczytuje tę opcję, aby wybrać, co dalej: płatność za Pro, nic za Darmową. Dwie gałęzie nie mają tej samej formy, dlatego wskaźnik pokazuje lukę po kroku konta: dopóki nie wybierzesz, nikt nie może powiedzieć, ile kroków pozostało.'
+
+pt_BR:
+  page_title: Assinatura
+  title: 'Escolha sua oferta'
+  lead: 'Duas ofertas, e um caminho diferente para cada uma: a Pro passa por um pagamento que a gratuita nunca vê.'
+  offer:
+    free:
+      title: Gratuita
+      description: 'Uma conta, nada a pagar. Dois passos e você está dentro.'
+    paid:
+      title: Pro
+      description: 'Uma conta e um pagamento, confirmado pelo banco antes de você entrar.'
+  behind: 'O ponto de entrada. Cada cartão leva a um cursor da etapa da conta que carrega a oferta como uma opção, e a etapa da conta lê essa opção para escolher o que vem a seguir: um pagamento para Pro, nada para Gratuita. Os dois caminhos não têm o mesmo formato, por isso o passo a passo mostra uma lacuna após a conta: até você escolher, ninguém pode dizer quantos passos faltam.'
+
+ru:
+  page_title: Подписка
+  title: 'Выберите ваше предложение'
+  lead: 'Два предложения, и разный путь для каждого: платное идет через оплату, бесплатное никогда этого не увидит.'
+  offer:
+    free:
+      title: Бесплатно
+      description: 'Аккаунт, ничего не нужно платить. Два шага, и вы внутри.'
+    paid:
+      title: Профессиональный
+      description: 'Аккаунт и оплата, подтвержденная банком перед входом.'
+  behind: 'Точка входа. Каждая карточка ведет к курсору шага аккаунта, содержащего предложение в качестве варианта, и шаг аккаунта читает этот вариант, чтобы определить, что будет дальше: оплата для Профессионального, ничего для Бесплатного. Два пути не одинаковой формы, поэтому индикатор показывает пробел после аккаунта: пока вы не выберете, никто не может сказать, сколько шагов осталось.'
+
+th:
+  page_title: การสมัครสมาชิก
+  title: เลือกข้อเสนอของคุณ
+  lead: 'สองข้อเสนอ และเส้นทางที่แตกต่างกันสำหรับแต่ละข้อเสนอ: ข้อเสนอ Pro ต้องผ่านการชำระเงิน ขณะที่ข้อเสนอฟรีจะไม่ต้องชำระเงินเลย.'
+  offer:
+    free:
+      title: ฟรี
+      description: 'บัญชีหนึ่งบัญชี ไม่มีค่าธรรมเนียม สองขั้นตอนก็เข้าถึงได้แล้ว.'
+    paid:
+      title: Pro
+      description: 'บัญชีหนึ่งบัญชีและการชำระเงิน ซึ่งได้รับการยืนยันจากธนาคารก่อนที่คุณจะเข้าถึงได้.'
+  behind: 'จุดเริ่มต้นแต่ละจุด การ์ดแต่ละใบจะนำไปสู่ตัวชี้ของขั้นตอนบัญชีที่มีข้อเสนอเป็นตัวเลือก และขั้นตอนบัญชีจะอ่านตัวเลือกนั้นเพื่อตัดสินใจในสิ่งที่จะเกิดขึ้นต่อไป: การชำระเงินสำหรับ Pro, ไม่มีอะไรสำหรับฟรี สองสาขานั้นไม่เหมือนกัน ซึ่งเป็นเหตุผลที่ตัวชี้ขั้นตอนจะแสดงช่องว่างหลังจากขั้นตอนบัญชี: จนกว่าคุณจะเลือก ไม่มีใครสามารถบอกได้ว่ามีกี่ขั้นตอนที่เหลือ.'
+
+tr:
+  page_title: Abonelik
+  title: 'Teklifinizi seçin'
+  lead: 'İki teklif, her biri için farklı bir yol: Pro olanı bir ödeme ile geçiliyor, ücretsiz olanı hiçbir zaman görmüyor.'
+  offer:
+    free:
+      title: Ücretsiz
+      description: 'Bir hesap, ödeme yok. İki adımda içeri girebilirsiniz.'
+    paid:
+      title: Pro
+      description: 'Bir hesap ve bir ödeme, içeri girmeden önce banka tarafından onaylanır.'
+  behind: 'Giriş noktası. Her kart, teklifi bir seçenek olarak taşıyan hesap adımının bir göstericisine yönlendirir ve hesap adımı, neyin geleceğini seçmek için o seçeneği okur: Pro için bir ödeme, Ücretsiz için hiçbir şey. İki dalın şekli aynı değil, bu yüzden adımcı, hesap sonrasında bir boşluk gösterir: Seçim yapana kadar, kaç adım kaldığı bilinemez.'
+
+ur:
+  page_title: سبسکرپشن
+  title: 'اپنی پیشکش منتخب کریں'
+  lead: 'دو پیشکشیں ہیں، اور ہر ایک کے لیے ایک مختلف راستہ: پرو کی پیشکش میں ادائیگی کی ضرورت ہوتی ہے جبکہ مفت کی پیشکش میں یہ کبھی نہیں ہوتی۔'
+  offer:
+    free:
+      title: مفت
+      description: 'ایک اکاؤنٹ، کوئی ادائیگی نہیں۔ دو مراحل اور آپ اندر ہیں۔'
+    paid:
+      title: پرو
+      description: 'ایک اکاؤنٹ اور ایک ادائیگی، جو آپ کے اندر جانے سے پہلے بینک کی طرف سے تصدیق شدہ ہے۔'
+  behind: 'داخلے کا نقطہ۔ ہر کارڈ اکاؤنٹ کے مرحلے کی طرف ایک کرسر کی طرف جاتا ہے جو پیشکش کو بطور انتخاب لے کر جاتا ہے، اور اکاؤنٹ کا مرحلہ اس انتخاب کو پڑھتا ہے تاکہ یہ منتخب کرے کہ کیا آگے بڑھے: پرو کے لیے ایک ادائیگی، مفت کے لیے کچھ نہیں۔ دونوں شاخیں ایک جیسی شکل کی نہیں ہیں، یہی وجہ ہے کہ اسٹیپر اکاؤنٹ کے بعد ایک خالی جگہ دکھاتا ہے: جب تک آپ منتخب نہیں کرتے، کوئی نہیں بتا سکتا کہ کتنے مراحل باقی ہیں۔'
+
+vi:
+  page_title: 'Đăng ký'
+  title: 'Chọn gói của bạn'
+  lead: 'Hai gói, và một con đường khác nhau cho mỗi gói: gói Pro cần thanh toán còn gói miễn phí thì không.'
+  offer:
+    free:
+      title: 'Miễn phí'
+      description: 'Một tài khoản, không tốn phí. Hai bước và bạn đã vào.'
+    paid:
+      title: Pro
+      description: 'Một tài khoản và một khoản thanh toán, được ngân hàng xác nhận trước khi bạn vào.'
+  behind: 'Điểm truy cập. Mỗi thẻ dẫn đến một con trỏ của bước tài khoản mang theo gói như một tùy chọn, và bước tài khoản đọc tùy chọn đó để chọn những gì tiếp theo: một khoản thanh toán cho Pro, không gì cho Miễn phí. Hai nhánh không có cùng hình dạng, đó là lý do mà bước điều hướng hiển thị một khoảng trống sau bước tài khoản: cho đến khi bạn chọn, không ai có thể biết còn bao nhiêu bước nữa.'
+
+zh:
+  page_title: 订阅
+  title: 选择您的优惠
+  lead: 两个优惠，各走不同的路：专业版需要支付，免费版则不需要。
+  offer:
+    free:
+      title: 免费
+      description: 一个账户，无需支付。两步即可完成注册。
+    paid:
+      title: 专业版
+      description: 一个账户和一笔支付，需在进入之前经过银行确认。
+  behind: 入口。每张卡片指向一个账户步骤的游标，该步骤将优惠作为选项，而账户步骤读取该选项以决定接下来的内容：专业版需要支付，免费版则无需。两个分支形状不同，这就是为什么在账户之后，步骤指示器会显示出一个间隔：在您选择之前，没有人能知道还剩多少步骤。

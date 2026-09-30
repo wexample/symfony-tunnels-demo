@@ -1,9 +1,0 @@
-page_title: 'Demo tüneli'
-title: 'Hoş geldiniz'
-lead: 'Bir plan seçin, bir isim verin ve tamam. Seçtiğiniz plan, sonraki adımı belirler.'
-plan:
-  free:
-    description: 'Başlamak için her şey, ödenecek bir şey yok.'
-  paid:
-    description: 'Her şey dahil, büyümek için yer var.'
-behind: "Tünelin giriş noktası. Açıldığı anda veritabanında bir oturum oluşturdu, bu oturum tarayıcı oturumu tarafından sadece kimliği ile biliniyor. Bu adım, görüntülendiği anda tamamlanır, varsayılan olarak. İki kart, plan seçenekleri ile ayrılan aynı sonraki adımın iki işaretçisine yönlendirir: ağaç burada parçalanır, bu yüzden bir sonraki buton yoktur ve adımcı adım 2'yi adımın ardından isimlendirir, planın ardından değil."

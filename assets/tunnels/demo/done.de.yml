@@ -1,9 +1,0 @@
-page_title: Demo-Tunnel
-title: 'Alles bereit'
-lead: 'Der Tunnel wird bis zum Ende gegangen.'
-message:
-  title: 'Danke, %name%.'
-  body: 'Die Sitzung ist abgeschlossen; es wird nichts weiter verlangt.'
-path:
-  title: 'Der Weg, den Sie gekommen sind'
-behind: 'Der abschließende Schritt liest den Namen vom vorherigen Cursor und listet den Weg hier auf: In einem Baum ist der Weg zu einem Cursor einzigartig, es ist die Linie seiner Vorfahren, jeder Schritt erzählt, was darauf durch buildSummary() gemacht wurde. Die Anzeige schließt die Sitzung: Ihr Status wechselt zu abgeschlossen und sie läuft nicht mehr ab. Nichts davor ist mehr verlinkt, da das Erreichen eines Schrittes einer geschlossenen Sitzung eine neue startet: Das ist es, was das erneute Öffnen des Tunnels bewirkt.'

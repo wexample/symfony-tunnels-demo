@@ -1,4 +1,0 @@
-page_title: Demo tunnel
-title: Your name
-lead: The last thing we need.
-behind: "A form step. Displaying it is not enough: it is done only once the form is valid, and the steps after it stay out of reach until then. The name is stored on this cursor. Come back to this step and it is still there; go back to a step before it and it is erased, since going back drops what the steps ahead had stored, so a branch walked again starts clean."

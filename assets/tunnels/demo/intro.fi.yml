@@ -1,9 +1,0 @@
-page_title: 'Demo tunneli'
-title: Tervetuloa
-lead: 'Lyhyt tunneli, joka näyttää, miten lukeminen tapahtuu: valitse suunnitelma, anna nimi, ja se on siinä. Valitsemasi suunnitelma päättää seuraavan vaiheen.'
-plan:
-  free:
-    description: 'Kaikki aloittamiseen, ei maksettavaa.'
-  paid:
-    description: 'Koko paketti, jossa on tilaa kasvaa.'
-behind: 'Tunneliin pääsy. Sen avaaminen loi istunnon tietokantaan, jota selainistunto tuntee vain sen id:n kautta. Tämä vaihe on suoritettu heti, kun se näytetään, oletusarvoisesti. Kaksi korttia johtaa kahteen kursorin samaan seuraavaan vaiheeseen, jotka erotetaan suunnitelma vaihtoehdoilla: puu jakautuu täällä, joten seuraavaa painiketta ei ole, ja askelmittari nimeää vaiheen 2 vaiheen mukaan sen sijaan, että se nimeäisi sen suunnitelman mukaan.'

@@ -1,8 +1,0 @@
-page_title: Subskrypcja
-title: 'Oczekiwanie na bank'
-lead: 'Płatność %reference% została wysłana. Bank potwierdzi to w swoim czasie.'
-note:
-  title: 'Możesz opuścić tę stronę'
-  body: 'Twoja płatność jest zabezpieczona niezależnie od tego, co robisz: wróć później, a zostaniesz wpuszczony, gdy bank odpowie.'
-behind: 'Sesja czeka na asynchroniczną akcję: nikt przechodzący przez tunel nie może zakończyć tego kroku, tylko bank może. Prawdziła aplikacja otrzymuje swoją odpowiedź na webhooka i przekazuje referencję do TunnelResumeService, który odbudowuje tunel oczekującej sesji i kończy ten krok; ponownie pokazany, krok sam przesuwa odwiedzającego dalej. Przycisk poniżej symuluje bank. Oczekujące sesje nigdy nie wygasają, a nic przed płatnością nie jest już połączone.'
-simulate: 'Symuluj bank: potwierdź płatność'

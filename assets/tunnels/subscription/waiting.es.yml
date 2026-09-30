@@ -1,8 +1,0 @@
-page_title: Suscripción
-title: 'Esperando al banco'
-lead: 'El pago %reference% ha sido enviado. El banco lo confirma a su debido tiempo.'
-note:
-  title: 'Puedes salir de esta página'
-  body: 'Tu pago se mantiene sin importar lo que hagas: vuelve más tarde, y se te permitirá el acceso una vez que el banco haya respondido.'
-behind: 'La sesión está en acción asincrónica pendiente: nadie que esté en el túnel puede completar este paso, solo el banco puede. Una aplicación real recibe su respuesta a través de un webhook y entrega la referencia al Servicio de Reanudación de Túneles, que reconstruye el túnel de la sesión en espera y completa este paso; mostrado nuevamente, el paso mueve al visitante por sí mismo. El botón de abajo simula al banco. Las sesiones pendientes nunca expiran, y nada antes del pago está vinculado ya.'
-simulate: 'Simular al banco: confirmar el pago'

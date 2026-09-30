@@ -1,8 +1,0 @@
-page_title: Tilauksen
-title: 'Odottamassa pankkia'
-lead: 'Maksu %reference% on lähetetty. Pankki vahvistaa sen omassa aikataulussaan.'
-note:
-  title: 'Voit poistua tältä sivulta'
-  body: 'Maksusi säilyy riippumatta siitä, mitä teet: palaa myöhemmin, ja pääset sisään, kun pankki on vastannut.'
-behind: 'Istunto odottaa_asynkronista_toimintoa: kukaan tunnelissa ei voi suorittaa tätä vaihetta, vain pankki voi. Todellinen sovellus vastaanottaa vastauksensa webhookin kautta ja välittää viitteen TunnelResumeService:lle, joka rakentaa odottavan istunnon tunnelin uudelleen ja viimeistelee tämän vaiheen; kun vaihe näytetään uudelleen, se vie vierailijan eteenpäin itsestään. Alla oleva painike toimii pankkina. Odottavat istunnot eivät koskaan vanhene, eikä mikään ennen maksua ole enää sidottu toisiinsa.'
-simulate: 'Toimi pankkina: vahvista maksu'

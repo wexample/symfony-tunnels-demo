@@ -1,0 +1,137 @@
+en:
+  page_title: Subscription
+  title: Your account
+  lead: The same form for both offers.
+  behind: "One form, two cursors: this one carries the offer %offer%, and the step decides from it what comes next. Now that the branch is known, the stepper shows every step of it, and the gap is gone."
+
+ar:
+  page_title: الاشتراك
+  title: حسابك
+  lead: 'نفس النموذج لكلا العرضين.'
+  behind: 'نموذج واحد، مؤشرين: هذا يحمل العرض %offer%، والخطوة تحدد ما يأتي بعد ذلك. الآن بعد أن أصبح الفرع معروفًا، يظهر العداد كل خطوة منه، وقد زالت الفجوة.'
+
+bn:
+  page_title: সাবস্ক্রিপশন
+  title: 'আপনার অ্যাকাউন্ট'
+  lead: 'উভয় অফারের জন্য একই ফর্ম।'
+  behind: 'একটি ফর্ম, দুটি কার্সর: এটি অফার %offer% বহন করে, এবং পদক্ষেপ এর উপর নির্ভর করে পরবর্তী কি আসবে তা নির্ধারণ করে। এখন যে শাখাটি জানা গেছে, স্টেপার এটি প্রতি পদক্ষেপ প্রদর্শন করে, এবং ব্যবধানটি চলে গেছে।'
+
+de:
+  page_title: Abonnement
+  title: 'Ihr Konto'
+  lead: 'Das gleiche Formular für beide Angebote.'
+  behind: 'Ein Formular, zwei Cursor: dieser hier trägt das Angebot %offer%, und der Schritt entscheidet, was als Nächstes kommt. Nun, da der Zweig bekannt ist, zeigt der Stepper jeden Schritt davon, und die Lücke ist verschwunden.'
+
+es:
+  page_title: Suscripción
+  title: 'Tu cuenta'
+  lead: 'El mismo formulario para ambas ofertas.'
+  behind: 'Un formulario, dos cursores: este lleva la oferta %offer%, y el paso decide a partir de esto qué viene después. Ahora que la rama es conocida, el stepper muestra cada paso de ella, y la brecha ha desaparecido.'
+
+fa:
+  page_title: اشتراک
+  title: 'حساب شما'
+  lead: 'فرم یکسان برای هر دو پیشنهاد.'
+  behind: 'یک فرم، دو نشانگر: این یکی پیشنهاد %offer% را حمل می‌کند، و مرحله تصمیم می‌گیرد که چه چیزی بعد از آن می‌آید. اکنون که شاخه مشخص شده است، مرحله‌نما هر مرحله از آن را نشان می‌دهد و فاصله از بین رفته است.'
+
+fi:
+  page_title: Tilauksen
+  title: Tilisi
+  lead: 'Sama lomake molemmille tarjouksille.'
+  behind: 'Yksi lomake, kaksi kursorii: tämä kantaa tarjousta %offer%, ja askel päättää sen perusteella, mitä seuraavaksi tulee. Nyt kun haara on tunnettu, askelmittari näyttää jokaisen sen askeleen, ja väli on poistettu.'
+
+fr:
+  page_title: Abonnement
+  title: 'Votre compte'
+  lead: 'Le même formulaire pour les deux offres.'
+  behind: "Un formulaire, deux curseurs : celui-ci porte l'offre %offer%, et l'étape décide de ce qui suit. Maintenant que la branche est connue, le sélecteur montre chaque étape, et l'écart a disparu."
+
+he:
+  page_title: מנוי
+  title: 'החשבון שלך'
+  lead: 'אותו טופס לשני ההצעות.'
+  behind: 'טופס אחד, שני מחוונים: זה נושא את ההצעה %offer%, והשלב קובע מה קורה הלאה. עכשיו כשידוע הענף, המדריך מציג כל שלב ממנו, והפער נעלם.'
+
+hi:
+  page_title: सदस्यता
+  title: 'आपका खाता'
+  lead: 'दोनों प्रस्तावों के लिए यही फॉर्म।'
+  behind: 'एक फॉर्म, दो कर्सर: यह वाला प्रस्ताव %offer% ले जाता है, और कदम यह तय करता है कि आगे क्या होगा। अब जब शाखा ज्ञात है, स्टेपर इसके हर कदम को दिखाता है, और अंतर गायब हो गया है।'
+
+id:
+  page_title: Langganan
+  title: 'Akun Anda'
+  lead: 'Formulir yang sama untuk kedua tawaran.'
+  behind: 'Satu formulir, dua kursor: yang ini membawa tawaran %offer%, dan langkah menentukan dari situ apa yang akan terjadi selanjutnya. Sekarang cabang telah diketahui, steppers menunjukkan setiap langkahnya, dan celahnya sudah hilang.'
+
+it:
+  page_title: Abbonamento
+  title: 'Il tuo account'
+  lead: 'Lo stesso modulo per entrambe le offerte.'
+  behind: "Un modulo, due cursori: questo porta l'offerta %offer%, e il passo decide da essa cosa viene dopo. Ora che il ramo è noto, il selettore mostra ogni passo di esso, e il divario è scomparso."
+
+ja:
+  page_title: サブスクリプション
+  title: アカウント情報
+  lead: 両方のオファーに同じフォームを使用します。
+  behind: 1つのフォーム、2つのカーソル：こちらはオファー%offer%を持ち、ステップはそれに基づいて次に何が来るかを決定します。ブランチが認識されたので、ステッパーはそのすべてのステップを表示し、ギャップは解消されました。
+
+ko:
+  page_title: 구독
+  title: '귀하의 계정'
+  lead: '두 가지 제안에 대한 동일한 양식입니다.'
+  behind: '하나의 양식, 두 개의 커서: 이 커서는 제안 %offer%을 포함하고 있으며, 단계는 다음에 무엇이 올지를 결정합니다. 이제 분기가 알려졌으므로, 단계 표시기는 모든 단계를 보여주며, 간격이 사라졌습니다.'
+
+nl:
+  page_title: Abonnement
+  title: 'Uw account'
+  lead: 'Hetzelfde formulier voor beide aanbiedingen.'
+  behind: 'Één formulier, twee cursors: deze draagt de aanbieding %offer%, en de stap bepaalt wat hierna komt. Nu de tak bekend is, toont de stapper elke stap ervan, en is de kloof verdwenen.'
+
+pl:
+  page_title: Subskrypcja
+  title: 'Twoje konto'
+  lead: 'Ten sam formularz dla obu ofert.'
+  behind: 'Jeden formularz, dwa kursory: ten przenosi ofertę %offer%, a krok decyduje, co będzie dalej. Teraz, gdy gałąź jest znana, steper pokazuje każdy jej krok, a luka zniknęła.'
+
+pt_BR:
+  page_title: Assinatura
+  title: 'Sua conta'
+  lead: 'O mesmo formulário para ambas as ofertas.'
+  behind: 'Um formulário, dois cursores: este carrega a oferta %offer%, e a etapa decide a partir disso o que vem a seguir. Agora que o ramo é conhecido, o passo a passo mostra cada etapa dele, e a lacuna desapareceu.'
+
+ru:
+  page_title: Подписка
+  title: 'Ваш аккаунт'
+  lead: 'Одна и та же форма для обоих предложений.'
+  behind: 'Одна форма, два курсора: этот несет предложение %offer%, а шаг решает, что будет дальше. Теперь, когда ветвь известна, степпер показывает каждый шаг, и разрыв исчез.'
+
+th:
+  page_title: การสมัครสมาชิก
+  title: บัญชีของคุณ
+  lead: แบบฟอร์มเดียวกันสำหรับทั้งสองข้อเสนอ.
+  behind: 'แบบฟอร์มเดียว, สองตัวชี้: ตัวนี้แสดงข้อเสนอ %offer%, และขั้นตอนจะตัดสินใจจากมันว่าจะเกิดอะไรขึ้นต่อไป ตอนนี้เมื่อสาขาเป็นที่รู้จัก, ตัวชี้แสดงทุกขั้นตอนของมัน, และช่องว่างก็หมดไป.'
+
+tr:
+  page_title: Abonelik
+  title: Hesabınız
+  lead: 'Her iki teklif için aynı form.'
+  behind: "Bir form, iki kursor: bu teklif %offer%'yi taşır ve adım, sonraki aşamanın ne olacağını belirler. Şu anda dal bilindiğine göre, adımcı her adımı gösterir ve aradaki boşluk ortadan kalkar."
+
+ur:
+  page_title: سبسکرپشن
+  title: 'آپ کا اکاؤنٹ'
+  lead: 'دونوں پیشکشوں کے لیے ایک ہی فارم۔'
+  behind: 'ایک فارم، دو کرسر: یہ والا پیشکش %offer% لے کر چلتا ہے، اور مرحلہ اس سے فیصلہ کرتا ہے کہ آگے کیا آئے گا۔ اب چونکہ شاخ معلوم ہے، اسٹیپر اس کے ہر مرحلے کو دکھاتا ہے، اور فاصلہ ختم ہو گیا ہے۔'
+
+vi:
+  page_title: 'Đăng ký'
+  title: 'Tài khoản của bạn'
+  lead: 'Cùng một mẫu cho cả hai ưu đãi.'
+  behind: 'Một mẫu, hai con trỏ: cái này chứa ưu đãi %offer%, và bước quyết định từ đó những gì sẽ đến tiếp theo. Bây giờ nhánh đã được biết, trình bước cho thấy mọi bước của nó, và khoảng cách đã biến mất.'
+
+zh:
+  page_title: 订阅
+  title: 您的账户
+  lead: 两个优惠的相同表单。
+  behind: 一个表单，两个光标：这个光标承载优惠%offer%，而步骤决定接下来发生什么。现在分支已知，步骤器显示每一步，差距消失。

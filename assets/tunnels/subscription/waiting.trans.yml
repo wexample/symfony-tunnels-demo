@@ -1,0 +1,229 @@
+en:
+  page_title: Subscription
+  title: Waiting for the bank
+  lead: "Payment %reference% is sent. The bank confirms it in its own time."
+  note:
+    title: You can leave this page
+    body: "Your payment is kept whatever you do: come back later, and you will be let in once the bank has answered."
+  behind: "The session is pending_async_action: nobody walking the tunnel can complete this step, only the bank can. A real application receives its answer on a webhook and hands the reference to TunnelResumeService, which rebuilds the tunnel of the waiting session and completes this step; shown again, the step moves the visitor on by itself. The button below plays the bank. Pending sessions never expire, and nothing before the payment is linked any more."
+  simulate: "Play the bank: confirm the payment"
+
+ar:
+  page_title: الاشتراك
+  title: 'في انتظار البنك'
+  lead: 'تم إرسال الدفع %reference%. سيؤكد البنك ذلك في وقته الخاص.'
+  note:
+    title: 'يمكنك مغادرة هذه الصفحة'
+    body: 'سيظل الدفع الخاص بك محفوظًا مهما فعلت: عد لاحقًا، وسيسمح لك بالدخول بمجرد أن يجيب البنك.'
+  behind: 'الجلسة قيد الانتظار_إجراء غير متزامن: لا يمكن لأحد يسير في النفق إكمال هذه الخطوة، فقط البنك يمكنه ذلك. تتلقى التطبيق الحقيقي إجابته عبر webhook ويقوم بتسليم المرجع إلى TunnelResumeService، الذي يعيد بناء نفق الجلسة المعلقة ويكمل هذه الخطوة؛ ومع العودة، تنتقل الخطوة الزائر بمفردها. الزر أدناه يقوم بتشغيل البنك. الجلسات المعلقة لا تنتهي أبدًا، ولا شيء قبل الدفع مرتبط بعد الآن.'
+  simulate: 'قم بتشغيل البنك: تأكيد الدفع'
+
+bn:
+  page_title: সাবস্ক্রিপশন
+  title: 'ব্যাংকের জন্য অপেক্ষা করছি'
+  lead: 'পেমেন্ট %reference% পাঠানো হয়েছে। ব্যাংক সময়মতো এটি নিশ্চিত করবে।'
+  note:
+    title: 'আপনি এই পৃষ্ঠা ছেড়ে যেতে পারেন'
+    body: 'আপনার পেমেন্ট যাই করুন না কেন রাখা হবে: পরে ফিরে আসুন, এবং ব্যাংক উত্তর দেওয়ার পর আপনাকে ভিতরে প্রবেশ করতে দেওয়া হবে।'
+  behind: 'সেশনটি pending_async_action এ রয়েছে: টানেলের মধ্যে কেউ এই পদক্ষেপ সম্পূর্ণ করতে পারবে না, কেবল ব্যাংকই পারবেন। একটি আসল অ্যাপ্লিকেশন একটি ওয়েবহুকের মাধ্যমে তার উত্তর গ্রহণ করে এবং টানেল পুনরায় নির্মাণ করার জন্য TunnelResumeService-কে রেফারেন্সটি দেয়, যা অপেক্ষমাণ সেশনের টানেল পুনর্নির্মাণ করে এবং এই পদক্ষেপ সম্পূর্ণ করে; আবার দেখানো হলে, পদক্ষেপটি নিজেই দর্শককে এগিয়ে নিয়ে যায়। নিচের বোতামটি ব্যাংককে কার্যকর করে। অপেক্ষমাণ সেশন কখনও শেষ হয় না, এবং পেমেন্টের আগে কিছুই আর সংযুক্ত নয়।'
+  simulate: 'ব্যাংককে কার্যকর করুন: পেমেন্ট নিশ্চিত করুন'
+
+de:
+  page_title: Abonnement
+  title: 'Warten auf die Bank'
+  lead: 'Zahlung %reference% wurde gesendet. Die Bank bestätigt dies in ihrem eigenen Tempo.'
+  note:
+    title: 'Sie können diese Seite verlassen'
+    body: 'Ihre Zahlung bleibt erhalten, egal was Sie tun: Kommen Sie später zurück, und Sie werden eingelassen, sobald die Bank geantwortet hat.'
+  behind: 'Die Sitzung wartet auf eine asynchrone Aktion: Niemand, der den Tunnel durchläuft, kann diesen Schritt abschließen, nur die Bank kann das. Eine echte Anwendung erhält ihre Antwort über einen Webhook und übergibt die Referenz an den TunnelResumeService, der den Tunnel der wartenden Sitzung wiederherstellt und diesen Schritt abschließt; erneut angezeigt, bewegt der Schritt den Besucher von selbst weiter. Der Button unten spielt die Bank. Wartende Sitzungen laufen niemals ab und nichts vor der Zahlung ist mehr verknüpft.'
+  simulate: 'Die Bank spielen: Zahlung bestätigen'
+
+es:
+  page_title: Suscripción
+  title: 'Esperando al banco'
+  lead: 'El pago %reference% ha sido enviado. El banco lo confirma a su debido tiempo.'
+  note:
+    title: 'Puedes salir de esta página'
+    body: 'Tu pago se mantiene sin importar lo que hagas: vuelve más tarde, y se te permitirá el acceso una vez que el banco haya respondido.'
+  behind: 'La sesión está en acción asincrónica pendiente: nadie que esté en el túnel puede completar este paso, solo el banco puede. Una aplicación real recibe su respuesta a través de un webhook y entrega la referencia al Servicio de Reanudación de Túneles, que reconstruye el túnel de la sesión en espera y completa este paso; mostrado nuevamente, el paso mueve al visitante por sí mismo. El botón de abajo simula al banco. Las sesiones pendientes nunca expiran, y nada antes del pago está vinculado ya.'
+  simulate: 'Simular al banco: confirmar el pago'
+
+fa:
+  page_title: اشتراک
+  title: 'در انتظار بانک'
+  lead: 'پرداخت %reference% ارسال شده است. بانک در زمان خود آن را تأیید می‌کند.'
+  note:
+    title: 'می‌توانید این صفحه را ترک کنید'
+    body: 'پرداخت شما هر چه کنید نگه داشته می‌شود: بعداً برگردید و پس از پاسخ بانک، به شما اجازه ورود داده خواهد شد.'
+  behind: 'جلسه در حالت pending_async_action است: هیچ‌کس در تونل نمی‌تواند این مرحله را تکمیل کند، تنها بانک می‌تواند. یک برنامه واقعی پاسخ خود را از طریق یک webhook دریافت می‌کند و مرجع را به TunnelResumeService می‌دهد که تونل جلسه منتظر را بازسازی کرده و این مرحله را تکمیل می‌کند؛ به‌طور مجدد نشان داده شده، این مرحله به‌طور خودکار بازدیدکننده را به جلو می‌برد. دکمه زیر بانک را فعال می‌کند. جلسات معلق هرگز منقضی نمی‌شوند و هیچ چیزی قبل از پرداخت دیگر مرتبط نیست.'
+  simulate: 'بانک را فعال کنید: پرداخت را تأیید کنید'
+
+fi:
+  page_title: Tilauksen
+  title: 'Odottamassa pankkia'
+  lead: 'Maksu %reference% on lähetetty. Pankki vahvistaa sen omassa aikataulussaan.'
+  note:
+    title: 'Voit poistua tältä sivulta'
+    body: 'Maksusi säilyy riippumatta siitä, mitä teet: palaa myöhemmin, ja pääset sisään, kun pankki on vastannut.'
+  behind: 'Istunto odottaa_asynkronista_toimintoa: kukaan tunnelissa ei voi suorittaa tätä vaihetta, vain pankki voi. Todellinen sovellus vastaanottaa vastauksensa webhookin kautta ja välittää viitteen TunnelResumeService:lle, joka rakentaa odottavan istunnon tunnelin uudelleen ja viimeistelee tämän vaiheen; kun vaihe näytetään uudelleen, se vie vierailijan eteenpäin itsestään. Alla oleva painike toimii pankkina. Odottavat istunnot eivät koskaan vanhene, eikä mikään ennen maksua ole enää sidottu toisiinsa.'
+  simulate: 'Toimi pankkina: vahvista maksu'
+
+fr:
+  page_title: Abonnement
+  title: 'En attente de la banque'
+  lead: 'Le paiement %reference% est envoyé. La banque le confirme en temps voulu.'
+  note:
+    title: 'Vous pouvez quitter cette page'
+    body: 'Votre paiement est conservé quoi que vous fassiez : revenez plus tard, et vous serez autorisé à entrer une fois que la banque aura répondu.'
+  behind: "La session est pending_async_action : personne dans le tunnel ne peut compléter cette étape, seule la banque le peut. Une véritable application reçoit sa réponse sur un webhook et transmet la référence à TunnelResumeService, qui reconstruit le tunnel de la session en attente et complète cette étape ; montré à nouveau, l'étape fait avancer le visiteur d'elle-même. Le bouton ci-dessous joue le rôle de la banque. Les sessions en attente n'expirent jamais, et rien avant le paiement n'est plus lié."
+  simulate: 'Jouer le rôle de la banque : confirmer le paiement'
+
+he:
+  page_title: מנוי
+  title: 'מחכים לבנק'
+  lead: 'התשלום %reference% נשלח. הבנק מאשר את זה בזמנו.'
+  note:
+    title: 'אתה יכול לעזוב את הדף הזה'
+    body: 'התשלום שלך נשמר בכל מקרה: תחזור מאוחר יותר, ותוכל להיכנס ברגע שהבנק יענה.'
+  behind: 'הסשן ממתין_async_action: אף אחד שנמצא במנהרה לא יכול להשלים את הצעד הזה, רק הבנק יכול. אפליקציה אמיתית מקבלת את התשובה שלה על webhook ומעבירה את ההפניה ל-TunnelResumeService, שמבנה מחדש את המנהרה של הסשן הממתין ומשלים את הצעד הזה; אם הצעד מוצג שוב, הוא מעביר את המבקר בעצמו. הכפתור למטה משחזר את הבנק. סשנים ממתינים אף פעם לא פוקעים, וכלום לפני התשלום לא קשור יותר.'
+  simulate: 'שחזר את הבנק: אשר את התשלום'
+
+hi:
+  page_title: सदस्यता
+  title: 'बैंक की प्रतीक्षा'
+  lead: 'भुगतान %reference% भेजा गया है। बैंक इसे अपने समय में पुष्टि करता है।'
+  note:
+    title: 'आप इस पृष्ठ को छोड़ सकते हैं'
+    body: 'आपका भुगतान सुरक्षित है, चाहे आप कुछ भी करें: बाद में वापस आएं, और आपको तब अंदर जाने दिया जाएगा जब बैंक ने उत्तर दिया होगा।'
+  behind: 'सत्र लंबित_असिंक्रोनस_क्रिया है: सुरंग में कोई भी व्यक्ति इस कदम को पूरा नहीं कर सकता, केवल बैंक ही कर सकता है। एक असली एप्लिकेशन अपने उत्तर को एक वेबहुक पर प्राप्त करता है और संदर्भ को टनलरीज़्यूमसेवा को सौंपता है, जो प्रतीक्षा सत्र की सुरंग को फिर से बनाता है और इस कदम को पूरा करता है; फिर से दिखाया गया, कदम आगंतुक को अपने आप आगे बढ़ाता है। नीचे का बटन बैंक को चलाता है। लंबित सत्र कभी समाप्त नहीं होते, और भुगतान से पहले कुछ भी अब लिंक नहीं होता।'
+  simulate: 'बैंक को चलाएँ: भुगतान की पुष्टि करें'
+
+id:
+  page_title: Langganan
+  title: 'Menunggu bank'
+  lead: 'Pembayaran %reference% telah dikirim. Bank akan mengonfirmasinya pada waktunya sendiri.'
+  note:
+    title: 'Anda bisa meninggalkan halaman ini'
+    body: 'Pembayaran Anda akan tetap aman apa pun yang Anda lakukan: kembali lagi nanti, dan Anda akan diizinkan masuk setelah bank memberikan jawaban.'
+  behind: 'Sesi ini sedang menunggu_async_action: tidak ada yang melalui terowongan yang bisa menyelesaikan langkah ini, hanya bank yang bisa. Aplikasi yang sebenarnya menerima jawabannya melalui webhook dan menyerahkan referensinya ke TunnelResumeService, yang membangun kembali terowongan sesi yang menunggu dan menyelesaikan langkah ini; jika ditampilkan kembali, langkah ini akan membuat pengunjung melanjutkan sendiri. Tombol di bawah ini berfungsi sebagai bank. Sesi yang tertunda tidak pernah kadaluarsa, dan tidak ada yang dapat dilakukan sebelum pembayaran yang terhubung lagi.'
+  simulate: 'Mainkan bank: konfirmasi pembayaran'
+
+it:
+  page_title: Abbonamento
+  title: 'In attesa della banca'
+  lead: 'Il pagamento %reference% è stato inviato. La banca lo confermerà a suo tempo.'
+  note:
+    title: 'Puoi lasciare questa pagina'
+    body: 'Il tuo pagamento è al sicuro qualunque cosa tu faccia: torna più tardi e ti sarà consentito di proseguire una volta che la banca avrà risposto.'
+  behind: "La sessione è in attesa_async_action: nessuno che attraversa il tunnel può completare questo passaggio, solo la banca può farlo. Un'applicazione reale riceve la sua risposta su un webhook e passa il riferimento a TunnelResumeService, che ricostruisce il tunnel della sessione in attesa e completa questo passaggio; mostrato di nuovo, il passaggio sposta il visitatore automaticamente. Il pulsante qui sotto simula la banca. Le sessioni in attesa non scadono mai e nulla prima del pagamento è più collegato."
+  simulate: 'Simula la banca: conferma il pagamento'
+
+ja:
+  page_title: サブスクリプション
+  title: 銀行を待っています
+  lead: '支払い %reference% が送信されました。銀行は自分のタイミングで確認します。'
+  note:
+    title: このページを離れることができます
+    body: あなたの支払いは、何をしても保持されます：後で戻ってくれば、銀行からの回答があった時に再度入ることができます。
+  behind: セッションはpending_async_action中です：トンネルを通る誰もこのステップを完了することはできず、銀行のみができます。実際のアプリケーションは、ウェブフックで回答を受け取り、TunnelResumeServiceに参照を渡して、待機中のセッションのトンネルを再構築し、このステップを完了します。再び表示されると、このステップは訪問者を自動的に進めます。下のボタンは銀行を再生します。保留中のセッションは決して期限切れにならず、支払い前のものとはもはやリンクされません。
+  simulate: 銀行を再生：支払いを確認する
+
+ko:
+  page_title: 구독
+  title: '은행을 기다리는 중'
+  lead: '결제 %reference%가 전송되었습니다. 은행에서 시간이 걸려 확인합니다.'
+  note:
+    title: '이 페이지를 떠날 수 있습니다'
+    body: '결제는 어떤 조치를 취하더라도 유지됩니다: 나중에 다시 오면 은행이 응답할 때 입장이 허용됩니다.'
+  behind: '세션이 pending_async_action 상태입니다: 터널을 걷고 있는 누구도 이 단계를 완료할 수 없으며, 오직 은행만 가능합니다. 실제 애플리케이션은 웹후크에서 응답을 받고 참조를 TunnelResumeService에 전달하여 대기 세션의 터널을 재구성하고 이 단계를 완료합니다; 다시 표시되면, 이 단계는 방문자를 스스로 이동시킵니다. 아래 버튼은 은행의 역할을 합니다. 대기 중인 세션은 만료되지 않으며, 결제 이전의 것은 더 이상 연결되지 않습니다.'
+  simulate: '은행을 조작합니다: 결제를 확인합니다'
+
+nl:
+  page_title: Abonnement
+  title: 'Wachten op de bank'
+  lead: 'Betaling %reference% is verzonden. De bank bevestigt dit op zijn eigen tijd.'
+  note:
+    title: 'Je kunt deze pagina verlaten'
+    body: 'Je betaling wordt behouden, wat je ook doet: kom later terug en je wordt binnen gelaten zodra de bank heeft geantwoord.'
+  behind: 'De sessie wacht op_async_actie: niemand die door de tunnel loopt kan deze stap voltooien, alleen de bank kan dat. Een echte applicatie ontvangt zijn antwoord via een webhook en geeft de referentie door aan TunnelResumeService, die de tunnel van de wachtende sessie opnieuw opbouwt en deze stap voltooit; opnieuw getoond, verplaatst de stap de bezoeker vanzelf verder. De knop hieronder speelt de bank. Wachtende sessies vervallen nooit en niets voor de betaling is nog gekoppeld.'
+  simulate: 'Speel de bank: bevestig de betaling'
+
+pl:
+  page_title: Subskrypcja
+  title: 'Oczekiwanie na bank'
+  lead: 'Płatność %reference% została wysłana. Bank potwierdzi to w swoim czasie.'
+  note:
+    title: 'Możesz opuścić tę stronę'
+    body: 'Twoja płatność jest zabezpieczona niezależnie od tego, co robisz: wróć później, a zostaniesz wpuszczony, gdy bank odpowie.'
+  behind: 'Sesja czeka na asynchroniczną akcję: nikt przechodzący przez tunel nie może zakończyć tego kroku, tylko bank może. Prawdziła aplikacja otrzymuje swoją odpowiedź na webhooka i przekazuje referencję do TunnelResumeService, który odbudowuje tunel oczekującej sesji i kończy ten krok; ponownie pokazany, krok sam przesuwa odwiedzającego dalej. Przycisk poniżej symuluje bank. Oczekujące sesje nigdy nie wygasają, a nic przed płatnością nie jest już połączone.'
+  simulate: 'Symuluj bank: potwierdź płatność'
+
+pt_BR:
+  page_title: Assinatura
+  title: 'Aguardando o banco'
+  lead: 'Pagamento %reference% foi enviado. O banco confirma no seu próprio tempo.'
+  note:
+    title: 'Você pode deixar esta página'
+    body: 'Seu pagamento é mantido independentemente do que você fizer: volte mais tarde e você será admitido assim que o banco responder.'
+  behind: 'A sessão está pendente_async_action: ninguém que esteja no túnel pode concluir esta etapa, apenas o banco pode. Um aplicativo real recebe sua resposta em um webhook e entrega a referência ao TunnelResumeService, que reconstrói o túnel da sessão de espera e conclui esta etapa; mostrado novamente, a etapa avança o visitante por conta própria. O botão abaixo simula o banco. Sessões pendentes nunca expiram, e nada antes do pagamento está mais vinculado.'
+  simulate: 'Simular o banco: confirmar o pagamento'
+
+ru:
+  page_title: Подписка
+  title: 'Ожидание банка'
+  lead: 'Платеж %reference% отправлен. Банк подтвердит его в свое время.'
+  note:
+    title: 'Вы можете покинуть эту страницу'
+    body: 'Ваш платеж сохранится, независимо от того, что вы делаете: вернитесь позже, и вам будет разрешен вход, как только банк ответит.'
+  behind: 'Сессия ожидает асинхронного действия: никто в туннеле не может завершить этот шаг, только банк может. Реальное приложение получает свой ответ через вебхук и передает ссылку в TunnelResumeService, который восстанавливает туннель ожидающей сессии и завершает этот шаг; снова показанный шаг сам по себе перемещает посетителя дальше. Кнопка ниже имитирует работу банка. Ожидающие сессии никогда не истекают, и ничего до платежа больше не связано.'
+  simulate: 'Имитировать банк: подтвердить платеж'
+
+th:
+  page_title: การสมัครสมาชิก
+  title: รอการตอบกลับจากธนาคาร
+  lead: 'การชำระเงิน %reference% ถูกส่งไป ธนาคารจะยืนยันในเวลาของตัวเอง.'
+  note:
+    title: คุณสามารถออกจากหน้านี้ได้
+    body: 'การชำระเงินของคุณจะถูกเก็บไว้ไม่ว่าจะทำอะไร: กลับมาใหม่ในภายหลัง แล้วคุณจะได้รับอนุญาตเข้ามาเมื่อธนาคารตอบกลับ.'
+  behind: 'เซสชันอยู่ระหว่างรอการดำเนินการแบบอะซิงโครนัส: ไม่มีใครในอุโมงค์สามารถทำขั้นตอนนี้ให้เสร็จสิ้นได้ นอกจากธนาคารเท่านั้น แอปพลิเคชันจริงจะได้รับคำตอบผ่านเว็บฮุคและส่งข้อมูลอ้างอิงไปยัง TunnelResumeService ซึ่งจะสร้างอุโมงค์ของเซสชันที่รออยู่ใหม่และทำขั้นตอนนี้ให้เสร็จสิ้น; เมื่อแสดงอีกครั้ง ขั้นตอนจะพาผู้เยี่ยมชมไปโดยอัตโนมัติ ปุ่มด้านล่างทำหน้าที่เหมือนธนาคาร เซสชันที่รอจะไม่มีวันหมดอายุ และไม่มีอะไรที่เชื่อมโยงก่อนการชำระเงินอีกต่อไป.'
+  simulate: 'เล่นบทบาทธนาคาร: ยืนยันการชำระเงิน'
+
+tr:
+  page_title: Abonelik
+  title: 'Bankayı bekliyorum'
+  lead: 'Ödeme %reference% gönderildi. Banka kendi zamanında onaylayacaktır.'
+  note:
+    title: 'Bu sayfayı terk edebilirsiniz'
+    body: 'Ödemeniz ne yaparsanız yapın korunur: daha sonra geri dönün, banka yanıtladığında içeri alınacaksınız.'
+  behind: "Oturum bekleyen_asenkron_eylemde: tünelde yürüyen kimse bu adımı tamamlayamaz, sadece banka tamamlayabilir. Gerçek bir uygulama, yanıtını bir webhook üzerinden alır ve referansı TunnelResumeService'e aktarır, bu da bekleyen oturumun tünelini yeniden inşa eder ve bu adımı tamamlar; tekrar gösterildiğinde, adım ziyaretçiyi kendiliğinden ilerletir. Aşağıdaki buton bankayı devreye alır. Bekleyen oturumlar asla sona ermez ve ödemeden önce hiçbir şey artık ilişkilendirilmez."
+  simulate: 'Bankayı oyna: ödemeyi onayla'
+
+ur:
+  page_title: سبسکرپشن
+  title: 'بینک کا انتظار'
+  lead: 'ادائیگی %reference% بھیج دی گئی ہے۔ بینک اپنی مرضی سے اس کی تصدیق کرے گا۔'
+  note:
+    title: 'آپ اس صفحے کو چھوڑ سکتے ہیں'
+    body: 'آپ کی ادائیگی محفوظ ہے چاہے آپ کچھ بھی کریں: بعد میں واپس آئیں، اور آپ کو بینک کے جواب ملنے پر دوبارہ داخل ہونے کی اجازت دی جائے گی۔'
+  behind: 'سیشن pending_async_action پر ہے: کوئی بھی ٹنل کے ذریعے چلنے والا اس قدم کو مکمل نہیں کر سکتا، صرف بینک ہی کر سکتا ہے۔ ایک حقیقی ایپلیکیشن اپنے جواب کو webhook پر وصول کرتی ہے اور حوالہ TunnelResumeService کو دے دیتی ہے، جو انتظار کرنے والے سیشن کی ٹنل کو دوبارہ تعمیر کرتی ہے اور اس قدم کو مکمل کرتی ہے؛ دوبارہ دکھایا گیا، یہ قدم زائر کو خود بخود آگے بڑھاتا ہے۔ نیچے کا بٹن بینک کو چلاتا ہے۔ زیر انتظار سیشن کبھی ختم نہیں ہوتے، اور ادائیگی سے پہلے کچھ بھی اب مزید منسلک نہیں ہے۔'
+  simulate: 'بینک چلائیں: ادائیگی کی تصدیق کریں'
+
+vi:
+  page_title: 'Đăng ký'
+  title: 'Đang chờ ngân hàng'
+  lead: 'Thanh toán %reference% đã được gửi. Ngân hàng sẽ xác nhận khi có thể.'
+  note:
+    title: 'Bạn có thể rời khỏi trang này'
+    body: 'Thanh toán của bạn sẽ được giữ lại bất kể bạn làm gì: quay lại sau, và bạn sẽ được vào khi ngân hàng đã phản hồi.'
+  behind: 'Phiên đang chờ_async_action: không ai đi qua đường hầm có thể hoàn thành bước này, chỉ ngân hàng mới có thể. Một ứng dụng thực sự nhận được phản hồi qua webhook và chuyển tham chiếu cho TunnelResumeService, dịch vụ này sẽ xây dựng lại đường hầm của phiên đang chờ và hoàn thành bước này; khi được hiển thị lại, bước này sẽ tự động di chuyển khách truy cập tiếp tục. Nút bên dưới sẽ thực hiện tác vụ của ngân hàng. Các phiên đang chờ sẽ không bao giờ hết hạn, và không có gì trước khi thanh toán còn liên kết nữa.'
+  simulate: 'Chơi ngân hàng: xác nhận thanh toán'
+
+zh:
+  page_title: 订阅
+  title: 等待银行
+  lead: '支付 %reference% 已发送。银行会在其自己的时间确认。'
+  note:
+    title: 您可以离开此页面
+    body: 无论您做什么，您的付款都将被保留：稍后再回来，银行回复后您将被允许进入。
+  behind: '会话处于 pending_async_action 状态：没有人能够完成这一步，只有银行才能。一个真实的应用通过 webhook 接收其答案，并将引用交给 TunnelResumeService，后者重建等待会话的隧道并完成这一步；再次显示时，这一步自动推进访客。下面的按钮模拟银行。待处理的会话永远不会过期，且在付款之前没有任何内容再与之关联。'
+  simulate: 模拟银行：确认支付

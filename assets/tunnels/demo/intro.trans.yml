@@ -1,0 +1,252 @@
+en:
+  page_title: Demo tunnel
+  title: Welcome
+  lead: "A short tunnel to show how one reads: pick a plan, give a name, and it is done. The plan you pick decides the step that follows."
+  plan:
+    free:
+      description: Everything to get started, nothing to pay.
+    paid:
+      description: The whole of it, with room to grow.
+  behind: "The entrypoint of the tunnel. Opening it created a session in the database, which the browser session only knows by its id. This step is done as soon as it is displayed, the default. The two cards lead to two cursors of the same next step, told apart by their plan option: the tree parts here, so there is no next button, and the stepper names step 2 after the step rather than after a plan."
+
+ar:
+  page_title: 'نفق العرض'
+  title: مرحبًا
+  lead: 'نفق قصير لإظهار كيفية القراءة: اختر خطة، أعطِ اسمًا، وانتهى الأمر. الخطة التي تختارها تحدد الخطوة التالية.'
+  plan:
+    free:
+      description: 'كل ما تحتاجه للبدء، لا شيء للدفع.'
+    paid:
+      description: 'كل شيء، مع مساحة للنمو.'
+  behind: 'نقطة دخول النفق. فتحه أنشأ جلسة في قاعدة البيانات، والتي تعرفها جلسة المتصفح فقط من خلال معرفها. تتم هذه الخطوة بمجرد عرضها، وهذا هو الافتراضي. تقود البطاقتان إلى مؤشرين لنفس الخطوة التالية، متميزتين بخيار خطتهما: تتفرع الشجرة هنا، لذلك لا يوجد زر التالي، ويسمى المؤشر الخطوة 2 بعد الخطوة بدلاً من بعد خطة.'
+
+bn:
+  page_title: 'ডেমো টানেল'
+  title: স্বাগতম
+  lead: 'কিভাবে একটি টানেল পড়া হয় তা দেখানোর জন্য একটি সংক্ষিপ্ত টানেল: একটি পরিকল্পনা বেছে নিন, একটি নাম দিন, এবং হয়ে গেল। আপনি যে পরিকল্পনা বেছে নেন তা পরবর্তী পদক্ষেপ নির্ধারণ করে।'
+  plan:
+    free:
+      description: 'শুরু করার জন্য সবকিছু, কোনো খরচ নেই।'
+    paid:
+      description: 'সম্পূর্ণ বিষয়, বাড়ানোর জন্য জায়গা আছে।'
+  behind: 'টানেলের প্রবেশপথ। এটি খুললে একটি সেশন তৈরি হয় ডাটাবেজে, যা ব্রাউজার সেশন কেবল তার আইডি দ্বারা জানে। এটি প্রদর্শিত হওয়ার সাথে সাথে পদক্ষেপটি সম্পন্ন হয়, ডিফল্টরূপে। দুটি কার্ড একই পরবর্তী পদক্ষেপের দুটি কার্সরের দিকে নিয়ে যায়, তাদের পরিকল্পনা বিকল্প দ্বারা আলাদা করা হয়: এখানে গাছের অংশ, তাই পরবর্তী বোতাম নেই, এবং স্টেপার পদক্ষেপ 2 নামকরণ করে পদক্ষেপের পরে, পরিকল্পনার পরে নয়।'
+
+de:
+  page_title: Demo-Tunnel
+  title: Willkommen
+  lead: "Ein kurzer Tunnel, um zu zeigen, wie man liest: Wählen Sie einen Plan, geben Sie einen Namen ein, und das war's. Der gewählte Plan entscheidet über den nächsten Schritt."
+  plan:
+    free:
+      description: 'Alles, um zu starten, nichts zu bezahlen.'
+    paid:
+      description: 'Das Ganze, mit Platz zum Wachsen.'
+  behind: 'Der Einstiegspunkt des Tunnels. Das Öffnen hat eine Sitzung in der Datenbank erstellt, die die Browsersitzung nur durch ihre ID kennt. Dieser Schritt ist abgeschlossen, sobald er angezeigt wird, standardmäßig. Die beiden Karten führen zu zwei Cursorn des gleichen nächsten Schrittes, die sich durch die Planoption unterscheiden: Der Baum teilt sich hier, daher gibt es keinen nächsten Button, und der Stepper bezeichnet Schritt 2 nach dem Schritt und nicht nach einem Plan.'
+
+es:
+  page_title: 'Demo túnel'
+  title: Bienvenido
+  lead: 'Un túnel corto para mostrar cómo se lee: elige un plan, dale un nombre y listo. El plan que elijas decide el siguiente paso.'
+  plan:
+    free:
+      description: 'Todo para empezar, nada que pagar.'
+    paid:
+      description: 'Todo, con espacio para crecer.'
+  behind: 'El punto de entrada del túnel. Abrirlo creó una sesión en la base de datos, que la sesión del navegador solo conoce por su id. Este paso se completa tan pronto como se muestra, por defecto. Las dos tarjetas conducen a dos cursores del mismo siguiente paso, diferenciados por su opción de plan: las ramas del árbol aquí, por lo que no hay botón de siguiente, y el escalador nombra el paso 2 después del paso en lugar de después de un plan.'
+
+fa:
+  page_title: 'تونل دموی'
+  title: 'خوش آمدید'
+  lead: 'تونل کوتاهی برای نشان دادن نحوه خواندن: یک طرح انتخاب کنید، یک نام بدهید و تمام. طرحی که انتخاب می‌کنید مرحله بعدی را تعیین می‌کند.'
+  plan:
+    free:
+      description: 'همه‌چیز برای شروع، هیچ هزینه‌ای ندارد.'
+    paid:
+      description: 'همه چیز، با فضایی برای رشد.'
+  behind: 'نقطه ورودی تونل. باز کردن آن یک جلسه در پایگاه داده ایجاد کرد که جلسه مرورگر تنها با شناسه‌اش آن را می‌شناسد. این مرحله به محض نمایش داده شدن انجام می‌شود، به‌طور پیش‌فرض. دو کارت به دو نشانگر مرحله بعدی یکسان منتهی می‌شوند که با گزینه طرحشان از هم متمایز شده‌اند: درخت‌ها در اینجا قسمت‌ها را تشکیل می‌دهند، بنابراین دکمه بعدی وجود ندارد و نام‌گذاری مرحله‌نما در مرحله ۲ بعد از مرحله به جای یک طرح است.'
+
+fi:
+  page_title: 'Demo tunneli'
+  title: Tervetuloa
+  lead: 'Lyhyt tunneli, joka näyttää, miten lukeminen tapahtuu: valitse suunnitelma, anna nimi, ja se on siinä. Valitsemasi suunnitelma päättää seuraavan vaiheen.'
+  plan:
+    free:
+      description: 'Kaikki aloittamiseen, ei maksettavaa.'
+    paid:
+      description: 'Koko paketti, jossa on tilaa kasvaa.'
+  behind: 'Tunneliin pääsy. Sen avaaminen loi istunnon tietokantaan, jota selainistunto tuntee vain sen id:n kautta. Tämä vaihe on suoritettu heti, kun se näytetään, oletusarvoisesti. Kaksi korttia johtaa kahteen kursorin samaan seuraavaan vaiheeseen, jotka erotetaan suunnitelma vaihtoehdoilla: puu jakautuu täällä, joten seuraavaa painiketta ei ole, ja askelmittari nimeää vaiheen 2 vaiheen mukaan sen sijaan, että se nimeäisi sen suunnitelman mukaan.'
+
+fr:
+  page_title: 'Tunnel de démonstration'
+  title: Bienvenue
+  lead: "Un court tunnel pour montrer comment on lit : choisissez un plan, donnez un nom, et c'est fait. Le plan que vous choisissez détermine l'étape qui suit."
+  plan:
+    free:
+      description: 'Tout pour commencer, rien à payer.'
+    paid:
+      description: 'Tout le nécessaire, avec de la place pour grandir.'
+  behind: "Le point d'entrée du tunnel. L'ouvrir a créé une session dans la base de données, que la session du navigateur ne connaît que par son identifiant. Cette étape est faite dès qu'elle est affichée, par défaut. Les deux cartes mènent à deux curseurs de la même étape suivante, distingués par leur option de plan : l'arbre se divise ici, donc il n'y a pas de bouton suivant, et le sélecteur nomme l'étape 2 après l'étape plutôt qu'après un plan."
+
+he:
+  page_title: 'מנהרת דמו'
+  title: 'ברוך הבא'
+  lead: 'מנהרה קצרה להראות איך קוראים: בחר תכנית, תן שם, וזהו. התכנית שתבחר קובעת את השלב שיבוא אחריה.'
+  plan:
+    free:
+      description: 'הכל כדי להתחיל, כלום לשלם.'
+    paid:
+      description: 'הכול, עם מקום לצמוח.'
+  behind: 'נקודת הכניסה למנהרה. פתיחתה יצרה סשן במאגר הנתונים, שהסשן בדפדפן יודע עליו רק לפי ה-id שלו. השלב הזה מתבצע ברגע שהוא מוצג, כברירת מחדל. לשתי הכרטיסים מובילים לשני קורסורים של אותו שלב הבא, המובדלים לפי אפשרות התכנית שלהם: העץ מתפצל כאן, כך שאין כפתור הבא, והשמות של השלב הם שלב 2 אחרי השלב במקום אחרי תכנית.'
+
+hi:
+  page_title: 'डेमो टनल'
+  title: 'स्वागत है'
+  lead: 'एक छोटा टनल यह दिखाने के लिए कि कोई कैसे पढ़ता है: एक योजना चुनें, एक नाम दें, और यह हो गया। आप जो योजना चुनते हैं, वह अगले चरण को निर्धारित करती है।'
+  plan:
+    free:
+      description: 'शुरू करने के लिए सब कुछ, भुगतान करने के लिए कुछ नहीं।'
+    paid:
+      description: 'इसके पूरे हिस्से के साथ, बढ़ने के लिए जगह।'
+  behind: 'टनल का प्रवेश बिंदु। इसे खोलने से डेटाबेस में एक सत्र बना, जिसे ब्राउज़र सत्र केवल इसके आईडी द्वारा जानता है। यह चरण प्रदर्शित होते ही पूरा हो जाता है, यह डिफ़ॉल्ट है। दो कार्ड अगले चरण के दो कर्सरों की ओर ले जाते हैं, जो उनकी योजना विकल्प द्वारा अलग होते हैं: यहां पेड़ के भाग हैं, इसलिए कोई अगला बटन नहीं है, और स्टेपर चरण का नाम चरण 2 रखता है बजाय योजना के।'
+
+id:
+  page_title: 'Terowongan Demo'
+  title: 'Selamat Datang'
+  lead: 'Sebuah terowongan singkat untuk menunjukkan bagaimana cara membacanya: pilih rencana, beri nama, dan selesai. Rencana yang Anda pilih menentukan langkah yang berikutnya.'
+  plan:
+    free:
+      description: 'Segalanya untuk memulai, tanpa biaya.'
+    paid:
+      description: 'Semua fitur, dengan ruang untuk berkembang.'
+  behind: 'Titik masuk terowongan. Membukanya menciptakan sesi di database, yang hanya diketahui sesi browser dengan id-nya. Langkah ini selesai segera setelah ditampilkan, secara default. Dua kartu mengarah ke dua kursor dari langkah berikutnya yang sama, dibedakan oleh opsi rencananya: bagian pohon di sini, jadi tidak ada tombol berikutnya, dan nama stepper adalah langkah 2 setelah langkah tersebut, bukan setelah rencana.'
+
+it:
+  page_title: 'Tunnel di demo'
+  title: Benvenuto
+  lead: 'Un breve tunnel per mostrare come si legge: scegli un piano, dai un nome e il gioco è fatto. Il piano che scegli determina il passo successivo.'
+  plan:
+    free:
+      description: 'Tutto il necessario per iniziare, nulla da pagare.'
+    paid:
+      description: 'Il tutto, con spazio per crescere.'
+  behind: "Il punto d'ingresso del tunnel. Aprirlo ha creato una sessione nel database, che la sessione del browser conosce solo per il suo id. Questo passaggio è completato non appena viene visualizzato, il predefinito. Le due schede portano a due cursori dello stesso passo successivo, distinti dalla loro opzione di piano: gli alberi si dividono qui, quindi non c'è un pulsante successivo, e il passo viene chiamato passo 2 dopo il passaggio piuttosto che dopo un piano."
+
+ja:
+  page_title: デモトンネル
+  title: ようこそ
+  lead: どのように読むかを示す短いトンネルです：プランを選び、名前を付け、完了です。選んだプランが次のステップを決定します。
+  plan:
+    free:
+      description: 始めるためのすべて、支払いは不要です。
+    paid:
+      description: すべてを含み、成長の余地があります。
+  behind: トンネルの入り口です。これを開くことでデータベースにセッションが作成され、ブラウザセッションはそのIDでのみ知っています。このステップは表示されるとすぐに完了し、デフォルトです。2つのカードは同じ次のステップの2つのカーソルに導き、プランオプションによって区別されます：ここではツリーが分かれているので次へ進むボタンはなく、ステッパーはプランではなくステップに基づいてステップ2と名付けます。
+
+ko:
+  page_title: '데모 터널'
+  title: 환영합니다
+  lead: '어떻게 진행하는지 보여주는 짧은 터널: 계획을 선택하고, 이름을 입력하면 완료됩니다. 선택한 계획이 다음 단계의 내용을 결정합니다.'
+  plan:
+    free:
+      description: '시작하기 위한 모든 것, 비용은 없습니다.'
+    paid:
+      description: '모든 기능을 포함하며, 성장할 여지가 있습니다.'
+  behind: '터널의 진입점입니다. 이를 열면 데이터베이스에 세션이 생성되며, 브라우저 세션은 오직 ID로만 이를 인식합니다. 이 단계는 표시되자마자 완료되며, 기본값입니다. 두 카드가 동일한 다음 단계의 두 커서를 안내하며, 계획 옵션에 따라 구분됩니다: 여기서는 분기하므로 다음 버튼이 없고, 단계 이름은 계획이 아닌 단계에 따라 2단계로 표시됩니다.'
+
+nl:
+  page_title: 'Demo tunnel'
+  title: Welkom
+  lead: 'Een korte tunnel om te laten zien hoe je leest: kies een plan, geef een naam op, en het is geregeld. Het plan dat je kiest bepaalt de volgende stap.'
+  plan:
+    free:
+      description: 'Alles om te beginnen, niets te betalen.'
+    paid:
+      description: 'Alles, met ruimte om te groeien.'
+  behind: 'Het toegangspunt van de tunnel. Het openen ervan heeft een sessie in de database gecreëerd, die de browsersessie alleen kent aan zijn id. Deze stap is voltooid zodra deze wordt weergegeven, als standaard. De twee kaarten leiden naar twee cursors van dezelfde volgende stap, die worden onderscheiden door hun planoptie: de boom verdeelt hier, dus er is geen volgende knop, en de stapper noemt stap 2 naar de stap in plaats van naar een plan.'
+
+pl:
+  page_title: 'Tunel demonstracyjny'
+  title: Witaj
+  lead: 'Krótki tunel, aby pokazać, jak to działa: wybierz plan, podaj nazwę, a to wszystko. Wybór planu decyduje o następnym kroku.'
+  plan:
+    free:
+      description: 'Wszystko, co potrzebne, aby zacząć, bez opłat.'
+    paid:
+      description: 'Całość, z możliwością rozwoju.'
+  behind: 'Punkt wejścia do tunelu. Otwarcie go utworzyło sesję w bazie danych, którą sesja przeglądarki zna tylko po jej identyfikatorze. Ten krok jest zakończony, gdy tylko się wyświetli, domyślnie. Dwie karty prowadzą do dwóch kursorów tego samego następnego kroku, rozróżnionych według opcji planu: drzewo dzieli się tutaj, więc nie ma przycisku następnego, a krokownik nazywa krok 2 po etapie, a nie po planie.'
+
+pt_BR:
+  page_title: 'Túnel de demonstração'
+  title: Bem-vindo
+  lead: 'Um túnel curto para mostrar como funciona: escolha um plano, dê um nome e está feito. O plano que você escolher define o próximo passo.'
+  plan:
+    free:
+      description: 'Tudo para começar, nada para pagar.'
+    paid:
+      description: 'Tudo isso, com espaço para crescer.'
+  behind: 'O ponto de entrada do túnel. Abrir isso criou uma sessão no banco de dados, que a sessão do navegador conhece apenas pelo seu id. Este passo é concluído assim que é exibido, por padrão. Os dois cartões levam a dois cursores do mesmo próximo passo, diferenciados pela opção de plano: as partes da árvore aqui, então não há botão de próximo, e o stepper nomeia o passo 2 após o passo em vez de após um plano.'
+
+ru:
+  page_title: 'Демо туннель'
+  title: 'Добро пожаловать'
+  lead: 'Короткий туннель, чтобы показать, как это работает: выберите план, дайте ему имя, и все готово. Выбранный вами план определяет следующий шаг.'
+  plan:
+    free:
+      description: 'Все, чтобы начать, ничего платить не нужно.'
+    paid:
+      description: 'Полный доступ, с возможностью роста.'
+  behind: 'Входная точка туннеля. Открытие создало сессию в базе данных, которую браузерская сессия знает только по её идентификатору. Этот шаг завершается, как только он отображается, по умолчанию. Две карточки ведут к двум курсорам одного и того же следующего шага, различающимся по опции плана: здесь дерево разветвляется, поэтому нет кнопки «Далее», а шагомер называет шаг 2 после шага, а не после плана.'
+
+th:
+  page_title: เดโมอุโมงค์
+  title: ยินดีต้อนรับ
+  lead: 'อุโมงค์สั้น ๆ เพื่อแสดงให้เห็นว่าการอ่านทำอย่างไร: เลือกแผน, ตั้งชื่อ, และเสร็จสิ้น. แผนที่คุณเลือกจะกำหนดขั้นตอนถัดไป.'
+  plan:
+    free:
+      description: 'ทุกอย่างที่ต้องเริ่มต้น, ไม่มีค่าใช้จ่าย.'
+    paid:
+      description: 'ทั้งหมดของมัน, พร้อมกับพื้นที่ในการเติบโต.'
+  behind: 'จุดเข้าอุโมงค์. การเปิดใช้งานสร้างเซสชันในฐานข้อมูล, ซึ่งเบราว์เซอร์เซสชันรู้จักเฉพาะโดย id. ขั้นตอนนี้จะเสร็จสิ้นทันทีที่แสดง, ตามค่าเริ่มต้น. การ์ดทั้งสองนำไปสู่ตัวชี้สองตัวของขั้นตอนถัดไปเดียวกัน, แยกแยะด้วยตัวเลือกแผน: ส่วนต้นไม้ที่นี่, ดังนั้นจึงไม่มีปุ่มถัดไป, และตัวจัดการขั้นตอนตั้งชื่อขั้นตอนที่ 2 หลังจากขั้นตอนแทนที่จะเป็นหลังจากแผน.'
+
+tr:
+  page_title: 'Demo tüneli'
+  title: 'Hoş geldiniz'
+  lead: 'Bir plan seçin, bir isim verin ve tamam. Seçtiğiniz plan, sonraki adımı belirler.'
+  plan:
+    free:
+      description: 'Başlamak için her şey, ödenecek bir şey yok.'
+    paid:
+      description: 'Her şey dahil, büyümek için yer var.'
+  behind: "Tünelin giriş noktası. Açıldığı anda veritabanında bir oturum oluşturdu, bu oturum tarayıcı oturumu tarafından sadece kimliği ile biliniyor. Bu adım, görüntülendiği anda tamamlanır, varsayılan olarak. İki kart, plan seçenekleri ile ayrılan aynı sonraki adımın iki işaretçisine yönlendirir: ağaç burada parçalanır, bu yüzden bir sonraki buton yoktur ve adımcı adım 2'yi adımın ardından isimlendirir, planın ardından değil."
+
+ur:
+  page_title: 'ڈیمو سرنگ'
+  title: 'خوش آمدید'
+  lead: 'ایک مختصر سرنگ یہ دکھانے کے لیے کہ کوئی کیسے پڑھتا ہے: ایک منصوبہ منتخب کریں، ایک نام دیں، اور یہ مکمل ہوا۔ آپ کا منتخب کردہ منصوبہ اگلے مرحلے کا تعین کرتا ہے۔'
+  plan:
+    free:
+      description: 'شروع کرنے کے لیے سب کچھ، کچھ بھی ادا کرنے کی ضرورت نہیں۔'
+    paid:
+      description: 'یہ سب کچھ، بڑھنے کی گنجائش کے ساتھ۔'
+  behind: 'سرنگ کا داخلہ نقطہ۔ اسے کھولنے سے ڈیٹا بیس میں ایک سیشن تخلیق ہوا، جسے براؤزر کا سیشن صرف اس کی شناخت کے ذریعے جانتا ہے۔ یہ مرحلہ جیسے ہی ظاہر ہوتا ہے، مکمل ہو جاتا ہے، یہ ڈیفالٹ ہے۔ دونوں کارڈز ایک ہی اگلے مرحلے کے دو کرسرز کی طرف لے جاتے ہیں، جو اپنے منصوبے کے اختیار سے الگ ہوتے ہیں: درخت کے حصے یہاں ہیں، اس لیے کوئی اگلا بٹن نہیں ہے، اور اسٹیپر مرحلہ 2 کو مرحلے کے بعد نام دیتا ہے نہ کہ منصوبے کے بعد۔'
+
+vi:
+  page_title: 'Hầm thử nghiệm'
+  title: 'Chào mừng'
+  lead: 'Một hầm ngắn để cho thấy cách một người đọc: chọn một kế hoạch, đặt tên, và xong. Kế hoạch bạn chọn quyết định bước tiếp theo.'
+  plan:
+    free:
+      description: 'Mọi thứ để bắt đầu, không mất phí.'
+    paid:
+      description: 'Tất cả mọi thứ, với không gian để phát triển.'
+  behind: 'Điểm vào của hầm. Việc mở nó đã tạo ra một phiên trong cơ sở dữ liệu, mà phiên trình duyệt chỉ biết bằng id của nó. Bước này hoàn thành ngay khi nó được hiển thị, mặc định. Hai thẻ dẫn đến hai con trỏ của bước tiếp theo giống nhau, được phân biệt bởi tùy chọn kế hoạch của chúng: cây phân nhánh ở đây, vì vậy không có nút tiếp theo, và bộ điều chỉnh đặt tên bước 2 sau bước thay vì theo một kế hoạch.'
+
+zh:
+  page_title: 演示隧道
+  title: 欢迎
+  lead: 一个简短的隧道，展示如何阅读：选择一个计划，命名，然后完成。您选择的计划决定接下来的步骤。
+  plan:
+    free:
+      description: 一切都可以开始，无需支付。
+    paid:
+      description: 全部内容，留有成长空间。
+  behind: 隧道的入口。打开它在数据库中创建了一个会话，浏览器会话仅通过其ID识别。此步骤在显示后立即完成，这是默认设置。这两张卡片指向同一步骤的两个游标，通过其计划选项区分：这里的树状部分，因此没有“下一步”按钮，步骤器在步骤后命名为步骤2，而不是根据计划。

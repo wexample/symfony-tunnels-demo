@@ -1,0 +1,252 @@
+en:
+  page_title: Demo tunnel
+  title: All set
+  lead: The tunnel is walked to its end.
+  message:
+    title: "Thank you, %name%."
+    body: The session is complete; nothing more is asked.
+  path:
+    title: The way you came
+  behind: "The closing step reads the name from the cursor before it, and lists the way here: in a tree, the way to a cursor is unique, it is the line of its ancestors, each step telling what was done on it through buildSummary(). Displaying it closes the session: its status turns to completed and it no longer expires. Nothing before it is linked any more, since reaching any step of a closed session starts a new one: that is what opening the tunnel again does."
+
+ar:
+  page_title: 'نفق العرض'
+  title: 'كل شيء جاهز'
+  lead: 'تم السير في النفق حتى نهايته.'
+  message:
+    title: 'شكراً لك، %name%.'
+    body: 'انتهت الجلسة؛ لا يُطلب المزيد.'
+  path:
+    title: 'الطريق الذي جئت منه'
+  behind: 'تقرأ خطوة الإغلاق الاسم من المؤشر الذي قبله، وتعرض الطريق هنا: في شجرة، الطريق إلى المؤشر فريد، إنه خط أسلافه، كل خطوة تخبر بما تم القيام به عليها عبر buildSummary(). عرضها يغلق الجلسة: حالتها تتحول إلى مكتملة ولا تنتهي مرة أخرى. لا يوجد شيء قبله مرتبط بعد الآن، حيث أن الوصول إلى أي خطوة من جلسة مغلقة يبدأ جلسة جديدة: هذا ما يفعله فتح النفق مرة أخرى.'
+
+bn:
+  page_title: 'ডেমো টানেল'
+  title: 'সব কিছু প্রস্তুত'
+  lead: 'টানেলটি তার শেষ পর্যন্ত হাঁটা হয়েছে।'
+  message:
+    title: 'ধন্যবাদ, %name%.'
+    body: 'সেশন সম্পন্ন; আর কিছু জিজ্ঞাসা করা হয়নি।'
+  path:
+    title: 'আপনি যে পথে এসেছেন'
+  behind: 'বন্ধ করা পদক্ষেপটি পূর্ববর্তী কার্সরের নাম পড়ে এবং এখানে পথ তালিকাভুক্ত করে: একটি গাছের মধ্যে, কার্সরের জন্য পথ অনন্য, এটি তার পূর্বপুরুষের লাইন, প্রতিটি পদক্ষেপ বলছে এটি কিভাবে buildSummary() এর মাধ্যমে ব্যবহার করা হয়েছে। এটি প্রদর্শন করা সেশনটি বন্ধ করে: এর অবস্থা সম্পন্ন হয়ে যায় এবং এটি আর মেয়াদ শেষ হয় না। এর আগে কিছুই আর সংযুক্ত নেই, যেহেতু একটি বন্ধ সেশনের কোন পদক্ষেপে পৌঁছানো একটি নতুন সেশন শুরু করে: আবার টানেলটি খোলার মাধ্যমে তাই হয়।'
+
+de:
+  page_title: Demo-Tunnel
+  title: 'Alles bereit'
+  lead: 'Der Tunnel wird bis zum Ende gegangen.'
+  message:
+    title: 'Danke, %name%.'
+    body: 'Die Sitzung ist abgeschlossen; es wird nichts weiter verlangt.'
+  path:
+    title: 'Der Weg, den Sie gekommen sind'
+  behind: 'Der abschließende Schritt liest den Namen vom vorherigen Cursor und listet den Weg hier auf: In einem Baum ist der Weg zu einem Cursor einzigartig, es ist die Linie seiner Vorfahren, jeder Schritt erzählt, was darauf durch buildSummary() gemacht wurde. Die Anzeige schließt die Sitzung: Ihr Status wechselt zu abgeschlossen und sie läuft nicht mehr ab. Nichts davor ist mehr verlinkt, da das Erreichen eines Schrittes einer geschlossenen Sitzung eine neue startet: Das ist es, was das erneute Öffnen des Tunnels bewirkt.'
+
+es:
+  page_title: 'Demo túnel'
+  title: 'Todo listo'
+  lead: 'El túnel se ha recorrido hasta su final.'
+  message:
+    title: 'Gracias, %name%.'
+    body: 'La sesión está completa; no se pide nada más.'
+  path:
+    title: 'El camino que tomaste'
+  behind: 'El paso de cierre lee el nombre del cursor anterior y lista el camino aquí: en un árbol, el camino hacia un cursor es único, es la línea de sus ancestros, cada paso contando lo que se hizo en él a través de buildSummary(). Mostrarlo cierra la sesión: su estado se convierte en completado y ya no expira. Nada antes de él está vinculado más, ya que alcanzar cualquier paso de una sesión cerrada inicia una nueva: eso es lo que hace abrir el túnel nuevamente.'
+
+fa:
+  page_title: 'تونل دمو'
+  title: 'همه چیز آماده است'
+  lead: 'تونل تا انتهای آن پیاده‌روی می‌شود.'
+  message:
+    title: 'ممنون، %name%.'
+    body: 'جلسه به پایان رسیده است؛ چیزی بیشتر خواسته نمی‌شود.'
+  path:
+    title: 'مسیری که آمدید'
+  behind: 'مرحله پایانی نام را از نشانگر قبلی می‌خواند و مسیر را اینجا لیست می‌کند: در یک درخت، مسیر به یک نشانگر منحصر به فرد است، این خط نیاکان آن است، هر مرحله بیانگر کارهایی است که بر روی آن از طریق buildSummary() انجام شده است. نمایش آن جلسه را می‌بندد: وضعیت آن به تکمیل شده تبدیل می‌شود و دیگر منقضی نمی‌شود. هیچ چیز قبل از آن دیگر پیوندی ندارد، زیرا رسیدن به هر مرحله از یک جلسه بسته جلسه جدیدی را آغاز می‌کند: این همان کاری است که دوباره تونل را باز می‌کند.'
+
+fi:
+  page_title: 'Demo tunneli'
+  title: 'Kaikki valmiina'
+  lead: 'Tunneli on kävelty loppuun.'
+  message:
+    title: 'Kiitos, %name%.'
+    body: 'Istunto on valmis; mitään ei enää kysytä.'
+  path:
+    title: 'Tapa, jota tulit'
+  behind: 'Sulkeutuva vaihe lukee nimen edellisen kohdistimen mukaan ja listaa tavan täällä: puussa tapa kohdistimeen on ainutlaatuinen, se on sen esi-isien linja, jokainen vaihe kertoo, mitä sillä on tehty buildSummary():n kautta. Sen näyttäminen sulkee istunnon: sen tila muuttuu valmiiksi eikä se enää vanhene. Mikään sen edellä ei ole enää linkitetty, koska minkä tahansa suljetun istunnon vaiheen saavuttaminen aloittaa uuden: juuri niin tunnelin avaaminen uudelleen toimii.'
+
+fr:
+  page_title: 'Tunnel de démonstration'
+  title: 'Tout est prêt'
+  lead: "Le tunnel est parcouru jusqu'à son extrémité."
+  message:
+    title: 'Merci, %name%.'
+    body: "La session est terminée ; rien de plus n'est demandé."
+  path:
+    title: 'Le chemin que vous avez emprunté'
+  behind: "L'étape de clôture lit le nom du curseur précédent et liste le chemin ici : dans un arbre, le chemin vers un curseur est unique, c'est la ligne de ses ancêtres, chaque étape indiquant ce qui a été fait grâce à buildSummary(). L'affichage de cela clôt la session : son statut passe à terminé et elle n'expire plus. Rien avant n'est plus lié, car atteindre une étape d'une session fermée en commence une nouvelle : c'est ce que fait l'ouverture à nouveau du tunnel."
+
+he:
+  page_title: 'מנהרת הדגמה'
+  title: 'הכל מוכן'
+  lead: 'ההליכה בתunnel מסתיימת.'
+  message:
+    title: 'תודה, %name%.'
+    body: 'הישיבה הושלמה; אין עוד דבר שנדרש.'
+  path:
+    title: 'הדרך שבה הגעת'
+  behind: 'השלב הסופי קורא את השם מהסמן לפניו, ומפרט את הדרך כאן: בעץ, הדרך לסמן היא ייחודית, היא הקו של אבותיו, כל שלב מסביר מה נעשה עליו דרך buildSummary(). הצגת זאת סוגרת את הישיבה: הסטטוס שלה משתנה להושלם והיא כבר לא פגה. שום דבר לפניה כבר לא מקושר, מאחר שהגעה לכל שלב של ישיבה סגורה מתחילה חדשה: זה מה שעושה פתיחת המנהרה שוב.'
+
+hi:
+  page_title: 'डेमो टनल'
+  title: 'सब कुछ सेट है'
+  lead: 'टनल को इसके अंत तक चलाया गया।'
+  message:
+    title: 'धन्यवाद, %name%.'
+    body: 'सत्र पूरा हो गया है; कुछ और नहीं मांगा गया।'
+  path:
+    title: 'आपका रास्ता'
+  behind: 'बंद करने वाला कदम पहले के कर्सर से नाम पढ़ता है, और यहाँ रास्ता सूचीबद्ध करता है: एक पेड़ में, कर्सर के लिए रास्ता अद्वितीय है, यह इसके पूर्वजों की पंक्ति है, प्रत्येक कदम बताता है कि इसके माध्यम से क्या किया गया है buildSummary()। इसे प्रदर्शित करना सत्र को बंद कर देता है: इसका स्थिति पूर्ण हो जाती है और यह अब समाप्त नहीं होता। इसके पहले कुछ भी अब लिंक नहीं किया गया है, क्योंकि बंद सत्र के किसी भी कदम को पहुँचने पर एक नया सत्र शुरू होता है: यही फिर से टनल खोलने का काम है।'
+
+id:
+  page_title: 'Demo terowongan'
+  title: 'Semua siap'
+  lead: 'Terowongan ini dilalui hingga ujungnya.'
+  message:
+    title: 'Terima kasih, %name%.'
+    body: 'Sesi telah selesai; tidak ada lagi yang diminta.'
+  path:
+    title: 'Jalur yang Anda lalui'
+  behind: 'Langkah penutupan membaca nama dari kursor sebelumnya, dan mencantumkan jalur di sini: dalam sebuah pohon, jalur menuju kursor adalah unik, yaitu garis dari nenek moyangnya, setiap langkah memberitahu apa yang telah dilakukan padanya melalui buildSummary(). Menampilkan ini menutup sesi: statusnya berubah menjadi selesai dan tidak akan kedaluwarsa lagi. Tidak ada yang terhubung sebelumnya, karena mencapai langkah mana pun dari sesi yang tertutup memulai sesi baru: itulah yang dilakukan saat membuka terowongan lagi.'
+
+it:
+  page_title: 'Tunnel di demo'
+  title: 'Tutto pronto'
+  lead: 'Il tunnel è percorso fino alla fine.'
+  message:
+    title: 'Grazie, %name%.'
+    body: 'La sessione è completata; non è richiesto altro.'
+  path:
+    title: 'Il percorso che hai seguito'
+  behind: 'Il passo di chiusura legge il nome dal cursore precedente e elenca il percorso qui: in un albero, il percorso verso un cursore è unico, è la linea dei suoi antenati, ogni passo racconta cosa è stato fatto su di esso attraverso buildSummary(). Visualizzarlo chiude la sessione: il suo stato passa a completato e non scade più. Niente prima di esso è più collegato, poiché raggiungere qualsiasi passo di una sessione chiusa avvia una nuova sessione: questo è ciò che fa riaprire il tunnel.'
+
+ja:
+  page_title: デモトンネル
+  title: すべて準備完了
+  lead: トンネルはその終わりまで歩かれます。
+  message:
+    title: ありがとうございます、%name%。
+    body: セッションは完了しました。これ以上の要求はありません。
+  path:
+    title: 来た道
+  behind: 閉じるステップはその前のカーソルから名前を読み取り、ここに道をリストします：ツリーの中で、カーソルへの道はユニークであり、それはその祖先のラインです。各ステップは、buildSummary()を通じて何が行われたかを示します。それを表示するとセッションが終了し、そのステータスは完了に変わり、もはや期限切れにはなりません。それ以前のものはもはやリンクされず、閉じたセッションの任意のステップに達すると新しいセッションが始まります：それがトンネルを再び開くことの意味です。
+
+ko:
+  page_title: '데모 터널'
+  title: '모두 설정 완료'
+  lead: '터널 끝까지 걸어갑니다.'
+  message:
+    title: '감사합니다, %name%.'
+    body: '세션이 완료되었습니다; 더 이상 요청사항이 없습니다.'
+  path:
+    title: '온 길'
+  behind: '마감 단계는 이전 커서에서 이름을 읽고 여기에 경로를 나열합니다: 트리에서 커서로 가는 길은 고유하며, 그것은 조상의 선이 되고, 각 단계는 buildSummary()를 통해 수행된 작업을 알려줍니다. 이를 표시하면 세션이 종료됩니다: 상태가 완료로 전환되며 더 이상 만료되지 않습니다. 닫힌 세션의 어떤 단계라도 도달하면 새로운 세션이 시작되므로, 이전 단계는 더 이상 연결되지 않습니다: 다시 터널을 여는 것이 바로 그것입니다.'
+
+nl:
+  page_title: 'Demo tunnel'
+  title: 'Alles gereed'
+  lead: 'De tunnel is tot het einde doorgelopen.'
+  message:
+    title: 'Dank je, %name%.'
+    body: 'De sessie is voltooid; er wordt verder niets gevraagd.'
+  path:
+    title: 'De weg die je gekomen bent'
+  behind: 'De sluitstap leest de naam van de cursor ervoor en vermeldt de weg hier: in een boom is de weg naar een cursor uniek, het is de lijn van zijn voorouders, elke stap vertelt wat erop is gedaan via buildSummary(). Het weergeven ervan sluit de sessie: de status verandert in voltooid en het verloopt niet meer. Niets ervoor is nog gekoppeld, omdat het bereiken van een stap van een gesloten sessie een nieuwe start: dat is wat het opnieuw openen van de tunnel doet.'
+
+pl:
+  page_title: 'Tunel demonstracyjny'
+  title: 'Wszystko gotowe'
+  lead: 'Tunel jest przejrzany aż do końca.'
+  message:
+    title: 'Dziękujemy, %name%.'
+    body: 'Sesja została zakończona; nic więcej nie jest wymagane.'
+  path:
+    title: 'Droga, którą przyszedłeś'
+  behind: 'Ostatni krok odczytuje nazwę z kursora przed nim i przedstawia drogę tutaj: w drzewie, droga do kursora jest unikalna, to linia jego przodków, każdy krok informuje, co na nim zrobiono przez buildSummary(). Wyświetlenie tego kończy sesję: jej status zmienia się na zakończony i nie wygasa już. Nic przed nim nie jest już powiązane, ponieważ osiągnięcie dowolnego kroku zamkniętej sesji rozpoczyna nową: to właśnie robi ponowne otwarcie tunelu.'
+
+pt_BR:
+  page_title: 'Túnel de demonstração'
+  title: 'Tudo pronto'
+  lead: 'O túnel é percorrido até o fim.'
+  message:
+    title: 'Obrigado, %name%.'
+    body: 'A sessão está completa; nada mais é solicitado.'
+  path:
+    title: 'O caminho que você veio'
+  behind: 'O passo de fechamento lê o nome do cursor anterior e lista o caminho aqui: em uma árvore, o caminho para um cursor é único, é a linha de seus ancestrais, cada passo informando o que foi feito através de buildSummary(). Exibir isso encerra a sessão: seu status muda para concluído e não expira mais. Nada antes disso está mais vinculado, pois alcançar qualquer passo de uma sessão fechada inicia uma nova: é isso que abrir o túnel novamente faz.'
+
+ru:
+  page_title: 'Демо туннель'
+  title: 'Все готово'
+  lead: 'Туннель пройден до конца.'
+  message:
+    title: 'Спасибо, %name%.'
+    body: 'Сессия завершена; больше ничего не требуется.'
+  path:
+    title: 'Путь, по которому вы пришли'
+  behind: 'Закрывающий шаг считывает имя из предыдущего курсора и отображает путь здесь: в дереве путь к курсору уникален, это линия его предков, каждый шаг рассказывает, что было сделано на нем через buildSummary(). Отображение этого закрывает сессию: ее статус становится завершенным, и она больше не истекает. Ничто перед ним больше не связано, так как достижение любого шага закрытой сессии запускает новую: именно это и делает повторное открытие туннеля.'
+
+th:
+  page_title: อุโมงค์เดโม
+  title: ทั้งหมดพร้อมแล้ว
+  lead: เดินไปสุดอุโมงค์แล้ว.
+  message:
+    title: 'ขอบคุณครับ/ค่ะ, %name%.'
+    body: 'เซสชั่นเสร็จสิ้นแล้ว; ไม่มีอะไรเพิ่มเติม.'
+  path:
+    title: เส้นทางที่คุณมา
+  behind: 'ขั้นตอนสุดท้ายจะอ่านชื่อจากตัวชี้ก่อนหน้าและแสดงเส้นทางที่นี่: ในรูปแบบต้นไม้ เส้นทางไปยังตัวชี้จะต้องเป็นเอกลักษณ์ เป็นเส้นทางของบรรพบุรุษแต่ละขั้นตอนบอกว่าทำอะไรบ้างผ่าน buildSummary(). การแสดงผลจะทำให้เซสชันสิ้นสุด สถานะจะเปลี่ยนเป็นเสร็จสมบูรณ์และไม่หมดอายุอีกต่อไป ไม่มีอะไรที่อยู่ก่อนหน้านี้เชื่อมโยงอีกต่อไป เนื่องจากการไปยังขั้นตอนใด ๆ ของเซสชันที่ปิดจะเริ่มเซสชันใหม่: นั่นคือสิ่งที่การเปิดอุโมงค์อีกครั้งทำ.'
+
+tr:
+  page_title: 'Demo tüneli'
+  title: 'Her şey hazır'
+  lead: 'Tünel sonuna kadar yüründü.'
+  message:
+    title: 'Teşekkürler, %name%.'
+    body: 'Oturum tamamlandı; daha fazla bir şey istenmiyor.'
+  path:
+    title: 'Geldiğin yol'
+  behind: 'Kapatma adımı, önündeki imlecin adını okur ve yolu burada listeler: bir ağaçta, bir imleç için yol benzersizdir, atalarının çizgisidir, her adım, buildSummary() aracılığıyla onun üzerinde ne yapıldığını anlatır. Gösterilmesi oturumu kapatır: durumu tamamlandı olarak değişir ve artık süresi dolmaz. Öncesi ile artık bir bağlantısı yoktur, çünkü kapalı bir oturumun herhangi bir adımına ulaşmak yeni bir oturum başlatır: tüneli tekrar açmanın anlamı budur.'
+
+ur:
+  page_title: 'ڈیمو سرنگ'
+  title: 'سب تیار ہے'
+  lead: 'سرنگ کو اس کے آخر تک چلایا گیا ہے۔'
+  message:
+    title: 'شکریہ، %name%۔'
+    body: 'سیشن مکمل ہو چکا ہے؛ مزید کچھ نہیں پوچھا گیا۔'
+  path:
+    title: 'آپ کا آیا ہوا راستہ'
+  behind: 'بند کرنے والا قدم کرسر سے پہلے نام پڑھتا ہے، اور یہاں راستہ درج کرتا ہے: ایک درخت میں، کرسر کا راستہ منفرد ہے، یہ اس کے آباؤ اجداد کی لکیر ہے، ہر قدم بتاتا ہے کہ اس پر کیا کیا گیا ہے buildSummary() کے ذریعے۔ اسے ظاہر کرنا سیشن کو بند کرتا ہے: اس کا درجہ مکمل ہو جاتا ہے اور یہ ختم نہیں ہوتا۔ اس سے پہلے کچھ بھی اب منسلک نہیں ہے، چونکہ بند شدہ سیشن کے کسی بھی قدم پر پہنچنا ایک نیا سیشن شروع کرتا ہے: یہی ہے جو دوبارہ سرنگ کھولنے سے ہوتا ہے۔'
+
+vi:
+  page_title: 'Đường hầm demo'
+  title: 'Tất cả đã sẵn sàng'
+  lead: 'Đường hầm đã đi đến cuối.'
+  message:
+    title: 'Cảm ơn bạn, %name%.'
+    body: 'Phiên làm việc đã hoàn tất; không còn yêu cầu gì thêm.'
+  path:
+    title: 'Con đường bạn đã đi'
+  behind: 'Bước đóng ghi lại tên từ con trỏ trước đó, và liệt kê con đường ở đây: trong một cây, con đường đến một con trỏ là duy nhất, đó là dòng của tổ tiên nó, mỗi bước cho biết điều gì đã được thực hiện trên đó thông qua buildSummary(). Hiển thị nó sẽ kết thúc phiên làm việc: trạng thái của nó chuyển sang hoàn thành và nó không còn hết hạn nữa. Không có gì trước nó được liên kết nữa, vì việc đến bất kỳ bước nào của một phiên đã đóng sẽ bắt đầu một phiên mới: đó là những gì việc mở lại đường hầm thực hiện.'
+
+zh:
+  page_title: 演示隧道
+  title: 一切准备就绪
+  lead: 隧道走到了尽头。
+  message:
+    title: 谢谢你，%name%。
+    body: 会议已结束；不再需要其他。
+  path:
+    title: 你来的路
+  behind: 结束步骤从前面的光标读取名称，并在这里列出路径：在树中，到光标的路径是唯一的，它是其祖先的线，每一步都讲述了通过buildSummary()所做的事情。显示它会结束会议：其状态变为已完成，不再过期。之前的任何内容都不再链接，因为达到关闭会议的任何步骤都会开始一个新的：这就是再次打开隧道所做的事情。

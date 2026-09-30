@@ -1,0 +1,137 @@
+en:
+  page_title: Demo tunnel
+  title: Your name
+  lead: The last thing we need.
+  behind: "A form step. Displaying it is not enough: it is done only once the form is valid, and the steps after it stay out of reach until then. The name is stored on this cursor. Come back to this step and it is still there; go back to a step before it and it is erased, since going back drops what the steps ahead had stored, so a branch walked again starts clean."
+
+ar:
+  page_title: 'نفق العرض'
+  title: اسمك
+  lead: 'آخر شيء نحتاجه.'
+  behind: 'خطوة نموذج. عرضها ليس كافياً: يتم ذلك فقط عندما يكون النموذج صالحاً، وتبقى الخطوات بعده خارج متناول اليد حتى ذلك الحين. الاسم مخزن على هذا المؤشر. عد إلى هذه الخطوة وسيظل موجوداً؛ اذهب إلى خطوة قبلها وسيتم محوه، حيث أن العودة تلغي ما خزنه الخطوات المقبلة، لذا فإن الفرع الذي تم السير فيه مرة أخرى يبدأ نظيفاً.'
+
+bn:
+  page_title: 'ডেমো টানেল'
+  title: 'আপনার নাম'
+  lead: 'আমাদের যা দরকার তা হলো শেষ জিনিসটি।'
+  behind: 'একটি ফর্ম পদক্ষেপ। এটি প্রদর্শন করা যথেষ্ট নয়: এটি শুধুমাত্র তখনই করা হয় যখন ফর্মটি বৈধ হয়, এবং তার পরবর্তী পদক্ষেপগুলি তখন পর্যন্ত নাগালের বাইরে থাকে। নামটি এই কার্সারে সংরক্ষিত হয়। এই পদক্ষেপে ফিরে আসুন এবং এটি এখনও সেখানে থাকবে; এর আগে একটি পদক্ষেপে ফিরে যান এবং এটি মুছে যাবে, যেহেতু ফিরে যাওয়া এটি পূর্বে সংরক্ষিত পদক্ষেপগুলিকে বাদ দেয়, তাই পুনরায় হাঁটা একটি শাখা পরিষ্কারভাবে শুরু হয়।'
+
+de:
+  page_title: Demonstrationstunnel
+  title: 'Ihr Name'
+  lead: 'Das Letzte, was wir brauchen.'
+  behind: 'Ein Formularschritt. Es reicht nicht aus, ihn anzuzeigen: Er wird nur angezeigt, wenn das Formular gültig ist, und die Schritte danach bleiben bis dahin unerreichbar. Der Name wird an diesem Cursor gespeichert. Kehren Sie zu diesem Schritt zurück, und er ist noch da; gehen Sie zu einem Schritt davor zurück, und er wird gelöscht, da das Zurückgehen das, was die nachfolgenden Schritte gespeichert hatten, verwirft, sodass ein erneut beschrittener Zweig sauber beginnt.'
+
+es:
+  page_title: 'Túnel de demostración'
+  title: 'Tu nombre'
+  lead: 'Lo último que necesitamos.'
+  behind: 'Un paso del formulario. Mostrarlo no es suficiente: se completa solo una vez que el formulario es válido, y los pasos posteriores permanecen fuera de alcance hasta entonces. El nombre se almacena en este cursor. Vuelve a este paso y todavía está ahí; regresa a un paso anterior y se borra, ya que retroceder elimina lo que los pasos posteriores habían almacenado, así que una rama recorrida nuevamente comienza limpia.'
+
+fa:
+  page_title: 'تونل دمو'
+  title: 'نام شما'
+  lead: 'آخرین چیزی که به آن نیاز داریم.'
+  behind: 'یک مرحله فرم. نمایش آن کافی نیست: تنها زمانی انجام می‌شود که فرم معتبر باشد و مراحل بعدی تا آن زمان در دسترس نیستند. نام در این نشانگر ذخیره می‌شود. به این مرحله برگردید و هنوز آنجا است؛ به مرحله‌ای قبل از آن برگردید و پاک می‌شود، زیرا بازگشت به عقب آنچه مراحل بعدی ذخیره کرده‌اند را از بین می‌برد، بنابراین یک شاخه که دوباره پیموده می‌شود، از ابتدا تمیز شروع می‌شود.'
+
+fi:
+  page_title: 'Demo tunneli'
+  title: Nimesi
+  lead: 'Viimeinen asia, jota tarvitsemme.'
+  behind: 'Lomakevaihe. Sen näyttäminen ei riitä: se tapahtuu vain, kun lomake on voimassa, ja sen jälkeiset vaiheet pysyvät saavuttamattomina siihen asti. Nimi tallennetaan tälle kursorille. Palaa tähän vaiheeseen ja se on edelleen siellä; palaa vaiheeseen ennen tätä ja se on poistettu, koska paluu poistaa sen, mitä edelliset vaiheet olivat tallentaneet, joten uudelleen kuljettu haara alkaa puhtaalta pöydältä.'
+
+fr:
+  page_title: 'Démo tunnel'
+  title: 'Votre nom'
+  lead: 'La dernière chose dont nous avons besoin.'
+  behind: "Une étape du formulaire. L'afficher ne suffit pas : il n'est effectué que lorsque le formulaire est valide, et les étapes suivantes restent hors de portée jusqu'à ce moment. Le nom est stocké sur ce curseur. Revenez à cette étape et il est toujours là ; revenez à une étape précédente et il est effacé, car revenir en arrière supprime ce que les étapes suivantes avaient stocké, donc un chemin parcouru à nouveau commence propre."
+
+he:
+  page_title: 'מנהרת הדגמה'
+  title: שמך
+  lead: 'הדבר האחרון שאנחנו צריכים.'
+  behind: 'צעדי טופס. הצגה שלו לא מספיקה: זה קורה רק כאשר הטופס תקף, והצעדים שאחריו לא נגישים עד אז. השם מאוחסן על מחוון זה. חזור לשלב הזה והוא עדיין שם; חזור לשלב לפניו והוא נמחק, כי חזרה אחורה מוחקת את מה שהצעדים הבאים שמרו, כך שסניף שנחצה שוב מתחיל נקי.'
+
+hi:
+  page_title: 'डेमो टनल'
+  title: 'आपका नाम'
+  lead: 'हमें अंतिम चीज़ की आवश्यकता है।'
+  behind: 'यह एक फॉर्म स्टेप है। इसे दिखाना पर्याप्त नहीं है: यह केवल तभी किया जाता है जब फॉर्म मान्य हो, और इसके बाद के चरण तब तक पहुंच से बाहर रहते हैं। नाम इस कर्सर पर संग्रहीत होता है। इस चरण पर वापस आएं और यह अभी भी वहाँ है; इससे पहले के चरण पर वापस जाएं और यह मिटा दिया जाता है, क्योंकि पीछे जाना उन चीज़ों को छोड़ देता है जो आगे के चरणों ने संग्रहीत की थी, इसलिए एक बार फिर से चलाए गए शाखा को साफ शुरू किया जाता है।'
+
+id:
+  page_title: 'Demo terowongan'
+  title: 'Nama Anda'
+  lead: 'Hal terakhir yang kami butuhkan.'
+  behind: 'Langkah formulir. Menampilkannya tidak cukup: itu hanya dilakukan ketika formulir valid, dan langkah-langkah setelahnya tetap tidak dapat dijangkau sampai saat itu. Nama disimpan di kursor ini. Kembali ke langkah ini dan itu masih ada; kembali ke langkah sebelum itu dan itu akan dihapus, karena kembali akan menghapus apa yang telah disimpan oleh langkah-langkah di depan, sehingga cabang yang dilalui lagi mulai bersih.'
+
+it:
+  page_title: 'Tunnel di demo'
+  title: 'Il tuo nome'
+  lead: "L'ultima cosa di cui abbiamo bisogno."
+  behind: 'Un passo del modulo. Visualizzarlo non è sufficiente: viene completato solo quando il modulo è valido, e i passi successivi rimangono inaccessibili fino ad allora. Il nome è memorizzato su questo cursore. Torna a questo passo e sarà ancora lì; torna a un passo precedente e sarà cancellato, poiché tornare indietro elimina ciò che i passi successivi avevano memorizzato, quindi un ramo ripercorso inizia da zero.'
+
+ja:
+  page_title: デモトンネル
+  title: あなたの名前
+  lead: 私たちが必要な最後のものです。
+  behind: フォームのステップです。表示するだけでは不十分で、フォームが有効な場合にのみ行われ、その後のステップはそれまで手の届かない状態になります。このカーソルに名前が保存されます。このステップに戻ると、名前はまだそこにありますが、それより前のステップに戻ると消えてしまいます。戻ることは、前のステップが保存していたものを無効にするため、再度歩くブランチはクリーンな状態から始まります。
+
+ko:
+  page_title: '데모 터널'
+  title: '당신의 이름'
+  lead: '우리가 필요한 마지막 사항입니다.'
+  behind: '양식 단계입니다. 이를 표시하는 것만으로는 충분하지 않습니다: 양식이 유효할 때만 완료되며, 그때까지 뒤의 단계는 접근할 수 없습니다. 이름은 이 커서에 저장됩니다. 이 단계로 돌아오면 여전히 거기에 있으며, 그 이전 단계로 돌아가면 지워집니다. 왜냐하면 돌아가면 앞 단계에서 저장된 내용이 삭제되기 때문입니다. 따라서 다시 탐색한 분기는 깨끗한 상태로 시작됩니다.'
+
+nl:
+  page_title: 'Demo tunnel'
+  title: 'Uw naam'
+  lead: 'Het laatste wat we nodig hebben.'
+  behind: 'Een formulier stap. Het weergeven ervan is niet genoeg: het gebeurt alleen als het formulier geldig is, en de stappen daarna blijven buiten bereik totdat dat het geval is. De naam wordt opgeslagen op deze cursor. Kom terug naar deze stap en hij is er nog; ga terug naar een stap ervoor en hij is gewist, aangezien teruggaan wat de stappen ervoor hadden opgeslagen, verwijdert, zodat een opnieuw bewandelde tak schoon begint.'
+
+pl:
+  page_title: 'Demonstruj tunel'
+  title: 'Twoje imię'
+  lead: 'Ostatnia rzecz, której potrzebujemy.'
+  behind: 'Krok formularza. Wyświetlenie go to za mało: jest to możliwe tylko wtedy, gdy formularz jest ważny, a kolejne kroki są niedostępne do tego momentu. Imię jest przechowywane w tym wskaźniku. Wróć do tego kroku i nadal tam będzie; wracając do kroku przed nim, zostanie usunięte, ponieważ powrót zdejmuje to, co kroki przed nim przechowały, więc ponownie przechodząc przez gałąź, zaczynasz od nowa.'
+
+pt_BR:
+  page_title: 'Túnel de demonstração'
+  title: 'Seu nome'
+  lead: 'A última coisa que precisamos.'
+  behind: 'Uma etapa do formulário. Exibi-la não é suficiente: ela é realizada apenas quando o formulário é válido, e as etapas seguintes ficam fora de alcance até lá. O nome é armazenado neste cursor. Volte para esta etapa e ele ainda estará lá; volte para uma etapa anterior e ele será apagado, pois voltar descarta o que as etapas à frente armazenaram, então um caminho percorrido novamente começa limpo.'
+
+ru:
+  page_title: 'Демо туннель'
+  title: 'Ваше имя'
+  lead: 'Последнее, что нам нужно.'
+  behind: 'Шаг формы. Его отображение недостаточно: он выполняется только после того, как форма становится валидной, а последующие шаги остаются недоступными до этого момента. Имя хранится на этом курсоре. Вернитесь к этому шагу, и оно все еще будет там; вернитесь к шагу перед ним, и оно будет стерто, так как возврат удаляет то, что шаги впереди хранили, поэтому повторное прохождение ветки начинается с чистого листа.'
+
+th:
+  page_title: เดโมอุโมงค์
+  title: ชื่อของคุณ
+  lead: สิ่งสุดท้ายที่เราต้องการ.
+  behind: 'ขั้นตอนแบบฟอร์ม การแสดงมันไม่เพียงพอ: จะทำได้ก็ต่อเมื่อแบบฟอร์มถูกต้อง และขั้นตอนถัดไปจะไม่สามารถเข้าถึงได้จนกว่าจะถึงตอนนั้น ชื่อจะถูกเก็บไว้ที่เคอร์เซอร์นี้ กลับมาที่ขั้นตอนนี้และมันยังอยู่ที่นั่น; ถอยกลับไปยังขั้นตอนก่อนหน้านี้และมันจะหายไป เนื่องจากการถอยกลับจะทำให้ข้อมูลที่ขั้นตอนถัดไปเก็บไว้นั้นหายไป ดังนั้นการเริ่มต้นใหม่ที่สาขาที่เดินกลับไปจะเริ่มต้นใหม่อย่างสะอาด.'
+
+tr:
+  page_title: 'Demo tüneli'
+  title: Adınız
+  lead: 'İhtiyacımız olan son şey.'
+  behind: 'Bir form adımı. Gösterilmesi yeterli değil: yalnızca form geçerli olduğunda yapılır ve sonrasındaki adımlar o zamana kadar erişilemez. İsim bu işaretçide saklanır. Bu adıma geri dönün ve hala orada; öncesindeki bir adıma geri dönün ve silinir, çünkü geri gitmek, öncedeki adımların sakladıklarını düşürür, bu yüzden yeniden yürütülen bir dal temiz başlar.'
+
+ur:
+  page_title: 'ڈیمو سرنگ'
+  title: 'آپ کا نام'
+  lead: 'ہمیں آخری چیز کی ضرورت ہے۔'
+  behind: 'یہ ایک فارم کا مرحلہ ہے۔ اسے دکھانا کافی نہیں ہے: یہ صرف اس وقت کیا جاتا ہے جب فارم درست ہو، اور اس کے بعد کے مراحل اس وقت تک ناقابل رسائی رہتے ہیں۔ نام اس کرسر پر محفوظ ہوتا ہے۔ اس مرحلے پر واپس آئیں تو یہ ابھی بھی وہاں ہے؛ اس سے پہلے کے مرحلے پر واپس جائیں تو یہ مٹ جاتا ہے، کیونکہ واپس جانے سے آگے کے مراحل میں محفوظ کردہ چیزیں ختم ہو جاتی ہیں، لہذا دوبارہ چلنے والی شاخ صاف شروع ہوتی ہے۔'
+
+vi:
+  page_title: 'Bảng trình diễn hầm'
+  title: 'Tên của bạn'
+  lead: 'Điều cuối cùng chúng ta cần.'
+  behind: 'Một bước trong biểu mẫu. Chỉ hiển thị nó là không đủ: nó chỉ được thực hiện khi biểu mẫu hợp lệ, và các bước sau đó vẫn không thể truy cập cho đến lúc đó. Tên được lưu trên con trỏ này. Quay lại bước này và nó vẫn ở đó; quay lại một bước trước đó và nó sẽ bị xóa, vì việc quay lại sẽ xóa những gì mà các bước tiếp theo đã lưu, vì vậy một nhánh được đi lại sẽ bắt đầu từ đầu.'
+
+zh:
+  page_title: 演示隧道
+  title: 你的名字
+  lead: 我们需要的最后一件事。
+  behind: 一个表单步骤。仅仅显示它是不够的：只有在表单有效时，它才会被执行，而在此之前后面的步骤都无法触及。这个光标上存储着名字。回到这个步骤时，它仍然在那里；如果返回到之前的步骤，它会被擦除，因为返回会丢弃前面步骤存储的内容，因此再次走过的分支会从干净的状态开始。

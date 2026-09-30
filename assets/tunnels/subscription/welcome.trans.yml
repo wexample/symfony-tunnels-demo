@@ -1,0 +1,229 @@
+en:
+  page_title: Subscription
+  title: Welcome
+  lead:
+    free: Your free account is ready.
+    paid: Payment confirmed, your Pro account is ready.
+  path:
+    title: The way you came
+  behind: "Both branches end here, each through a cursor of its own, and displaying it closes the session. The way below is two steps longer on the Pro branch: the tree grew a branch where the offer asked for it."
+
+ar:
+  page_title: الاشتراك
+  title: مرحبا
+  lead:
+    free: 'حسابك المجاني جاهز.'
+    paid: 'تم تأكيد الدفع، حسابك الاحترافي جاهز.'
+  path:
+    title: 'الطريق الذي جئت منه'
+  behind: 'تنتهي كلا الفرعين هنا، كل منهما عبر مؤشر خاص به، وعرضه يغلق الجلسة. الطريق أدناه أطول بخطوتين على الفرع الاحترافي: لقد نمت الشجرة فرعًا حيث طلب العرض ذلك.'
+
+bn:
+  page_title: সাবস্ক্রিপশন
+  title: স্বাগতম
+  lead:
+    free: 'আপনার ফ্রি অ্যাকাউন্ট প্রস্তুত।'
+    paid: 'পেমেন্ট নিশ্চিত হয়েছে, আপনার প্রো অ্যাকাউন্ট প্রস্তুত।'
+  path:
+    title: 'আপনি যে পথে এসেছেন'
+  behind: 'দুটি শাখাই এখানে শেষ হচ্ছে, প্রতিটির নিজস্ব কर्सরের মাধ্যমে, এবং এটি প্রদর্শন করলে সেশন বন্ধ হয়ে যাবে। নিচের পথ প্রো শাখায় দুটি ধাপ বেশি: গাছটি সেখানে একটি শাখা বেড়ে উঠেছে যেখানে অফারটি চাইছিল।'
+
+de:
+  page_title: Abonnement
+  title: Willkommen
+  lead:
+    free: 'Ihr kostenloses Konto ist bereit.'
+    paid: 'Zahlung bestätigt, Ihr Pro-Konto ist bereit.'
+  path:
+    title: 'Der Weg, den Sie gekommen sind'
+  behind: 'Beide Zweige enden hier, jeder durch einen eigenen Cursor, und das Anzeigen schließt die Sitzung. Der Weg unten ist zwei Schritte länger im Pro-Zweig: Der Baum wuchs einen Zweig, wo es das Angebot verlangte.'
+
+es:
+  page_title: Suscripción
+  title: Bienvenido
+  lead:
+    free: 'Tu cuenta gratuita está lista.'
+    paid: 'Pago confirmado, tu cuenta Pro está lista.'
+  path:
+    title: 'El camino que tomaste'
+  behind: 'Ambas ramas terminan aquí, cada una a través de un cursor propio, y mostrarlo cierra la sesión. El camino de abajo es dos pasos más largo en la rama Pro: el árbol creció una rama donde la oferta lo pidió.'
+
+fa:
+  page_title: اشتراک
+  title: 'خوش آمدید'
+  lead:
+    free: 'حساب رایگان شما آماده است.'
+    paid: 'پرداخت تأیید شد، حساب پرو شما آماده است.'
+  path:
+    title: 'مسیری که آمدید'
+  behind: 'هر دو شاخه در اینجا به پایان می‌رسند، هر کدام از طریق یک نشانگر خود، و نمایش آن جلسه را می‌بندد. مسیر زیر دو قدم بیشتر در شاخه پرو است: درخت یک شاخه رشد کرد جایی که پیشنهاد درخواست شده بود.'
+
+fi:
+  page_title: Tilaukset
+  title: Tervetuloa
+  lead:
+    free: 'Ilmainen tilisi on valmis.'
+    paid: 'Maksu vahvistettu, Pro-tilisi on valmis.'
+  path:
+    title: 'Tulemasi reitti'
+  behind: 'Molemmat haarat päättyvät tänne, kukin omalla osoittimellaan, ja sen näyttäminen sulkee istunnon. Alla oleva reitti on kaksi askelta pidempi Pro-haarassa: puu kasvoi haaran, jossa tarjous sitä vaati.'
+
+fr:
+  page_title: Abonnement
+  title: Bienvenue
+  lead:
+    free: 'Votre compte gratuit est prêt.'
+    paid: 'Paiement confirmé, votre compte Pro est prêt.'
+  path:
+    title: 'Le chemin que vous avez pris'
+  behind: "Les deux branches se terminent ici, chacune par un curseur qui lui est propre, et l'affichage de celui-ci met fin à la session. Le chemin en dessous est deux étapes plus long sur la branche Pro : l'arbre a poussé une branche là où l'offre le demandait."
+
+he:
+  page_title: מנוי
+  title: 'ברוך הבא'
+  lead:
+    free: 'החשבון החינמי שלך מוכן.'
+    paid: 'התשלום אושר, החשבון הפרו שלך מוכן.'
+  path:
+    title: 'הדרך בה הגעת'
+  behind: 'שני הענפים מסתיימים כאן, כל אחד דרך סמן משלו, והצגתו סוגרת את הסשן. הדרך למטה ארוכה בשני צעדים בענף הפרו: העץ צמח ענף היכן שההצעה ביקשה זאת.'
+
+hi:
+  page_title: सदस्यता
+  title: 'स्वागत है'
+  lead:
+    free: 'आपका मुफ्त खाता तैयार है।'
+    paid: 'भुगतान की पुष्टि हो गई है, आपका प्रो खाता तैयार है।'
+  path:
+    title: 'आप जिस रास्ते से आए'
+  behind: 'दोनों शाखाएँ यहाँ समाप्त होती हैं, प्रत्येक अपनी स्वयं की कर्सर के माध्यम से, और इसे प्रदर्शित करना सत्र को समाप्त कर देता है। नीचे का रास्ता प्रो शाखा पर दो कदम लंबा है: पेड़ ने उस स्थान पर एक शाखा विकसित की जहाँ प्रस्ताव की आवश्यकता थी।'
+
+id:
+  page_title: Langganan
+  title: 'Selamat Datang'
+  lead:
+    free: 'Akun gratis Anda sudah siap.'
+    paid: 'Pembayaran dikonfirmasi, akun Pro Anda sudah siap.'
+  path:
+    title: 'Jalur yang Anda lalui'
+  behind: 'Kedua cabang berakhir di sini, masing-masing melalui kursor miliknya sendiri, dan menampilkannya menutup sesi. Jalur di bawah dua langkah lebih panjang di cabang Pro: pohon tumbuh cabang di mana penawaran memintanya.'
+
+it:
+  page_title: Abbonamento
+  title: Benvenuto
+  lead:
+    free: 'Il tuo account gratuito è pronto.'
+    paid: 'Pagamento confermato, il tuo account Pro è pronto.'
+  path:
+    title: 'Il percorso che hai seguito'
+  behind: "Entrambi i rami terminano qui, ognuno attraverso un cursore proprio, e mostrarlo chiude la sessione. Il percorso sottostante è di due passi più lungo nel ramo Pro: l'albero ha cresciuto un ramo dove l'offerta lo richiedeva."
+
+ja:
+  page_title: サブスクリプション
+  title: ようこそ
+  lead:
+    free: 無料アカウントの準備ができました。
+    paid: お支払いが確認されました。Proアカウントの準備ができました。
+  path:
+    title: 来た道
+  behind: 両方のブランチはここで終わります。それぞれが独自のカーソルを通しており、それを表示するとセッションが終了します。下の道はProブランチで2ステップ長くなっています：ツリーはオファーが求められた場所にブランチを伸ばしました。
+
+ko:
+  page_title: 구독
+  title: 환영합니다
+  lead:
+    free: '귀하의 무료 계정이 준비되었습니다.'
+    paid: '결제가 확인되었습니다. 귀하의 Pro 계정이 준비되었습니다.'
+  path:
+    title: '이동 경로'
+  behind: '두 갈래 모두 여기서 끝나며, 각자의 커서를 통해 종료됩니다. 아래 경로는 Pro 지점에서 두 걸음 더 긴데, 제안이 필요하던 곳에 나무가 가지를 뻗었습니다.'
+
+nl:
+  page_title: Abonnement
+  title: Welkom
+  lead:
+    free: 'Je gratis account is klaar.'
+    paid: 'Betaling bevestigd, je Pro-account is klaar.'
+  path:
+    title: 'De weg die je kwam'
+  behind: 'Beide takken eindigen hier, elk via een eigen cursor, en het tonen ervan sluit de sessie. De weg hieronder is twee stappen langer op de Pro-tak: de boom groeide een tak waar de aanbieding om vroeg.'
+
+pl:
+  page_title: Subskrypcja
+  title: Witamy
+  lead:
+    free: 'Twoje darmowe konto jest gotowe.'
+    paid: 'Płatność potwierdzona, twoje konto Pro jest gotowe.'
+  path:
+    title: 'Droga, którą przyszedłeś'
+  behind: 'Obie gałęzie kończą się tutaj, każda przez własny kursor, a ich wyświetlenie zamyka sesję. Droga poniżej jest o dwa kroki dłuższa na gałęzi Pro: drzewo wyrosło gałąź tam, gdzie tego żądano.'
+
+pt_BR:
+  page_title: Assinatura
+  title: Bem-vindo
+  lead:
+    free: 'Sua conta gratuita está pronta.'
+    paid: 'Pagamento confirmado, sua conta Pro está pronta.'
+  path:
+    title: 'O caminho que você veio'
+  behind: 'Ambas as ramificações terminam aqui, cada uma através de um cursor próprio, e exibi-las encerra a sessão. O caminho abaixo é dois passos mais longo na ramificação Pro: a árvore cresceu uma ramificação onde a oferta pediu.'
+
+ru:
+  page_title: Подписка
+  title: 'Добро пожаловать'
+  lead:
+    free: 'Ваш бесплатный аккаунт готов.'
+    paid: 'Оплата подтверждена, ваш Pro аккаунт готов.'
+  path:
+    title: 'Путь, которым вы пришли'
+  behind: 'Обе ветви заканчиваются здесь, каждая через свой курсор, и его отображение завершает сессию. Путь ниже на два шага длиннее на Pro ветке: дерево выросло ветвь, где это было предложено.'
+
+th:
+  page_title: การสมัครสมาชิก
+  title: ยินดีต้อนรับ
+  lead:
+    free: บัญชีฟรีของคุณพร้อมใช้งานแล้ว
+    paid: 'ยืนยันการชำระเงิน บัญชี Pro ของคุณพร้อมใช้งานแล้ว'
+  path:
+    title: เส้นทางที่คุณมา
+  behind: 'ทั้งสองสาขาสิ้นสุดที่นี่ โดยแต่ละสาขามีตัวชี้เฉพาะของตัวเอง และการแสดงมันจะทำให้เซสชันสิ้นสุด เส้นทางด้านล่างยาวกว่าสองขั้นในสาขา Pro: ต้นไม้เติบโตขึ้นมีสาขาเมื่อมีข้อเสนอเรียกร้อง.'
+
+tr:
+  page_title: Abonelik
+  title: 'Hoş geldiniz'
+  lead:
+    free: 'Ücretsiz hesabınız hazır.'
+    paid: 'Ödeme onaylandı, Pro hesabınız hazır.'
+  path:
+    title: 'Geldiğiniz yol'
+  behind: 'Her iki dal burada sona eriyor, her biri kendi imleci aracılığıyla ve görüntülenmesi oturumu kapatıyor. Aşağıdaki yol Pro dalında iki adım daha uzun: ağaç, teklifin istediği yerde bir dal büyüttü.'
+
+ur:
+  page_title: سبسکرپشن
+  title: 'خوش آمدید'
+  lead:
+    free: 'آپ کا مفت اکاؤنٹ تیار ہے۔'
+    paid: 'ادائیگی کی تصدیق ہوگئی، آپ کا پرو اکاؤنٹ تیار ہے۔'
+  path:
+    title: 'آپ کا آنے کا راستہ'
+  behind: 'دونوں شاخیں یہاں ختم ہوتی ہیں، ہر ایک اپنے ہی کرسر کے ذریعے، اور اسے دکھانا سیشن کو بند کر دیتا ہے۔ نیچے کا راستہ پرو شاخ پر دو قدم طویل ہے: درخت نے وہاں ایک شاخ بڑھائی جہاں پیشکش نے اس کی درخواست کی تھی۔'
+
+vi:
+  page_title: 'Đăng ký'
+  title: 'Chào mừng'
+  lead:
+    free: 'Tài khoản miễn phí của bạn đã sẵn sàng.'
+    paid: 'Thanh toán đã được xác nhận, tài khoản Pro của bạn đã sẵn sàng.'
+  path:
+    title: 'Con đường bạn đã đi'
+  behind: 'Cả hai nhánh đều kết thúc ở đây, mỗi nhánh thông qua một con trỏ riêng, và việc hiển thị nó sẽ kết thúc phiên làm việc. Con đường bên dưới dài hơn hai bước ở nhánh Pro: cây đã mọc ra một nhánh nơi có yêu cầu.'
+
+zh:
+  page_title: 订阅
+  title: 欢迎
+  lead:
+    free: 您的免费账户已准备好。
+    paid: 付款已确认，您的专业账户已准备好。
+  path:
+    title: 您所来的路
+  behind: 两个分支在这里结束，各自通过自己的游标显示，显示它会关闭会话。下面的路在专业分支上多出两个步骤：树在提供请求的地方长出了一个分支。

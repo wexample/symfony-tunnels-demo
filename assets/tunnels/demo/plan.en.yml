@@ -1,9 +1,0 @@
-page_title: Demo tunnel
-title: Your plan
-lead:
-  free: "The free plan: everything to get started, nothing to pay."
-  paid: "The paid plan: the whole of it, with room to grow."
-note:
-  title: Two branches, one way on
-  body: "This step exists once per plan. Previous takes you back to the choice; next carries on to the same form whichever plan you picked."
-behind: "One of the two cursors of the plan step, the one carrying plan %plan%. Each cursor has its own hash, so what one stores is never seen from the other. Every step after this one exists twice too, one copy below each cursor: the branches look like they meet again, but the form and the closing page you reach are those of your plan."

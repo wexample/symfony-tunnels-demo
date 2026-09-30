@@ -1,4 +1,0 @@
-page_title: 'Demo tüneli'
-title: Adınız
-lead: 'İhtiyacımız olan son şey.'
-behind: 'Bir form adımı. Gösterilmesi yeterli değil: yalnızca form geçerli olduğunda yapılır ve sonrasındaki adımlar o zamana kadar erişilemez. İsim bu işaretçide saklanır. Bu adıma geri dönün ve hala orada; öncesindeki bir adıma geri dönün ve silinir, çünkü geri gitmek, öncedeki adımların sakladıklarını düşürür, bu yüzden yeniden yürütülen bir dal temiz başlar.'

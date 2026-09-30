@@ -1,8 +1,0 @@
-page_title: 'Đăng ký'
-title: 'Đang chờ ngân hàng'
-lead: 'Thanh toán %reference% đã được gửi. Ngân hàng sẽ xác nhận khi có thể.'
-note:
-  title: 'Bạn có thể rời khỏi trang này'
-  body: 'Thanh toán của bạn sẽ được giữ lại bất kể bạn làm gì: quay lại sau, và bạn sẽ được vào khi ngân hàng đã phản hồi.'
-behind: 'Phiên đang chờ_async_action: không ai đi qua đường hầm có thể hoàn thành bước này, chỉ ngân hàng mới có thể. Một ứng dụng thực sự nhận được phản hồi qua webhook và chuyển tham chiếu cho TunnelResumeService, dịch vụ này sẽ xây dựng lại đường hầm của phiên đang chờ và hoàn thành bước này; khi được hiển thị lại, bước này sẽ tự động di chuyển khách truy cập tiếp tục. Nút bên dưới sẽ thực hiện tác vụ của ngân hàng. Các phiên đang chờ sẽ không bao giờ hết hạn, và không có gì trước khi thanh toán còn liên kết nữa.'
-simulate: 'Chơi ngân hàng: xác nhận thanh toán'

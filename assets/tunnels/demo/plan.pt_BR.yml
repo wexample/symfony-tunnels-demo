@@ -1,9 +1,0 @@
-page_title: 'Túnel de demonstração'
-title: 'Seu plano'
-lead:
-  free: 'O plano gratuito: tudo para você começar, nada para pagar.'
-  paid: 'O plano pago: tudo isso, com espaço para crescer.'
-note:
-  title: 'Dois ramos, um caminho'
-  body: 'Esta etapa existe uma vez por plano. Anterior leva você de volta à escolha; seguinte avança para o mesmo formulário, independentemente do plano que você escolheu.'
-behind: 'Um dos dois cursores da etapa do plano, aquele que carrega o plano %plan%. Cada cursor tem seu próprio hash, então o que um armazena nunca é visto pelo outro. Cada etapa após esta também existe em duplicidade, uma cópia abaixo de cada cursor: os ramos parecem se encontrar novamente, mas o formulário e a página de fechamento que você alcança são aqueles do seu plano.'

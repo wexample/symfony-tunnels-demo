@@ -1,0 +1,367 @@
+en:
+  page_title: Subscribe
+  page_icon: ph:bold/credit-card
+  intro: "A subscription with two offers. The free one is an account and nothing more; the Pro one adds a payment, confirmed by a bank the demo plays."
+  start: "Three steps for Free, five for Pro. Walked on a page of its own, each one tells below what the engine just did."
+  roads:
+    description: "The account step reads the offer its cursor carries to decide what follows: a payment for Pro, nothing for Free. The two roads are not the same length."
+    free: Free
+    paid: Pro
+  steps:
+    offer: "The roads part here, and not into the same shape: until an offer is picked, the stepper shows a gap where they differ."
+    account: "The same form on both roads. Its cursor carries the offer, and the step reads it to decide what follows."
+    payment: "On the Pro road only. While it is shown, the session expires in 15 minutes, as a reserved seat would; once paid, nothing before it can be reached again, and it is never offered twice."
+    waiting: "The session waits on the bank. A button of the demo plays its webhook, which resumes the session through TunnelResumeService."
+    welcome: "Both roads end here, each through a cursor of its own, and the session is closed."
+
+ar:
+  page_title: اشترك
+  page_icon: 'ph:bold/credit-card'
+  intro: 'اشتراك مع عرضين. العرض المجاني هو حساب ولا شيء أكثر؛ بينما العرض الاحترافي يضيف دفعة، مؤكدة من قبل بنك العرض التوضيحي.'
+  start: 'ثلاث خطوات للمجاني، وخمس للاحترافي. كل واحدة لها صفحة خاصة بها، وكل واحدة تخبر أدناه بما فعله المحرك للتو.'
+  roads:
+    description: 'خطوة الحساب تقرأ العرض الذي يحمله المؤشر لتحديد ما يلي: دفعة للاحترافي، ولا شيء للمجاني. الطريقتان ليستا بنفس الطول.'
+    free: مجاني
+    paid: احترافي
+  steps:
+    offer: 'تتفرق الطرق هنا، وليس بنفس الشكل: حتى يتم اختيار عرض، يظهر العداد فجوة حيث تختلف.'
+    account: 'نفس النموذج على كلا الطريقتين. يحمل مؤشّرها العرض، وتقرأ الخطوة ذلك لتحديد ما يلي.'
+    payment: 'على طريق الاحترافي فقط. أثناء عرضه، تنتهي الجلسة في 15 دقيقة، كما لو كانت مقعدًا محجوزًا؛ بمجرد الدفع، لا يمكن الوصول إلى أي شيء قبله مرة أخرى، ولا يتم عرضه مرتين.'
+    waiting: 'الجلسة تنتظر على البنك. زر العرض التوضيحي يقوم بتشغيل webhook الخاص به، الذي يستأنف الجلسة من خلال TunnelResumeService.'
+    welcome: 'تنتهي كلا الطريقتين هنا، كل واحدة من خلال مؤشر خاص بها، وتغلق الجلسة.'
+
+bn:
+  page_title: সাবস্ক্রাইব
+  page_icon: 'ph:bold/credit-card'
+  intro: 'দুটি অফারের সাথে একটি সাবস্ক্রিপশন। ফ্রি অফারটি একটি অ্যাকাউন্ট এবং আর কিছুই নয়; প্রো অফারটি একটি পেমেন্ট যোগ করে, যা একটি ব্যাংক দ্বারা নিশ্চিত করা হয় যা ডেমোটি বাজায়।'
+  start: 'ফ্রি জন্য তিনটি পদক্ষেপ, প্রো জন্য পাঁচটি। প্রতিটি তার নিজস্ব পৃষ্ঠায় চলে, যেখানে নিচে লেখা থাকে ইঞ্জিনটি কী করেছে।'
+  roads:
+    description: 'অ্যাকাউন্ট পদক্ষেপটি সেই অফারটি পড়ে যা এর কার্সর বহন করে যাতে পরবর্তীটি নির্ধারণ করতে পারে: প্রোর জন্য একটি পেমেন্ট, ফ্রি’র জন্য কিছুই নয়। দুইটি রাস্তার দৈর্ঘ্য সমান নয়।'
+    free: ফ্রি
+    paid: প্রো
+  steps:
+    offer: 'রাস্তা এখানে পৃথক হয়, এবং একই আকারে নয়: একটি অফার পছন্দ না হওয়া পর্যন্ত, স্টেপারটি একটি ফাঁকা স্থান প্রদর্শন করে যেখানে তারা আলাদা।'
+    account: 'দুই রাস্তার জন্য একই ফর্ম। এর কার্সর অফারটি বহন করে, এবং পদক্ষেপটি এটি পড়ে পরবর্তীটি নির্ধারণ করে।'
+    payment: 'শুধুমাত্র প্রো রাস্তায়। যখন এটি প্রদর্শিত হয়, তখন সেশনটি ১৫ মিনিটে শেষ হয়ে যায়, যেমন একটি সংরক্ষিত আসন; একবার পেমেন্ট হলে, এর আগে কিছুই আবার পৌঁছানো যাবে না, এবং এটি কখনও দ্বিগুণভাবে অফার করা হয় না।'
+    waiting: 'সেশনটি ব্যাংকে অপেক্ষা করছে। একটি বোতাম ডেমোটি এর ওয়েবহুক বাজায়, যা টানেলরিজিউমসার্ভিসের মাধ্যমে সেশনটি পুনরায় চালু করে।'
+    welcome: 'উভয় রাস্তা এখানে শেষ হয়, প্রতিটি তার নিজস্ব কার্সরের মাধ্যমে, এবং সেশনটি বন্ধ হয়ে যায়।'
+
+de:
+  page_title: Abonnieren
+  page_icon: 'ph:bold/credit-card'
+  intro: 'Ein Abonnement mit zwei Angeboten. Das kostenlose ist ein Konto und nichts weiter; das Pro-Angebot fügt eine Zahlung hinzu, die von einer Bank bestätigt wird, die Demo spielt.'
+  start: 'Drei Schritte für Kostenlos, fünf für Pro. Jeder Schritt hat eine eigene Seite, auf der unten steht, was der Motor gerade getan hat.'
+  roads:
+    description: 'Der Kontoschritt liest das Angebot, das sein Cursor trägt, um zu entscheiden, was folgt: eine Zahlung für Pro, nichts für Kostenlos. Die beiden Wege sind nicht gleich lang.'
+    free: Kostenlos
+    paid: Pro
+  steps:
+    offer: 'Hier teilen sich die Wege, und zwar nicht in die gleiche Form: Bis ein Angebot ausgewählt ist, zeigt der Steppprozess eine Lücke, wo sie sich unterscheiden.'
+    account: 'Die gleiche Form auf beiden Wegen. Sein Cursor trägt das Angebot, und der Schritt liest es, um zu entscheiden, was folgt.'
+    payment: 'Nur auf dem Pro-Weg. Während es angezeigt wird, läuft die Sitzung in 15 Minuten ab, wie ein reservierter Platz; nach der Zahlung kann nichts davor erneut erreicht werden, und es wird nie zweimal angeboten.'
+    waiting: 'Die Sitzung wartet auf die Bank. Ein Button der Demo spielt sein Webhook, das die Sitzung durch TunnelResumeService wiederherstellt.'
+    welcome: 'Beide Wege enden hier, jeder durch einen eigenen Cursor, und die Sitzung wird geschlossen.'
+
+es:
+  page_title: Suscribirse
+  page_icon: 'ph:bold/tarjeta-de-crédito'
+  intro: 'Una suscripción con dos ofertas. La gratuita es una cuenta y nada más; la Pro añade un pago, confirmado por un banco que reproduce la demostración.'
+  start: 'Tres pasos para la gratuita, cinco para la Pro. Cada uno en su propia página, cada uno dice a continuación lo que el motor acaba de hacer.'
+  roads:
+    description: 'El paso de la cuenta lee la oferta que su cursor lleva para decidir lo que sigue: un pago para la Pro, nada para la gratuita. Las dos rutas no tienen la misma longitud.'
+    free: Gratuita
+    paid: Pro
+  steps:
+    offer: 'Las rutas se separan aquí, y no en la misma forma: hasta que se elija una oferta, el paso muestra un vacío donde difieren.'
+    account: 'El mismo formulario en ambas rutas. Su cursor lleva la oferta, y el paso la lee para decidir lo que sigue.'
+    payment: 'Solo en la ruta Pro. Mientras se muestra, la sesión expira en 15 minutos, como un asiento reservado; una vez pagado, nada antes de eso puede ser alcanzado de nuevo, y nunca se ofrece dos veces.'
+    waiting: 'La sesión espera en el banco. Un botón de la demostración reproduce su webhook, que reanuda la sesión a través de TunnelResumeService.'
+    welcome: 'Ambas rutas terminan aquí, cada una a través de un cursor propio, y la sesión se cierra.'
+
+fa:
+  page_title: عضویت
+  page_icon: 'ph:bold/credit-card'
+  intro: 'یک اشتراک با دو پیشنهاد. پیشنهاد رایگان تنها یک حساب کاربری است و هیچ چیز بیشتر؛ پیشنهاد پرو شامل یک پرداخت است که توسط بانکی تأیید می‌شود که دموی آن را اجرا می‌کند.'
+  start: 'سه مرحله برای رایگان، پنج مرحله برای پرو. هر یک در صفحه‌ای جداگانه قرار دارد و هر کدام در زیر توضیح می‌دهد که موتور چه کاری انجام داده است.'
+  roads:
+    description: 'مرحله حساب، پیشنهاد را که نشانگر آن حمل می‌کند می‌خواند تا تصمیم بگیرد که چه چیزی بعد از آن می‌آید: پرداخت برای پرو، هیچ‌چیز برای رایگان. دو جاده طول یکسانی ندارند.'
+    free: رایگان
+    paid: پرو
+  steps:
+    offer: 'جاده‌ها در اینجا جدا می‌شوند و به یک شکل یکسان نیستند: تا زمانی که یک پیشنهاد انتخاب نشده، مرحله‌ساز شکاف را نشان می‌دهد که آنها در آن متفاوت هستند.'
+    account: 'فرم مشابه در هر دو جاده. نشانگر آن پیشنهاد را حمل می‌کند و مرحله آن را می‌خواند تا تصمیم بگیرد چه چیزی بعد از آن می‌آید.'
+    payment: 'فقط در جاده پرو. در حالی که نشان داده می‌شود، جلسه در ۱۵ دقیقه منقضی می‌شود، مانند یک صندلی رزرو شده؛ پس از پرداخت، هیچ‌چیز قبل از آن دوباره قابل دسترسی نیست و هرگز دو بار ارائه نمی‌شود.'
+    waiting: 'جلسه منتظر بانک است. دکمه دموی آن وبهوک خود را اجرا می‌کند که جلسه را از طریق TunnelResumeService از سر می‌گیرد.'
+    welcome: 'هر دو جاده در اینجا به پایان می‌رسند، هر یک از طریق نشانگر خود، و جلسه بسته می‌شود.'
+
+fi:
+  page_title: Tilaa
+  page_icon: 'ph:bold/credit-card'
+  intro: 'Tilauksessa on kaksi tarjousta. Ilmainen on tili eikä muuta; Pro lisää maksun, joka on vahvistettu pankin toimesta, jota demo esittää.'
+  start: 'Kolme vaihetta Ilmaiselle, viisi Pro:lle. Jokainen on omalla sivullaan, ja jokainen kertoo alla mitä moottori juuri teki.'
+  roads:
+    description: 'Tilivaihe lukee tarjouksen, jonka kohdistin kantaa, päättääkseen mitä seuraavaksi tapahtuu: maksu Pro:lle, ei mitään Ilmaiselle. Kaksi tietä eivät ole samaa pituutta.'
+    free: Ilmainen
+    paid: Pro
+  steps:
+    offer: 'Tiedot erkanevat tässä, eikä samaan muotoon: kunnes tarjous on valittu, vaihe näyttää aukon, jossa ne eroavat.'
+    account: 'Sama lomake molemmilla teillä. Sen kohdistin kantaa tarjouksen, ja vaihe lukee sen päättääkseen mitä seuraavaksi tapahtuu.'
+    payment: 'Vain Pro-tiellä. Kun se on näkyvissä, istunto vanhenee 15 minuutissa, kuin varattu paikka; kun se on maksettu, mitään ennen sitä ei voida enää saavuttaa, eikä sitä koskaan tarjota kahdesti.'
+    waiting: 'Istunto odottaa pankissa. Demossa oleva nappi soittaa sen webhookia, joka jatkaa istuntoa TunnelResumeService:n kautta.'
+    welcome: 'Molemmat tiet päättyvät täällä, jokainen omalla kohdistimellaan, ja istunto suljetaan.'
+
+fr:
+  page_title: "S'abonner"
+  page_icon: 'ph:bold/carte-de-crédit'
+  intro: 'Un abonnement avec deux offres. La gratuite est un compte et rien de plus ; la Pro ajoute un paiement, confirmé par une banque que la démo joue.'
+  start: 'Trois étapes pour la version gratuite, cinq pour la version Pro. Chacune a sa propre page, et chacune explique ci-dessous ce que le moteur vient de faire.'
+  roads:
+    description: "L'étape du compte lit l'offre que son curseur porte pour décider de la suite : un paiement pour Pro, rien pour Free. Les deux routes n'ont pas la même longueur."
+    free: Gratuit
+    paid: Pro
+  steps:
+    offer: "Les routes se séparent ici, et pas de la même manière : tant qu'une offre n'est pas choisie, le sélecteur montre un vide où elles diffèrent."
+    account: "Le même formulaire sur les deux routes. Son curseur porte l'offre, et l'étape la lit pour décider de la suite."
+    payment: "Uniquement sur la route Pro. Pendant qu'il est affiché, la session expire dans 15 minutes, comme un siège réservé ; une fois payé, rien avant cela ne peut être atteint à nouveau, et il n'est jamais proposé deux fois."
+    waiting: 'La session attend la banque. Un bouton de la démo joue son webhook, qui reprend la session via TunnelResumeService.'
+    welcome: 'Les deux routes se terminent ici, chacune par un curseur qui lui est propre, et la session est clôturée.'
+
+he:
+  page_title: הירשם
+  page_icon: 'ph:bold/credit-card'
+  intro: 'מנוי עם שתי הצעות. ההצעה החינמית היא חשבון ולא יותר; ההצעה הפרו מוסיפה תשלום, שאושר על ידי בנק כאשר הדגמה מתבצעת.'
+  start: 'שלושה שלבים עבור חינם, חמישה עבור פרו. כל אחד מהם נמצא בעמוד משלו, וכל אחד מהם מציין למטה מה המנוע עשה.'
+  roads:
+    description: 'שלב החשבון קורא את ההצעה שהמצביע שלו נושא כדי להחליט מה יקרה לאחר מכן: תשלום עבור פרו, כלום עבור חינם. שני הדרכים אינן באורך שווה.'
+    free: חינם
+    paid: פרו
+  steps:
+    offer: 'הדרכים נפרדות כאן, ולא באותו צורה: עד שמוצעת הצעה, המדריך מציג פער שבו הם שונים.'
+    account: 'אותה צורה בשני הדרכים. המצביע שלו נושא את ההצעה, והשלב קורא אותה כדי להחליט מה יקרה לאחר מכן.'
+    payment: 'רק בדרך הפרו. בזמן שהיא מוצגת, המושב פג תקף תוך 15 דקות, כמו מושב שמוזמן; לאחר שהתשלום בוצע, שום דבר לפניו לא יכול להיות מושג שוב, והוא לא מוצע פעמיים.'
+    waiting: 'המושב מחכה לבנק. כפתור של ההדגמה מפעיל את ה-webhook שלו, שמחדש את המושב דרך TunnelResumeService.'
+    welcome: 'שני הדרכים מסתיימות כאן, כל אחת דרך מצביע משלה, והמושב נסגר.'
+
+hi:
+  page_title: 'सदस्यता लें'
+  page_icon: 'ph:bold/credit-card'
+  intro: 'दो प्रस्तावों के साथ एक सदस्यता। मुफ्त वाला एक खाता है और कुछ नहीं; प्रो वाला एक भुगतान जोड़ता है, जिसे बैंक द्वारा पुष्टि किया गया है, डेमो खेलता है।'
+  start: 'मुफ्त के लिए तीन चरण, प्रो के लिए पांच। हर एक अपने पृष्ठ पर चलता है, प्रत्येक नीचे बताता है कि इंजन ने अभी क्या किया।'
+  roads:
+    description: 'खाता चरण उस प्रस्ताव को पढ़ता है जो इसका कर्सर ले जा रहा है यह तय करने के लिए कि आगे क्या होगा: प्रो के लिए एक भुगतान, मुफ्त के लिए कुछ नहीं। दोनों रास्ते समान लंबाई के नहीं हैं।'
+    free: मुफ्त
+    paid: प्रो
+  steps:
+    offer: 'यहाँ रास्ते अलग होते हैं, और एक ही आकार में नहीं: जब तक एक प्रस्ताव नहीं चुना जाता, स्टेपर एक गैप दिखाता है जहां वे भिन्न होते हैं।'
+    account: 'दोनों रास्तों पर एक ही रूप। इसका कर्सर प्रस्ताव ले जाता है, और चरण इसे पढ़ता है यह तय करने के लिए कि आगे क्या होगा।'
+    payment: 'केवल प्रो रोड पर। जब यह दिखाया जाता है, तो सत्र 15 मिनट में समाप्त हो जाता है, जैसे एक आरक्षित सीट; एक बार भुगतान करने के बाद, इसके पहले कुछ भी फिर से नहीं पहुँचा जा सकता, और इसे कभी दो बार नहीं पेश किया जाता।'
+    waiting: 'सत्र बैंक पर प्रतीक्षा करता है। डेमो का एक बटन इसका वेबहुक खेलता है, जो टनल रिज्यूम सेवा के माध्यम से सत्र को फिर से शुरू करता है।'
+    welcome: 'दोनों रास्ते यहाँ समाप्त होते हैं, प्रत्येक अपने स्वयं के कर्सर के माध्यम से, और सत्र बंद हो जाता है।'
+
+id:
+  page_title: Berlangganan
+  page_icon: 'ph:bold/credit-card'
+  intro: 'Sebuah langganan dengan dua tawaran. Yang gratis adalah akun dan tidak lebih; yang Pro menambahkan pembayaran, dikonfirmasi oleh bank yang dimainkan demo.'
+  start: 'Tiga langkah untuk Gratis, lima untuk Pro. Setiap langkah memiliki halaman sendiri, masing-masing menjelaskan di bawah apa yang baru saja dilakukan mesin.'
+  roads:
+    description: 'Langkah akun membaca tawaran yang dibawa kursor untuk memutuskan apa yang terjadi selanjutnya: pembayaran untuk Pro, tidak ada untuk Gratis. Dua jalan ini tidak memiliki panjang yang sama.'
+    free: Gratis
+    paid: Pro
+  steps:
+    offer: 'Jalan terpisah di sini, dan tidak dalam bentuk yang sama: sampai tawaran dipilih, langkah menunjukkan celah di mana mereka berbeda.'
+    account: 'Bentuk yang sama di kedua jalan. Kursor membawa tawaran, dan langkah membaca untuk memutuskan apa yang terjadi selanjutnya.'
+    payment: 'Hanya di jalan Pro. Sementara itu ditampilkan, sesi akan kedaluwarsa dalam 15 menit, seperti kursi yang dipesan; setelah dibayar, tidak ada yang bisa dijangkau lagi sebelum itu, dan tidak pernah ditawarkan dua kali.'
+    waiting: 'Sesi menunggu di bank. Sebuah tombol demo memainkan webhook-nya, yang melanjutkan sesi melalui TunnelResumeService.'
+    welcome: 'Kedua jalan berakhir di sini, masing-masing melalui kursor miliknya sendiri, dan sesi ditutup.'
+
+it:
+  page_title: Abbonati
+  page_icon: 'ph:bold/credit-card'
+  intro: "Un abbonamento con due offerte. Quella gratuita è un account e nient'altro; quella Pro aggiunge un pagamento, confermato da una banca mentre il demo viene eseguito."
+  start: 'Tre passaggi per la versione gratuita, cinque per la Pro. Ognuno ha una pagina dedicata, e ciascuno spiega di seguito cosa ha appena fatto il motore.'
+  roads:
+    description: "Il passaggio dell'account legge l'offerta che il suo cursore porta per decidere cosa segue: un pagamento per la Pro, nulla per la gratuita. I due percorsi non hanno la stessa lunghezza."
+    free: Gratuito
+    paid: Pro
+  steps:
+    offer: "I percorsi si dividono qui, e non nella stessa forma: fino a quando non viene selezionata un'offerta, il selettore mostra un divario dove differiscono."
+    account: "La stessa forma su entrambi i percorsi. Il suo cursore porta l'offerta, e il passaggio la legge per decidere cosa segue."
+    payment: 'Solo sul percorso Pro. Mentre è mostrato, la sessione scade in 15 minuti, come un posto riservato; una volta pagato, nulla prima può essere raggiunto di nuovo, e non viene mai offerto due volte.'
+    waiting: 'La sessione attende la banca. Un pulsante del demo attiva il suo webhook, che riprende la sessione tramite TunnelResumeService.'
+    welcome: 'Entrambi i percorsi finiscono qui, ciascuno attraverso un cursore di proprietà, e la sessione è chiusa.'
+
+ja:
+  page_title: 購読する
+  page_icon: 'ph:bold/credit-card'
+  intro: 2つのオファーがあるサブスクリプション。無料のものはアカウントのみで、それ以上はありません。Proでは支払いが追加され、デモが銀行によって確認されます。
+  start: 無料は3ステップ、Proは5ステップ。各ステップは独自のページで表示され、エンジンが行ったことを下に示します。
+  roads:
+    description: アカウントのステップは、カーソルが持つオファーを読み取り、次に何が続くかを決定します：Proには支払いが必要で、無料には何もありません。2つの道路は同じ長さではありません。
+    free: 無料
+    paid: Pro
+  steps:
+    offer: ここで道路が分かれ、同じ形にはなりません：オファーが選ばれるまで、ステッパーは異なる部分に隙間を表示します。
+    account: 両方の道路に同じフォームがあります。カーソルはオファーを持ち、そのステップはそれを読み取って次に何が続くかを決定します。
+    payment: Proの道路のみ。表示されている間、セッションは15分で期限切れになります。これは予約された席のように、支払われるとそれ以前のものには再度アクセスできず、二度と提供されることはありません。
+    waiting: セッションは銀行で待機中です。デモのボタンがWebhookを再開し、TunnelResumeServiceを通じてセッションを再開します。
+    welcome: 両方の道路はここで終わり、それぞれ独自のカーソルを通じてセッションが終了します。
+
+ko:
+  page_title: 구독
+  page_icon: 'ph:bold/credit-card'
+  intro: '두 가지 제안이 있는 구독입니다. 무료 제안은 계정 하나뿐이며, Pro 제안은 결제를 추가하며, 데모가 진행되는 동안 은행에서 확인됩니다.'
+  start: '무료는 세 단계, Pro는 다섯 단계입니다. 각 단계는 고유의 페이지에서 진행되며, 아래에서 엔진이 방금 수행한 작업을 설명합니다.'
+  roads:
+    description: '계정 단계는 커서가 지닌 제안을 읽고 다음에 무엇이 올지를 결정합니다: Pro는 결제가 필요하고, Free는 필요하지 않습니다. 두 길은 길이가 다릅니다.'
+    free: 무료
+    paid: Pro
+  steps:
+    offer: '여기서 두 길이 갈라지며, 같은 형태가 아닙니다: 제안이 선택될 때까지 스테퍼는 둘의 차이를 보여주는 간격을 나타냅니다.'
+    account: '두 길 모두 같은 형태입니다. 커서는 제안을 지니고 있으며, 단계는 이를 읽어 다음에 무엇이 올지를 결정합니다.'
+    payment: 'Pro 길에서만 해당됩니다. 표시되는 동안 세션은 15분 후에 만료되며, 예약된 좌석과 같습니다; 결제가 완료되면 이전 단계는 다시 접근할 수 없으며, 두 번 제공되지 않습니다.'
+    waiting: '세션이 은행에서 대기 중입니다. 데모의 버튼은 웹훅을 작동시켜 세션을 TunnelResumeService를 통해 재개합니다.'
+    welcome: '두 길 모두 여기에서 끝나며, 각기 고유의 커서를 통해 세션이 종료됩니다.'
+
+nl:
+  page_title: Abonneren
+  page_icon: 'ph:bold/credit-card'
+  intro: 'Een abonnement met twee aanbiedingen. De gratis versie is een account en verder niets; de Pro versie voegt een betaling toe, bevestigd door een bank die de demo speelt.'
+  start: 'Drie stappen voor Gratis, vijf voor Pro. Elk op een eigen pagina, waarbij elke stap hieronder vertelt wat de engine net heeft gedaan.'
+  roads:
+    description: 'De accountstap leest de aanbieding die de cursor meedraagt om te beslissen wat volgt: een betaling voor Pro, niets voor Gratis. De twee wegen zijn niet even lang.'
+    free: Gratis
+    paid: Pro
+  steps:
+    offer: 'De wegen splitsen hier, en niet in dezelfde vorm: totdat een aanbieding is gekozen, toont de stapper een gat waar ze verschillen.'
+    account: 'Dezelfde vorm op beide wegen. De cursor draagt de aanbieding, en de stap leest deze om te beslissen wat volgt.'
+    payment: 'Alleen op de Pro weg. Terwijl deze wordt getoond, verloopt de sessie in 15 minuten, zoals een gereserveerde plek; eenmaal betaald, kan niets ervoor opnieuw worden bereikt, en het wordt nooit twee keer aangeboden.'
+    waiting: 'De sessie wacht op de bank. Een knop van de demo speelt zijn webhook, die de sessie herstelt via TunnelResumeService.'
+    welcome: 'Beide wegen eindigen hier, elk via een eigen cursor, en de sessie is gesloten.'
+
+pl:
+  page_title: Subskrybuj
+  page_icon: 'ph:bold/credit-card'
+  intro: 'Subskrypcja z dwiema ofertami. Darmowa to konto i nic więcej; Pro dodaje płatność, potwierdzoną przez bank, podczas gdy demo to odtwarza.'
+  start: 'Trzy kroki dla wersji darmowej, pięć dla wersji Pro. Każdy krok prowadzi do osobnej strony, na której opisano, co silnik właśnie zrobił.'
+  roads:
+    description: 'Krok konta odczytuje ofertę, którą nosi wskaźnik, aby zdecydować, co dalej: płatność za Pro, nic za darmo. Dwie drogi nie mają tej samej długości.'
+    free: Darmowe
+    paid: Pro
+  steps:
+    offer: 'Drogi rozdzielają się tutaj, i nie prowadzą w tę samą stronę: aż do momentu wyboru oferty, wskaźnik pokazuje lukę, w której się różnią.'
+    account: 'Ten sam formularz na obu drogach. Wskaźnik nosi ofertę, a krok odczytuje ją, aby zdecydować, co dalej.'
+    payment: 'Tylko na drodze Pro. Gdy jest wyświetlany, sesja kończy się po 15 minutach, jakby to był zarezerwowany stolik; po dokonaniu płatności, nic przed tym nie może być ponownie osiągnięte, i nigdy nie jest oferowane dwa razy.'
+    waiting: 'Sesja czeka na bank. Przycisk w demo odtwarza swój webhook, który wznawia sesję przez TunnelResumeService.'
+    welcome: 'Obie drogi kończą się tutaj, każda przez własny wskaźnik, a sesja zostaje zamknięta.'
+
+pt_BR:
+  page_title: Assinar
+  page_icon: 'ph:bold/credit-card'
+  intro: 'Uma assinatura com duas ofertas. A gratuita é uma conta e nada mais; a Pro adiciona um pagamento, confirmado por um banco enquanto a demonstração é exibida.'
+  start: 'Três etapas para a Gratuita, cinco para a Pro. Cada uma tem sua própria página, onde cada uma explica abaixo o que o sistema acabou de fazer.'
+  roads:
+    description: 'A etapa da conta lê a oferta que seu cursor carrega para decidir o que vem a seguir: um pagamento para a Pro, nada para a Gratuita. As duas estradas não têm o mesmo comprimento.'
+    free: Gratuita
+    paid: Pro
+  steps:
+    offer: 'As estradas se separam aqui, e não têm a mesma forma: até que uma oferta seja escolhida, o passo mostra uma lacuna onde elas diferem.'
+    account: 'O mesmo formulário em ambas as estradas. Seu cursor carrega a oferta, e o passo a lê para decidir o que vem a seguir.'
+    payment: 'Apenas na estrada Pro. Enquanto é exibido, a sessão expira em 15 minutos, como se fosse um assento reservado; uma vez pago, nada antes disso pode ser acessado novamente, e nunca é oferecido duas vezes.'
+    waiting: 'A sessão aguarda o banco. Um botão da demonstração ativa seu webhook, que retoma a sessão através do TunnelResumeService.'
+    welcome: 'Ambas as estradas terminam aqui, cada uma por um cursor próprio, e a sessão é encerrada.'
+
+ru:
+  page_title: Подписка
+  page_icon: 'ph:bold/credit-card'
+  intro: 'Подписка с двумя предложениями. Бесплатное - это аккаунт и ничего больше; Про - это платное предложение, подтвержденное банком, с которым работает демонстрация.'
+  start: 'Три шага для Бесплатной, пять для Про. Каждый из них имеет свою страницу, где ниже рассказывается, что сделала система.'
+  roads:
+    description: 'Шаг аккаунта читает предложение, которое несет его курсор, чтобы решить, что будет дальше: оплата для Про, ничего для Бесплатной. Два пути не одинаковой длины.'
+    free: Бесплатно
+    paid: Про
+  steps:
+    offer: 'Дороги расходятся здесь, и не в одном направлении: пока не выбрано предложение, индикатор показывает пробел, где они различаются.'
+    account: 'Одна и та же форма на обоих путях. Его курсор несет предложение, и шаг читает его, чтобы решить, что будет дальше.'
+    payment: 'Только на пути Про. Пока он показывается, сессия истекает через 15 минут, как забронированное место; после оплаты к нему нельзя вернуться, и оно никогда не предлагается дважды.'
+    waiting: 'Сессия ждет ответа от банка. Кнопка демонстрации активирует вебхук, который возобновляет сессию через TunnelResumeService.'
+    welcome: 'Обе дороги заканчиваются здесь, каждая через свой курсор, и сессия закрыта.'
+
+th:
+  page_title: สมัครสมาชิก
+  page_icon: 'ph:bold/credit-card'
+  intro: 'การสมัครสมาชิกมีสองข้อเสนอ ข้อเสนอฟรีคือบัญชีและไม่มีอะไรเพิ่มเติม; ข้อเสนอ Pro จะเพิ่มการชำระเงินที่ยืนยันโดยธนาคารซึ่งการสาธิตแสดงให้เห็น'
+  start: 'สามขั้นตอนสำหรับฟรี ห้าขั้นตอนสำหรับ Pro เดินไปยังหน้าของมันเอง แต่ละขั้นตอนบอกด้านล่างว่าเครื่องยนต์ทำอะไรไปแล้ว'
+  roads:
+    description: 'ขั้นตอนบัญชีอ่านข้อเสนอที่ตัวชี้ไปถึงเพื่อกำหนดว่าจะเกิดอะไรขึ้นต่อไป: การชำระเงินสำหรับ Pro ไม่มีอะไรสำหรับฟรี สองเส้นทางมีความยาวไม่เท่ากัน'
+    free: ฟรี
+    paid: Pro
+  steps:
+    offer: 'เส้นทางแยกที่นี่ และไม่ใช่ในรูปแบบเดียวกัน: จนกว่าจะเลือกข้อเสนอ ตัวชี้แสดงช่องว่างที่พวกเขาแตกต่างกัน'
+    account: 'รูปแบบเดียวกันในทั้งสองเส้นทาง ตัวชี้ไปถึงข้อเสนอ และขั้นตอนอ่านมันเพื่อตัดสินใจว่าจะเกิดอะไรขึ้นต่อไป'
+    payment: 'เฉพาะในเส้นทาง Pro ขณะที่มันแสดงอยู่ เซสชันจะหมดอายุใน 15 นาทีเหมือนที่นั่งที่จองไว้; เมื่อชำระเงินแล้ว ไม่มีอะไรที่อยู่ก่อนหน้านั้นสามารถเข้าถึงได้อีก และจะไม่มีการเสนอสองครั้ง'
+    waiting: 'เซสชันรออยู่ที่ธนาคาร ปุ่มของการสาธิตเล่นเว็บฮุคซึ่งทำให้เซสชันกลับมาอีกครั้งผ่าน TunnelResumeService'
+    welcome: 'ทั้งสองเส้นทางสิ้นสุดที่นี่ แต่ละเส้นทางผ่านตัวชี้ของมันเอง และเซสชันถูกปิด'
+
+tr:
+  page_title: 'Abone Ol'
+  page_icon: 'ph:bold/credit-card'
+  intro: 'İki teklifle bir abonelik. Ücretsiz olan bir hesap ve daha fazlası değil; Pro olan ise bir ödeme ekler, bu da banka tarafından onaylanır ve demo bunu oynar.'
+  start: 'Ücretsiz için üç adım, Pro için beş adım. Her biri kendi sayfasında yer alır, her biri aşağıda motorun ne yaptığını anlatır.'
+  roads:
+    description: 'Hesap adımı, hangi teklifi taşıdığına bağlı olarak ne olacağını belirlemek için imleci okur: Pro için bir ödeme, Ücretsiz için hiçbir şey. İki yolun uzunlukları aynı değil.'
+    free: Ücretsiz
+    paid: Pro
+  steps:
+    offer: 'Yollar burada ayrılır ve aynı şekle girmez: bir teklif seçilene kadar, adımcı farklılıkları gösteren bir boşluk gösterir.'
+    account: 'Her iki yolda da aynı form. İmleci teklifi taşır ve adım bunu okuyarak ne olacağını belirler.'
+    payment: 'Sadece Pro yolunda. Gösterildiği sürede, oturum 15 dakikada sona erer, rezerve edilmiş bir koltuk gibi; ödendikten sonra, öncesindeki hiçbir şeye tekrar erişilemez ve asla iki kez sunulmaz.'
+    waiting: "Oturum bankada bekliyor. Demo, oturumu TunnelResumeService aracılığıyla yeniden başlatan bir webhook'u tetikler."
+    welcome: 'Her iki yol burada sona erer, her biri kendi imleciyle ve oturum kapatılır.'
+
+ur:
+  page_title: 'سبسکرائب کریں'
+  page_icon: 'ph:bold/credit-card'
+  intro: 'دو پیشکشوں کے ساتھ ایک سبسکرپشن۔ مفت والا ایک اکاؤنٹ ہے اور بس؛ پرو والا ایک ادائیگی شامل کرتا ہے، جس کی تصدیق ایک بینک کرتا ہے جیسا کہ ڈیمو میں دکھایا گیا ہے۔'
+  start: 'مفت کے لیے تین مراحل، پرو کے لیے پانچ۔ ہر ایک کا اپنا صفحہ ہے، ہر ایک نیچے بتاتا ہے کہ انجن نے ابھی کیا کیا۔'
+  roads:
+    description: 'اکاؤنٹ کا مرحلہ اس پیشکش کو پڑھتا ہے جو اس کے کرسر کے پاس ہے تاکہ یہ طے کرے کہ کیا آگے بڑھنا ہے: پرو کے لیے ایک ادائیگی، مفت کے لیے کچھ نہیں۔ دونوں راستے ایک جیسے لمبائی کے نہیں ہیں۔'
+    free: مفت
+    paid: پرو
+  steps:
+    offer: 'یہاں راستے الگ ہوتے ہیں، اور ایک ہی شکل میں نہیں: جب تک ایک پیشکش منتخب نہ کی جائے، اسٹیپر ایک خلا دکھاتا ہے جہاں وہ مختلف ہیں۔'
+    account: 'دونوں راستوں پر یہی فارم ہے۔ اس کا کرسر پیشکش کو لے کر آتا ہے، اور مرحلہ اسے پڑھتا ہے تاکہ یہ طے کرے کہ کیا آگے بڑھنا ہے۔'
+    payment: 'صرف پرو راستے پر۔ جب یہ دکھائی دیتا ہے، تو سیشن 15 منٹ میں ختم ہو جاتا ہے، جیسے ایک محفوظ نشست؛ ایک بار ادا کرنے کے بعد، اس سے پہلے کچھ دوبارہ نہیں پہنچا جا سکتا، اور یہ کبھی دو بار پیش نہیں کیا جاتا۔'
+    waiting: 'سیشن بینک پر انتظار کر رہا ہے۔ ڈیمو کا ایک بٹن اس کا ویب ہک چلاتا ہے، جو سیشن کو TunnelResumeService کے ذریعے دوبارہ شروع کرتا ہے۔'
+    welcome: 'دونوں راستے یہاں ختم ہوتے ہیں، ہر ایک اپنے اپنے کرسر کے ذریعے، اور سیشن بند ہو جاتا ہے۔'
+
+vi:
+  page_title: 'Đăng ký'
+  page_icon: 'ph:bold/credit-card'
+  intro: 'Một gói đăng ký với hai lựa chọn. Lựa chọn miễn phí chỉ là một tài khoản và không hơn gì; lựa chọn Pro thêm một khoản thanh toán, được xác nhận bởi ngân hàng mà bản demo sử dụng.'
+  start: 'Ba bước cho miễn phí, năm bước cho Pro. Mỗi bước được đi trên một trang riêng, mỗi bước cho biết bên dưới những gì mà động cơ vừa thực hiện.'
+  roads:
+    description: 'Bước tài khoản đọc lựa chọn mà con trỏ của nó đang mang theo để quyết định điều gì sẽ xảy ra tiếp theo: một khoản thanh toán cho Pro, không có gì cho Miễn phí. Hai con đường không có chiều dài giống nhau.'
+    free: 'Miễn phí'
+    paid: Pro
+  steps:
+    offer: 'Hai con đường phân tách tại đây, và không có hình dạng giống nhau: cho đến khi một lựa chọn được chọn, bộ điều khiển hiển thị một khoảng trống nơi chúng khác nhau.'
+    account: 'Cùng một hình thức trên cả hai con đường. Con trỏ của nó mang theo lựa chọn, và bước đọc nó để quyết định điều gì sẽ xảy ra tiếp theo.'
+    payment: 'Chỉ trên con đường Pro. Trong khi nó được hiển thị, phiên sẽ hết hạn trong 15 phút, giống như một chỗ ngồi đã được đặt; một khi đã thanh toán, không gì trước đó có thể được truy cập lại, và nó không bao giờ được cung cấp hai lần.'
+    waiting: 'Phiên đang chờ ngân hàng. Một nút của bản demo phát webhook của nó, điều này tiếp tục phiên thông qua TunnelResumeService.'
+    welcome: 'Cả hai con đường kết thúc tại đây, mỗi con đường thông qua một con trỏ riêng, và phiên được đóng lại.'
+
+zh:
+  page_title: 订阅
+  page_icon: 'ph:bold/信用卡'
+  intro: 有两个优惠的订阅。免费的只是一个账户，没别的；专业版需要支付，由银行确认演示。
+  start: 免费三步，专业版五步。每一步都有自己的页面，下面说明引擎刚刚做了什么。
+  roads:
+    description: 账户步骤读取光标携带的优惠，以决定接下来要做什么：专业版需要支付，免费版则不需要。两条道路的长度不同。
+    free: 免费
+    paid: 专业版
+  steps:
+    offer: 在这里道路分开，形状不同：在选择优惠之前，步骤显示出它们的差异。
+    account: 两条道路上的表单相同。光标携带着优惠，步骤读取它以决定接下来要做什么。
+    payment: 仅在专业版道路上。当它被展示时，会议在15分钟内过期，就像一个预留座位；一旦支付，之前的内容无法再次访问，且不会被重复提供。
+    waiting: 会议在银行等待。一个演示按钮触发其Webhook，通过TunnelResumeService恢复会议。
+    welcome: 两条道路在这里结束，每条道路都有自己的光标，会议关闭。

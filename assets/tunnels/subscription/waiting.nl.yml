@@ -1,8 +1,0 @@
-page_title: Abonnement
-title: 'Wachten op de bank'
-lead: 'Betaling %reference% is verzonden. De bank bevestigt dit op zijn eigen tijd.'
-note:
-  title: 'Je kunt deze pagina verlaten'
-  body: 'Je betaling wordt behouden, wat je ook doet: kom later terug en je wordt binnen gelaten zodra de bank heeft geantwoord.'
-behind: 'De sessie wacht op_async_actie: niemand die door de tunnel loopt kan deze stap voltooien, alleen de bank kan dat. Een echte applicatie ontvangt zijn antwoord via een webhook en geeft de referentie door aan TunnelResumeService, die de tunnel van de wachtende sessie opnieuw opbouwt en deze stap voltooit; opnieuw getoond, verplaatst de stap de bezoeker vanzelf verder. De knop hieronder speelt de bank. Wachtende sessies vervallen nooit en niets voor de betaling is nog gekoppeld.'
-simulate: 'Speel de bank: bevestig de betaling'

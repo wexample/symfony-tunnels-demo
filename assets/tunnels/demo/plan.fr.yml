@@ -1,9 +1,0 @@
-page_title: 'Tunnel de démonstration'
-title: 'Votre plan'
-lead:
-  free: 'Le plan gratuit : tout pour commencer, rien à payer.'
-  paid: 'Le plan payant : tout compris, avec de la place pour grandir.'
-note:
-  title: 'Deux branches, un seul chemin'
-  body: 'Cette étape existe une fois par plan. Précédent vous ramène au choix ; suivant continue vers le même formulaire quel que soit le plan que vous avez choisi.'
-behind: "Un des deux curseurs de l'étape du plan, celui portant le plan %plan%. Chaque curseur a son propre hachage, donc ce que l'un stocke n'est jamais vu de l'autre. Chaque étape après celle-ci existe aussi en double, une copie sous chaque curseur : les branches semblent se rejoindre à nouveau, mais le formulaire et la page de clôture que vous atteignez sont ceux de votre plan."

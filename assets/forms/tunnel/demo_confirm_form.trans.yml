@@ -1,0 +1,114 @@
+en:
+  field:
+    name:
+      label: Your name
+
+ar:
+  field:
+    name:
+      label: اسمك
+
+bn:
+  field:
+    name:
+      label: 'আপনার নাম'
+
+de:
+  field:
+    name:
+      label: 'Ihr Name'
+
+es:
+  field:
+    name:
+      label: 'Tu nombre'
+
+fa:
+  field:
+    name:
+      label: 'نام شما'
+
+fi:
+  field:
+    name:
+      label: Nimesi
+
+fr:
+  field:
+    name:
+      label: 'Votre nom'
+
+he:
+  field:
+    name:
+      label: שמך
+
+hi:
+  field:
+    name:
+      label: 'आपका नाम'
+
+id:
+  field:
+    name:
+      label: 'Nama Anda'
+
+it:
+  field:
+    name:
+      label: 'Il tuo nome'
+
+ja:
+  field:
+    name:
+      label: あなたの名前
+
+ko:
+  field:
+    name:
+      label: '당신의 이름'
+
+nl:
+  field:
+    name:
+      label: 'Je naam'
+
+pl:
+  field:
+    name:
+      label: 'Twoje imię'
+
+pt_BR:
+  field:
+    name:
+      label: 'Seu nome'
+
+ru:
+  field:
+    name:
+      label: 'Ваше имя'
+
+th:
+  field:
+    name:
+      label: ชื่อของคุณ
+
+tr:
+  field:
+    name:
+      label: Adınız
+
+ur:
+  field:
+    name:
+      label: 'آپ کا نام'
+
+vi:
+  field:
+    name:
+      label: 'Tên của bạn'
+
+zh:
+  field:
+    name:
+      label: 你的名字

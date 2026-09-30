@@ -1,9 +1,0 @@
-page_title: 'Demo túnel'
-title: Bienvenido
-lead: 'Un túnel corto para mostrar cómo se lee: elige un plan, dale un nombre y listo. El plan que elijas decide el siguiente paso.'
-plan:
-  free:
-    description: 'Todo para empezar, nada que pagar.'
-  paid:
-    description: 'Todo, con espacio para crecer.'
-behind: 'El punto de entrada del túnel. Abrirlo creó una sesión en la base de datos, que la sesión del navegador solo conoce por su id. Este paso se completa tan pronto como se muestra, por defecto. Las dos tarjetas conducen a dos cursores del mismo siguiente paso, diferenciados por su opción de plan: las ramas del árbol aquí, por lo que no hay botón de siguiente, y el escalador nombra el paso 2 después del paso en lugar de después de un plan.'

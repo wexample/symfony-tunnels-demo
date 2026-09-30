@@ -1,4 +1,0 @@
-page_title: 'Tunnel di demo'
-title: 'Il tuo nome'
-lead: "L'ultima cosa di cui abbiamo bisogno."
-behind: 'Un passo del modulo. Visualizzarlo non è sufficiente: viene completato solo quando il modulo è valido, e i passi successivi rimangono inaccessibili fino ad allora. Il nome è memorizzato su questo cursore. Torna a questo passo e sarà ancora lì; torna a un passo precedente e sarà cancellato, poiché tornare indietro elimina ciò che i passi successivi avevano memorizzato, quindi un ramo ripercorso inizia da zero.'

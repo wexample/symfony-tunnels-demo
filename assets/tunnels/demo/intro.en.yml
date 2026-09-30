@@ -1,9 +1,0 @@
-page_title: Demo tunnel
-title: Welcome
-lead: "A short tunnel to show how one reads: pick a plan, give a name, and it is done. The plan you pick decides the step that follows."
-plan:
-  free:
-    description: Everything to get started, nothing to pay.
-  paid:
-    description: The whole of it, with room to grow.
-behind: "The entrypoint of the tunnel. Opening it created a session in the database, which the browser session only knows by its id. This step is done as soon as it is displayed, the default. The two cards lead to two cursors of the same next step, told apart by their plan option: the tree parts here, so there is no next button, and the stepper names step 2 after the step rather than after a plan."

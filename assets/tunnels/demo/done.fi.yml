@@ -1,9 +1,0 @@
-page_title: 'Demo tunneli'
-title: 'Kaikki valmiina'
-lead: 'Tunneli on kävelty loppuun.'
-message:
-  title: 'Kiitos, %name%.'
-  body: 'Istunto on valmis; mitään ei enää kysytä.'
-path:
-  title: 'Tapa, jota tulit'
-behind: 'Sulkeutuva vaihe lukee nimen edellisen kohdistimen mukaan ja listaa tavan täällä: puussa tapa kohdistimeen on ainutlaatuinen, se on sen esi-isien linja, jokainen vaihe kertoo, mitä sillä on tehty buildSummary():n kautta. Sen näyttäminen sulkee istunnon: sen tila muuttuu valmiiksi eikä se enää vanhene. Mikään sen edellä ei ole enää linkitetty, koska minkä tahansa suljetun istunnon vaiheen saavuttaminen aloittaa uuden: juuri niin tunnelin avaaminen uudelleen toimii.'

@@ -1,4 +1,0 @@
-page_title: 'Túnel de demostración'
-title: 'Tu nombre'
-lead: 'Lo último que necesitamos.'
-behind: 'Un paso del formulario. Mostrarlo no es suficiente: se completa solo una vez que el formulario es válido, y los pasos posteriores permanecen fuera de alcance hasta entonces. El nombre se almacena en este cursor. Vuelve a este paso y todavía está ahí; regresa a un paso anterior y se borra, ya que retroceder elimina lo que los pasos posteriores habían almacenado, así que una rama recorrida nuevamente comienza limpia.'
