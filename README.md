@@ -1,6 +1,6 @@
 # symfony-tunnels-demo
 
-Version: 4.0.2
+Version: 4.0.3
 
 The repository does not provide any concrete code that could be documented for now.
 
@@ -29,11 +29,11 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 
 - php: >=8.5
 - wexample/symfony-helpers: >=12.0.0
-- wexample/symfony-loader: >=15.0.0
-- wexample/symfony-design-system: >=23.0.0
+- wexample/symfony-loader: >=16.0.0
+- wexample/symfony-design-system: >=25.0.0
 - wexample/symfony-design-system-demo: >=7.0.0
-- wexample/symfony-routing: >=1.0.0
-- wexample/symfony-tunnels: >=8.0.0
+- wexample/symfony-routing: >=2.0.0
+- wexample/symfony-tunnels: >=9.0.0
 
 ## Versioning & Compatibility Policy
 
