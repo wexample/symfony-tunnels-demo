@@ -8,7 +8,6 @@ use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyTunnels\Helper\TunnelTreeHelper;
 use Wexample\SymfonyTunnels\Service\AbstractTunnelManagerService;
 use Wexample\SymfonyTunnelsDemo\Service\Tunnel\DemoTunnelManagerService;
-use Wexample\SymfonyTunnelsDemo\Service\Tunnel\SubscriptionTunnelManagerService;
 use Wexample\SymfonyTunnelsDemo\Traits\SymfonyTunnelsDemoBundleClassTrait;
 
 /**
@@ -31,14 +30,6 @@ final class TunnelsController extends AbstractPagesController
     public function plan(DemoTunnelManagerService $tunnel): Response
     {
         return $this->renderPage('plan', [
-            'paths' => $this->buildPaths($tunnel),
-        ]);
-    }
-
-    #[Route(name: 'subscription', path: 'subscription')]
-    public function subscription(SubscriptionTunnelManagerService $tunnel): Response
-    {
-        return $this->renderPage('subscription', [
             'paths' => $this->buildPaths($tunnel),
         ]);
     }

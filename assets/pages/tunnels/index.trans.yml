@@ -6,9 +6,6 @@ en:
     plan:
       title: Pick a plan
       description: "The first tunnel: two branches, a form, and a session closed at the end."
-    subscription:
-      title: Subscribe
-      description: "A payment on one branch only, a session held 15 minutes, a wait on the bank."
   tree:
     title: A tree of cursors
     body: "A tunnel is built as a tree, not a list. A step reached from two places is two cursors, each with its own hash and its own stored values: that is what lets a branch grow steps another one does not have, and what the way you came, shown at the end of each tunnel, is read from."
@@ -38,9 +35,6 @@ ar:
     plan:
       title: 'اختر خطة'
       description: 'النفق الأول: فرعين، نموذج، وجلسة مغلقة في النهاية.'
-    subscription:
-      title: اشترك
-      description: 'دفعة على فرع واحد فقط، جلسة مدتها 15 دقيقة، انتظار على البنك.'
   tree:
     title: 'شجرة المؤشرات'
     body: 'يتم بناء النفق كشجرة، وليس كقائمة. الخطوة التي تصل من مكانين هي مؤشرين، كل منهما له هاش خاص به والقيم المخزنة الخاصة به: هذا هو ما يسمح لفرع بتطوير خطوات لا يمتلكها فرع آخر، وما يقرأ من الطريق الذي جئت منه، والذي يظهر في نهاية كل نفق.'
@@ -70,9 +64,6 @@ bn:
     plan:
       title: 'একটি পরিকল্পনা নির্বাচন করুন'
       description: 'প্রথম টানেল: দুটি শাখা, একটি ফর্ম, এবং শেষে একটি সেশন বন্ধ।'
-    subscription:
-      title: 'সাবস্ক্রাইব করুন'
-      description: 'একটি শাখায় শুধুমাত্র একটি পেমেন্ট, 15 মিনিট ধরে একটি সেশন, ব্যাংকে অপেক্ষা।'
   tree:
     title: 'কার্সরের একটি গাছ'
     body: 'একটি টানেল একটি তালিকা নয়, গাছ হিসেবে তৈরি হয়। দুটি স্থানে পৌঁছানো একটি ধাপ দুটি কার্সর, প্রতিটির নিজস্ব হ্যাশ এবং সংরক্ষিত মান রয়েছে: এটি একটি শাখাকে এমন ধাপ বাড়াতে দেয় যা অন্যটির নেই, এবং যে পথ দিয়ে আপনি এসেছেন, সেটি প্রত্যেক টানেলের শেষে পড়া হয়।'
@@ -102,9 +93,6 @@ de:
     plan:
       title: 'Wähle einen Plan'
       description: 'Der erste Tunnel: zwei Äste, ein Formular und eine Sitzung, die am Ende geschlossen wird.'
-    subscription:
-      title: Abonnieren
-      description: 'Eine Zahlung nur auf einem Ast, eine Sitzung, die 15 Minuten dauert, ein Warten auf die Bank.'
   tree:
     title: 'Ein Baum von Cursorn'
     body: 'Ein Tunnel wird als Baum aufgebaut, nicht als Liste. Ein Schritt, der von zwei Stellen erreicht wird, ist zwei Cursors, jeder mit seinem eigenen Hash und seinen eigenen gespeicherten Werten: das ermöglicht es einem Ast, Schritte zu wachsen, die ein anderer nicht hat, und der Weg, den du gekommen bist, wird am Ende jedes Tunnels abgelesen.'
@@ -134,9 +122,6 @@ es:
     plan:
       title: 'Elige un plan'
       description: 'El primer túnel: dos ramas, un formulario y una sesión cerrada al final.'
-    subscription:
-      title: Suscribirse
-      description: 'Un pago en una sola rama, una sesión mantenida 15 minutos, una espera en el banco.'
   tree:
     title: 'Un árbol de cursores'
     body: 'Un túnel se construye como un árbol, no como una lista. Un paso alcanzado desde dos lugares es dos cursores, cada uno con su propio hash y sus propios valores almacenados: eso es lo que permite que una rama crezca pasos que otra no tiene, y de lo que se lee el camino que tomaste, mostrado al final de cada túnel.'
@@ -166,9 +151,6 @@ fa:
     plan:
       title: 'یک طرح را انتخاب کنید'
       description: 'اولین تونل: دو شاخه، یک فرم و یک جلسه که در انتها بسته می‌شود.'
-    subscription:
-      title: اشتراک‌گذاری
-      description: 'پرداخت تنها در یک شاخه، یک جلسه به مدت ۱۵ دقیقه، یک انتظار در بانک.'
   tree:
     title: 'یک درخت اشاره‌گرها'
     body: 'تونل به صورت یک درخت ساخته می‌شود، نه یک لیست. یک مرحله که از دو مکان قابل دسترسی است، دو اشاره‌گر است، هر کدام با هش و مقادیر ذخیره‌شده خود: این است که اجازه می‌دهد یک شاخه مراحل بیشتری را رشد دهد که دیگری ندارد، و راهی که آمده‌اید، که در انتهای هر تونل نشان داده می‌شود، از آن خوانده می‌شود.'
@@ -198,9 +180,6 @@ fi:
     plan:
       title: 'Valitse suunnitelma'
       description: 'Ensimmäinen tunneli: kaksi haaraa, lomake ja istunto sulkeutuu lopussa.'
-    subscription:
-      title: Tilaa
-      description: 'Maksu vain yhdestä haarasta, istunto kestää 15 minuuttia, odotus pankissa.'
   tree:
     title: 'Kursoreiden puu'
     body: 'Tunneli rakennetaan puuna, ei luettelona. Vaihe, johon pääsee kahdesta paikasta, on kaksi kursoria, jokaisella omat hashit ja tallennetut arvot: tämä mahdollistaa haaran kasvavan vaiheita, joita toisella ei ole, ja se, miten tulit, näkyy jokaisen tunnelin lopussa.'
@@ -230,9 +209,6 @@ fr:
     plan:
       title: 'Choisissez un plan'
       description: 'Le premier tunnel : deux branches, un formulaire, et une session fermée à la fin.'
-    subscription:
-      title: "S'abonner"
-      description: 'Un paiement sur une seule branche, une session tenue pendant 15 minutes, une attente à la banque.'
   tree:
     title: 'Un arbre de curseurs'
     body: "Un tunnel est construit comme un arbre, pas une liste. Une étape atteinte depuis deux endroits est deux curseurs, chacun avec son propre hash et ses propres valeurs stockées : c'est ce qui permet à une branche de développer des étapes que l'autre n'a pas, et ce par quoi le chemin que vous avez pris, montré à la fin de chaque tunnel, est lu."
@@ -262,9 +238,6 @@ he:
     plan:
       title: 'בחר תוכנית'
       description: 'המנהרה הראשונה: שני סניפים, טופס, ומפגש נסגר בסוף.'
-    subscription:
-      title: הירשם
-      description: 'תשלום בסניף אחד בלבד, מפגש שנמשך 15 דקות, המתנה בבנק.'
   tree:
     title: 'עץ של סמנים'
     body: 'מנהרה נבנית כמו עץ, לא כמו רשימה. שלב המגיע משני מקומות הוא שני סמנים, כל אחד עם ההאש שלו ועם הערכים השמורים שלו: זה מה שמאפשר לסניף לגדול בשלבים שאין לאחרים, ומהדרך שבה הגעת, המוצגת בסוף כל מנהרה, נקראת.'
@@ -294,9 +267,6 @@ hi:
     plan:
       title: 'एक योजना चुनें'
       description: 'पहली नदी: दो शाखाएँ, एक फॉर्म, और अंत में एक सत्र समाप्त।'
-    subscription:
-      title: 'सदस्यता लें'
-      description: 'एक शाखा पर केवल एक भुगतान, 15 मिनट के लिए आयोजित एक सत्र, बैंक पर एक इंतजार।'
   tree:
     title: 'कर्सर का एक पेड़'
     body: 'एक नदी एक पेड़ के रूप में बनाई जाती है, सूची के रूप में नहीं। एक चरण जो दो स्थानों से पहुँचा जाता है, वह दो कर्सर है, प्रत्येक के पास अपना हैश और अपने संग्रहित मान हैं: यही वह होता है जो एक शाखा को ऐसे चरण देने की अनुमति देता है जो दूसरी के पास नहीं है, और जिस रास्ते से आप आए हैं, वह प्रत्येक नदी के अंत में पढ़ा जाता है।'
@@ -326,9 +296,6 @@ id:
     plan:
       title: 'Pilih rencana'
       description: 'Terowongan pertama: dua cabang, sebuah formulir, dan sesi ditutup di akhir.'
-    subscription:
-      title: Berlangganan
-      description: 'Sebuah pembayaran hanya pada satu cabang, sesi berlangsung 15 menit, menunggu di bank.'
   tree:
     title: 'Pohon kursor'
     body: 'Sebuah terowongan dibangun sebagai pohon, bukan daftar. Sebuah langkah yang dicapai dari dua tempat adalah dua kursor, masing-masing dengan hash dan nilai tersimpan sendiri: itulah yang memungkinkan sebuah cabang tumbuh langkah-langkah yang tidak dimiliki cabang lain, dan cara yang kamu lalui, yang ditunjukkan di akhir setiap terowongan, dibaca dari sana.'
@@ -358,9 +325,6 @@ it:
     plan:
       title: 'Scegli un piano'
       description: 'Il primo tunnel: due rami, un modulo e una sessione chiusa alla fine.'
-    subscription:
-      title: Iscriviti
-      description: "Un pagamento su un solo ramo, una sessione durata 15 minuti, un'attesa in banca."
   tree:
     title: 'Un albero di cursori'
     body: 'Un tunnel è costruito come un albero, non come un elenco. Un passo raggiunto da due luoghi è due cursori, ognuno con il proprio hash e i propri valori memorizzati: è ciò che consente a un ramo di crescere con passi che un altro non ha, e ciò che il percorso che hai fatto, mostrato alla fine di ogni tunnel, viene letto da.'
@@ -390,9 +354,6 @@ ja:
     plan:
       title: プランを選択
       description: 最初のトンネル：2つの枝、1つのフォーム、そして最後に閉じられるセッション。
-    subscription:
-      title: 購読する
-      description: 1つの枝での支払い、15分間保持されるセッション、銀行での待機。
   tree:
     title: カーソルのツリー
     body: トンネルはリストではなくツリーとして構築されます。2つの場所から到達できるステップは2つのカーソルを持ち、それぞれ独自のハッシュと保存された値を持っています。これにより、一方の枝がもう一方にはないステップを成長させ、各トンネルの最後に示される道が読み取られます。
@@ -422,9 +383,6 @@ ko:
     plan:
       title: '계획 선택'
       description: '첫 번째 터널: 두 갈래, 하나의 양식, 그리고 마지막에 종료된 세션.'
-    subscription:
-      title: 구독하기
-      description: '하나의 갈래에서만 이루어지는 결제, 15분 동안 유지되는 세션, 은행에 대한 대기.'
   tree:
     title: '커서의 나무'
     body: '터널은 목록이 아닌 나무 형태로 구성됩니다. 두 곳에서 도달할 수 있는 단계는 두 개의 커서로, 각각 고유한 해시와 저장된 값을 가지고 있습니다: 이것이 한 갈래가 다른 갈래에는 없는 단계를 성장하게 해주며, 각 터널의 끝에서 표시되는 당신이 온 길을 읽는 것입니다.'
@@ -454,9 +412,6 @@ nl:
     plan:
       title: 'Kies een plan'
       description: 'De eerste tunnel: twee takken, een formulier en een sessie die aan het einde is afgesloten.'
-    subscription:
-      title: Abonneren
-      description: 'Een betaling op slechts één tak, een sessie van 15 minuten, een wachttijd bij de bank.'
   tree:
     title: 'Een boom van cursors'
     body: 'Een tunnel is opgebouwd als een boom, niet als een lijst. Een stap die vanaf twee plaatsen wordt bereikt, is twee cursors, elk met zijn eigen hash en zijn eigen opgeslagen waarden: dat is wat een tak laat groeien stappen die een andere niet heeft, en wat de route die je hebt genomen, aan het einde van elke tunnel wordt weergegeven.'
@@ -486,9 +441,6 @@ pl:
     plan:
       title: 'Wybierz plan'
       description: 'Pierwszy tunel: dwa rozgałęzienia, formularz i sesja zakończona na końcu.'
-    subscription:
-      title: Subskrybuj
-      description: 'Płatność tylko na jednej gałęzi, sesja trwa 15 minut, czekanie na bank.'
   tree:
     title: 'Drzewo kursorów'
     body: 'Tunel jest zbudowany jak drzewo, a nie lista. Krok osiągnięty z dwóch miejsc to dwa kursory, każdy z własnym hashem i przechowywanymi wartościami: to pozwala gałęzi rozwijać kroki, których inna nie ma, a droga, którą przyszedłeś, pokazana na końcu każdego tunelu, jest odczytywana z tego.'
@@ -518,9 +470,6 @@ pt_BR:
     plan:
       title: 'Escolha um plano'
       description: 'O primeiro túnel: dois ramos, um formulário e uma sessão encerrada no final.'
-    subscription:
-      title: Assinar
-      description: 'Um pagamento em apenas um ramo, uma sessão mantida por 15 minutos, uma espera no banco.'
   tree:
     title: 'Uma árvore de cursores'
     body: 'Um túnel é construído como uma árvore, não uma lista. Uma etapa alcançada de dois lugares é dois cursores, cada um com seu próprio hash e seus próprios valores armazenados: isso é o que permite que um ramo cresça etapas que o outro não tem, e o caminho que você tomou, mostrado ao final de cada túnel, é lido a partir disso.'
@@ -550,9 +499,6 @@ ru:
     plan:
       title: 'Выберите план'
       description: 'Первый туннель: две ветки, форма и сессия, закрытая в конце.'
-    subscription:
-      title: Подписаться
-      description: 'Платеж только по одной ветке, сессия длится 15 минут, ожидание от банка.'
   tree:
     title: 'Дерево курсоров'
     body: 'Туннель строится как дерево, а не как список. Шаг, доступный из двух мест, — это два курсора, каждый со своим хешем и своими сохранёнными значениями: это позволяет одной ветке расти шагами, которых нет у другой, и то, как вы пришли, отображается в конце каждого туннеля.'
@@ -582,9 +528,6 @@ th:
     plan:
       title: เลือกแผน
       description: 'อุโมงค์แรก: สองสาขา, แบบฟอร์ม, และเซสชันที่ปิดเมื่อสิ้นสุด.'
-    subscription:
-      title: สมัครสมาชิก
-      description: 'การชำระเงินในสาขาเดียว, เซสชันที่ใช้เวลา 15 นาที, รอธนาคาร.'
   tree:
     title: ต้นไม้ของเคอร์เซอร์
     body: 'อุโมงค์ถูกสร้างขึ้นเป็นต้นไม้ ไม่ใช่รายการ ขั้นตอนที่เข้าถึงจากสองที่คือเคอร์เซอร์สองตัว แต่ละตัวมีแฮชและค่าที่จัดเก็บของตัวเอง: นั่นคือสิ่งที่ทำให้สาขาเติบโตขั้นตอนที่อีกสาขาไม่มี และสิ่งที่คุณมาถึง แสดงที่ปลายอุโมงค์แต่ละแห่ง ถูกอ่านจากที่นั่น.'
@@ -614,9 +557,6 @@ tr:
     plan:
       title: 'Bir plan seçin'
       description: 'İlk tünel: iki dal, bir form ve sonunda kapatılan bir oturum.'
-    subscription:
-      title: 'Abone ol'
-      description: 'Sadece bir dalda bir ödeme, 15 dakika süren bir oturum, bankada bekleme.'
   tree:
     title: 'Kursörler ağacı'
     body: "Bir tünel, bir liste olarak değil, bir ağaç olarak inşa edilir. İki yerden ulaşılan bir adım, kendi hash'ine ve kendi saklanan değerlerine sahip iki kursördür: bu, bir dalın başka birinde olmayan adımları büyütmesini sağlar ve geldiğiniz yol, her tünelin sonunda okunan yerdir."
@@ -646,9 +586,6 @@ ur:
     plan:
       title: 'ایک منصوبہ منتخب کریں'
       description: 'پہلی سرنگ: دو شاخیں، ایک فارم، اور آخر میں بند سیشن۔'
-    subscription:
-      title: 'سبسکرائب کریں'
-      description: 'صرف ایک شاخ پر ایک ادائیگی، 15 منٹ تک جاری رہنے والا سیشن، بینک پر انتظار۔'
   tree:
     title: 'کرسرز کا درخت'
     body: 'ایک سرنگ درخت کی طرح بنائی جاتی ہے، فہرست کی طرح نہیں۔ ایک جگہ سے دو مقامات تک پہنچنے والا ایک قدم دو کرسرز ہے، ہر ایک کے اپنے ہیش اور اپنے محفوظ شدہ اقدار ہیں: یہی چیز ایک شاخ کو وہ مراحل بڑھانے کی اجازت دیتی ہے جو دوسری شاخ کے پاس نہیں ہیں، اور وہ راستہ جس سے آپ آئے، ہر سرنگ کے آخر میں دکھایا جاتا ہے، اسی سے پڑھا جاتا ہے۔'
@@ -678,9 +615,6 @@ vi:
     plan:
       title: 'Chọn kế hoạch'
       description: 'Đường hầm đầu tiên: hai nhánh, một biểu mẫu, và một phiên kết thúc ở cuối.'
-    subscription:
-      title: 'Đăng ký'
-      description: 'Một khoản thanh toán chỉ trên một nhánh, một phiên kéo dài 15 phút, một thời gian chờ từ ngân hàng.'
   tree:
     title: 'Một cây con trỏ'
     body: 'Một đường hầm được xây dựng như một cây, không phải một danh sách. Một bước được tiếp cận từ hai vị trí là hai con trỏ, mỗi cái có hash riêng và các giá trị lưu trữ riêng: đó là điều cho phép một nhánh phát triển các bước mà nhánh khác không có, và con đường bạn đã đi, được hiển thị ở cuối mỗi đường hầm, được đọc từ đó.'
@@ -710,9 +644,6 @@ zh:
     plan:
       title: 选择一个计划
       description: 第一个隧道：两个分支，一个表单，最后关闭的会话。
-    subscription:
-      title: 订阅
-      description: 仅在一个分支上的付款，保持15分钟的会话，等待银行的处理。
   tree:
     title: 光标树
     body: 隧道是作为树构建的，而不是列表。从两个地方到达的步骤是两个光标，每个都有自己的哈希和存储值：这使得一个分支可以增长另一个没有的步骤，而你来时的路径，在每个隧道的末尾被读取。
