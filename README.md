@@ -1,6 +1,6 @@
 # symfony-tunnels-demo
 
-Version: 5.0.1
+Version: 5.0.2
 
 The repository does not provide any concrete code that could be documented for now.
 
