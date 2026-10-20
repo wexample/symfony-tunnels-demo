@@ -254,23 +254,28 @@
     "common/tunnel.fr.yml": {
         "behind.complete": {
             "hash": "567b523aa80ea2d0c6cddfb026bc6079",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "behind.completion": {
             "hash": "45f2e8c43fbaa3b3807e5ec6c78fe25d",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "behind.cursor": {
             "hash": "48e0a2f5b6a690c20ebb53676bb97d0e",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "behind.expires": {
             "hash": "11809f5438dae2a3e84a4d440afb7531",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "behind.incomplete": {
             "hash": "7593fd7d9ff0af4a868573d85cd80875",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "behind.never": {
             "hash": "94b76aed739147705d158006363fd9b9",
@@ -278,19 +283,23 @@
         },
         "behind.session": {
             "hash": "beae1c6d175697f2343e04d17a88ab1a",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "behind.step": {
             "hash": "77ef97ffaea40ebd83b6a193c65441bb",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "behind.title": {
             "hash": "c975d55adf18994813fbaa86f6734556",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "button.pay": {
             "hash": "05f16a7b2db2dbd53b1f473e0baed956",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "common/tunnel.he.yml": {
@@ -962,7 +971,8 @@
     "forms/tunnel/demo_confirm_form.fr.yml": {
         "field.name.label": {
             "hash": "1ee97bd2b3a6dfe7163ac7e5c4a5edfc",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "forms/tunnel/demo_confirm_form.he.yml": {
@@ -1094,7 +1104,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1172,7 +1183,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1250,7 +1262,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1328,7 +1341,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1406,7 +1420,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1484,7 +1499,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1530,7 +1546,8 @@
         },
         "access.title": {
             "hash": "ed13d30b0d96852e5649480bddf5fcc4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "card.plan.description": {
             "hash": "f1cea83c961ee9542251ca1ebcf251f8",
@@ -1538,7 +1555,8 @@
         },
         "card.plan.title": {
             "hash": "13cc5ff9b4a7929f59a261733d32f807",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "document_title": {
             "hash": "1328e1155c63de9a1060461c7e5b7df5",
@@ -1554,7 +1572,8 @@
         },
         "look.behind.title": {
             "hash": "c975d55adf18994813fbaa86f6734556",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.stepper.body": {
             "hash": "0a5d73c33dfaadb4e8569a792488df12",
@@ -1562,7 +1581,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1582,7 +1602,8 @@
         },
         "page_title": {
             "hash": "8278a969230ad86e152ceee54a306cfb",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "session.body": {
             "hash": "f7a9726e808898f69fae0122a4ff671a",
@@ -1590,7 +1611,8 @@
         },
         "session.title": {
             "hash": "7e0236e5ccb8aca874f9d004df7b8a4c",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "tree.body": {
             "hash": "e8c5ad1a9d0a8bca70765d7749f62f58",
@@ -1598,7 +1620,8 @@
         },
         "tree.title": {
             "hash": "e74c017cb7006b797a39c7c6907f6887",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "pages/tunnels/index.he.yml": {
@@ -1640,7 +1663,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1718,7 +1742,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1796,7 +1821,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1874,7 +1900,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -1952,7 +1979,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2030,7 +2058,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2108,7 +2137,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2186,7 +2216,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2264,7 +2295,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2342,7 +2374,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2420,7 +2453,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2498,7 +2532,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2576,7 +2611,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2654,7 +2690,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2732,7 +2769,8 @@
         },
         "look.stepper.title": {
             "hash": "fec56097700ed3fd3fe1d96b1e1e710b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "look.title": {
             "hash": "684e00415254f9bc33f758b102c9be8c",
@@ -2882,19 +2920,23 @@
     "pages/tunnels/layout/layout-tunnels.fr.yml": {
         "open.modal": {
             "hash": "a212bfbfcfb158690cf13e653f057498",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "open.panel": {
             "hash": "3c039ad089713ff31afd9014a878b513",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "roads.title": {
             "hash": "fe1da44ea4c990ea31c12a05b71d8e1f",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "start.title": {
             "hash": "e26d895907935ade42662f429c3cc82c",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "pages/tunnels/layout/layout-tunnels.he.yml": {
@@ -3454,7 +3496,8 @@
         },
         "page_title": {
             "hash": "13cc5ff9b4a7929f59a261733d32f807",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "roads.description": {
             "hash": "92bd4223f7f42e808cf629408d41d559",
@@ -3462,11 +3505,13 @@
         },
         "roads.free": {
             "hash": "de9145fd0a4d75f6e6a4317dbaf86e1c",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "roads.paid": {
             "hash": "1d6a57da2d3cbc236d392f066aafdbc2",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "start": {
             "hash": "9328262273d9090c6a8975d527460be1",
@@ -4294,15 +4339,18 @@
         },
         "lead": {
             "hash": "3d32ff49c32ba9cac76bbd14aa31a505",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "page_title": {
             "hash": "85be336355bd14100decee249d798eb4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "title": {
             "hash": "1ee97bd2b3a6dfe7163ac7e5c4a5edfc",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "tunnels/demo/confirm.he.yml": {
@@ -4770,19 +4818,23 @@
         },
         "message.title": {
             "hash": "e201adcefe1c5e50d34ba44b0397de60",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "page_title": {
             "hash": "85be336355bd14100decee249d798eb4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "path.title": {
             "hash": "2a3a329aee435a319fba1d6bb476c685",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "title": {
             "hash": "e483de20ddeb5e19fb438be7f8417a60",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "tunnels/demo/done.he.yml": {
@@ -5402,7 +5454,8 @@
         },
         "page_title": {
             "hash": "85be336355bd14100decee249d798eb4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "plan.free.description": {
             "hash": "6e29950f23046bf7f16ae6d33d3dc393",
@@ -5414,7 +5467,8 @@
         },
         "title": {
             "hash": "18554cc729af88b3a834df860357d608",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "tunnels/demo/intro.he.yml": {
@@ -6006,15 +6060,18 @@
         },
         "note.title": {
             "hash": "fbdd0b02b8b208a1c21d3558909b383e",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "page_title": {
             "hash": "85be336355bd14100decee249d798eb4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "title": {
             "hash": "9aee13f86b455794912ca3519c74426f",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "tunnels/demo/plan.he.yml": {
