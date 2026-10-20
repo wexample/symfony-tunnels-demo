@@ -237,7 +237,7 @@ fr:
   look:
     title: 'Que regarder en marchant'
     stepper:
-      title: "Le sélecteur d'étapes"
+      title: 'L''indicateur d''étapes'
       body: "Où vous vous trouvez, ce qu'il y a derrière, ce qu'il y a devant. Un écart marque où le chemin dépend d'un choix encore non fait."
     behind:
       title: 'Derrière cette étape'
