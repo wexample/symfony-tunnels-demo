@@ -31,7 +31,8 @@ en:
 
 ar:
   page_title: الأنفاق
-  page_description: "مسارات متعددة الخطوات — تسجيل، دفع، تجديد — يتفرع طريقها حسب إجابات الزائر، مع حفظ التقدم في جلسة بقاعدة البيانات."
+  document_title: 'رحلات متعددة الخطوات تتفرع بناءً على الإجابات'
+  page_description: 'مسارات متعددة الخطوات — تسجيل، دفع، تجديد — يتفرع طريقها حسب إجابات الزائر، مع حفظ التقدم في جلسة بقاعدة البيانات.'
   page_icon: 'ph:bold/path'
   intro: 'النفق هو رحلة مقسمة إلى خطوات — تسجيل، دفع، تجديد — يمكن أن يتغير مسارها بناءً على إجابات الزائر. يحتفظ النظام بمكان كل زائر، ويسمح لهم بالمرور عبر الخطوات التي قد يرونها، ويرسلهم إلى حيث ينتمون عندما يحاولون التقدم.'
   card:
@@ -61,7 +62,8 @@ ar:
 
 bn:
   page_title: টানেল
-  page_description: "বহু-ধাপের যাত্রা — সাইন-আপ, চেকআউট, নবায়ন — যার পথ দর্শকের উত্তরে শাখায় ভাগ হয়, অগ্রগতি ডেটাবেস সেশনে সংরক্ষিত।"
+  document_title: 'উত্তরের উপর ভিত্তি করে শাখা প্রশাখায় বহু-ধাপের যাত্রা'
+  page_description: 'বহু-ধাপের যাত্রা — সাইন-আপ, চেকআউট, নবায়ন — যার পথ দর্শকের উত্তরে শাখায় ভাগ হয়, অগ্রগতি ডেটাবেস সেশনে সংরক্ষিত।'
   page_icon: 'ph:bold/path'
   intro: 'একটি টানেল হচ্ছে ধাপে ধাপে ভ্রমণ — একটি সাইন-আপ, একটি চেকআউট, একটি নবায়ন — যার পথ ভিজিটরের উত্তর দেওয়ার সাথে সাথে পরিবর্তিত হতে পারে। প্যাকেজটি মনে রাখে প্রতিটি ভিজিটর কোথায় অবস্থান করছে, তাদের জন্য যে ধাপগুলি দেখা যায় সেগুলোর মাধ্যমে যেতে দেয়, এবং তারা যখন অগ্রসর হওয়ার চেষ্টা করে তখন তাদের প্রাপ্য স্থানে ফিরিয়ে দেয়।'
   card:
@@ -91,7 +93,8 @@ bn:
 
 de:
   page_title: Tunnel
-  page_description: "Mehrstufige Abläufe — Registrierung, Bestellung, Verlängerung — deren Weg sich mit den Antworten des Besuchers verzweigt, der Fortschritt in einer Datenbanksitzung gespeichert."
+  document_title: 'Mehrstufige Reisen, die sich nach Antworten verzweigen'
+  page_description: 'Mehrstufige Abläufe — Registrierung, Bestellung, Verlängerung — deren Weg sich mit den Antworten des Besuchers verzweigt, der Fortschritt in einer Datenbanksitzung gespeichert.'
   page_icon: 'ph:bold/path'
   intro: 'Ein Tunnel ist eine Reise, die in Schritte unterteilt ist – eine Anmeldung, ein Checkout, eine Verlängerung – deren Weg sich je nach den Antworten des Besuchers ändern kann. Das Paket merkt sich, wo jeder Besucher steht, lässt sie durch die Schritte gehen, die sie sehen können, und schickt sie dorthin zurück, wo sie hingehören, wenn sie versuchen, voranzuspringen.'
   card:
@@ -121,7 +124,8 @@ de:
 
 es:
   page_title: Túneles
-  page_description: "Recorridos de varios pasos — registro, compra, renovación — cuyo camino se bifurca según las respuestas del visitante, con el progreso guardado en una sesión en base de datos."
+  document_title: 'Viajes de múltiples pasos que se ramifican según las respuestas'
+  page_description: 'Recorridos de varios pasos — registro, compra, renovación — cuyo camino se bifurca según las respuestas del visitante, con el progreso guardado en una sesión en base de datos.'
   page_icon: 'ph:bold/path'
   intro: 'Un túnel es un viaje dividido en pasos — un registro, un pago, una renovación — cuyo camino puede cambiar según lo que responda el visitante. El paquete recuerda en qué punto se encuentra cada visitante, les permite avanzar por los pasos que pueden ver y les envía de vuelta a donde pertenecen cuando intentan adelantar.'
   card:
@@ -151,7 +155,8 @@ es:
 
 fa:
   page_title: تونل‌ها
-  page_description: "مسیرهای چندمرحله‌ای — ثبت‌نام، پرداخت، تمدید — که بر اساس پاسخ‌های بازدیدکننده شاخه می‌شوند و پیشرفت در نشستی در پایگاه داده نگه داشته می‌شود."
+  document_title: 'سفرهای چند مرحله‌ای که بر اساس پاسخ‌ها انشعاب می‌یابند'
+  page_description: 'مسیرهای چندمرحله‌ای — ثبت‌نام، پرداخت، تمدید — که بر اساس پاسخ‌های بازدیدکننده شاخه می‌شوند و پیشرفت در نشستی در پایگاه داده نگه داشته می‌شود.'
   page_icon: 'ph:bold/path'
   intro: 'تونل یک سفر است که به مراحل تقسیم شده است — ثبت‌نام، تسویه‌حساب، تمدید — که مسیر آن می‌تواند با پاسخ‌های بازدیدکننده تغییر کند. بسته به یاد می‌سپارد که هر بازدیدکننده در کجا قرار دارد، اجازه می‌دهد از مراحلی که ممکن است ببینند عبور کنند و زمانی که سعی می‌کنند جلوتر بروند، آنها را به جایی که متعلق به آنجا هستند برمی‌گرداند.'
   card:
@@ -181,7 +186,8 @@ fa:
 
 fi:
   page_title: Tunnelit
-  page_description: "Monivaiheiset polut — rekisteröityminen, kassa, uusiminen — jotka haarautuvat kävijän vastausten mukaan, ja eteneminen tallentuu tietokantaistuntoon."
+  document_title: 'Monivaiheiset matkat, jotka haarautuvat vastauksista'
+  page_description: 'Monivaiheiset polut — rekisteröityminen, kassa, uusiminen — jotka haarautuvat kävijän vastausten mukaan, ja eteneminen tallentuu tietokantaistuntoon.'
   page_icon: 'ph:bold/path'
   intro: 'Tunnelit ovat matka, joka on jaettu vaiheisiin — rekisteröityminen, maksaminen, uusiminen — jonka reitti voi muuttua sen mukaan, mitä kävijä vastaa. Paketti muistaa, missä jokainen kävijä on, päästää heidät niihin vaiheisiin, joita he voivat nähdä, ja palauttaa heidät takaisin oikeaan paikkaansa, kun he yrittävät hypätä eteenpäin.'
   card:
@@ -211,7 +217,8 @@ fi:
 
 fr:
   page_title: Tunnels
-  page_description: "Des parcours en plusieurs étapes — inscription, commande, renouvellement — dont le chemin bifurque selon les réponses du visiteur, la progression gardée en session en base."
+  document_title: 'Parcours à étapes multiples qui se ramifient selon les réponses'
+  page_description: 'Des parcours en plusieurs étapes — inscription, commande, renouvellement — dont le chemin bifurque selon les réponses du visiteur, la progression gardée en session en base.'
   page_icon: 'ph:bold/path'
   intro: "Un tunnel est un parcours découpé en étapes — une inscription, un paiement, un renouvellement — dont le chemin peut changer en fonction des réponses du visiteur. Le package se souvient de l'état de chaque visiteur, les guide à travers les étapes qu'ils peuvent voir, et les renvoie là où ils appartiennent lorsqu'ils essaient de passer outre."
   card:
@@ -241,7 +248,8 @@ fr:
 
 he:
   page_title: מנהרות
-  page_description: "מסלולים רב־שלביים — הרשמה, תשלום, חידוש — שהדרך בהם מתפצלת לפי תשובות המבקר, וההתקדמות נשמרת בסשן במסד הנתונים."
+  document_title: 'מסעות רב-שלביים שמתפצלים לפי תשובות'
+  page_description: 'מסלולים רב־שלביים — הרשמה, תשלום, חידוש — שהדרך בהם מתפצלת לפי תשובות המבקר, וההתקדמות נשמרת בסשן במסד הנתונים.'
   page_icon: 'ph:bold/path'
   intro: 'מנהרה היא מסע המנוקד בשלבים — הרשמה, תשלום, חידוש — כאשר הדרך יכולה להשתנות לפי מה שהמבקר עונה. החבילה זוכרת היכן עומד כל מבקר, מאפשרת להם לעבור את השלבים שהם עשויים לראות, ושולחת אותם חזרה למקום שאליו הם שייכים כאשר הם מנסים לדלג קדימה.'
   card:
@@ -271,7 +279,8 @@ he:
 
 hi:
   page_title: नदियाँ
-  page_description: "बहु-चरणीय यात्राएँ — साइन-अप, चेकआउट, नवीनीकरण — जिनका रास्ता आगंतुक के उत्तरों से बँटता है, प्रगति डेटाबेस सत्र में सुरक्षित।"
+  document_title: 'उत्तर पर शाखाबद्ध बहु-चरण यात्रा'
+  page_description: 'बहु-चरणीय यात्राएँ — साइन-अप, चेकआउट, नवीनीकरण — जिनका रास्ता आगंतुक के उत्तरों से बँटता है, प्रगति डेटाबेस सत्र में सुरक्षित।'
   page_icon: 'ph:bold/path'
   intro: 'एक नदी एक यात्रा है जो चरणों में काटी गई है - एक साइन-अप, एक चेकआउट, एक नवीनीकरण - जिसका मार्ग उस उत्तर के आधार पर बदल सकता है जो आगंतुक देता है। पैकेज याद रखता है कि प्रत्येक आगंतुक कहाँ खड़ा है, उन्हें उन चरणों के माध्यम से ले जाता है जो वे देख सकते हैं, और उन्हें वापस भेजता है जहाँ वे संबंधित हैं जब वे आगे बढ़ने की कोशिश करते हैं।'
   card:
@@ -301,7 +310,8 @@ hi:
 
 id:
   page_title: Terowongan
-  page_description: "Alur multi-langkah — pendaftaran, pembayaran, perpanjangan — yang jalurnya bercabang menurut jawaban pengunjung, dengan kemajuan disimpan di sesi basis data."
+  document_title: 'Perjalanan multi-tahap yang bercabang berdasarkan jawaban'
+  page_description: 'Alur multi-langkah — pendaftaran, pembayaran, perpanjangan — yang jalurnya bercabang menurut jawaban pengunjung, dengan kemajuan disimpan di sesi basis data.'
   page_icon: 'ph:bold/path'
   intro: 'Sebuah terowongan adalah perjalanan yang dipotong menjadi langkah-langkah — pendaftaran, pembayaran, perpanjangan — yang jalannya bisa berubah sesuai dengan jawaban pengunjung. Paket ini mengingat posisi setiap pengunjung, membiarkan mereka melalui langkah-langkah yang mungkin mereka lihat, dan mengembalikan mereka ke tempat yang seharusnya ketika mereka mencoba untuk melangkah lebih cepat.'
   card:
@@ -331,6 +341,7 @@ id:
 
 it:
   page_title: Tunnel
+  document_title: 'Percorsi a più fasi che si ramificano in base alle risposte'
   page_description: "Percorsi in più passaggi — iscrizione, acquisto, rinnovo — il cui cammino si dirama secondo le risposte del visitatore, con l'avanzamento salvato in una sessione su database."
   page_icon: 'ph:bold/path'
   intro: 'Un tunnel è un percorso suddiviso in fasi — una registrazione, un pagamento, un rinnovo — il cui cammino può cambiare a seconda delle risposte del visitatore. Il pacchetto ricorda a che punto si trova ogni visitatore, li guida attraverso le fasi che possono vedere e li riporta indietro dove appartengono quando tentano di saltare in avanti.'
@@ -361,7 +372,8 @@ it:
 
 ja:
   page_title: トンネル
-  page_description: "登録、購入、更新といった複数ステップの流れ。訪問者の回答で道筋が分岐し、進行状況はデータベースのセッションに保存されます。"
+  document_title: 回答に基づいて分岐するマルチステップの旅
+  page_description: 登録、購入、更新といった複数ステップの流れ。訪問者の回答で道筋が分岐し、進行状況はデータベースのセッションに保存されます。
   page_icon: 'ph:bold/path'
   intro: 'トンネルは、ステップに分けられた旅です — サインアップ、チェックアウト、更新 — 訪問者の回答によって道が変わります。パッケージは各訪問者の現在地を記憶し、彼らが見るべきステップを通過させ、先に進もうとする際には適切な場所に戻します。'
   card:
@@ -391,7 +403,8 @@ ja:
 
 ko:
   page_title: 터널
-  page_description: "가입, 결제, 갱신 같은 여러 단계의 흐름 — 방문자의 답에 따라 경로가 갈라지고, 진행 상황은 데이터베이스 세션에 저장됩니다."
+  document_title: '답변에 따라 분기하는 다단계 여정'
+  page_description: '가입, 결제, 갱신 같은 여러 단계의 흐름 — 방문자의 답에 따라 경로가 갈라지고, 진행 상황은 데이터베이스 세션에 저장됩니다.'
   page_icon: 'ph:bold/path'
   intro: '터널은 단계로 나뉜 여정입니다 — 가입, 결제, 갱신 — 방문자가 응답하는 내용에 따라 그 길이 바뀔 수 있습니다. 패키지는 각 방문자가 어디에 있는지를 기억하고, 그들이 볼 수 있는 단계로 안내하며, 앞서가려 할 때 그들이 있어야 할 곳으로 되돌려 보냅니다.'
   card:
@@ -421,7 +434,8 @@ ko:
 
 nl:
   page_title: Tunnels
-  page_description: "Trajecten in meerdere stappen — registratie, afrekenen, verlenging — waarvan het pad vertakt met de antwoorden van de bezoeker, met de voortgang bewaard in een databasesessie."
+  document_title: 'Meerstapsreizen die takken op antwoorden'
+  page_description: 'Trajecten in meerdere stappen — registratie, afrekenen, verlenging — waarvan het pad vertakt met de antwoorden van de bezoeker, met de voortgang bewaard in een databasesessie.'
   page_icon: 'ph:bold/path'
   intro: 'Een tunnel is een reis die in stappen is verdeeld — een aanmelding, een checkout, een verlenging — waarvan de route kan veranderen afhankelijk van de antwoorden van de bezoeker. Het pakket onthoudt waar elke bezoeker staat, laat ze de stappen zien die ze kunnen zien, en stuurt ze terug naar waar ze thuishoren wanneer ze proberen vooruit te springen.'
   card:
@@ -451,7 +465,8 @@ nl:
 
 pl:
   page_title: Tunel
-  page_description: "Wieloetapowe ścieżki — rejestracja, zamówienie, odnowienie — rozgałęziające się według odpowiedzi odwiedzającego, z postępem zapisanym w sesji w bazie danych."
+  document_title: 'Wieloetapowe ścieżki, które rozwidlają się w zależności od odpowiedzi'
+  page_description: 'Wieloetapowe ścieżki — rejestracja, zamówienie, odnowienie — rozgałęziające się według odpowiedzi odwiedzającego, z postępem zapisanym w sesji w bazie danych.'
   page_icon: 'ph:bold/path'
   intro: 'Tunel to podróż podzielona na etapy — rejestracja, zakupy, odnowienie — której droga może się zmieniać w zależności od odpowiedzi odwiedzającego. Pakiet pamięta, na którym etapie znajduje się każdy odwiedzający, pozwala im przechodzić przez widoczne etapy i odsyła ich tam, gdzie powinni być, gdy próbują przejść do przodu.'
   card:
@@ -481,7 +496,8 @@ pl:
 
 pt_BR:
   page_title: Túneis
-  page_description: "Jornadas em várias etapas — cadastro, compra, renovação — cujo caminho se ramifica conforme as respostas do visitante, com o progresso guardado numa sessão em banco de dados."
+  document_title: 'Jornadas de várias etapas que ramificam em respostas'
+  page_description: 'Jornadas em várias etapas — cadastro, compra, renovação — cujo caminho se ramifica conforme as respostas do visitante, com o progresso guardado numa sessão em banco de dados.'
   page_icon: 'ph:bold/path'
   intro: 'Um túnel é uma jornada dividida em etapas — um cadastro, uma finalização de compra, uma renovação — cujo caminho pode mudar com as respostas do visitante. O pacote lembra onde cada visitante está, permite que eles avancem pelas etapas que podem ver e os envia de volta para onde pertencem quando tentam pular à frente.'
   card:
@@ -511,7 +527,8 @@ pt_BR:
 
 ru:
   page_title: Туннели
-  page_description: "Многошаговые сценарии — регистрация, оформление заказа, продление, — путь которых ветвится по ответам посетителя, а прогресс хранится в сессии в базе данных."
+  document_title: 'Многоступенчатые пути, которые разветвляются в зависимости от ответов'
+  page_description: 'Многошаговые сценарии — регистрация, оформление заказа, продление, — путь которых ветвится по ответам посетителя, а прогресс хранится в сессии в базе данных.'
   page_icon: 'ph:bold/path'
   intro: 'Туннель — это путь, разбитый на шаги — регистрация, оформление заказа, продление — который может меняться в зависимости от ответов посетителя. Пакет запоминает, на каком этапе находится каждый посетитель, пропускает их через доступные шаги и возвращает назад, когда они пытаются перескочить вперёд.'
   card:
@@ -541,7 +558,8 @@ ru:
 
 th:
   page_title: อุโมงค์
-  page_description: "เส้นทางหลายขั้นตอน — สมัครสมาชิก ชำระเงิน ต่ออายุ — ที่แยกทางตามคำตอบของผู้เยี่ยมชม โดยเก็บความคืบหน้าไว้ในเซสชันฐานข้อมูล"
+  document_title: การเดินทางแบบหลายขั้นตอนที่แยกตามคำตอบ
+  page_description: 'เส้นทางหลายขั้นตอน — สมัครสมาชิก ชำระเงิน ต่ออายุ — ที่แยกทางตามคำตอบของผู้เยี่ยมชม โดยเก็บความคืบหน้าไว้ในเซสชันฐานข้อมูล'
   page_icon: 'ph:bold/path'
   intro: 'อุโมงค์คือการเดินทางที่ตัดเป็นขั้นตอน — การลงทะเบียน, การชำระเงิน, การต่ออายุ — ซึ่งเส้นทางสามารถเปลี่ยนได้ตามคำตอบของผู้เข้าชม แพ็คเกจจะจดจำว่าผู้เข้าชมแต่ละคนอยู่ที่ไหน ช่วยให้พวกเขาผ่านขั้นตอนที่พวกเขาอาจเห็น และส่งพวกเขากลับไปยังที่ที่พวกเขาควรอยู่เมื่อพวกเขาพยายามข้ามไปข้างหน้า.'
   card:
@@ -571,7 +589,8 @@ th:
 
 tr:
   page_title: Tüneller
-  page_description: "Çok adımlı yolculuklar — kayıt, ödeme, yenileme — yolu ziyaretçinin yanıtlarına göre dallanır, ilerleme veritabanındaki bir oturumda saklanır."
+  document_title: 'Cevaplara göre dallanan çok adımlı yolculuklar'
+  page_description: 'Çok adımlı yolculuklar — kayıt, ödeme, yenileme — yolu ziyaretçinin yanıtlarına göre dallanır, ilerleme veritabanındaki bir oturumda saklanır.'
   page_icon: 'ph:bold/path'
   intro: 'Bir tünel, adımlar halinde kesilmiş bir yolculuktur — bir kayıt, bir ödeme, bir yenileme — ziyaretçinin verdiği yanıtlara göre değişen bir yol. Paket, her ziyaretçinin nerede durduğunu hatırlar, görebilecekleri adımlardan geçirir ve öne atlamaya çalıştıklarında onları ait oldukları yere geri gönderir.'
   card:
@@ -601,7 +620,8 @@ tr:
 
 ur:
   page_title: سرنگیں
-  page_description: "کئی مراحل والے سفر — سائن اپ، چیک آؤٹ، تجدید — جن کا راستہ زائر کے جوابات سے بدلتا ہے، پیش رفت ڈیٹا بیس سیشن میں محفوظ۔"
+  document_title: 'جوابات پر شاخ دار کئی مراحل کے سفر'
+  page_description: 'کئی مراحل والے سفر — سائن اپ، چیک آؤٹ، تجدید — جن کا راستہ زائر کے جوابات سے بدلتا ہے، پیش رفت ڈیٹا بیس سیشن میں محفوظ۔'
   page_icon: 'ph:bold/path'
   intro: 'ایک سرنگ ایک سفر ہے جو مراحل میں تقسیم کیا گیا ہے — ایک سائن اپ، ایک چیک آؤٹ، ایک تجدید — جس کی راہ اس بات پر منحصر ہے کہ وزیٹر کیا جواب دیتا ہے۔ پیکج یاد رکھتا ہے کہ ہر وزیٹر کہاں ہے، انہیں ان مراحل سے گزارا جاتا ہے جو وہ دیکھ سکتے ہیں، اور جب وہ آگے بڑھنے کی کوشش کرتے ہیں تو انہیں ان کی جگہ واپس بھیج دیتا ہے۔'
   card:
@@ -631,7 +651,8 @@ ur:
 
 vi:
   page_title: 'Đường hầm'
-  page_description: "Hành trình nhiều bước — đăng ký, thanh toán, gia hạn — có lộ trình rẽ nhánh theo câu trả lời của khách, tiến độ được lưu trong phiên ở cơ sở dữ liệu."
+  document_title: 'Hành trình đa bước phân nhánh theo câu trả lời'
+  page_description: 'Hành trình nhiều bước — đăng ký, thanh toán, gia hạn — có lộ trình rẽ nhánh theo câu trả lời của khách, tiến độ được lưu trong phiên ở cơ sở dữ liệu.'
   page_icon: 'ph:bold/path'
   intro: 'Một đường hầm là một hành trình được cắt thành các bước — một quá trình đăng ký, thanh toán, gia hạn — con đường có thể thay đổi tùy theo câu trả lời của người dùng. Gói nhớ vị trí của từng người dùng, cho phép họ đi qua các bước mà họ có thể thấy, và gửi họ trở lại nơi họ thuộc về khi họ cố gắng bỏ qua.'
   card:
@@ -661,7 +682,8 @@ vi:
 
 zh:
   page_title: 隧道
-  page_description: "多步骤流程——注册、结账、续订——路径会根据访客的回答分支，进度保存在数据库会话中。"
+  document_title: 基于回答的多步骤分支旅程
+  page_description: 多步骤流程——注册、结账、续订——路径会根据访客的回答分支，进度保存在数据库会话中。
   page_icon: 'ph:bold/path'
   intro: 隧道是一段分成步骤的旅程——注册、结账、续订——其路径会随着访客的回答而变化。该包记住每个访客的位置，让他们通过可能看到的步骤，并在他们试图跳过时将他们送回应有的位置。
   card:
