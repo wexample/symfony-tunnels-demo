@@ -1,6 +1,6 @@
 # symfony-tunnels-demo
 
-Version: 5.0.5
+Version: 5.0.6
 
 The repository does not provide any concrete code that could be documented for now.
 
@@ -26,9 +26,9 @@ The suite includes packages for configuration management, file handling, prompts
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.3.0
-- wexample/symfony-design-system: >=38.0.0
+- wexample/symfony-helpers: >=18.0.0
+- wexample/symfony-loader: >=24.0.0
+- wexample/symfony-design-system: >=39.0.0
 - wexample/symfony-design-system-demo: >=11.1.0
 - wexample/symfony-routing: >=2.2.0
 - wexample/symfony-tunnels: >=11.0.0
