@@ -1,5 +1,6 @@
 en:
   page_title: Tunnels
+  document_title: "Multi-step journeys that branch on answers"
   page_description: "Multi-step journeys — sign-up, checkout, renewal — whose path branches with the visitor's answers, with progress kept in a database session."
   page_icon: ph:bold/path
   intro: "A tunnel is a journey cut into steps — a sign-up, a checkout, a renewal — whose road can change with what the visitor answers. The package remembers where each visitor stands, lets them through the steps they may see, and sends them back where they belong when they try to skip ahead."
