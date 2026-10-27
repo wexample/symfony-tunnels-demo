@@ -3,7 +3,7 @@
   "description": "Tunnel showcase pages for Symfony",
   "type": "library",
   "license": "MIT",
-  "version": "5.0.10",
+  "version": "5.0.11",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyTunnelsDemo\\": "src/"
@@ -20,7 +20,7 @@
     "wexample/symfony-helpers": ">=18.0.2",
     "wexample/symfony-loader": ">=25.3.0",
     "wexample/symfony-design-system": ">=39.0.3",
-    "wexample/symfony-design-system-demo": ">=11.1.5",
+    "wexample/symfony-design-system-demo": ">=11.2.0",
     "wexample/symfony-routing": ">=2.2.0",
     "wexample/symfony-tunnels": ">=11.0.5"
   },
