@@ -1,6 +1,6 @@
 # symfony-tunnels-demo
 
-Version: 5.0.30
+Version: 5.0.31
 
 Tunnel showcase pages for Symfony
 
